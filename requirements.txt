@@ -1,0 +1,29 @@
+# Core Web App
+streamlit==1.32.2
+
+# Language Model API
+openai==1.14.3
+langchain==0.1.14
+
+# Vector Store
+chromadb==0.4.22
+
+# PDF Parsing
+PyMuPDF==1.23.21       # For clean and fast PDF extraction
+PyPDF2==3.0.1           # For fallback parsing
+pdfminer.six==20221105  # For deep extraction (PDFMiner)
+
+# Image OCR
+pytesseract==0.3.10
+Pillow==10.3.0
+opencv-python==4.9.0.80
+pdf2image==1.17.0
+
+# Utilities
+numpy==1.26.4
+
+# Optional: for fixing temp path issues on Windows
+python-dotenv==1.0.1
+
+# Runtime environment
+tqdm==4.66.2
