@@ -6,7 +6,7 @@ from datetime import datetime
 import file_handler
 import embedder 
 from embedder import job_progress
-import chat_engine
+import backend.Metatron as Metatron
 import logger
 import json
 import os
@@ -260,7 +260,7 @@ async def upload_kb(
 def ask_question(request: QuestionRequest):
     try:
         log.info(f"🧠 Ask: {request.question} on {request.goal_id} by {request.email}")
-        response = chat_engine.ask_question(request.goal_id, request.question)
+        response = Metatron.ask_question(request.goal_id, request.question)
         logger.log_chat(request.goal_id, request.question, response)  # ✅ also updated below
 
         return {"answer": response}
