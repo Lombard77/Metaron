@@ -1,0 +1,1877 @@
+Transcript
+Search
+
+00:01
+Alright. So next we have the evolution of work. So
+
+00:04
+to truly understand how AI is transforming businesses, we need
+
+00:07
+to examine the 3 distinct stages of work evolution, manual,
+
+00:10
+assisted, and automated systems. Each represents a different approach to
+
+00:13
+getting work done with its own advantages and limitations. More
+
+00:17
+importantly, understanding these stages helps us to identify where businesses
+
+00:20
+are today and guide them towards more efficient operations. Starting
+
+00:23
+off with manual systems, which are the traditional approach. You
+
+00:25
+can think of these manual systems like some kind of
+
+00:28
+craft person's workshop. Each product is being shaped by human
+
+00:31
+hands following a documented process and procedures and checklists. You
+
+00:34
+may have heard of SOPs or SOPs before. These are
+
+00:37
+standard operating procedures and are how most businesses document the
+
+00:40
+processes so that people can be quickly trained to execute
+
+00:43
+task correctly and consistently. So for example, here in the
+
+00:46
+accelerator, we have a module filming SOP. This is for
+
+00:48
+people who are doing guest modules like Nikolai or something.
+
+00:52
+I needed to make a basic checklist to make sure
+
+00:54
+that they are doing the right things before they start
+
+00:57
+filming. So, that I can sort of take my approach
+
+00:59
+and take how we do things and put it into
+
+01:01
+a document and a checklist for them to follow. This
+
+01:03
+is 1 of the most basic forms of of systems.
+
+01:05
+This is essentially a system for them to do and
+
+01:07
+then it's like when you're done upload it to this
+
+01:09
+folder.
+
+01:10
+So, while there's beauty in this traditional approach, it comes
+
+01:13
+with some pretty inherent limitations that become increasingly apparent as
+
+01:16
+businesses try to scale. So, you can consider again a
+
+01:19
+typical customer service operation. You've got team members that manually
+
+01:22
+respond to each inquiry. They follow a standard response template
+
+01:26
+and guidelines provided by the manager, and quality depends entirely
+
+01:29
+on the individual's attention and their skill. And capacity is
+
+01:32
+directly limited by team size and working hours. So here
+
+01:34
+you can see in say a YouTube video creation and
+
+01:37
+publishing process, we have the ideation process, we have the
+
+01:39
+filming and the writing, we have editing and the posting
+
+01:42
+to YouTube. Each of these would have their own system
+
+01:44
+or SOP, standard operating procedures. So how do we do
+
+01:46
+ideation? Okay. This, this, this, this, this. For writing, okay.
+
+01:49
+Well, when it comes to writing, you would do this,
+
+01:51
+this, this, this. And for filming, here's a checklist etcetera.
+
+01:54
+Each of these different parts of just 1 process within
+
+01:56
+the business can be fully broken down and executed on
+
+01:59
+by humans just by reading a checklist or a set
+
+02:01
+of instructions. So that's the most basic form of system.
+
+02:04
+That's a manual system. They don't necessarily have to read
+
+02:06
+it every time once they
+
+02:07
+know how to do it, but they are still following
+
+02:09
+a sequence of steps to get some kind of outcome.
+
+02:11
+So the economics of manual systems like these create fundamental
+
+02:14
+constraints. Right? You've got linear cost scaling that we've been
+
+02:16
+over before. If you wanna handle twice as many customers,
+
+02:19
+you'll need twice as many staff. And this direct relationship
+
+02:21
+between volume and cost creates a natural ceiling on growth.
+
+02:24
+You've got, again, the issue of quality variability. Even your
+
+02:26
+best employees have good and bad days. This natural variation
+
+02:29
+means that customer experience can fluctuate despite your best efforts
+
+02:32
+at standardization across the team. And of course, you have
+
+02:34
+time bound operations where work can only happen during business
+
+02:37
+hours or when staff are available and awake. This creates
+
+02:39
+natural gaps in service and limits global reach. So these
+
+02:42
+are the limitations of these manual systems. And in near
+
+02:44
+term for the small business, they are good because you
+
+02:46
+can just quickly put together a checklist and communicate this
+
+02:48
+is how you do it. Right? Here's the system, follow
+
+02:50
+it. But as things start to scale which really the
+
+02:53
+way to make money with any business, right? Is to
+
+02:56
+scale things up. You're gonna run into these issues time
+
+02:58
+and time again with these manual systems which brings us
+
+03:00
+to assisted systems which are like the current sweet spot
+
+03:04
+for systems within businesses. And this is where you have
+
+03:07
+rate approach where AI tools are augmenting human capabilities and
+
+03:10
+handling routine aspects of tasks while humans maintain the strategic
+
+03:14
+control and oversight of it. So how do these assisted
+
+03:16
+systems work? Unlike manual systems where humans are doing everything,
+
+03:19
+assisted systems create a partnership between AI and human workers.
+
+03:23
+The AI handles the time consuming and repetitive aspects of
+
+03:26
+work while humans focus on judgment, creativity,
+
+03:28
+and relationship management. You have the UiPath CEO talking about
+
+03:32
+the relationship between AI systems and humans in his interview
+
+03:34
+with Harry Stebbings from 20 VC. I highly recommend you
+
+03:38
+check this out. And also just 20 VC as a,
+
+03:41
+a place for listening to stuff in the AI space,
+
+03:43
+investment, sort of tech. Really, really good podcast. Great, great
+
+03:46
+questions that he asked as well. This and the All
+
+03:48
+In podcast,
+
+03:50
+are my 2 top recommendations for you if you wanna
+
+03:52
+be absorbing and listening to very successful people having intelligent
+
+03:55
+conversations about technology and AI. So in this video,
+
+03:58
+UiPath
+
+03:59
+for some context,
+
+04:02
+they are an, sort of, OG automation platform, but they
+
+04:04
+go for enterprise. If you've heard of RPA or robotic
+
+04:07
+process automation.
+
+04:08
+This is essentially what their business is based around. You
+
+04:11
+have these massive
+
+04:13
+massive workflows kind of like make dot com but even
+
+04:16
+Gruntia and they can sort of automate stuff within a
+
+04:19
+computer. So it's almost like browser automation, computer automation
+
+04:22
+where you can say okay click this and then click
+
+04:25
+this and then save this. So you can build these
+
+04:27
+huge workflows
+
+04:28
+and then now obviously going pretty heavy into AI. In
+
+04:31
+this interview, Daniel Dines the the CEO and and founder
+
+04:33
+made some pretty good points about how he sees AI
+
+04:36
+agents and these assisted systems
+
+04:38
+becoming, the new way of doing work. So agents will
+
+04:40
+make recommendations. Agents are not going to take actions directly.
+
+04:43
+There will be a progression from agents making recommendations going
+
+04:46
+to a human user for validating and then calling an
+
+04:49
+action. Not because we are scared but because they are
+
+04:51
+like idiot savants. Sometimes they can be extremely smart. Sometimes
+
+04:55
+they can be extremely dumb. And you have no idea
+
+04:57
+right now how to distinguish between these 2 scenarios. So
+
+04:59
+what he's talking about is these assisted systems where you
+
+05:02
+have a human in the loop where you'll have AI,
+
+05:04
+an agent that can do all of these these things
+
+05:06
+behind the scenes. And then it basically just pushes something
+
+05:08
+into the queue for a human to validate it and
+
+05:11
+check it and say, yes that's correct. Or give some
+
+05:13
+feedback if it is incorrect. This is an assisted system
+
+05:15
+where all of the boring stuff is being done by
+
+05:17
+the agent and the human is using the final touch.
+
+05:20
+Maybe seeing how this agent outcome fits into the broader
+
+05:22
+strategy that is kind of hard to get condensed into
+
+05:25
+the agent's reasoning and the prompt given to it. This
+
+05:27
+gives you a really clear idea of of where things
+
+05:29
+are going at least according to Daniel Dines and I'd
+
+05:32
+say that he's he's pretty well tapped in. So let's
+
+05:34
+explore some real world examples of these kinds of assisted
+
+05:37
+systems. Firstly, we have sales development which is a traditional
+
+05:39
+role would be a SDR or sales development representative who's
+
+05:42
+manually researching prospects, writing personalized emails, and following up with
+
+05:46
+them, typically manage maybe 20 to 30 prospects per day.
+
+05:49
+The assistant approach is an AI sales assistant
+
+05:52
+that automatically research prospects across LinkedIn, company websites, and new
+
+05:55
+sources, identifies their highest potential prospects according to the qualification
+
+05:59
+criteria to reach out to. It drafts the personalized outreach
+
+06:03
+messages based on the research that it did. It suggests
+
+06:05
+optimal sending times, repairs the follow-up messages, and it maintains
+
+06:08
+the CRM data. The actual human SDR then reviews and
+
+06:12
+refines the AI generated content, handles the responses and conversations,
+
+06:15
+makes strategic decisions about targeting, and builds relationships with promising
+
+06:18
+leads. So the result would be that 1 SDR can
+
+06:20
+manage a hundred or more prospects daily while delivering high
+
+06:23
+quality interactions with them. So in this case, you'll see
+
+06:27
+in a second that people have even gone so far
+
+06:29
+to just completely automate this SDR process.
+
+06:32
+But this is an example of a assisted 1 where
+
+06:35
+there is still a human in the loop. Depending on
+
+06:36
+the business or the brand, you wouldn't want AI just
+
+06:39
+running a market and going crazy on on their accounts.
+
+06:42
+You may wanna have a human in the loop like
+
+06:43
+this.
+
+06:44
+Then for another business function of content creation, the traditional
+
+06:47
+approach would be that a marketing team members will spend
+
+06:50
+hours writing their blog post or social media content and
+
+06:53
+email newsletters from scratch. The assisted approach will be with
+
+06:55
+an AI writing assistant that generates the initial drafts based
+
+06:58
+on outlines. And it could even be going out there
+
+07:00
+and and monitoring competitors and pulling in information,
+
+07:03
+doing live researching using perplexity or other deep researching, models
+
+07:07
+as well. It's gonna generate these initial drafts and suggest
+
+07:10
+headlines and hooks, create variations for the AB testing, checking
+
+07:14
+the gram and readability of course. Then the human marketers
+
+07:16
+come in and they edit and refine this content and
+
+07:18
+they can add unique and insights and examples from their
+
+07:20
+own experience and add that human touch. And they can
+
+07:22
+come in and ensure the factual accuracy of things as
+
+07:24
+well and ensure the consistent brand voice according to the
+
+07:27
+sort of biggest strategy that they're trying to execute on.
+
+07:29
+The result would be the team can produce 5 times
+
+07:31
+more content while maintaining quality and authenticity.
+
+07:34
+So this does most of the leg work. These guys
+
+07:36
+just come in and pick the best articles, refine it,
+
+07:38
+tweak it, add the touch, make sure it's up to
+
+07:40
+standard and they can get a ton more out than
+
+07:42
+they would have done before. So getting into the economics
+
+07:44
+of assisted systems.
+
+07:46
+The key economic advantage of assisted systems lies in their
+
+07:48
+ability to multiply human effectiveness without completely removing human judgment.
+
+07:52
+This creates several important benefits. Firstly, we have improved economics.
+
+07:56
+You've got a high output per employee. 1 person can
+
+07:58
+do the work of 3 to 4 people in manual
+
+08:00
+systems. You have much more predictable quality. AI is ensuring
+
+08:03
+consistent formatting, tone and completeness while humans add personality and
+
+08:06
+do the kind of final checks over. And it's overall
+
+08:08
+a better use of human talent. You get staff to
+
+08:10
+focus on high value work instead of the repetitive tasks
+
+08:13
+leading to high job satisfaction and ultimately employee retention. No
+
+08:17
+1 likes to do boring crap that doesn't need to
+
+08:18
+be done. Right? So that allows them to work more
+
+08:20
+creatively, work on high value tasks rather than manual boring
+
+08:23
+stuff. And we have much more manageable investment. We have
+
+08:26
+lower upfront costs for these systems as they can be
+
+08:28
+implemented for a much lower cost than fully automated systems.
+
+08:31
+That's because there's a human in the loop. The need
+
+08:33
+for absolute perfection each time that it runs is is
+
+08:35
+not needed. Right? So, with the assisted systems, someone's there
+
+08:37
+checking it. It doesn't need to be engineered to the
+
+08:39
+point that it's absolutely flawless which is what you need
+
+08:42
+to do with automated systems. You get faster implementation time
+
+08:44
+as well as systems are are helpers, not full automations
+
+08:47
+with deep integrations. They can be stood up a lot
+
+08:49
+faster. And you get easier team adoption where staff sees
+
+08:51
+AI as a helpful tool rather than a replacement dealing
+
+08:54
+with the human factor that we discussed before.
+
+08:57
+In this reduced risks where you're getting human oversight that
+
+08:59
+prevents major errors, it's easier to adjust and optimize, and
+
+09:02
+clear fallback options if systems fail, and progressive learning curve
+
+09:05
+for the organization. They can start off with these assisted
+
+09:07
+systems before moving into automated systems later on. Here we
+
+09:10
+can see that the AI assisted employee might be able
+
+09:12
+to do 5 times as much as the employee would
+
+09:15
+be able to do manually.
+
+09:16
+Then we get into automated systems which is the future
+
+09:18
+state. And automated systems are ones where AI operates independently
+
+09:22
+with minimal or no human intervention handling entire processes from
+
+09:25
+start to finish. So while the idea of fully automated
+
+09:27
+systems is appealing, imagine having a business that ran itself.
+
+09:30
+The current state of AI technology means that we must
+
+09:33
+be selective about what we automate. Understanding these limitations is
+
+09:36
+crucial for implementing automated systems successfully. So the current state
+
+09:39
+of automation is that full automation works best for high
+
+09:41
+volume and repetitive tasks, processes with clear rules and boundaries,
+
+09:45
+situations where speed trumps perfection, and cases where the cost
+
+09:48
+of occasional errors is low. This is an important 1
+
+09:50
+and really 1 of the defining characteristics of something that's
+
+09:53
+suitable for automation is that what happens if this doesn't
+
+09:55
+work? If the automation breaks or something goes wrong, is
+
+09:58
+it gonna post some content that is just absolutely garbage
+
+10:00
+and could really damage the brand? If there's a high
+
+10:02
+risk or say if it's a contract or something that
+
+10:04
+could potentially really put the business in a bad position,
+
+10:06
+you wouldn't want to fully automate those things which is
+
+10:09
+when assisted systems are much better. So Daniel Dynes, the
+
+10:11
+CEO of UiPath explains that the sweet spot for RPA
+
+10:13
+or robotic process automation, which you can think of just
+
+10:16
+sort of the more basic rule based automations that we
+
+10:18
+would do that don't necessarily have tons of creative writing
+
+10:21
+or it's rule based. Right? It's a lot more basic.
+
+10:23
+The sweet spot for this is to automate tasks that
+
+10:24
+span multiple business systems and are of medium to complex
+
+10:27
+to medium to high complexity. They can span multiple steps.
+
+10:30
+It can be even a hundred to 200 steps, but
+
+10:32
+the key is that they are rule based. The input
+
+10:34
+is structured and then the steps that you go through
+
+10:36
+are rule based. These automations are very reliable. They simply
+
+10:39
+work until the underlying system changes. This is, a quick
+
+10:42
+note here even, RPA versus small business automation. RPA, what
+
+10:46
+Daniel Dynes here is talking about is enterprise grade automation
+
+10:48
+software used by large organizations to automate complex processes across
+
+10:52
+multiple business systems. You can think of that as automating
+
+10:54
+workflows like your Salesforce and across internal databases as well.
+
+10:58
+Now, while similar in concept, most AI automation agencies offer
+
+11:01
+more focused solutions that are faster to implement and better
+
+11:04
+suited for small to medium sized businesses. Typically connecting a
+
+11:06
+few key systems using tools like Zapier or make dot
+
+11:09
+com rather than requiring enterprise wide implementations. So that's just
+
+11:12
+a quick note on the difference. You see he's talking
+
+11:14
+about a hundred to 200 steps. We wouldn't necessarily be
+
+11:16
+doing that. I just wanted to point this out as
+
+11:18
+he's talking about rule based. They can be very complex
+
+11:20
+but they are rule based. Right? The input is structured
+
+11:23
+and the steps echo by are rule based and these
+
+11:25
+will work until the underlying system changes. The difference between
+
+11:28
+rule based and then a more creative and advanced even
+
+11:31
+ones that you want to plug agents into. It's where
+
+11:34
+there's it's much more difficult and it's not necessarily strictly
+
+11:37
+rule based, which is where we have these kind of
+
+11:39
+hybrid workflows, in assisted systems. So let's examine a real
+
+11:42
+world example that illustrates the power and limitations of current
+
+11:46
+automation. So let's say we have an AI appointment setting
+
+11:48
+system. It's a medical clinic's booking system and the manual
+
+11:51
+approach would be for receptionist to answer the calls during
+
+11:54
+business hours. It's gonna book appointments in the scheduling software.
+
+11:56
+They'll handle basic insurance questions and they'll be missing after
+
+11:59
+hours calls which equals some kind of lost business for
+
+12:01
+them. The automated approach would be an AI voice agent
+
+12:03
+that answers calls 24 7, books appointments based on availability,
+
+12:07
+handles common questions, escalates to complex issues over to staff,
+
+12:10
+and sends confirmation text and emails. And the results of
+
+12:12
+that, it's obviously never gonna miss a call. It can
+
+12:14
+handle multiple languages by default. It books appointments while staff
+
+12:17
+sleep. It can handle multiple calls simultaneously. So, it can
+
+12:20
+sort of scale to the load as the the calls
+
+12:22
+increase during certain periods. And overall, you're gonna get more
+
+12:25
+appointments booked because of all these factors. The limitations are
+
+12:27
+that it's not going to handle complex questions. It would
+
+12:29
+still need some kind of escalation feature. And it's likely
+
+12:32
+that some customers will be put off by speaking to
+
+12:34
+an AI agent. So there is a slight loss there.
+
+12:35
+But the technology is getting so good nowadays, won't be
+
+12:38
+long before they're indistinguishable.
+
+12:40
+So the reality check here is not everything should be
+
+12:42
+fully automated or at least not yet. The key is
+
+12:45
+understanding where automation makes sense based on the volume and
+
+12:48
+complexity. High volume and a routine tasks are prime automation
+
+12:51
+candidates, whereas complex judgment heavy work is often gonna benefit
+
+12:54
+more from assisted approaches. Error tolerance. Can the business handle
+
+12:58
+occasional AI mistakes in this process? What's the cost of
+
+13:00
+an error? These factors help determine if the full automation
+
+13:02
+of the system is appropriate and customer preferences as well.
+
+13:05
+Some interactions should maintain a human element even if technically
+
+13:08
+automatable. Understanding your customer's comfort with AI is crucial. So,
+
+13:11
+there's obviously some functions that you wouldn't want to fully
+
+13:13
+automate it even if you could, at least at this
+
+13:15
+stage. The very personal touch aspects of certain businesses depending
+
+13:18
+on the niche and the business itself as well. Like
+
+13:20
+you wouldn't try to make an AI customer success manager
+
+13:23
+for a super high ticket program. Like imagine if you
+
+13:25
+guys came in here and we're like, oh yeah. We
+
+13:27
+had humans and then we kinda got rid of it
+
+13:29
+because we thought we could just give you an AI
+
+13:30
+instead. So while we probably could automate a bunch of
+
+13:33
+the functions of it, it's not really right for the
+
+13:35
+business. So the transformation journey. As AI automation agency owners,
+
+13:38
+our role is to help businesses thoughtfully integrate AI into
+
+13:41
+the operations. This isn't about automating everything, it's about choosing
+
+13:44
+the right approach for each business process. Some high volume
+
+13:46
+and rule based tasks are perfect candidates for automation. Think
+
+13:49
+about appointment booking or data entry where speed and 24
+
+13:51
+7 operation create clear value. Many complex processes benefit from
+
+13:55
+AI assistance rather than full automation. Here, AI handles routine
+
+13:58
+aspects while humans maintain oversight and handle expectations. This human
+
+14:02
+in the loop approach often delivers the best results by
+
+14:04
+combining AI efficiency with human judgment. The most sophisticated tasks
+
+14:07
+should remain primarily human driven with AI providing support through
+
+14:10
+research, analysis, and recommendations.
+
+14:12
+This preserves the strategic thinking and relationship management that humans
+
+14:15
+do best. Success comes from carefully evaluating each process and
+
+14:18
+implementing the right level of AI integration and automation, while
+
+14:21
+ensuring every step creates measurable business value. And I like
+
+14:24
+this sort of meme here of, working on a 1
+
+14:26
+off project. I should probably automate the steps so I
+
+14:28
+can save 6 minutes next time. And then of course
+
+14:30
+3 hours later, are you done with the automation yet?
+
+14:32
+Not yet? Last few bugs? 6 hours later, why didn't
+
+14:35
+you just do it manually? Like go away, no. So,
+
+14:37
+this is a very easy trap to fall into where
+
+14:39
+full automation as in it's gonna take a lot of
+
+14:41
+resources and effort to automate the process. Within businesses, you
+
+14:44
+have things that are chopping and changing within each sort
+
+14:47
+of month to quarter that are more project based or
+
+14:49
+this might be seasonal. Some of these are not they're
+
+14:51
+not really suitable for automation because there's so much investment
+
+14:54
+involved. If say, you know that you are going to
+
+14:56
+need to keep making content for a very long time.
+
+14:59
+Okay, well that's a process. Like what's not gonna change
+
+15:01
+about the business? That's really where you should be looking
+
+15:03
+to automate first. That's gonna create the most value because
+
+15:06
+the upfront investment is gonna be spread across the entire
+
+15:08
+lifetime that they're doing that task.
+
+15:10
+So now getting into the future of AI automation. So
+
+15:12
+as this technology continues to advance, we'll see more tasks
+
+15:15
+becoming suitable for full automation with new capabilities and better
+
+15:18
+performance. Like the improvements in AI technology is gonna make
+
+15:21
+it possible to fully automate more tasks. Right? There's limitations
+
+15:24
+right now. We're gonna get better infrastructure to build on,
+
+15:26
+e. G. The release of the assistance API back in
+
+15:28
+20 23, late 20 23 was a massive leap forward
+
+15:31
+and basically combined all of this stuff that us as
+
+15:34
+agencies at the time were doing into 1 platform that
+
+15:36
+allowed us to create agents with knowledge, tools, and clear
+
+15:38
+prompting all into 1, via an easy to use or
+
+15:41
+fairly easy to use API. So, this is really helping
+
+15:43
+us massively as agencies because it allows us to do
+
+15:46
+more with less. Right? We have the the infrastructure or
+
+15:48
+the rails that we can build on top of for
+
+15:49
+our clients. We're gonna see more sophisticated decision making capabilities
+
+15:52
+from these models. We already see this with these thinking
+
+15:55
+models that can reason for minutes or or even hours
+
+15:57
+now. I think they're stretching this out to like 6
+
+15:59
+hours where the AI can just think and think and
+
+16:01
+think and think and think. So as that window expands
+
+16:03
+and it's expanding rapidly, once you can give it enough
+
+16:06
+context and it can think for long enough, it's gonna
+
+16:07
+be able to make much more sophisticated decisions than even
+
+16:09
+humans can make. And, we're gonna see improved handling of
+
+16:12
+edge cases ideally coming through the infrastructure that we get.
+
+16:14
+But also the increased intelligence of the models can also
+
+16:17
+help with that a lot. And, of course, we're gonna
+
+16:19
+see out of the box SaaS products that are built
+
+16:20
+on top of APIs for specific use cases. So, you're
+
+16:23
+gonna see more and more people who maybe take the
+
+16:25
+AI receptionist
+
+16:27
+platform or format and say okay I have here as
+
+16:30
+a You can build AI voice receptionist on our platform.
+
+16:33
+Right? So, that might be a wrap around even VAPI
+
+16:35
+or they build their own voice AI underneath. That's similar
+
+16:37
+to this infrastructure 1 where basically people are gonna build
+
+16:39
+SaaS products that allow you to more easily deliver,
+
+16:42
+certain types of automation and handle a lot of those
+
+16:44
+edge cases for you. Right? It might be something like
+
+16:47
+a SaaS. I've seen SaaS where allows you to take
+
+16:49
+payments over the phone. That's something that you would normally
+
+16:51
+have to build yourself but as these new SaaS product
+
+16:53
+come out, they are simplifying key parts that were once
+
+16:55
+difficult for us and us as agency owners become kind
+
+16:58
+of aggregators and assemblers of systems rather than the people
+
+17:01
+doing a ridiculous amount of leg work. So many commentators
+
+17:04
+right now are stating that with the early stage of
+
+17:06
+AI technology right now, we are in this AI assisted
+
+17:09
+era like I've been explaining in this video. However, in
+
+17:11
+the next 3 to 5 years, we will enter the
+
+17:13
+AI first era that will really see AI integrated throughout
+
+17:15
+businesses. So, this graph is a great 1. We have
+
+17:18
+human first assisted by machines. This is the manual systems
+
+17:20
+we've had for a very, very long time with machines
+
+17:22
+used here and there as possible. Right now, we are
+
+17:24
+in the AI assisted phase and soon we're gonna be
+
+17:27
+AI first where instead of just AI assisting us to
+
+17:29
+do things, it's gonna be AI first where it's we
+
+17:31
+rethink processes and rethink businesses from the ground up. Actually,
+
+17:34
+we're gonna cover it in the next bit so I
+
+17:36
+won't dig into it too deeply here. But there's a
+
+17:38
+few phases and we're AI assisted right now and soon
+
+17:40
+it's going to be AI first. So the lesson here
+
+17:42
+is that to capitalize on the AI first era, companies
+
+17:44
+need to begin their journeys now. This involves developing expertise
+
+17:47
+and constructing modern infrastructure or rails to support AI systems.
+
+17:51
+Like having some kind of easily integratable database, something like
+
+17:54
+an Airtable, for small businesses particularly. That's gonna allow the
+
+17:57
+AI systems to access data as needed easily through tools
+
+17:59
+and through APIs. The process starts by transitioning
+
+18:02
+current manual systems to assisted and automated systems to the
+
+18:05
+extent that the current technology permits. So let's dig a
+
+18:07
+little bit deeper into this AI first concept.
+
+18:11
+Okay. So an AI first future. Beyond just improving existing
+
+18:15
+processes, AI is enabling entirely new ways of building and
+
+18:18
+operating businesses. We're moving towards a future where companies won't
+
+18:21
+simply add AI to their operations,
+
+18:23
+they'll be built from the ground up around AI capabilities.
+
+18:26
+This is known as an AI first business. A company
+
+18:29
+that is built from the ground up with AI at
+
+18:31
+its operational core rather than as a bolt on tool.
+
+18:33
+Let's compare traditional versus AI first approaches across key business
+
+18:37
+functions. So with the traditional business, you'd have a human
+
+18:39
+sales team, a human customer support team, you'd be doing
+
+18:42
+a lot of your operations,
+
+18:43
+through maybe basic automation or through manual systems like we've
+
+18:46
+talked about. And then AI first businesses will be rethinking
+
+18:49
+these departments from the ground up with AI at their
+
+18:51
+core rather than as nice add ons. Rather than just
+
+18:54
+saying, oh, let's assist our human sales teams with AI.
+
+18:57
+Let's replace the whole bloody sales team with just an
+
+18:59
+AI agent. Right? And same goes for other departments. First
+
+19:01
+off with sales and marketing, in the traditional company, you'd
+
+19:04
+have large sales team working territory by policy with manual
+
+19:07
+outreach. And for the AI first company, you'd see have
+
+19:09
+a small team overseeing AI systems that can handle prospecting,
+
+19:12
+outreach, and lead nurturing at unlimited scale. And for customer
+
+19:15
+support, the traditional route would be having a support team
+
+19:18
+handling queries during business hours. And the AI first equivalent
+
+19:21
+would be 24 7 AI support handling almost all issues
+
+19:24
+instantly with human experts focusing on complex cases only. And
+
+19:27
+for operations, you'd have a traditional business, having multiple departments
+
+19:30
+coordinating work with regular meetings. And the AI first business
+
+19:33
+will be doing automated workflows, connecting all processes with humans
+
+19:36
+focusing on strategy and optimization. So the competitive advantage of
+
+19:39
+this AI first business is that they have increased operational
+
+19:42
+efficiency. You're gonna have lower operational costs, much smaller teams
+
+19:46
+like we talked about earlier, near instant scaling without overhead,
+
+19:49
+that flexibility to adapt to increases and decreases in demand
+
+19:52
+without being caught up short or having overextended and having
+
+19:55
+too many people on board. And 24 7 global operations
+
+19:58
+by default. For the customer experience, they're gonna get immediate
+
+20:00
+responses to all inquiries. You're gonna have much more consistent
+
+20:03
+service quality and personalization
+
+20:05
+of the customer journey and customer experience at scale because
+
+20:08
+AI is being used across all touch points. And market
+
+20:10
+adaptability is 1 of the competitive advantages as well. They
+
+20:13
+get real time responses to market changes. They can update
+
+20:16
+their systems rapidly. They can continuously optimize all of their
+
+20:19
+systems and using that data that comes back from it
+
+20:21
+and rapidly test and iterate on new versions and slight
+
+20:24
+adjustments to optimize it. And the strategic imperative here is
+
+20:27
+that it creates an urgent challenge for existing businesses to
+
+20:29
+transform towards this version or to risk obsolescence in the
+
+20:33
+near future. Just as traditional retailers struggled against Amazon, traditional
+
+20:37
+service businesses and even product based businesses will struggle against
+
+20:40
+AI first competitors who can deliver better services and products
+
+20:43
+at lower costs,
+
+20:44
+faster response times, more personalized experiences
+
+20:47
+and global reach without increased complexity. And a great example
+
+20:50
+of this kind of rethinking from the ground up of
+
+20:52
+a business model based on a new technology
+
+20:54
+was Warby Parker and how they sort of revolutionized the
+
+20:57
+consumer experience of buying glasses. So I've got a little
+
+21:00
+chatty bitty, output here. Basically, Warby Parker was an e
+
+21:04
+commerce brand that sold eyewear and they were going into
+
+21:06
+the market that was dominated by giants where they controlled
+
+21:08
+all the design and manufacturing and consumers were paying 3
+
+21:11
+to 500 dollars for designer frames despite ridiculously low manufacturing
+
+21:14
+costs. And they saw an opportunity to step in and
+
+21:17
+use a digital first model, a direct to consumer model
+
+21:20
+that cut out all of that fluff in between, cut
+
+21:22
+out the stores and become an online only retailer and
+
+21:25
+offering high quality frames for only 95 dollars. So they
+
+21:28
+own these sort of end to end customer relationship digitally
+
+21:31
+and they priced aggressively while still investing in premium materials
+
+21:34
+and designs. That good quality product but they moved everything
+
+21:37
+online and cut out a lot of those costs. They
+
+21:39
+innovated with things like at home try on and virtual
+
+21:41
+try ons of glasses. And this home try on was
+
+21:43
+awesome because customers could select 5 frames online and then
+
+21:46
+try them on at home for 5 days and ship
+
+21:48
+back what they didn't want free of charge. And so
+
+21:50
+this was a logistic challenge of course but it allowed
+
+21:52
+them to have this massive advantage of obviously being seriously
+
+21:56
+underpriced compared to these other competitors
+
+21:59
+while having a fully online business model removing all that
+
+22:02
+cost of having stores and locations and staff. And they
+
+22:04
+rethought the entire business model essentially from the ground up
+
+22:07
+to be digitally native and removing that physical necessity of
+
+22:11
+these stores. And this has happened time and time again
+
+22:13
+where where brands and industries are rethought based off technologies.
+
+22:16
+This guy is like the richest man man in New
+
+22:17
+Zealand.
+
+22:18
+There's a guy Nick Mowbray and he took this exact
+
+22:20
+same approach but with just general digital first approach to
+
+22:23
+businesses. He's done it in like pet food and nappies
+
+22:25
+where instead of just being, going up against these incumbents
+
+22:28
+and say the nappies industry
+
+22:31
+magazines and on TV and really the traditional way of
+
+22:34
+making a consumer goods brand. He came in and said,
+
+22:36
+look the future is digital. We're gonna sell to millennials.
+
+22:38
+Yeah. For example, this is 1 of the brands and
+
+22:40
+they rethought this pet food and they made this nude
+
+22:43
+brand. And had this really colorful nice branding and packaging
+
+22:46
+and all the advertising is very sort of digital first
+
+22:48
+and appeal to this millennial market. And and this combined
+
+22:51
+with the digital marketing strategy allowed them to become, I
+
+22:54
+believe they are the number 1 pet food brand in
+
+22:56
+the country right now and they've gone all over the
+
+22:58
+place, all over the world as well. So this practice
+
+23:00
+of rethinking a business model or rethinking an industry,
+
+23:04
+with a new technology. In this case, using the latest
+
+23:06
+in digital marketing and the Willy Parker example,
+
+23:09
+using e commerce as in sort of being able to
+
+23:11
+buy products online and and how sophisticated that industry had
+
+23:15
+become. Using that as the lever
+
+23:17
+to make a differentiated business that is sort of forward
+
+23:20
+facing and uses the latest technology to to have a
+
+23:22
+competitive advantage. So there is a window of opportunity here
+
+23:25
+where for the next sort of 2 to 3 years,
+
+23:27
+there's this transition period where the early movers like Warby
+
+23:30
+Parker and like Nude Pet Food,
+
+23:32
+are going to successfully transform their operations and be able
+
+23:35
+to capture significant market share with their AI first versions
+
+23:38
+and build sustainable advantages. Like you can
+
+23:41
+go up against the the big guys in industries with
+
+23:44
+these kinds of businesses and then these transitions
+
+23:46
+where you just completely rethink it. Where as someone who's
+
+23:50
+restarting from 0 with AI at the absolute core of
+
+23:52
+everything you do, you have a a huge advantage as
+
+23:55
+the technology improves compared to the old guys because they
+
+23:57
+have all of these staff and all these people and
+
+23:59
+all these systems that have spent millions and millions of
+
+24:01
+dollars to set up. And for them to rip that
+
+24:03
+down is a very difficult thing to do not only
+
+24:06
+physically but also kind of politically within the organization. How
+
+24:09
+you could get the buy in for majority of the
+
+24:12
+company to be ripped down at the expense of jobs
+
+24:14
+and
+
+24:15
+huge departments and and tons of effort that's been put
+
+24:17
+in. There is a big opportunity for people like us
+
+24:19
+to rethink these industries using AI first business models. And
+
+24:22
+those who wait are going to risk falling permanently behind
+
+24:25
+and that's potentially some of the clients that you won't
+
+24:27
+end up signing. And it's your job to help to
+
+24:29
+communicate this to your clients, to get them to invest
+
+24:31
+the money required to secure their business's future.
+
+24:34
+So the key takeaways from this section is that the
+
+24:36
+evolution of work through AI represents a fundamental transition in
+
+24:39
+how businesses operate. Understanding the progression
+
+24:42
+is crucial for guiding businesses through effective digital transformation. So
+
+24:45
+we've got the 3 stages of work, manual systems, traditional
+
+24:47
+human driven processes that follow standard operating procedures while they're
+
+24:50
+reliable for everything from mundane tasks to complex decision making,
+
+24:53
+they face natural limits and scale consistency and operating hours.
+
+24:56
+So great to start off with but as businesses scale,
+
+24:59
+they need something a bit more robust and AI can
+
+25:01
+really help out there through assisted systems. So today's optimal
+
+25:04
+approach is where AI handles the routine task, researching data
+
+25:07
+entry, drafting, etcetera while humans maintain the control with a
+
+25:11
+human in the loop kind of model. This combination multiplies
+
+25:13
+human effectiveness, improves quality, and maintains crucial oversight,
+
+25:17
+for having the humans in there too. And it's perfect
+
+25:19
+for more complex processes like sales and content creation. Or
+
+25:22
+for example, contract drafting as well. And finally, we have
+
+25:25
+automated systems which are complete AI handling
+
+25:28
+of tasks with minimal human intervention,
+
+25:30
+ideal for high volume rule based tasks with speed and
+
+25:32
+24 7 operation create clear value. While powerful, it requires
+
+25:36
+careful process selection and robust implementation.
+
+25:38
+Examples of this include extracting personal information from resumes for
+
+25:42
+database insertion. And the implementation reality is that success requires
+
+25:45
+matching each process with the right level of AI integration,
+
+25:48
+building systems that can evolve as technology advances, building systems
+
+25:51
+that can evolve as technology advances, balancing automation with customer
+
+25:54
+preferences,
+
+25:55
+and starting the journey now to capture early advantages. We
+
+25:57
+also covered the AI first future where businesses won't just
+
+26:00
+use AI, they'll be built around it from the ground
+
+26:03
+up. And early movers who transform their operations
+
+26:05
+now will capture significant advantages in cost scale and consumer
+
+26:08
+experiences
+
+26:09
+as things progress and as the technology improves. That's really
+
+26:12
+the key point is that if you got the base
+
+26:13
+there and it's working enough that it's only going to
+
+26:16
+get easier. Right? As better technology comes out. And the
+
+26:18
+agency opportunity here is to guide businesses through this transformation
+
+26:21
+by getting them to understand the future. We're headed towards
+
+26:24
+them, why they need to act now, helping them understand
+
+26:27
+the different types of systems and their strengths and weaknesses
+
+26:29
+and saying, hey. Maybe we shouldn't go full automated here.
+
+26:31
+It's not quite ready. We can get much better results
+
+26:33
+for a fraction of the cost and it's gonna be
+
+26:35
+faster to set up with this assisted and we can
+
+26:38
+also ease your team into using AI a lot better.
+
+26:40
+Implementing the right level of automation for the task like
+
+26:42
+I just said and building the foundations and rails so
+
+26:45
+that the business is prepared for this AI first future.

@@ -1,0 +1,485 @@
+Transcript
+Search
+
+00:00
+Now getting into the strategic implications of AI adoption. Understanding
+
+00:04
+the economics of AI automation isn't just theoretical, it has
+
+00:07
+profound implications for how businesses should act today. So as
+
+00:09
+an AI automation agency owner, you need to clearly communicate
+
+00:12
+the strategic choices businesses face and help them to make
+
+00:15
+informed decisions about AI adoption. In this section, we'll be
+
+00:17
+examining 2 critical questions. When should businesses invest in AI
+
+00:21
+automation? What happens to those who wait? So by understanding
+
+00:23
+these dynamics, you'll be better equipped to guide clients through
+
+00:25
+what is perhaps the most important strategic decision, whether to
+
+00:28
+be an AI leader or follower in their market. Let's
+
+00:30
+explore this through the lens of 2 real world but
+
+00:33
+hypothetical businesses making choices about AI adoption. So the early
+
+00:36
+investment question. Let's talk about what early adoption really means
+
+00:39
+with the story of 2 local plumbing companies. These are
+
+00:41
+hypothetical of course, they're not real. We don't actually have
+
+00:44
+Mike's Plumbing in John's but I'm using it to illustrate,
+
+00:46
+the difference when it comes to early investment in AI.
+
+00:49
+So we've got Mike and John, Mike's Plumbing and John's
+
+00:51
+Premium Plumbing Services. Mike's early mover journey. In early 20
+
+00:55
+25, Mike runs a small but profitable plumbing operation with
+
+00:58
+2 vans and 3 employees.
+
+01:00
+He's making good money but growth is still capped by
+
+01:02
+his ability to handle calls and find new customers.
+
+01:05
+After learning about AI automation, he decides to make a
+
+01:07
+significant investment despite the high early adopter costs. First, Mike
+
+01:11
+implements an AI receptionist system that answers every single call
+
+01:14
+24 7. No more missed calls at 3 AM when
+
+01:16
+someone's pipe bursts. No more paying for an answering service
+
+01:19
+or losing business to competitors who answer first. The AI
+
+01:21
+handles scheduling, manages his team's calendar, and even follows up
+
+01:25
+with customers automatically. Next, Mike adds in an AI outreach
+
+01:28
+system that works in 2 ways. Firstly, cold outreach. The
+
+01:31
+AI will call thousands of homeowners in the service area,
+
+01:34
+introducing his company and booking appointments for maintenance checks. And
+
+01:37
+customer reactivation.
+
+01:38
+The AI will regularly call his past customer database with
+
+01:41
+seasonal maintenance offers and upgrades. So Mike's plumbing v 2
+
+01:44
+here is he has his business here and now he's
+
+01:47
+setting up an inbound voice agent which is going to
+
+01:49
+be handling and passing bookings in and that's sort of
+
+01:51
+the external facing 1. And then he has the outbound
+
+01:53
+agent that is sending calls out to his list and
+
+01:56
+out to people in his area to generate leads and
+
+01:58
+bookings that can go into the business as well. So
+
+02:00
+he's attacking it from 2 sides, managing inbound and also
+
+02:03
+increasing outbound volume as well.
+
+02:06
+So for the first few months, the initial implementation isn't
+
+02:08
+all smooth sailing. Mike invests nearly 40000 dollars in getting
+
+02:12
+these systems up and running, a big bet for a
+
+02:14
+small plumbing company. The first 2 months are challenging. The
+
+02:16
+AI sometimes miss books appointments. His team needs time to
+
+02:19
+adapt to the new systems. His some customers are initially
+
+02:22
+confused by the AI.
+
+02:23
+But by month 4, things click into place. The systems
+
+02:26
+work like clockwork and the results are transformative.
+
+02:29
+His 2 vans are consistently booked out. New customer acquisition
+
+02:32
+costs have dropped by 60 percent. Profit grows 200 percent
+
+02:35
+in the first 6 months. He adds 1 new van
+
+02:38
+by the end of year 1. So we've got here.
+
+02:40
+Here's where we started out. This actually isn't quite my
+
+02:42
+designer
+
+02:43
+slightly missed the point here but you get the idea.
+
+02:45
+He gave it a good dig but he started off
+
+02:47
+here, invest in the AI systems and over the coming
+
+02:49
+years, he's able to increase the number of vans consistently.
+
+02:52
+And then we have John.
+
+02:54
+We have our our mate John up here, John's premium
+
+02:57
+plumbing service. Meanwhile, John runs a larger operation of 5
+
+03:00
+vans. So Mike started off with his 2,
+
+03:03
+Just 2 vans and 3 employees
+
+03:05
+and
+
+03:06
+John is his competitor. He's actually out doing them. He's
+
+03:08
+in the in the area as well but he's got
+
+03:10
+5 vans and he hears about Mike's AI systems but
+
+03:12
+decides to wait until the technology is more proven and
+
+03:14
+affordable. Okay. A typical
+
+03:17
+early majority
+
+03:18
+or even late majority who wants to see all the
+
+03:20
+proof and make sure it absolutely works first before they
+
+03:23
+take a bet on it. So fast forward to 20
+
+03:25
+27, John finally implements similar systems. This time, he pays
+
+03:28
+15000 dollars not 40 for what are kinda now more
+
+03:31
+standard AI tools. There's better sass and agencies that are
+
+03:35
+offering at better prices and things like that. But it's
+
+03:37
+become more standardized throughout the industry and the implementation of
+
+03:39
+course goes smoother with the solutions already been proven and
+
+03:42
+the ways to do it kind of being already laid
+
+03:44
+out for the agencies that he works with. And the
+
+03:46
+systems work pretty well right out of the box because
+
+03:48
+of that. But the market has shifted dramatically. Old mate
+
+03:51
+Mike
+
+03:52
+from up here, by the time John has actually jumped
+
+03:55
+on this, Mike already runs the largest plumbing operation in
+
+03:57
+the area with his 8 bands.
+
+03:59
+The most prime service hearers have already got established relationships
+
+04:02
+with Mike's company through all of the cold outreach he's
+
+04:04
+doing and then he's reengaging them and he's been really
+
+04:06
+really attentive to them, answering all the calls that come
+
+04:08
+in. Customers expect the level of service Mike's AI systems
+
+04:12
+provide when it comes to say answering the phone on
+
+04:14
+time. And John's growth is much slower despite lower implementation
+
+04:17
+costs. Basically, he decided to sit in his hands, wait
+
+04:19
+for the price to come down, wait for it to
+
+04:21
+become a lot more proven. And in that time, while
+
+04:24
+Mike did have to take a bit of a gamble
+
+04:26
+here and had a bit of a rocky start, he
+
+04:28
+was able to leapfrog
+
+04:29
+over John
+
+04:31
+and end up with a vice grip on the market
+
+04:33
+basically through the systems that he set up. And John's
+
+04:35
+left it far too late. So the numbers tell the
+
+04:37
+story. You can compare the financial impact over the 3
+
+04:39
+years. Of course, this is hypothetical, but you've gotta start
+
+04:41
+somewhere with these kind of scenarios. Right? So Mike's investment
+
+04:44
+in 20 25, he was down 40000 because he had
+
+04:46
+to do the initial investment. By the end of year
+
+04:48
+20 25, he was up 400000 in additional revenue. By
+
+04:51
+the end of 20 26, he's got another 800000 in
+
+04:54
+additional revenue. And by the end of 20 27, he's
+
+04:57
+up 2360000
+
+04:59
+by the end of the year. Then if we look
+
+05:01
+at John, he goes down by 15 in 20 27.
+
+05:04
+And by the end of the year, he is up
+
+05:06
+200000 as well. But this, of course, taking a snapshot
+
+05:08
+at the end of 20 27 shows quite clearly that
+
+05:11
+just the time and delay of waiting around for these
+
+05:13
+things is what really does most of the damage for
+
+05:15
+these businesses. The cost of waiting far exceeded the premium
+
+05:18
+paid for early adoption. He recouped this investment many many
+
+05:21
+times over. This of course does depend
+
+05:23
+on a successful implementation that this actually drives results.
+
+05:27
+But while Mike paid more and worked through the early
+
+05:29
+challenges, he built an unassailable market position that created a
+
+05:32
+lasting competitive advantage. And this is what you really need
+
+05:34
+to communicate to your clients that these tech revolutions are
+
+05:37
+the only chance businesses really have to climb the pecking
+
+05:39
+order with relative ease. Right? Things get really baked in
+
+05:43
+like when digital marketing came out, that was the last
+
+05:45
+kind of big shift. Right? Those who became digital first
+
+05:47
+and use social media marketing and Facebook ads to fill
+
+05:50
+their pipelines up and and get a really effective digital
+
+05:52
+marketing strategy going, they were the ones that dominated the
+
+05:55
+industry. Now we're having that again where AI is offering
+
+05:58
+a sort of shuffling of the pecking order but businesses
+
+06:00
+need to attack it and hit it hard if they
+
+06:02
+wanna be able to move up the rank rather than
+
+06:04
+being crushed by their competitors. So until AI came along,
+
+06:06
+the only edge available to people in in industries like
+
+06:09
+plumbing was through very creative digital marketing. And even that
+
+06:13
+was in the very late stages and therefore was quite
+
+06:15
+hard to achieve. It was extremely competitive. You had to
+
+06:17
+have a very good agency or someone very specialized to
+
+06:20
+come and to help you to get some kind of
+
+06:21
+marketing edge over the people who are already crushing it.
+
+06:23
+So if they want to be the big dog in
+
+06:24
+town for their industry or for their business or the
+
+06:27
+big dog globally for their for their niche, now is
+
+06:30
+the time to do it. But they must be willing
+
+06:32
+to invest and put in the work so that they
+
+06:34
+can get these kinds of early early mover advantages.

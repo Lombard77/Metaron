@@ -1,0 +1,2441 @@
+Transcript
+Search
+
+00:00
+Hi, and welcome to the AI receptionist voice agent tutorial
+
+00:03
+part 2.
+
+00:04
+My name is Konstantin, and in this session, we will
+
+00:06
+be taking the voice agent that we've built in the
+
+00:08
+previous part to a new level by giving it additional
+
+00:12
+tools and additional capabilities.
+
+00:14
+This is going to be an intermediate level tutorial, meaning
+
+00:17
+that you are required to have some understanding of how
+
+00:20
+voice agents work, what is the mechanisms behind voice agents,
+
+00:24
+and you should be comfortable with all the basic settings
+
+00:27
+in the voice agent. The main focus of this tutorial
+
+00:30
+is going to be on connecting your voice agent to
+
+00:32
+external systems via tools and functions and introducing on demand
+
+00:36
+data and actions. By the end of the session, you
+
+00:38
+will learn how to use VAPI knowledge bases, how you
+
+00:41
+can use VAPI tools and functions,
+
+00:43
+how you can fetch availability from Google Calendar, how you
+
+00:47
+can use Calendly to verify and finalize the reservations, and
+
+00:50
+also how you can use SMS to send the customized
+
+00:53
+booking link. Now the final result checklist looks like this.
+
+00:57
+We want to implement everything from the part 1 of
+
+01:00
+the AI receptionist voice agent. And just to refresh your
+
+01:03
+memory, here's what that checklist was.
+
+01:05
+We wanted the agent to be natural sounding. We wanted
+
+01:08
+to be able to answer questions from the knowledge base.
+
+01:11
+We wanted graceful handling of unrelated random questions. We wanted
+
+01:15
+to be able to transfer the calls, and we wanted
+
+01:17
+to add the call data to the Airtable by the
+
+01:20
+end of the call.
+
+01:21
+Now additionally to that, we want to be able to
+
+01:24
+answer customer questions using the attached knowledge base versus having
+
+01:28
+the knowledge directly in the system prompt.
+
+01:31
+Now when it comes to Google Calendar, we want to
+
+01:33
+be able to suggest the nearest time for the reservation,
+
+01:36
+and we want to be able to provide availability when
+
+01:38
+customer is asking for a specific date. Now we want
+
+01:42
+our agent to be able to send booking links via
+
+01:44
+SMS. We will also be using Calendly to finalize the
+
+01:47
+reservation. And why we wanna do that? We wanna give
+
+01:50
+the customer the final say in verifying if the details
+
+01:53
+that they provided to the voice agent are actually correct.
+
+01:56
+Meaning, we want them to look at at the actual
+
+01:58
+date, their name, and also additionally to all of that,
+
+02:01
+we want them to input their email, which is quite
+
+02:04
+unstable to be just dictating to the voice agent as
+
+02:06
+this often results in misspelled and incorrect email addresses.
+
+02:11
+As you can see, the diagram of the voice agent
+
+02:13
+has been changed quite a bit as well. Now on
+
+02:15
+the VAPI side, we have introduced a knowledge base that
+
+02:18
+will be accumulating the documents that agent will use as
+
+02:21
+its knowledge to answer questions of the customers.
+
+02:24
+We've also given the agent additional abilities or tools, or
+
+02:27
+as I like to call them buttons, that agent can
+
+02:29
+press to execute certain actions. Now in this case, we
+
+02:33
+have checking for the closest availability,
+
+02:35
+checking for the availability on a specific date, and sending
+
+02:39
+the booking link.
+
+02:40
+Now on the no code automation make, we also introduced
+
+02:44
+3 additional pipelines
+
+02:46
+as compared to having just 1 before in the previous
+
+02:49
+version of the agent, which was handling the post call
+
+02:52
+analysis. Now we have 1 individual pipeline for each additional
+
+02:56
+ability of the voice agent. Now there are no changes
+
+02:58
+in in the Airtable and this component just got migrated
+
+03:02
+as it was from the previous version. I've just changed
+
+03:04
+the presentation a little bit. Bit. Now on the bottom
+
+03:07
+right, you can see that we've introduced 3 additional components
+
+03:10
+that is the Google Calendar,
+
+03:12
+Sendberry as an SMS gateway,
+
+03:14
+and Calendly
+
+03:15
+for processing the scheduling link.
+
+03:18
+Now 1 thing that I would like to draw your
+
+03:19
+attention to is the difference between
+
+03:23
+functionality between VAPI and make compared to what we had
+
+03:26
+before and what we have now.
+
+03:28
+Now before the end call function was single directional,
+
+03:32
+meaning that when VAPI executed that function it just sent
+
+03:36
+the payload or the data into make without expecting anything
+
+03:40
+back.
+
+03:40
+Now when it comes to executing functions, this is going
+
+03:43
+to be a bidirectional
+
+03:44
+communication,
+
+03:46
+meaning that voice agent is going to execute the function,
+
+03:49
+send the payload to make. Now make is going to
+
+03:52
+accept that payload,
+
+03:53
+perform certain calculations,
+
+03:55
+certain actions,
+
+03:56
+potentially also involving third party systems, like in case of
+
+04:00
+checking the availability,
+
+04:01
+make is going to ask Google Calendar to provide availability
+
+04:04
+on specific date ranges or specific date.
+
+04:07
+Now Google Calendar will return that to Make, Make will
+
+04:10
+process the response, and it will send the aggregated response
+
+04:14
+back to VAPI
+
+04:15
+so it can use it in communication with the customer.
+
+04:18
+Now before we dive into VAPI and start looking at
+
+04:20
+how the voice engine is actually built, let's have a
+
+04:23
+quick demo of how it works.
+
+04:25
+So before we start the demo, I wanted to tell
+
+04:27
+you a little bit about the updated make automation.
+
+04:29
+Now in the previous tutorial, I've built this bottom part
+
+04:32
+and that is responsible for sending the data from VAPI
+
+04:35
+into Airtable
+
+04:37
+and recording the calls at the end of the call.
+
+04:39
+Now for this tutorial, I've built 3 additional pathways.
+
+04:42
+This top 1 is being executed when agent needs to
+
+04:46
+fetch
+
+04:46
+just availability that is the closest 1, like 3 days
+
+04:49
+ahead.
+
+04:50
+Now this middle part is getting executed when customer is
+
+04:53
+asking for a specific date, and the bottom part is
+
+04:56
+being executed when agent needs to send an SMS.
+
+05:00
+So I will now run the demo, and I will
+
+05:02
+also be observing how make automations
+
+05:04
+run so you have a visual of how the agent
+
+05:07
+is actually calling them when it needs to. Let's go
+
+05:10
+ahead.
+
+05:11
+Hi. This is LashMania virtual assistant. How can I help
+
+05:14
+you? Hey there. I would like to create a reservation.
+
+05:19
+This will just take a sec.
+
+05:23
+The closest available day is Friday, October eighteenth. We have
+
+05:26
+slots at 12 PM and 6 PM. Do any of
+
+05:28
+these times work for you?
+
+05:31
+Actually, can you please check October 20 third?
+
+05:36
+1 moment.
+
+05:40
+On Wednesday, October 20 third, we have available slots at
+
+05:43
+10 AM, 12 PM, 2 PM, 4 PM, and 6
+
+05:46
+PM. Which time works best for you?
+
+05:49
+4 PM is gonna be best.
+
+05:51
+Perfect. Can I have your name to proceed with the
+
+05:54
+reservation?
+
+05:55
+Sure. It's k z.
+
+05:59
+Hold on a sec.
+
+06:01
+To complete the reservation, please use the booking link that
+
+06:04
+I've sent to you via SMS. The reservation will only
+
+06:07
+become active after you confirm it using that link. Have
+
+06:09
+you received the booking link?
+
+06:12
+Yes. I have the SMS on my phone. Thanks.
+
+06:15
+You're welcome. If you have any other questions or need
+
+06:17
+further assistance, feel free to ask. Looking forward to seeing
+
+06:20
+you on October 20 third at 4 PM.
+
+06:23
+Anything else I can help you with? No. That's it.
+
+06:25
+Thanks a lot. Have a nice day.
+
+06:27
+You're welcome. Have a wonderful day, and we look forward
+
+06:29
+to seeing you soon.
+
+06:31
+Now let's look at the agent setup in VAPI.
+
+06:34
+On the model tab, the first message is pretty much
+
+06:37
+similar to the previous version of the agent. Now the
+
+06:40
+system prompt has been changed quite a bit, and I
+
+06:42
+will get into the changes of the system prompt in
+
+06:44
+a later portion of the video where we will review
+
+06:46
+the prompt in Notion. Now we're still using OpenAI as
+
+06:50
+a provider. Model is still GPT for o mini,
+
+06:53
+and we have added a knowledge base file for the
+
+06:55
+agent to be able to use that knowledge
+
+06:58
+when responding to customer questions.
+
+07:01
+Now on this section, there are no more changes. Let's
+
+07:03
+go to the transcriber tab. Now here, again, we're still
+
+07:06
+using Deepgram language as English and the model is Nova
+
+07:09
+2.
+
+07:10
+On the voice tab, again, no changes absolutely whatsoever, so
+
+07:14
+still the same settings and same everything.
+
+07:16
+Now on the functions tab, however, we do have some
+
+07:18
+new things going on.
+
+07:20
+Primarily, these are the new tools that we have given
+
+07:22
+to the agent and on the schematic on the diagram
+
+07:25
+of the agent are the ones that I've been calling
+
+07:27
+buttons.
+
+07:28
+Now tools or these buttons is exactly what enables the
+
+07:32
+agent to be able to check availability,
+
+07:34
+check availability on a specific date, and send the booking
+
+07:37
+link via SMS.
+
+07:39
+Now there's no more change on this tab except for
+
+07:42
+adding
+
+07:43
+these functions or these tools to the agent, so let's
+
+07:45
+switch over to the advanced
+
+07:47
+tab. Now in here, the top portion of the settings
+
+07:49
+is exactly the same as in the previous version of
+
+07:52
+the agent. We're still using the absolutely same server URL
+
+07:55
+that points to the make automation webhook URL.
+
+07:59
+Now what is different is that in the server messages
+
+08:02
+section, we have now additionally selected 1 more item and
+
+08:05
+that is the tool calls. And the way that works
+
+08:08
+is that when you have the tool call selected here,
+
+08:11
+the tools, if they don't have a specific URL provided
+
+08:14
+on the tool level, will be using the server URL
+
+08:17
+from the advanced configuration of the agent to fetch the
+
+08:20
+data and bring it back into the agent.
+
+08:22
+Now there are no other changes for the rest of
+
+08:25
+the settings on the advanced tab, and the analysis tab
+
+08:27
+is exactly the same. Now let's have a look at
+
+08:30
+how these tools or these functions are being configured in
+
+08:34
+VAPI, so you have an understanding of how you can
+
+08:36
+add them yourself. Now these allocated under platform
+
+08:40
+tools.
+
+08:41
+Now on the left hand side in this column, you
+
+08:43
+can see that I have 3 tools for sending the
+
+08:45
+booking link, check availability on date, and check the availability.
+
+08:49
+Now for the scope of this tutorial and for the
+
+08:52
+scope of the agent that we're building here right now,
+
+08:54
+you are completely fine adding these tools using the VAPI
+
+08:57
+dashboard.
+
+08:58
+Now let's look at the individual tools 1 by 1
+
+09:00
+so you have a very clear understanding of what they
+
+09:02
+are and how they are being configured. Let's start with
+
+09:04
+the check availability.
+
+09:06
+Now in this tool, we only have the tool name
+
+09:10
+that is check availability. The tool description saying retrieves the
+
+09:13
+time slots available for creating the reservation that is actually
+
+09:17
+being analyzed by the large language model to identify when
+
+09:20
+this tool needs to be called. Now we will also
+
+09:23
+be using the tool name in the system prompt, so
+
+09:25
+we have a very fine control of when exactly we
+
+09:28
+want the agent to call that tool.
+
+09:30
+Now the next 1 is check availability on date, which
+
+09:33
+is slightly more sophisticated than just more sophisticated than just
+
+09:35
+check availability,
+
+09:36
+and the way it is different is because it has
+
+09:38
+a parameter.
+
+09:39
+Now the tool name is also just a string, check
+
+09:43
+availability on date. Now the description is slightly different, it
+
+09:46
+says retrieve the time slots available for creating the reservation
+
+09:49
+on a specific date. And we also have a tool
+
+09:52
+parameter now that is a date. That is a string,
+
+09:55
+and I've given it a description saying that the date
+
+09:59
+of the reservation in the format,
+
+10:01
+4 digit year, 2 digit month, and 2 digit day.
+
+10:04
+Now I'm also giving an example of how I want
+
+10:07
+the date to be formatted
+
+10:09
+so that make and then transform this date into something
+
+10:12
+that Google Calendar would understand.
+
+10:14
+Now the last but not least is the send booking
+
+10:16
+link function or the tool.
+
+10:18
+Again, it has a name of send booking link, it
+
+10:20
+has a description, sends the booking link to the customer,
+
+10:23
+and it has 2 non mandatory properties, name and date
+
+10:26
+time.
+
+10:27
+Why we want to have these 2 properties but have
+
+10:30
+them as non mandatory is because customer might decline saying
+
+10:33
+their name. They have a full right to do so.
+
+10:35
+They might wanna stay anonymous.
+
+10:37
+Customer also might not have selected the date and time,
+
+10:40
+so this function is flexible to send the booking link
+
+10:43
+without any preset date and time so customer can select
+
+10:46
+the date and time after receiving the booking link and
+
+10:49
+then selecting it via the user interface,
+
+10:52
+on the page that opens up when customer clicks on
+
+10:54
+that link. So if you want, you can make these
+
+10:57
+parameters mandatory, but for this use case, I think it's
+
+11:00
+best to keep them as non mandatory.
+
+11:02
+So now let's examine the system prompt for the lash
+
+11:05
+mania voice AI receptionist.
+
+11:07
+Now we still have the section called persona, which is
+
+11:09
+exactly 1 to 1 to the previous version with the
+
+11:12
+only exception that's probably having is a different name. Now
+
+11:15
+the task is still the same. It is to maintain
+
+11:17
+a professional positive open minded discussion with the customer and
+
+11:20
+answer the questions.
+
+11:21
+Now what got collapsed massively is the service information or
+
+11:25
+the knowledge. Now we previously had a big section of
+
+11:28
+content here, but now we just say use the information
+
+11:31
+from the knowledge base to answer questions.
+
+11:34
+And that is effectively pointing the agent to use the
+
+11:37
+knowledge base for any questions that customers might have. Now
+
+11:40
+the reservation section has been changed also quite a bit.
+
+11:44
+Now what you can see is being added here is
+
+11:46
+that we have introduced these 3 new functions of the
+
+11:48
+buttons
+
+11:49
+that we are now instructing the agent that it can
+
+11:52
+use whenever it's needed.
+
+11:54
+Now in the reservation creation section,
+
+11:57
+I've given a script to the agent of how it
+
+11:59
+needs to handle the reservations when those are requested by
+
+12:02
+the user. Now there are total 5 steps in the
+
+12:04
+reservation
+
+12:05
+creation script.
+
+12:06
+First, just notify the customer that you are going to
+
+12:09
+check the availability.
+
+12:10
+I'm giving it an example of what it needs to
+
+12:12
+say in that case and the function that it needs
+
+12:14
+to call to gather the required information.
+
+12:17
+Now second step is to tell the closest available time,
+
+12:21
+and that is going to be at this moment already
+
+12:23
+available to the agent because of the tool response that
+
+12:26
+has returned by that time, the information required for the
+
+12:29
+agent to tell the customer when the closest available times
+
+12:32
+are. Are. Now we will look in a later portion
+
+12:34
+of this tutorial, how does the data coming from step
+
+12:37
+1 look like and why agent will be able to
+
+12:40
+perform the second step that is telling the customer the
+
+12:42
+closest available date and time. Now in the second step,
+
+12:45
+I'm also giving the agent the choice. I'm saying that
+
+12:48
+if customer is asking for a specific date and that
+
+12:51
+date is already in the availability,
+
+12:53
+then agent is free to just tell the times on
+
+12:56
+that date. However, if customer is asking for specific data
+
+12:59
+that is not yet present in the availability,
+
+13:02
+meaning that in our configuration,
+
+13:04
+this requested date will be outside of the 3 upcoming
+
+13:07
+days interval. Then I'm instructing the agent to use the
+
+13:10
+second function that is check availability on date so that
+
+13:13
+it can fetch the times of the availability
+
+13:16
+on that date specifically. And Now I'm also telling the
+
+13:18
+agent that it needs to keep talking with the customer
+
+13:20
+until it finds a suitable day and time. The third
+
+13:23
+step is asking the customer for their name. Now this
+
+13:26
+is a very simple step in the script, and the
+
+13:29
+only thing that we need to do is get the
+
+13:30
+customer name and just wait until the customer has provided
+
+13:33
+their name.
+
+13:35
+Now the fourth step in the script is to ask
+
+13:37
+the customer to complete the reservation using the booking link.
+
+13:40
+Again, I'm giving an example to the agent of what
+
+13:43
+it needs to say to the customer so that we
+
+13:45
+have a very clear understanding of how how the agent
+
+13:48
+would be approaching this step and what's the dialogue is
+
+13:51
+going to look like. I'm also giving the agent an
+
+13:54
+additional point saying that it needs to use the send
+
+13:57
+booking link function to send the reservation link to the
+
+13:59
+customer via SMS.
+
+14:01
+Also, notice how I've spelled out the SMS with dashes.
+
+14:05
+I found that this is a very nice way for
+
+14:07
+the agent to not just say sims or something like
+
+14:10
+that, that sometimes happens, but it actually is going to,
+
+14:13
+like, emphasize every single letter saying SMS.
+
+14:17
+Now ending the call, the section is the same, escalation
+
+14:20
+and assistant is the same, and rules and limitations are
+
+14:22
+exactly the same. Now 1 last piece that I wanna
+
+14:25
+look with you at is the knowledge. Now let's have
+
+14:27
+a look at what we've placed in there.
+
+14:30
+Now knowledge is just a collection of data
+
+14:33
+that agent needs to know about this business. And in
+
+14:36
+my case, I provided a fairly simple set of data
+
+14:39
+for the agent. And if you want to expand your
+
+14:42
+agent's knowledge, just follow the same kind of approach. So
+
+14:45
+for anything that's being a major section in your knowledge,
+
+14:48
+just just use h 1. For any knowledge that needs
+
+14:50
+to exist under that major section, just use a paragraph
+
+14:54
+or a bulleted list of different items so it can
+
+14:56
+use it effectively when answering questions coming from the users.
+
+15:00
+So coming up next is the make automation. Let's have
+
+15:03
+a look at how it's built, what are the actual
+
+15:05
+steps involved in different pathways,
+
+15:08
+and why those choices have been made.
+
+15:10
+So as you can see, we have quite a lot
+
+15:12
+going on here in this make automation.
+
+15:15
+Now, as I mentioned in the previous tutorial, we've only
+
+15:18
+built this bottom part of this automation,
+
+15:21
+and that was for handling the post call analysis
+
+15:23
+when BAPI was sending data to make
+
+15:26
+as a report of the call being ended.
+
+15:29
+Now we've added a whole new portion that is this
+
+15:33
+upper part with 3 pathways and even more.
+
+15:36
+Now the way we can differentiate between different requests that
+
+15:39
+come to this webhook is based on the data that
+
+15:41
+is being delivered as the payload on that request.
+
+15:45
+Now
+
+15:46
+when the payload contains the message type end of call
+
+15:49
+report, then this bottom pathway is gonna get executed. If
+
+15:54
+request, however, contains a message type tool calls,
+
+15:57
+then this upper pathway is going to get executed. Now
+
+16:00
+there's another router in here and that is deciding
+
+16:03
+which exact tool are we dealing with with this request.
+
+16:07
+Now this upper portion is going to say that the
+
+16:10
+function name of the tool call is check availability,
+
+16:13
+which is 1 to 1 to what we have named
+
+16:15
+our tool in MAPI.
+
+16:17
+Now this middle part is going to have the tool
+
+16:20
+name, check availability on date. And so it's only going
+
+16:23
+to execute if that
+
+16:25
+condition has been fulfilled.
+
+16:27
+And the bottom pathway is going to have the function
+
+16:30
+name set to send booking link. And again, this bottom
+
+16:33
+pathway is only gonna get executed
+
+16:35
+if that is the name of the function in the
+
+16:37
+tool call.
+
+16:39
+Okay. So now let's examine how the check availability on
+
+16:42
+date is being requested
+
+16:44
+from make and how make handles that request.
+
+16:48
+Now this here is a simple representation of what BAPI
+
+16:51
+is going to send to make. It's gonna be a
+
+16:54
+data structure that will contain
+
+16:56
+this property called tool calls. And inside that, there's gonna
+
+16:59
+be an individual tool call with the function name check
+
+17:03
+availability on date. That is going to be an exact
+
+17:05
+name of the function in VAPI. And also, if that
+
+17:08
+function or that tool in VAPI contains the arguments, they
+
+17:11
+are also gonna be present in the tool call. So
+
+17:13
+in this case, we have the date and that is
+
+17:15
+the 20 third of October. Now when that hits the
+
+17:18
+make automation,
+
+17:19
+it is then going to be delivered
+
+17:22
+into that exact portion here.
+
+17:25
+As you can see, we're checking for this check availability
+
+17:28
+on date value. And if that is the case, then
+
+17:31
+the request is going to navigate into this portion of
+
+17:33
+the pathway.
+
+17:34
+What happens afterwards is that we are going into the
+
+17:38
+data store and we are retrieving from the local data
+
+17:41
+store inside make all the possible
+
+17:44
+time slots for the day that can potentially exist. So
+
+17:47
+to give you a visual on that, let's switch over
+
+17:50
+to data stores and let's examine
+
+17:53
+how that structure looks like. So as you can see,
+
+17:55
+I've created a data store that is called daily slots.
+
+17:58
+And within it, we have individual records for every available
+
+18:01
+time slot within any working day. So you can see
+
+18:04
+we have 1 slot from 10 AM to 12 PM,
+
+18:06
+then from 12 PM to 2 PM, from 2 PM
+
+18:09
+to 4 PM, and so on. So what's gonna happen
+
+18:12
+is that this gives a very nice control over
+
+18:15
+what daily slots are available overall because these are gonna
+
+18:18
+be used in multiple places inside our make automation.
+
+18:22
+Now this is also very useful because when we query
+
+18:25
+multiple records from the data store,
+
+18:27
+we can also iterate over them, meaning that we will
+
+18:30
+execute certain portion of the logic
+
+18:33
+for every individual time slot that we have just retrieved
+
+18:36
+from the data store. Now let's switch back to the
+
+18:39
+make automation.
+
+18:40
+Okay. So as I was mentioning,
+
+18:42
+the first step here is going to be to retrieve
+
+18:45
+a list of available daily slots for any working day.
+
+18:49
+Now what's gonna happen next is that we will compile
+
+18:51
+a request
+
+18:52
+against Google Calendar
+
+18:54
+for every individual slot that will be the day of
+
+18:57
+the request,
+
+18:58
+the beginning time of the slot, and the ending time
+
+19:00
+of the slot. And if there are no Google events
+
+19:03
+and no calendar events for that individual time on that
+
+19:06
+individual day, then we will include that time slot as
+
+19:10
+the available 1. Otherwise, we're just going to skip it.
+
+19:13
+So again, just to give you an understanding, let's quickly
+
+19:16
+check for the 20 third of October. If I run
+
+19:19
+this request,
+
+19:20
+I'm going to get all daily slots as available ones
+
+19:23
+from from 10, from,
+
+19:25
+12
+
+19:26
+PM, 2 PM, 4 PM, and 6 PM. So now
+
+19:29
+let's switch into Google Calendar and add some busy times
+
+19:32
+so we can see how the available slots are going
+
+19:35
+to disappear from the response. So here we are in
+
+19:37
+the Google Calendar 20 third of October. So we have
+
+19:40
+time slots from 10 AM to
+
+19:42
+12 PM. So let's add on the 20 third of
+
+19:45
+October an event
+
+19:46
+that is actually going to last, let's say, from from
+
+19:49
+9
+
+19:51
+to
+
+19:52
+to 11.
+
+19:53
+So
+
+19:54
+if there is an event that lasts from 9 to
+
+19:58
+11 and there's a time slot that starts from 10
+
+20:00
+to 12, it should not be available because part of
+
+20:03
+that time slot is already
+
+20:05
+occupied by a different kind of event. So again, I
+
+20:08
+will just copy this 1 and I will try to
+
+20:12
+make it
+
+20:13
+so that from 2
+
+20:15
+PM until 4 PM, we also have a time blocked
+
+20:19
+and that's gonna be enough. So let's rerun the tool
+
+20:21
+and see how the available time slots are gonna be
+
+20:23
+adjusted.
+
+20:27
+Okay. So you can see that we now have all
+
+20:29
+the overlapping time slots gone from the response.
+
+20:33
+So there's no more 10 AM and there's no more
+
+20:35
+2 PM.
+
+20:37
+Now also to prevent anybody asking availability on a past
+
+20:40
+date or on the weekend,
+
+20:42
+I have these 2 additional blocks here.
+
+20:45
+So in the router, what's gonna happen is that when
+
+20:48
+the request to check availability on a specific day is
+
+20:51
+going to arrive,
+
+20:52
+the router is going to first execute this upper pathway,
+
+20:55
+then this middle pathway, and then this bottom pathway.
+
+20:58
+So this gives us a very nice logic of how
+
+21:00
+we can first check for something that is a weekend
+
+21:03
+or is a past date. And only if
+
+21:06
+these both haven't
+
+21:08
+resulted in a webhook response, then we will proceed to
+
+21:11
+this last pathway,
+
+21:13
+which is going to, again, just double check that we
+
+21:15
+are dealing with a weekday
+
+21:18
+and then it's going to execute and give the response
+
+21:21
+back considering that there are available time slots on that
+
+21:24
+given day.
+
+21:26
+The stop portion of the pathway is actually running exactly
+
+21:29
+the same as the check availability on date portion. You
+
+21:32
+can see that this section of the modules is exactly
+
+21:35
+1 to 1 this section here. So essentially what is
+
+21:38
+happening is that we are retrieving the time slots available
+
+21:42
+and we are running them through the Google Calendar
+
+21:44
+for each individual day. Now the remainder of this wrapper
+
+21:47
+that is happening in this pathway is the logic that
+
+21:50
+is dedicated to running this process multiple times so that
+
+21:54
+we can fetch a set number of days looking into
+
+21:57
+the future in the same way as we are fetching
+
+21:59
+1 individual day here. So let's quickly look into how
+
+22:02
+iterating multiple days is being achieved in this upper pathway
+
+22:06
+so we have a better understanding of that.
+
+22:08
+So this module here that is called repeater,
+
+22:11
+this is going to run this pathway or this portion
+
+22:14
+of the pathway,
+
+22:15
+the 1 that is this with this pill shaped gray
+
+22:17
+background, it's going to run it up to this number
+
+22:20
+of times. Now why this value is 5 is because
+
+22:23
+we wanna run it maximum 5 times, meaning 5 days.
+
+22:26
+But that is 5 because we might also be hitting
+
+22:29
+the weekend. So if the first day is going to
+
+22:31
+be Friday, the second day is gonna be Saturday, and
+
+22:34
+third day is gonna be Sunday, then we still need
+
+22:37
+to fetch additional 2 days to get a 3 full
+
+22:40
+working days worth of availability.
+
+22:42
+To make sure that we're not returning more than 3
+
+22:44
+working days, there's an an additional check here, and that
+
+22:47
+is checking the number of days that we have already
+
+22:49
+processed in this pathway.
+
+22:51
+So again, I will not go into individual modules and
+
+22:54
+details exactly how this is achieved, but the idea is
+
+22:57
+this. We are going to repeat this section of the
+
+23:00
+pathway as many times as a set in the repeater
+
+23:03
+and some additional filters and logic are going to prevent
+
+23:06
+more than 3 days being returned in the response.
+
+23:08
+So 1 last pathway is this bottom 1. This pathway
+
+23:11
+is responsible for sending the SMS. Now this functions exactly
+
+23:15
+the same way as previous pathways. This router is going
+
+23:18
+to receive that call. And then if this checks out,
+
+23:21
+if the actual name is send booking link, then we
+
+23:24
+are going to follow into this pathway and execute all
+
+23:26
+of these modules.
+
+23:28
+Now the first module here in this pathway is where
+
+23:31
+we set the booking link. Now as you can see,
+
+23:33
+I'm using the base calendar link for the reservations page
+
+23:37
+or the booking page, and I'm adding to it
+
+23:40
+the date that I receive as a parameter on the
+
+23:43
+send booking link and the name that I also receive
+
+23:45
+as a parameter on the send booking link.
+
+23:48
+Now both of these parameters are non mandatory, meaning that
+
+23:49
+if none of them are provided, this link is still
+
+23:49
+going to function.
+
+23:51
+If none of them are provided, this link is still
+
+23:53
+going to function. So this module sets the booking link
+
+23:56
+and let's see what the next 1 does. Now next
+
+23:59
+module is minifying the URL of the booking link. Now
+
+24:02
+in this case, I'm using the TNY service
+
+24:05
+and they have a pretty generous free package. So if
+
+24:08
+you're sending volumes are not huge, then you should be
+
+24:10
+good with the free account.
+
+24:12
+Next in the chain is the SMS body variable. Now
+
+24:15
+in here, I'm just compiling a piece of text with
+
+24:18
+the link that we just generated.
+
+24:20
+In this next module, I'm compiling the recipient number.
+
+24:23
+Now this could be just this variable message customer number,
+
+24:27
+but for the testing purposes, I am checking if the
+
+24:30
+payload sent by BAPI actually contains the customer number. And
+
+24:34
+if not, which is gonna be the case when I'm
+
+24:35
+testing using web interface,
+
+24:37
+then I'm just defaulting back to my own number, so
+
+24:40
+I'm able to successfully test this automation.
+
+24:43
+Now next module is the HTTP request module that I'm
+
+24:46
+using to send the SMS
+
+24:48
+via Sendberry API.
+
+24:50
+Now most of the parameters in this module have already
+
+24:52
+been selected. So the only thing you need to do
+
+24:54
+is you need to go ahead and replace all the
+
+24:57
+values of 4 x's with an actual values that you
+
+25:00
+will receive from your account. Now the last module here
+
+25:03
+in this chain is the webhook response. This is just
+
+25:06
+going to respond to VAPI with the status of sending
+
+25:08
+the SMS so the voice agent can communicate the status
+
+25:11
+of that action back to the user. Okay. So let's
+
+25:14
+summarize the way BAPI is interacting with make.
+
+25:18
+Now in BAPI, in order to interact with some external
+
+25:20
+systems, we can introduce tools. The parameters that we can
+
+25:23
+set on the tools are the tool name, the tool
+
+25:26
+description, and the parameters of the tool.
+
+25:29
+Now the tool name is going to be used as
+
+25:31
+a key to identify which pathway inside our make automation
+
+25:35
+we need to execute in order to provide the results
+
+25:37
+of the execution of the tool.
+
+25:39
+Now the tool description is going to be a semantical
+
+25:42
+meaning for VAPI agent to understand where it needs to
+
+25:45
+call the tool. Now we are also using the tool
+
+25:48
+name directly in the system prompt to give VAPI exact
+
+25:51
+instructions where it needs to call the tool, but having
+
+25:54
+the tool description is also a very nice way to
+
+25:57
+give additional context to the LLM so it understands
+
+26:00
+in which context and in which situation the tool can
+
+26:03
+be utilized.
+
+26:04
+So let's take the availability on date as an example.
+
+26:07
+So what's gonna happen is that when VAPI executes
+
+26:10
+the function call or the tool call, this type of
+
+26:12
+payload is going to be delivered to the make automation.
+
+26:15
+And so make will then be able to identify which
+
+26:18
+exact pathway it needs to execute based on 2 parameters.
+
+26:22
+1 being the message type, in this case, it's tool
+
+26:25
+calls, and the second being the name of the function
+
+26:27
+inside the tool call, in this case, check availability
+
+26:30
+on date. So in make, if we take a look
+
+26:32
+at the first router,
+
+26:34
+then this first leg, the upper leg, it checks if
+
+26:37
+the message type is tool calls. So in this case,
+
+26:39
+it will proceed to this leg and not proceed to
+
+26:42
+this bottom leg. Now after that, it's going to hit
+
+26:44
+the second router, and this 1 is going to run
+
+26:47
+3 checks, first, second, and third. In this case, the
+
+26:50
+second check is going to validate as true because the
+
+26:53
+name of the function is check availability
+
+26:55
+on date. And that is exactly what we are checking
+
+26:58
+as a condition that needs to evaluate to true in
+
+27:00
+order for this pathway to be executed. Now finally, when
+
+27:03
+all those checks have validated, it's going to get into
+
+27:06
+this pathway and it's going to execute the logic that
+
+27:09
+we have described here, and then it is going to
+
+27:11
+compile a response
+
+27:13
+that is going to be sent back to VAPI so
+
+27:15
+it can continue its execution with the data that we're
+
+27:18
+giving back to it.
+
+27:20
+All 5 webhooks in this automation are following the exact
+
+27:23
+same response format, and that is responding with a JSON
+
+27:27
+structure that looks like this. It's going to be the
+
+27:29
+results property, and within that, we're going to return back
+
+27:33
+the tool call ID, which we just received when Babbi
+
+27:35
+initially called me.
+
+27:37
+And then in the result property, we are going to
+
+27:40
+give back some kind of value
+
+27:42
+that is going to be ingested by VAPI and then
+
+27:45
+used in its communication with the user.
+
+27:47
+This is a full overview of how data retrieval is
+
+27:50
+implemented between VAPI and make and how this whole system
+
+27:54
+actually works.
+
+27:55
+So now when you know how the voice agent is
+
+27:58
+being set up, let's do another round of testing.
+
+28:00
+In the Google Calendar associated with the voice agent, I've
+
+28:03
+blocked out completely all of the tomorrow's availability.
+
+28:07
+Now on the day after tomorrow, I've blocked all the
+
+28:09
+hours up to 4 PM.
+
+28:11
+And then on the day after that, I blocked all
+
+28:14
+the evening hours. So there's only 10 AM and the
+
+28:17
+12 PM left.
+
+28:19
+Now I will do the call to the voice agent
+
+28:21
+and see what is the nearest time slot that is
+
+28:24
+going to suggest to me. So my expectation is that
+
+28:26
+it's going to be Wednesday, 20 third of October,
+
+28:29
+4 PM. Now after that, I will ask it to
+
+28:32
+provide the availability
+
+28:34
+on the 20 fifth of October.
+
+28:36
+And after that, I will try to make a reservation.
+
+28:39
+Hi there.
+
+28:41
+I would like to, to book a a service.
+
+28:46
+This will just take a
+
+28:53
+sec. The closest available day is Tuesday, October 20 second.
+
+28:57
+Unfortunately, there are no specific time slots available for that
+
+29:01
+day. On Wednesday, October 20 third, we have slots at
+
+29:03
+16 and
+
+29:05
+18. Would either of those times work for you? Can
+
+29:07
+you please check the Friday?
+
+29:10
+Hold on a sec.
+
+29:13
+On Friday, October 20 fifth, we have available slots at
+
+29:16
+10, 12, 14, 16,
+
+29:19
+and 18. Do any of these times work for you?
+
+29:21
+You know, actually,
+
+29:23
+maybe Thursday is gonna be even better.
+
+29:27
+This will just take a sec.
+
+29:30
+On Thursday, October 20 fourth, we have available slots at
+
+29:33
+10 and 12. Which 1 would you prefer?
+
+29:35
+I think I would take the, the 1 that is
+
+29:38
+on 12.
+
+29:40
+Got it. So you'd like to book the appointment on
+
+29:43
+Thursday, October 20 fourth at 12 PM. Can I have
+
+29:46
+your name, please? Sure. It's Kevin.
+
+29:50
+Thanks, Kevin. To complete the reservation for Thursday, October 20
+
+29:53
+fourth at 12 PM, I'll send you a booking link.
+
+29:56
+Just a moment. Just a sec.
+
+29:59
+It seems there's a technical issue with sending the booking
+
+30:01
+link right now. I recommend trying again later or contacting
+
+30:04
+our support team. Is there anything else I can help
+
+30:07
+you with? No. That's it. Thank you. Okay. So it's
+
+30:09
+interesting. I actually forgot that when I was doing the
+
+30:13
+preparations for the demonstration that I configured this,
+
+30:17
+send SMS module and I removed all the values so
+
+30:19
+it's only access. So it's very natural that there was
+
+30:22
+a technical error sending the SMS. But this is a
+
+30:24
+very nice demonstration that if something goes wrong, actually, the
+
+30:27
+payload that is being delivered back, as you can see,
+
+30:30
+it says SMS delivery error technical issue. Please try later
+
+30:33
+or contact the administrator.
+
+30:34
+So when actions are being performed, you have the ability
+
+30:37
+to communicate the result of that action even if the
+
+30:40
+data doesn't need to be sent back. What you can
+
+30:42
+do in the response to the tool call, you can
+
+30:45
+actually provide a result that is going to be a
+
+30:47
+sentence explaining the outcome of that tool call. I have
+
+30:51
+now adjusted the SMS module settings so that it uses
+
+30:53
+the correct credentials and is able to send the SMS.
+
+30:56
+So let's do another call, and let's see how this
+
+30:59
+goes.
+
+31:00
+This is LashMania virtual assistant. How can I help you?
+
+31:03
+Hey there. I would like to, reserve the service.
+
+31:09
+1 moment.
+
+31:10
+The closest available slots are on Wednesday, October 20 third
+
+31:13
+at 4 PM and 6 PM. Would either of those
+
+31:16
+times work for you?
+
+31:17
+I was actually hoping to, get some time on the
+
+31:21
+20 fourth of October.
+
+31:23
+Just a sec. On Thursday, October 20 fourth, we have
+
+31:26
+available slots at 10 AM and 12 PM. Do either
+
+31:29
+of those times work for you?
+
+31:31
+I think I'm gonna be good with 12 PM.
+
+31:36
+Great. Can I have your name, please?
+
+31:38
+It's Kevin.
+
+31:40
+Thanks, Kevin. To complete the reservation for Thursday, October 20
+
+31:44
+fourth at 12 PM, please use the booking link that
+
+31:46
+I'll send to you via SMS.
+
+31:48
+The reservation will only become active after you confirm it
+
+31:51
+using that link. Hold on a sec.
+
+31:53
+I've sent the booking link to you. Can you confirm
+
+31:56
+that you've received it?
+
+31:57
+So the booking link that was sent to me by
+
+31:59
+SMS
+
+32:00
+opens up a page like this. As you can see,
+
+32:02
+this is a Calendly event booking page.
+
+32:05
+So the time is from
+
+32:07
+12 PM to 2 PM. It's on October 20 fourth.
+
+32:11
+That is Thursday.
+
+32:12
+It has my name, Kevin, in here. And if I
+
+32:15
+look at the actual link that has been loaded in
+
+32:17
+the browser, you can see that it's the base link
+
+32:20
+of the Calendly page plus the date that has been
+
+32:23
+extracted from the discussion with the agent.
+
+32:26
+It also has a name parameter set to Kevin. That's
+
+32:28
+why all of these parameters are being prefilled and the
+
+32:31
+name is also being prefilled. So now I just need
+
+32:33
+to provide my email address,
+
+32:35
+schedule the event, and I'm gonna be done with booking
+
+32:38
+the event.
+
+32:39
+To remove any possible friction for you guys, I've prepared
+
+32:42
+a make automation
+
+32:43
+that will create the VAPI agent and also all the
+
+32:46
+tools associated with the LashMania project.
+
+32:49
+In the tutorial resources, you will find
+
+32:52
+1 make automation that is the voice agent back end,
+
+32:55
+another make automation that is creation of the agent in
+
+32:58
+VAPI and also the tools. And a third make automation
+
+33:02
+that is the test. Now let's start by looking at
+
+33:04
+the create agent automation.
+
+33:06
+So as you can see, this consists of essentially 4
+
+33:09
+objects that are going to be created inside VAPI. 1
+
+33:12
+is the agent. The second 1 is the send booking
+
+33:15
+link tool. The third 1 is the check availability tool,
+
+33:18
+and the fourth 1 is check availability on date tool.
+
+33:21
+Now for this whole thing to run smoothly,
+
+33:24
+I've added the configuration parameters in this pipeline here. So
+
+33:28
+if you click on the config, you will see that
+
+33:30
+you'll only need to provide the VAPI token once in
+
+33:33
+this box.
+
+33:34
+Now your VAPI token is located
+
+33:36
+under this menu in the bottom left,
+
+33:38
+API keys,
+
+33:40
+this private key. Just click copy
+
+33:43
+and paste it into this box here, and you should
+
+33:45
+be good to go. Now next configuration that you can
+
+33:48
+adjust is you can select which items would you like
+
+33:50
+to create. So for example, if you have already created
+
+33:53
+the agent or some of the tools, we have deleted
+
+33:56
+them and you want to recreate them. So just make
+
+33:58
+sure to
+
+33:59
+remove any value from the boxes of the items that
+
+34:03
+you don't want to be created. So only the ones
+
+34:05
+that are left here are going to be created. So
+
+34:08
+empty field means don't create and a field with the
+
+34:10
+value of 1 means that this object is going to
+
+34:13
+be created. Now after you have done the configuration and
+
+34:16
+you provided the VAPI token, just run this automation
+
+34:20
+and you should have the agent and all the tools
+
+34:22
+created under your VAPI account. Now when it comes to
+
+34:25
+the test automation, I've done exactly the same thing. So
+
+34:28
+let's have a look at that. So inside tests, you
+
+34:30
+have the config step where you can provide
+
+34:33
+the make automation
+
+34:34
+URL. You can provide the date for which to run
+
+34:37
+the test of the get availability on day, and you
+
+34:40
+can also provide the customer phone number to send the
+
+34:42
+SMS to.
+
+34:43
+Now these tests can be run when your make automation
+
+34:47
+has already been imported and is active. The same way
+
+34:50
+as with the creation of VAPI objects,
+
+34:52
+we have the configuration parameters here that allow us to
+
+34:55
+select
+
+34:56
+which of the tests we would like to run. When
+
+34:59
+you're happy with the setting, just click it run once
+
+35:01
+and it should be good to go. Now after importing
+
+35:04
+the main automation,
+
+35:05
+you will have to connect your Google Calendar accounts. And
+
+35:08
+in the same way as I've shown you in the
+
+35:10
+first tutorial in the part 1 of the AI voice
+
+35:13
+receptionist,
+
+35:14
+after reconnecting
+
+35:15
+your account, it might happen so that these fields are
+
+35:18
+gonna get wiped out. So I recommend using the approach
+
+35:21
+of cloning the module to have a backup, then reconnecting
+
+35:25
+your account here, and then after that, copying over the
+
+35:28
+values of these fields so you don't lose them.
+
+35:31
+Alright. So we've made it to the end of the
+
+35:33
+tutorial. I hope you enjoyed it just as much as
+
+35:35
+I did. And to solidify your knowledge, I suggest you
+
+35:37
+do these next steps. Download all tutorial resources.
+
+35:40
+Use the setup instructions in the tutorial resources to create
+
+35:44
+your agent and the make automations.
+
+35:45
+Definitely experiment with your voice agent and let us know
+
+35:48
+how it went. This has been KZ, and I'll see
+
+35:51
+you in the next 1.

@@ -1,0 +1,2741 @@
+Transcript
+Search
+
+00:00
+Hi, and welcome to the WhatsApp chatbot with the agenda
+
+00:02
+tutorial.
+
+00:03
+My name is Konstantin, and in this session, we will
+
+00:05
+be creating a chatbot with the agenda and deploying that
+
+00:08
+chatbot to WhatsApp.
+
+00:10
+Similar to the previous 1, this will be a beginner
+
+00:12
+level tutorial, and the objective will be to create a
+
+00:14
+Nova Beautispot chatbot that will be able to answer questions,
+
+00:17
+check availability, and create reservations. We will be solidifying in
+
+00:21
+this tutorial using a Genitive to create and configure chatbots,
+
+00:24
+the best practice for chatbot prompting, and additionally, we will
+
+00:27
+be connecting and make scenario to a Genetiv as a
+
+00:29
+tool, and we will be deploying the Genetiv chatbot to
+
+00:32
+WhatsApp. As a result of this session, we wanna have
+
+00:35
+a chatbot that is deployed to WhatsApp that can have
+
+00:37
+helpful and polite conversation,
+
+00:39
+that can answer customer questions using data from the knowledge
+
+00:42
+base, that can provide availability directly from the Google Calendar,
+
+00:45
+and that can create reservations directly in the Google Calendar.
+
+00:48
+Also heads up for you guys, you will have access
+
+00:51
+to all the resources like prompts, instructions, files,
+
+00:55
+all the services and systems linked in this tutorial, and
+
+00:58
+also step by step instructions to replicate this exact build
+
+01:01
+on your accounts.
+
+01:02
+All of these files will be available for you to
+
+01:04
+download in the resources section.
+
+01:06
+The components of this build are going to be, a
+
+01:09
+Genetiv as a chatbot orchestration platform
+
+01:12
+with the knowledge base and certain abilities like check closest
+
+01:15
+availability, check availability on on a specific day, and create
+
+01:19
+a reservation.
+
+01:20
+Now second component is make as a no code automation
+
+01:21
+platform where we
+
+01:22
+have
+
+01:23
+platform where we have different pipelines for connecting a Gentiff
+
+01:27
+chatbot to Google Calendar and handling the conversion of the
+
+01:30
+data between these 2 systems.
+
+01:32
+And finally, all of this setup is going to be
+
+01:35
+deployed to WhatsApp so that customers can easily communicate with
+
+01:38
+the business or this chatbot using their WhatsApp accounts.
+
+01:42
+So now when we know what we're building, let's briefly
+
+01:44
+touch on why we wanna build this. And the reason
+
+01:47
+is obvious.
+
+01:48
+Many businesses use WhatsApp as the communication channel with their
+
+01:51
+customers. And oftentimes, customers will be asking the same questions
+
+01:54
+all over again. They would want to check the availability
+
+01:57
+to provide the service, and they would want to create
+
+02:00
+a reservation. So this makes a perfect candidate
+
+02:03
+to offload these repetitive and mundane tasks to something like
+
+02:06
+an AI driven automation so that humans don't have to
+
+02:09
+deal with this.
+
+02:11
+Okay. Before we dive into individual building blocks of this
+
+02:14
+agent, let's take it for a quick spin.
+
+02:16
+So I'll start by asking some questions that should be
+
+02:19
+answered from the knowledge base and I'm gonna say, hey,
+
+02:23
+what is
+
+02:25
+your cancellation
+
+02:27
+policy?
+
+02:30
+So it should say that
+
+02:32
+it needs to be canceled 24 hours prior. K. That's
+
+02:36
+good enough. That is the directly from the knowledge base.
+
+02:38
+We don't have that in the prompt.
+
+02:40
+So next, I will say I need
+
+02:44
+to get
+
+02:46
+my gel nails.
+
+02:48
+Let's actually say
+
+02:49
+to get
+
+02:51
+my nails
+
+02:53
+fixed.
+
+02:55
+Can you
+
+02:57
+help
+
+02:58
+me with that?
+
+03:01
+So let's see what it comes back with to this
+
+03:03
+request.
+
+03:05
+Probably talking with
+
+03:07
+make automation. Yes. Sure enough. It says Monday, Tuesday, Wednesday.
+
+03:11
+So that's the closest
+
+03:13
+availability. I'm gonna say how about
+
+03:17
+Friday. So this is using
+
+03:19
+an individual date check function.
+
+03:26
+So 20 ninth, let's see if it comes back with
+
+03:28
+the 20 ninth. Yes. Availability on the 20 ninth.
+
+03:32
+Again, now I'm gonna say,
+
+03:34
+okay.
+
+03:37
+Wednesday
+
+03:39
+3 PM.
+
+03:45
+Okay. So name is k z. Email is sum at
+
+03:49
+1 dot com.
+
+03:52
+Go ahead. So expectation is that we're gonna have an
+
+03:55
+appointment scheduled. Just confirm, would you like to reserve nail
+
+03:58
+service on the Wednesday at 3 PM under name keys
+
+04:01
+email someone?
+
+04:04
+Yep.
+
+04:07
+Again, so we are currently testing it in the agent
+
+04:11
+itself, but the same functionality is going to be in
+
+04:14
+WhatsApp.
+
+04:15
+After connecting the agent to WhatsApp, we will test it
+
+04:18
+again.
+
+04:19
+So okay. Good stuff. It seems like everything is working.
+
+04:21
+I will just close with a final question, and that
+
+04:24
+is going
+
+04:26
+to be, can I
+
+04:27
+bring a pet?
+
+04:30
+And it doesn't have any information about pets, so it
+
+04:34
+actually should say that it doesn't have that info and
+
+04:37
+it can check that. I don't have specifics. I'll pass
+
+04:40
+request to the team for clarity. Okay. Good stuff. Seems
+
+04:43
+like everything is working, so let's dive into the details
+
+04:46
+of this build.
+
+04:48
+So when it comes to the agent creation
+
+04:51
+and configuration of the basic functions, like adding the open
+
+04:54
+API key,
+
+04:55
+and creation of the agent, I will not go into
+
+04:57
+those details as this is something you can check out
+
+05:00
+in the previous tutorial where we created the agent for
+
+05:03
+the website.
+
+05:05
+Now what I will do now is I will go
+
+05:07
+over the components that are the prompt,
+
+05:10
+the knowledge base, and the tools.
+
+05:12
+So here is our system prompt for this agent. Now
+
+05:15
+we have a persona that is a novar, that is
+
+05:18
+an AI assistant for nova beauty spa. Now the task
+
+05:20
+is pretty high level. It says that, it's to maintain
+
+05:23
+a professional, positive, and open minded communication with the customer,
+
+05:27
+answer questions, check availability, and create reservations.
+
+05:30
+Now you will notice that there's 1 additional thing that
+
+05:32
+I've added here, and that is use function get conversation
+
+05:35
+params immediately in the beginning of the conversation to get
+
+05:38
+important conversation parameters. Now I will explain to you what
+
+05:42
+is being returned by the get conversation parameters, but for
+
+05:45
+now, I'll just mention that since we are dealing with,
+
+05:48
+OpenAI
+
+05:49
+assistance API
+
+05:51
+and it doesn't know any dates,
+
+05:54
+what is gonna happen is that within the conversation prompts,
+
+05:57
+we're going to immediately give the agent what is the
+
+06:00
+current dates, date and time. So whenever there's a discussion
+
+06:03
+with the customer in regards to that I want something
+
+06:07
+tomorrow or next week or something like that, then agent
+
+06:09
+is aware of what is the starting point that is
+
+06:12
+today.
+
+06:13
+So it's super important because, otherwise, the agent will think
+
+06:16
+that the date is the seventh of April 2023.
+
+06:20
+That's the knowledge cutoff date
+
+06:22
+of the GPT 4 0 Mini model.
+
+06:26
+Next, we have knowledge.
+
+06:28
+It just says it's a very short,
+
+06:30
+prompt here. Always use file search tool to retrieve relevant
+
+06:33
+information
+
+06:34
+whenever the user asks a question that you do not
+
+06:36
+know how to answer. So again, it's very similar to
+
+06:38
+what we had previously, super short. And overall, what I
+
+06:42
+found is that if we keep the prompt,
+
+06:45
+high level and we allow the model to decide what
+
+06:47
+exactly it needs to do to achieve this high level
+
+06:50
+objective, then actually, the GPT,
+
+06:53
+4 0 models are quite,
+
+06:56
+quite capable at figuring that out, and it feels very
+
+06:58
+natural when they do that.
+
+07:00
+So next up is the reservation section. Now in here,
+
+07:03
+we just say that, at Noah, we allow reservations to
+
+07:06
+be created so that agent understands that is the the
+
+07:09
+the possibility.
+
+07:10
+Now we also mentioned that every reservation requires exactly 1
+
+07:14
+hour to be blocked on the calendar.
+
+07:16
+And just to quickly expand on this 1. So for
+
+07:18
+the demonstration purposes and for this exact,
+
+07:22
+tutorial, we did that because we don't have real booking
+
+07:25
+system connected to the agent. So in a real world,
+
+07:28
+you should understand that probably it's not going to be
+
+07:31
+enough.
+
+07:32
+And to satisfy the requirements for for an actual business
+
+07:35
+that provides
+
+07:36
+beauty services or maybe a barbershop or something like that,
+
+07:40
+you would actually have
+
+07:41
+variable length services. Something is gonna take 30 minutes, another
+
+07:45
+thing is gonna take 1 hour, some other things are
+
+07:47
+gonna take like 2 hours and
+
+07:49
+and so on. So essentially, this here using the Google
+
+07:52
+Calendar, this reservation system is just for demonstrations of how
+
+07:55
+you connect external system that is capable of providing first
+
+07:59
+the availability, and second, to accept the reservation requests and
+
+08:03
+actually book them into something. And in this case, we're
+
+08:06
+just using Google Calendar as that external system. But in
+
+08:09
+real world, what's probably gonna be needed to achieve the
+
+08:12
+business goals is to have an actual booking system that
+
+08:15
+is capable of providing you
+
+08:17
+availability for variable length services, maybe for multiple employees, different
+
+08:22
+ones working in parallel at the same time, maybe multiple
+
+08:25
+venues or multiple,
+
+08:28
+you know, different other parameters.
+
+08:30
+So, essentially,
+
+08:31
+again, this is a demonstration. This is not a final
+
+08:34
+ready made thing, especially if you're dealing with variable length
+
+08:37
+services, but this gives you a pretty good understanding of
+
+08:40
+how you would go about connecting that type of thing
+
+08:43
+to the agent,
+
+08:45
+to achieve,
+
+08:46
+the capabilities of providing availability
+
+08:49
+and to book the reservations or to create the reservations.
+
+08:53
+Now additional instructions here is that,
+
+08:56
+there are many time slots available in the day. Or
+
+08:59
+Or if there are many time slots available in the
+
+09:01
+day, then it needs to summarize them instead of listing
+
+09:03
+every time slot individually.
+
+09:05
+And I'm just giving it an example of how it
+
+09:07
+needs to go about listing, like using these pipe symbols
+
+09:10
+and just listing out all the available
+
+09:13
+times within within 1 day. Now also giving agent understanding
+
+09:17
+and context that it has these 3 functions available to
+
+09:20
+it, check availability, check availability on date, and create the
+
+09:23
+reservation.
+
+09:24
+Later in this tutorial where I will show you what's
+
+09:27
+the open API schema for adding these tools to the
+
+09:29
+agent,
+
+09:30
+you will see that I in there, I'm also explaining
+
+09:33
+what the check availability function does or what the create
+
+09:37
+reservation function does. So it doesn't hurt explaining that to
+
+09:41
+the agent, both in the open API schema and also
+
+09:43
+in the prompt. So it has a very clear understanding,
+
+09:46
+of what the functions are. And additionally, we can also
+
+09:50
+tell it specifically when it needs to use that. So
+
+09:54
+if it was only the open API schema, then agent
+
+09:57
+would we would just have to guess, like, okay, now
+
+09:59
+it seems like a good time to use that function.
+
+10:02
+But we can also, in the prompt, tell it explicitly,
+
+10:06
+like, when this thing happens,
+
+10:08
+you should use that function, and you should use the
+
+10:11
+output of that function to communicate
+
+10:13
+the results to the customer.
+
+10:15
+So next up is the reservation creation instruction. We have
+
+10:18
+total of 4 steps here. Find the closest day and
+
+10:21
+time,
+
+10:23
+available and if it works and find out if it
+
+10:25
+works for for them.
+
+10:27
+We can say for
+
+10:30
+for the user.
+
+10:32
+Second 1 is ask the user to provide the name
+
+10:34
+and email for the reservation.
+
+10:36
+Now third 1 is ask the user to confirm the
+
+10:39
+details of the reservation.
+
+10:40
+And after getting the user confirmation, create the reservation. So
+
+10:44
+I've deliberately split it into these kind of individual step
+
+10:47
+just to make it super clear for the agent that
+
+10:49
+you absolutely always
+
+10:51
+must,
+
+10:52
+ask the user to reconfirm the details and the time.
+
+10:55
+Now, again, if you wanna simplify this process and potentially
+
+10:58
+have it, so that agent doesn't require the person to
+
+11:02
+reconfirm that, then you can simplify this to to 3
+
+11:04
+steps instead of being 4.
+
+11:07
+Now, again, you can see that I'm using in each
+
+11:09
+individual step where possible I'm referencing the function saying that
+
+11:13
+you need to use the check availability function to to
+
+11:15
+fetch the closest available times. Now if use is asking
+
+11:18
+for availability on on a specific day, then use that
+
+11:21
+function
+
+11:22
+to do that. So
+
+11:23
+it's very clear. You can have a read on this,
+
+11:26
+on the system prompt, but overall, this is the design
+
+11:29
+of the reservation creation process.
+
+11:32
+And finally, the important rule section,
+
+11:35
+which just lists the do's and don'ts for the agent.
+
+11:37
+Again, this is a standard section that I include in
+
+11:39
+all of my agents.
+
+11:41
+You can see that,
+
+11:43
+there's nothing specifically added for this individual agent.
+
+11:47
+So, yeah, that's it for the prompt.
+
+11:49
+Next up is the knowledge base. So I've generated this
+
+11:53
+knowledge base completely,
+
+11:55
+from prompts with ChartGPT, so there's no real data in
+
+11:57
+it.
+
+11:59
+And the process looked like this. I just asked ChartGPT
+
+12:02
+to come up with some sections and potential parts of
+
+12:05
+the description for such thing as the beauty spar. And
+
+12:09
+then we went through a process of,
+
+12:12
+it generating certain,
+
+12:14
+potential descriptions in parts of that section and me some
+
+12:17
+picking and choosing, like, okay. I wanna keep this. I
+
+12:19
+wanna throw out that. So that resulted in a big
+
+12:22
+description overall, and then I asked, ChatGPT to convert this
+
+12:25
+into question and answer format. So, essentially, it came up
+
+12:29
+with a pretty long q and a,
+
+12:33
+that
+
+12:34
+is if that is formatted like this because knowledge bases
+
+12:37
+actually,
+
+12:38
+work best if you don't just provide the information that
+
+12:42
+is the answer,
+
+12:43
+but you also provide a potential question that,
+
+12:46
+users might be asking
+
+12:48
+to come up with this information. So why that is
+
+12:51
+useful is because when you add this knowledge base to
+
+12:54
+any agent,
+
+12:56
+and especially if you add this to a agent, which
+
+12:58
+uses
+
+12:59
+OpenAI under the hood, what's gonna happen is that this
+
+13:02
+file is gonna get split into different parts, like chunks.
+
+13:05
+So let's imagine that this is gonna be like 1
+
+13:08
+part of the file.
+
+13:10
+So
+
+13:11
+it's very useful to have a question because
+
+13:14
+this just lists the address. But the user is gonna
+
+13:17
+be asking, where are you? Where are you located? What's
+
+13:20
+the address? And stuff like that. So in that case,
+
+13:23
+semantically,
+
+13:24
+it is going to map
+
+13:26
+this question when trying to find the answer for it.
+
+13:30
+So there's a much higher chance for both coming up
+
+13:33
+with the answer that user is looking for if
+
+13:36
+the knowledge base also includes the question, not only the
+
+13:40
+answer.
+
+13:41
+So I will not go over the different steps. This
+
+13:43
+knowledge base is gonna be available to you in the
+
+13:45
+resources. You can download it. You can look at the
+
+13:48
+questions and the answers. If you want, you can try
+
+13:50
+and provide some synthetic data additionally on top of what
+
+13:53
+you see here. We can use ChargeGPT to give it
+
+13:55
+this knowledge base and say, okay. Let's invent some additional
+
+13:58
+parts or let's change something.
+
+14:00
+So feel free to do that if you feel like
+
+14:02
+modifying the knowledge base.
+
+14:04
+That is the standard description of the services
+
+14:07
+and some terms and conditions.
+
+14:10
+Additional part of the knowledge base or the knowledge for
+
+14:13
+the agent is the list of services.
+
+14:15
+Again, I'm following exactly the same approach as I did
+
+14:18
+with the knowledge base. So you can see it is
+
+14:20
+being listed here in a flat format
+
+14:24
+where every single service that is being provided is prepended
+
+14:27
+with a a service semicolon.
+
+14:30
+Again, there's a reason why I decided to go for
+
+14:32
+this kind of formatting, and that is because
+
+14:35
+whenever if you are going for, let's say, an option
+
+14:37
+where you just have a header, like a title that
+
+14:40
+says services, and underneath that, you just list the services.
+
+14:43
+When this document gets chunked up, there's no mention of
+
+14:47
+this being a service.
+
+14:48
+So when somebody's looking,
+
+14:51
+can I get a nail polish service or can I
+
+14:53
+get a hair service, haircut, something like that,
+
+14:57
+it might not be exactly,
+
+14:59
+findable?
+
+15:01
+And if somebody says, what are your services?
+
+15:04
+Then what's gonna happen is that, semantically,
+
+15:09
+the bot or the agent is gonna take this question,
+
+15:11
+services, like, what are your services? It's going to go
+
+15:14
+and look in the knowledge base for
+
+15:17
+good matches for that query.
+
+15:19
+And in this case, if you have service under every
+
+15:22
+single,
+
+15:23
+name of the service or prepended,
+
+15:26
+as the beginning of every single name of the service,
+
+15:29
+that means that if, let's say, this portion appeared to
+
+15:32
+be,
+
+15:33
+in 1 chunk
+
+15:34
+of the knowledge base when it's getting indexed, then it's
+
+15:37
+gonna detect, like, hey. This is the service and this
+
+15:40
+is a service. So it has much more context and
+
+15:42
+much more understanding
+
+15:43
+of what that thing is,
+
+15:45
+and what it needs to say back to the user.
+
+15:48
+So, again, this is the service knowledge.
+
+15:52
+I wouldn't say specifically a knowledge base, but this is
+
+15:55
+the file that we will be uploading
+
+15:57
+to the agent knowledge base so that whenever somebody is
+
+15:59
+asking the questions about services, it will have access to
+
+16:02
+this and it will be able to
+
+16:04
+read this file and provide the answer.
+
+16:07
+1 more thing though is that just to build up
+
+16:10
+the context and understanding of how knowledge bases work and
+
+16:13
+how,
+
+16:14
+including knowledge or information in the knowledge base is different
+
+16:17
+from including knowledge information inside the system prompt.
+
+16:21
+Everything that is in the system prompt is
+
+16:24
+is visible to the agent in its entirety,
+
+16:27
+at every single message.
+
+16:30
+On the contrary, anything that is in the knowledge or
+
+16:32
+in the knowledge base is not immediately
+
+16:35
+visible to the agent in its full entirety. What's happening
+
+16:38
+is that whenever user is asking a question
+
+16:41
+that can be potentially answered using the information from the
+
+16:44
+knowledge base, the agent is gonna query the knowledge base
+
+16:48
+using the vector search, that is the similarity search essentially.
+
+16:52
+And it's only going to get back pieces of the
+
+16:55
+knowledge base, some parts of it
+
+16:57
+that,
+
+16:58
+that appear to be the the closest in terms of
+
+17:01
+meaning,
+
+17:02
+to what the user is asking. So that's the the
+
+17:05
+biggest difference. So a very common misconception is that you
+
+17:08
+can ask overarching questions about stuff in the knowledge base.
+
+17:12
+So let's say if you upload a book that's like
+
+17:15
+300 pages long
+
+17:17
+and you ask to summarize
+
+17:19
+what's been said in the book, it is not going
+
+17:21
+to actually successfully do that because it cannot
+
+17:24
+fit the whole 300 pages into its memory
+
+17:27
+to give you a comprehensive,
+
+17:29
+summary of the book in its entirety. It's going to
+
+17:32
+pick and choose certain parts of it, and it's going
+
+17:34
+to come up with a partial
+
+17:36
+description, a partial summary.
+
+17:38
+Just very important to understand that when you're working with,
+
+17:41
+stuff,
+
+17:42
+uploaded into the knowledge base.
+
+17:45
+Okay, guys. Let's quickly recap. So so far we have
+
+17:48
+been discussing this part of the whole build. That is
+
+17:51
+the agentive parts.
+
+17:52
+So we have been discussing the prompt and the knowledge
+
+17:55
+base,
+
+17:56
+and that's essentially it. So now let's switch to the
+
+17:59
+make automation, this part of the build.
+
+18:03
+If you have watched the previous tutorials, especially the advanced
+
+18:06
+voice agent 1, you will recognize in this, make automation,
+
+18:11
+quite a few pieces.
+
+18:12
+So
+
+18:13
+I've inherited,
+
+18:15
+most
+
+18:16
+at least half of this automation from that tutorial.
+
+18:19
+So this upper branch, this is calculating the closest availability,
+
+18:23
+meaning that it's going to go ahead and fetch,
+
+18:26
+somewhere around 3 days of or 3 working days of
+
+18:29
+availability,
+
+18:31
+and display that back to the user. So this is
+
+18:33
+really useful because when somebody says, okay. When is the
+
+18:36
+the closest available time?
+
+18:38
+The agent is actually going to fetch,
+
+18:40
+the closest 3 working days and say, okay. We have
+
+18:43
+times on this and and that day. Which 1 works
+
+18:46
+best
+
+18:47
+for you? This branch here,
+
+18:49
+this 1 is fetching the availability for 1 specific day.
+
+18:53
+So if agent or user is asking, okay. How about
+
+18:56
+this Friday? Or how about next Wednesday?
+
+18:59
+The agent is going to go ahead and look availability
+
+19:02
+for that 1 specific day.
+
+19:04
+And these,
+
+19:06
+responses here, for example, this 1 is just checking if,
+
+19:10
+that is a weekend. This 1 is checking that, usually,
+
+19:13
+it's asking for all the past dates. So this
+
+19:15
+shouldn't be, you know, something that we should be providing
+
+19:18
+availability for because it doesn't make any sense.
+
+19:21
+And this branch here is just checking availability and time
+
+19:24
+slots,
+
+19:26
+within that specific day when user is asking for 1
+
+19:28
+day. Now what was added here additionally
+
+19:32
+are these 2 branches here in the bottom.
+
+19:35
+Now this branch here, this is where the booking, where
+
+19:38
+the adding of the reservation into the Google Calendar happens.
+
+19:42
+So
+
+19:42
+we are just progressing
+
+19:44
+here, and
+
+19:45
+if it appeared that
+
+19:47
+that time that we just requested is busy, for example,
+
+19:50
+this can happen because,
+
+19:52
+somebody else has already booked that time before the customer
+
+19:55
+made it to confirming that appointment at that given day
+
+19:58
+and time.
+
+19:59
+This might happen, but if it's actually available, if it's
+
+20:02
+still available, it's going to progress,
+
+20:04
+into this part,
+
+20:06
+and it's going to create the reservation and then prepare
+
+20:08
+the response back to the customer saying, okay. Like, the
+
+20:11
+reservation successfully created.
+
+20:13
+Actually, there's also, like, additional part here that says,
+
+20:17
+if for any reason it wasn't possible, there might be,
+
+20:19
+like, an error or something else that happened on the
+
+20:21
+calendar.
+
+20:22
+It is going to say that, you know, there was
+
+20:24
+a problem creating the reservation.
+
+20:26
+So essentially, this is 1 of the additional things. And
+
+20:28
+also what I added here is this simple,
+
+20:32
+simple leg.
+
+20:34
+And this pathway is responsible for generating
+
+20:38
+right now only what's the now, meaning that it will
+
+20:41
+output so this is the, the request. So it will
+
+20:45
+output actually,
+
+20:47
+what is the current date. And in the prompt,
+
+20:50
+this is the part that is triggering that that lag
+
+20:53
+in the automation. It says use the get conversation parameters
+
+20:57
+immediately in the beginning of the conversation to get important
+
+20:59
+conversation parameters. So I'm keeping it abstract because I might
+
+21:02
+wanna add not only date, but something else there.
+
+21:05
+But this is for letting the agent know what's the
+
+21:08
+current date,
+
+21:10
+so that it can effectively
+
+21:11
+understand the relativeness of of questions
+
+21:14
+on time, like today, tomorrow,
+
+21:17
+next week, and and so on.
+
+21:19
+So essentially, this is the automation. Let's give it a
+
+21:22
+quick spin so you understand what is actually happening and
+
+21:24
+what's the output. So let's start by running it once.
+
+21:28
+And I will use now Postman to send some test
+
+21:31
+requests
+
+21:32
+into this make automation.
+
+21:34
+Okay. Let's start by running this check availability
+
+21:36
+that is going to fetch the 3 upcoming workdays,
+
+21:40
+in terms of availability.
+
+21:43
+So this can be done by sending a get request
+
+21:46
+to the make automation
+
+21:48
+URL.
+
+21:49
+And
+
+21:50
+what I've added here is this question mark action equals.
+
+21:53
+And I will explain in a bit why that is
+
+21:55
+the case and why this part is here.
+
+21:59
+Okay. So it came back with a result
+
+22:02
+within that result
+
+22:03
+object. And when I say object, that means that it's
+
+22:06
+in the curly braces like this.
+
+22:08
+So it has a field called availability, and the square
+
+22:12
+brackets like this are the array, meaning it's a list
+
+22:15
+of different elements. So within this array that starts here
+
+22:17
+and ends here,
+
+22:19
+you can see that there's, like, 1,
+
+22:23
+2,
+
+22:23
+and 3 elements inside
+
+22:26
+of it. So each element is 1 individual day. So
+
+22:28
+it says Monday, 20 fifth of November, these are the
+
+22:31
+time slots. 26 of November, these are the time slots.
+
+22:34
+And important here, thing here is that notice that I've
+
+22:37
+added Monday 20 fifth of November 2024.
+
+22:41
+Deliberately giving it the year just to be super
+
+22:44
+sure that it's going to stay within that year. And
+
+22:46
+when I I say, like, let's go for next Wednesday,
+
+22:49
+it's actually going to do that relative to this year
+
+22:52
+that is provided inside the availability.
+
+22:54
+So that's the output of check availability. Now check availability
+
+22:58
+on date is a post request that uses the same
+
+23:01
+make URL.
+
+23:02
+It has action equals
+
+23:04
+forward slash check availability on date. And it's a post
+
+23:07
+request because we need to send additional data inside of
+
+23:10
+it,
+
+23:11
+and
+
+23:12
+it's a date field. And it's going to have this
+
+23:15
+kind of format
+
+23:16
+that is the year, the month, and the day. So
+
+23:19
+let's send that, and let's see what it comes back
+
+23:21
+with.
+
+23:22
+Okay. So availability for Friday 20 ninth
+
+23:25
+is this, and these are the time slots.
+
+23:28
+Now we additionally have
+
+23:30
+a function or a pathway inside our automations, this 1,
+
+23:35
+that is creating the reservation.
+
+23:37
+So when we do that, we can actually, in this
+
+23:39
+case, just run it once.
+
+23:42
+And let's create the reservation.
+
+23:44
+Okay. Reservation successfully created. So you can see that it
+
+23:48
+came in here with the parameters,
+
+23:50
+date, time, name,
+
+23:53
+email, create reservation.
+
+23:55
+That is the action.
+
+23:56
+And then it progressed into the Slack
+
+23:59
+checking. I think that was the checking of the
+
+24:03
+of the availability. So there are no bundles within this
+
+24:06
+time, meaning that that,
+
+24:09
+that time is free on on the calendar. And then
+
+24:12
+it progressed into this. Yes. It's available. And they created
+
+24:15
+the reservation, and the output was
+
+24:17
+reservation
+
+24:18
+successfully created.
+
+24:20
+So
+
+24:21
+1 last thing is we're gonna check
+
+24:24
+the request that's getting the conversation parameters. Again, I'm gonna
+
+24:27
+clear the response here. I'm gonna send it in.
+
+24:30
+The body is non existent. It's a get request. So
+
+24:33
+it's the same base URL for the make,
+
+24:37
+scenario webhook
+
+24:38
+with question mark action equals forward slash get conversation parameters.
+
+24:42
+So send.
+
+24:43
+And it just comes back with the current date and
+
+24:47
+time.
+
+24:48
+So,
+
+24:49
+let me explain a little bit why this question mark
+
+24:52
+action equals forward slash get conversation parameters.
+
+24:56
+Here on screen, you see the open API schema, and
+
+24:59
+you will have access to this to copy and paste
+
+25:01
+it directly into the, agent.
+
+25:04
+And compared to the previous tutorial where we were copying
+
+25:07
+the open API schema from relevance
+
+25:10
+and also compiling the open API schema using ChargeGPT for
+
+25:13
+Airtable,
+
+25:14
+in this case,
+
+25:16
+I'm free to give you a premade open API schema
+
+25:19
+because the only thing that you would need to change
+
+25:21
+is this part, this URL here.
+
+25:24
+So the question mark action needs to stay. You will
+
+25:27
+only have to replace this part, which is the webhook
+
+25:30
+URL that you can get from the make automation.
+
+25:34
+That is this first module here. If you click on
+
+25:36
+this,
+
+25:37
+this is the URL that you wanna copy from here,
+
+25:40
+and then go ahead and paste that into the open
+
+25:42
+API schema.
+
+25:44
+So copy this address to clipboard,
+
+25:46
+navigate to where you have the schema,
+
+25:49
+copied to some kind of a text editor or,
+
+25:53
+your your local Notion, and then just replace this part
+
+25:56
+with what you've just copied inside Make.
+
+25:59
+Okay. So coming back to the point why we wanna
+
+26:02
+have the forward slash,
+
+26:04
+actions there.
+
+26:06
+So it's a trick of how we can use open
+
+26:09
+API schema
+
+26:11
+with make. So if we were not using this question
+
+26:14
+mark mark action, what you would have to do is
+
+26:16
+have a separate schema
+
+26:17
+for each individual action, and meaning you would have to
+
+26:20
+have a separate automation inside make for each individual action,
+
+26:24
+which is quite a bit of an overhead to manage.
+
+26:26
+So the workaround for this is that when you have
+
+26:29
+the server URL
+
+26:31
+that looks like this, you just append to it question
+
+26:33
+mark action equals.
+
+26:35
+And then for each of the path,
+
+26:37
+you use some kind of a keyword. And I've gone
+
+26:40
+for using the function name here,
+
+26:43
+prepended with a forward slash. Now why we wanna have
+
+26:45
+a forward slash is because the open API specification says
+
+26:49
+that paths
+
+26:50
+need to start with a forward slash.
+
+26:52
+So essentially, what's gonna happen behind the scenes is that
+
+26:57
+when this tool is being invoked by the agent,
+
+27:00
+it is going to say to agentive,
+
+27:02
+I want you to run this tool. And agentive is
+
+27:05
+going to take this URL
+
+27:08
+and it's going to add here to the end of
+
+27:10
+this URL forward slash check availability.
+
+27:13
+Now when that happens,
+
+27:14
+when request comes into make,
+
+27:17
+it will contain that parameter action forward slash create reservation,
+
+27:22
+as you can see here.
+
+27:24
+And we are then routing the request into 1 of
+
+27:28
+the legs in the make automation based on that action
+
+27:31
+parameter. So you can see that if we look at
+
+27:33
+the filter, it says check availability and the condition is
+
+27:35
+that action equals
+
+27:37
+to forward slash check availability.
+
+27:40
+So this is a very neat way to organize
+
+27:42
+all of your tools, all of the actions that you
+
+27:45
+wanna perform inside your agent into a make automation. And
+
+27:49
+in different legs,
+
+27:50
+have different functionality
+
+27:51
+connected
+
+27:52
+to any kind of external system. So in this case,
+
+27:55
+it's just Google Calendar, but you can also have in
+
+27:57
+the same way,
+
+27:58
+connected Airtable or Relevance
+
+28:01
+or
+
+28:01
+virtually any other system that is supported by Make,
+
+28:05
+or that is possible to make an HTTP request to.
+
+28:09
+So super useful. Use it, guys.
+
+28:12
+This is how it's built.
+
+28:15
+So all parts, the prompt, the knowledge base files that
+
+28:18
+you can see here and
+
+28:20
+the schema for the tools is going to be available
+
+28:22
+for you to download in the resources of this tutorial.
+
+28:26
+So,
+
+28:26
+prompt, just copy and paste knowledge. Just upload the files
+
+28:29
+after creating the knowledge and to get the tools up
+
+28:32
+and running. What you'll need to do is to,
+
+28:35
+use this open API schema for the make scenario,
+
+28:39
+replace this part that is the webhook URL,
+
+28:43
+and then copy the whole thing and add it to
+
+28:46
+Adjentive, and you should be good to go.
+
+28:48
+Okay. Now with all of these things out of the
+
+28:50
+way, let's begin with the fun part,
+
+28:52
+and that is connecting your agent to WhatsApp. So we're
+
+28:56
+gonna start by clicking the deploy button. In here, we're
+
+28:59
+gonna select
+
+29:01
+WhatsApp,
+
+29:02
+connect WhatsApp.
+
+29:04
+So starting from this page, we will go through a
+
+29:06
+process that is orchestrated by Meta,
+
+29:09
+of how you can add a WhatsApp. So in my
+
+29:11
+case, in this particular case, I will be adding a
+
+29:14
+completely new number. So I went ahead and just bought,
+
+29:17
+like, a,
+
+29:18
+a single use SIM card
+
+29:20
+that I will attach to my business and that I
+
+29:22
+will declare as 1 additional WhatsApp channel that I have
+
+29:26
+in my business.
+
+29:27
+So let's start with that.
+
+29:32
+So let's connect your account to a agenda, Morningside business
+
+29:34
+manager.
+
+29:35
+I'm not sure what BM stands for, but I'm thinking
+
+29:37
+this is business manager.
+
+29:39
+Okay. Let's go ahead and get started.
+
+29:42
+Okay. So the business port portfolios, you guys, if you
+
+29:46
+don't have a business portfolio yet, you will have an
+
+29:48
+option to create a business portfolio.
+
+29:51
+So I do have a maximum of 3 business portfolios
+
+29:54
+already created under my,
+
+29:56
+business name. So I'll just select the 1 that is,
+
+29:59
+my primary business.
+
+30:01
+Let's go next.
+
+30:06
+Now we at a point where it says create or
+
+30:07
+select your WhatsApp business account.
+
+30:10
+Again, I do have business accounts, WhatsApp business accounts already
+
+30:13
+existing.
+
+30:14
+I don't see them listed here, and that is because
+
+30:17
+they are already associated with different service providers, so they
+
+30:20
+are not accessible.
+
+30:21
+So if you think that you already have a WhatsApp
+
+30:23
+and you would like to bring it over to a
+
+30:26
+agent,
+
+30:27
+I actually do not know what's the correct process here,
+
+30:29
+but you will not see listed if it's already used
+
+30:32
+by some kind of other,
+
+30:34
+let's say,
+
+30:35
+provider for WhatsApp business API.
+
+30:38
+So for me, I'm just gonna keep the creator WhatsApp
+
+30:40
+business account, create a new WhatsApp business profile, gonna hit
+
+30:43
+next.
+
+30:44
+So in here, I'm gonna fill out these these fields.
+
+30:48
+So it says WhatsApp business account name. And if I
+
+30:50
+hover this I sign information, it says your audience will
+
+30:54
+not see this information. Triple
+
+30:57
+a tutorial
+
+31:00
+WhatsApp.
+
+31:06
+So WhatsApp business display name. And in this case, I
+
+31:10
+will use my company,
+
+31:14
+because it says that your name your display name should
+
+31:17
+match the business name and adhere to WhatsApp business display
+
+31:20
+name guidelines. So I will keep the the business name
+
+31:23
+here, and I will add additionally
+
+31:26
+triple a,
+
+31:27
+and that's gonna be it. In terms of category, I
+
+31:30
+will select that
+
+31:32
+we are going for public service. Let's think if we
+
+31:32
+have some
+
+31:41
+next.
+
+31:43
+Okay. So now it says, type in the phone number
+
+31:46
+that I have here locally.
+
+32:00
+Okay. And I will be
+
+32:03
+verifying this phone number using a text message. Okay. Next.
+
+32:12
+Okay. It says that the message has been sent, and
+
+32:14
+I just got the text message on my phone where
+
+32:16
+the SIM card is already,
+
+32:18
+inserted.
+
+32:19
+So I'm gonna now provide the verification.
+
+32:32
+Okay. So it says review agentive hub connections access request,
+
+32:35
+manage your WhatsApp accounts,
+
+32:37
+manage and access conversations in WhatsApp. Sounds good to me,
+
+32:41
+so let's continue.
+
+32:44
+It says verifying your information.
+
+32:49
+Okay. So it looks like we have been connected on
+
+32:52
+WhatsApp. So it says you are now ready to chat
+
+32:54
+with people on WhatsApp.
+
+32:57
+Mhmm.
+
+32:58
+It will also
+
+32:59
+require some kind of review,
+
+33:01
+by Meta. So I guess if you've named your business
+
+33:04
+something funky or if there's something off,
+
+33:08
+they might actually,
+
+33:09
+close this business account,
+
+33:12
+not your entire business account, this WhatsApp business account, or
+
+33:15
+it might be
+
+33:16
+suspended or something like that. I've seen that happen.
+
+33:19
+But usually, if you are not violating any terms and
+
+33:23
+conditions by Meta, it should all be good. So we
+
+33:25
+can start using this account, I think so.
+
+33:34
+Select which phone numbers you'd like to connect. Let's select
+
+33:36
+this 1.
+
+33:37
+This phone number is not registered with the WhatsApp Business
+
+33:39
+API. Please click to confirm to register
+
+33:43
+it. Okay. Confirm.
+
+33:45
+Let's see what happens next.
+
+33:51
+So let's see what it says. WhatsApp, great. You're not
+
+33:54
+connected, your agent,
+
+33:55
+to an x y z x y z account. Not
+
+33:58
+sure what that means. And you can start interacting with
+
+34:01
+it from the x y z x y z directory.
+
+34:04
+So what's the interval thing?
+
+34:06
+How long the agent waits before starting to respond to
+
+34:09
+a message? A low interval will make the agent respond
+
+34:12
+faster, but may cause it to reply to multiple messages
+
+34:15
+from the same user in quick succession.
+
+34:17
+Okay. Let's up this to 9 seconds.
+
+34:20
+I think it's in seconds.
+
+34:23
+And let's save.
+
+34:25
+So, yeah, WhatsApp connection updated. K. Good stuff. I think
+
+34:29
+that is it, guys.
+
+34:31
+We have now the WhatsApp connected. Let's start testing that.
+
+34:34
+I'm going to stop the WhatsApp testing by first showing
+
+34:37
+you a couple of the components that will be involved
+
+34:39
+in this testing process.
+
+34:40
+And this is gonna be the WhatsApp itself, the make
+
+34:42
+automation. We are going to be observing that for certain
+
+34:45
+requests just to see how it reflects how agent is
+
+34:48
+relaying these requests into the make automation.
+
+34:52
+And it's going to be the calendar as well. So
+
+34:54
+after we have,
+
+34:56
+talked via WhatsApp with the agent, we will see the
+
+34:58
+events popping up in the calendar just to make sure
+
+35:00
+that it's all actually working.
+
+35:02
+So first things first, let's start by just sending it
+
+35:05
+a couple of standard messages. Hey,
+
+35:10
+are you
+
+35:11
+open
+
+35:14
+tomorrow?
+
+35:15
+So we wanna potentially come and visit. And the first
+
+35:19
+question is about
+
+35:21
+the open times.
+
+35:22
+Let's see what the agent comes back with.
+
+35:26
+So today's Thursday.
+
+35:28
+Tomorrow's gonna be Friday. Let's see what the agent says.
+
+35:32
+Yes. We are open tomorrow, Friday, 20 ninth of November
+
+35:35
+from 10 to 7.
+
+35:38
+Any specific services in mind?
+
+35:41
+Yeah. Yep.
+
+35:45
+Need
+
+35:46
+to get my
+
+35:49
+nails done.
+
+35:55
+And in this case, it actually suggested the times for
+
+35:58
+tomorrow because of the context, because we were asking if
+
+36:01
+it's open tomorrow.
+
+36:03
+So it went ahead and suggested the times for that.
+
+36:07
+Now let's run the make automation
+
+36:09
+to be able to catch the request that, the agent
+
+36:12
+is gonna be sending to it when it executes various
+
+36:15
+tools.
+
+36:17
+And now in WhatsApp, we are going to
+
+36:21
+say that 2 PM
+
+36:24
+actually, let's go for 3 3 PM, please.
+
+36:30
+So probably
+
+36:31
+it's gonna come back and ask for for a name
+
+36:33
+and email because in the prompt, if you remember, we
+
+36:36
+have that procedure that whenever the booking is requested,
+
+36:40
+we need to get the customer name and email for
+
+36:42
+the reservation. That's what the bot says here right now.
+
+36:45
+So I'm gonna say k z
+
+36:47
+and it's gonna be
+
+36:49
+sum
+
+36:50
+at 1 dot com.
+
+36:53
+Okay. So the idea is that when I submit this,
+
+36:56
+I actually should see either a message where it asks
+
+36:59
+me to confirm the whole thing or maybe it's gonna
+
+37:01
+go ahead and try to create the reservation. So let's
+
+37:04
+see.
+
+37:08
+Yes. So just to confirm, would you like to make
+
+37:11
+a reservation for nail services on Friday, 3 PM k
+
+37:14
+z and some at 1 dot com?
+
+37:16
+Yep.
+
+37:18
+And now what's gonna happen is that when this message
+
+37:20
+from WhatsApp reaches a Gentiff, now a Gentiff
+
+37:23
+will
+
+37:24
+invoke the tools, and 1 of the tools is create
+
+37:27
+reservation. Now it has all the data already for that.
+
+37:31
+So, okay. We have gone past this this part.
+
+37:34
+So we have parsed the date.
+
+37:36
+Now next, we checked in the Google Calendar that time
+
+37:39
+slot that starts with 3 PM.
+
+37:42
+Sorry. That starts with 3 PM and ends with 4
+
+37:44
+PM. Is that available? So we got total number of
+
+37:47
+bundles, meaning that there were no events in calendar on
+
+37:49
+that, on that time, on that day. And then we
+
+37:52
+proceeded and the router went into this part because it's,
+
+37:56
+it's available. So we don't have any bundles. So we
+
+37:59
+can proceed to this bottom leg and create the event.
+
+38:02
+And sure enough, we did create the event. Let's double
+
+38:05
+check that in the calendar.
+
+38:08
+Let's refresh the calendar.
+
+38:10
+Friday,
+
+38:12
+the 20 ninth of November, and you can see that
+
+38:14
+for 3 PM, we have a nova reservation for KZ.
+
+38:17
+If we open that event, we have
+
+38:19
+me being invited here by email.
+
+38:23
+I you can see that some at 1 dot com
+
+38:25
+and you can see that there's a description that we
+
+38:28
+actually provided in that module inside make automation,
+
+38:31
+but you are free to modify this the way you
+
+38:33
+like. So this text can be modified here where you
+
+38:33
+create the event.
+
+38:34
+So
+
+38:41
+nova reservation 4,
+
+38:43
+that is the title. And then we have the description
+
+38:46
+that is currently just a text, a static text, but
+
+38:48
+you can turn this into a dynamic text with variables
+
+38:52
+or pass additional parameters,
+
+38:54
+from the beginning. So we're only passing in right now
+
+38:57
+the day,
+
+38:58
+and the time and the name, but you can also
+
+39:01
+potentially pass more parameters there,
+
+39:03
+ones that you would need for the automation, like customer
+
+39:06
+phone number, like customer,
+
+39:08
+additional requirements,
+
+39:09
+their,
+
+39:11
+whatever additional parameters,
+
+39:13
+would be necessary for that specific case that you will
+
+39:13
+be building. So that is the case. I think, specific
+
+39:15
+case that she will be building.
+
+39:16
+So that is the case.
+
+39:18
+I think that sums it up. So we have reading
+
+39:22
+of the availability.
+
+39:24
+As you can see here,
+
+39:25
+we have answering of the standard questions. I open tomorrow.
+
+39:29
+This came from the knowledge base.
+
+39:31
+Now when we confirmed
+
+39:32
+the reservation, it actually went ahead and created that reservation,
+
+39:36
+in the Google Calendar using the Make Automation,
+
+39:40
+pipeline that we have prepared previously.
+
+39:42
+And it all seems to work. So I guess this
+
+39:45
+is it for the demonstration.
+
+39:47
+Overall, I think it's pretty nice exchange of messages in
+
+39:49
+WhatsApp. It's looking good.
+
+39:51
+So that is it, guys. We have covered everything in
+
+39:53
+this tutorial. So as it goes, the next steps are
+
+39:56
+gonna be download all the tutorial resources,
+
+39:58
+use the setup instructions to replicate this build, and experiment
+
+40:01
+with your chatbot.
+
+40:03
+This has been Casey, and I'll see you in the
+
+40:04
+next 1.

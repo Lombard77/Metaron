@@ -1,0 +1,1673 @@
+Transcript
+Search
+
+00:00
+Hello, everyone, and welcome to AI Automation Economics.
+
+00:03
+This is a personal favorite of mine, and I'm excited
+
+00:05
+to share this with you all, and giving you a
+
+00:07
+bit more context on how and why businesses adopt AI,
+
+00:11
+the driving forces behind it, where AI really drives the
+
+00:14
+most value for businesses, and some key concepts for you
+
+00:16
+to understand moving forward. Firstly, we're gonna be covering the
+
+00:19
+business value proposition of AI. We're going to be getting
+
+00:21
+into the implementation challenge surrounding it. What is stopping businesses
+
+00:25
+from doing it? And the things that they are going
+
+00:27
+to run into that you essentially have to guide them
+
+00:29
+through. Then we'll be covering the evolution of work through
+
+00:31
+the various types of systems that we've had and will
+
+00:34
+have in the near future. Then we'll cover the strategic
+
+00:36
+implications of AI adoption for businesses. Then we'll get into
+
+00:39
+the future of AI services and how us as AI
+
+00:41
+agencies are going to survive as AI begins to creep
+
+00:44
+and encroach on the very things that we are trying
+
+00:46
+to sell and automate. And finally, we'll be looking at
+
+00:49
+the macroeconomic impact and the ethical side of AI automation
+
+00:53
+within businesses and how us as AI agency owners can
+
+00:56
+tread the seemingly thin line between ethical and unethical business
+
+00:59
+practices when selling AI automation services. So to succeed as
+
+01:03
+an AI automation agency owner, you need to understand more
+
+01:05
+than just technical features. You need to grasp why businesses
+
+01:08
+are economically compelled to adopt AI. This knowledge will transform
+
+01:12
+you from a service provider into a strategic advisor who
+
+01:15
+can identify valuable opportunities and guide businesses through their digital
+
+01:19
+transformation. When you understand the economics driving AI adoption, you'll
+
+01:22
+know exactly why businesses need to to act now and
+
+01:24
+be able to articulate the true cost of waiting to
+
+01:27
+them. So this isn't just theory, it's the foundation for
+
+01:29
+everything we'll build in the solution source recourse. And in
+
+01:32
+this video, we're gonna be covering those sections that I
+
+01:34
+just covered on the slideshow before. Just for a bit
+
+01:37
+of context, this image here is of a, entrepreneur or
+
+01:40
+business owner, and he's looking at a loom, a mechanical
+
+01:43
+loom that is going to revolutionize his factory and potentially
+
+01:46
+put all of these people out of work who were
+
+01:48
+doing weaving and were making textiles for them. This is
+
+01:51
+exactly what happened in historically. The mechanization of the textile
+
+01:54
+industry would have put thousands and thousands and thousands out
+
+01:57
+of jobs within England, but ultimately paved the way for
+
+01:59
+England to become the leader in global textiles. Where in
+
+02:01
+India, it became cheaper to purchase British made textiles because
+
+02:04
+they were just so cheap and then import them into
+
+02:06
+India than just to make them in locally within India
+
+02:09
+themselves. And the mechanization of various industries within Britain during
+
+02:12
+the industrial revolution is a great example in case that
+
+02:15
+we will look at later. To give us a reference
+
+02:17
+point on how AI is really going to be affecting
+
+02:19
+businesses and the trade offs that we have to make
+
+02:21
+between people or machines and efficiency and the wider effects
+
+02:24
+that it can have on the economy.
+
+02:28
+So getting into the business value proposition, understanding AI's economic
+
+02:31
+impact. At its core, business operates as a continuous competition
+
+02:34
+for profits in the world of scarce resources. And everyday
+
+02:36
+companies are battling to capture customer spending by delivering superior
+
+02:40
+value while managing costs. So this competitive pressure creates a
+
+02:43
+fascinating chain reaction in the economy that drives innovation forward.
+
+02:46
+When 1 business finds a way to operate more efficiently,
+
+02:48
+say by automating a key process, they gain an advantage.
+
+02:52
+Their cost of creating that same product or service will
+
+02:54
+likely go down. Therefore, they can lower the prices while
+
+02:57
+maintaining profits and reinvest those savings into improvement
+
+03:00
+or into a combination of both. At the same time,
+
+03:03
+their competitors will face a choice to either adapt and
+
+03:06
+match this efficiency or gradually lose customers to the more
+
+03:09
+efficient competitor.
+
+03:10
+So here we have a company that is applying AI
+
+03:12
+in this case. Back in the day, it may have
+
+03:14
+just been a mechanization of some of the automated key
+
+03:17
+parts of the production process.
+
+03:19
+But because the cost are dropping for these companies that
+
+03:22
+are automating parts of their process and decreasing the cost
+
+03:25
+of producing the goods or services, their profits can go
+
+03:27
+up while even just remaining at the same price. So
+
+03:30
+if they can sell their hamburger for 5 dollars while
+
+03:33
+the rest of them are still selling it for 5
+
+03:34
+dollars but they can be making an extra dollar in
+
+03:37
+profit compared to everyone else. Reinvest those profits into other
+
+03:40
+things like marketing etcetera. Or what is more likely to
+
+03:43
+happen or depending on the industry of course, they will
+
+03:45
+decrease the cost of their burger to say 4 dollars
+
+03:49
+and still keep 1 dollar in profit and the increase
+
+03:51
+in demand of everyone else, all the other customers being
+
+03:55
+drawn away from these laggard,
+
+03:56
+slower companies to buy the the dollar cheaper burger from
+
+04:00
+the company who's leaning into automation will allow them to
+
+04:02
+increase their revenues while still remaining profitability. And so this
+
+04:05
+chain reaction that we're talking about is that when it's
+
+04:07
+realized that this company is doing it, it becomes okay
+
+04:09
+well now in order to compete, we have to do
+
+04:12
+the same. And as we'll see much later in this
+
+04:14
+document, this creates a very powerful cycle for innovation and
+
+04:17
+for decreasing costs, increasing the amount of goods that consumers
+
+04:20
+can buy with a limited amount of resources and limited
+
+04:22
+amount of money, and that ends up being hugely beneficial
+
+04:25
+for society and is responsible for all of the growth
+
+04:27
+that we've we've seen over the past few hundred years.
+
+04:32
+That takes us into the core benefits of AI systems.
+
+04:34
+So we need to really get a good grip on
+
+04:36
+the fundamental advantages that make AI such a transformative force
+
+04:40
+in business operations Because I think in a lot of
+
+04:42
+times people go, oh yeah, AI this, AI that. And
+
+04:44
+if you ask them what are the core benefits of
+
+04:46
+AI systems, they couldn't actually outline what I'm about to
+
+04:49
+tell you right now. So
+
+04:51
+this is from
+
+04:52
+being in the trenches, seeing in production how these things
+
+04:55
+actually help businesses.
+
+04:57
+And a lot of them are sort of hidden invisible
+
+04:59
+ones that people wouldn't necessarily see. Oh, yeah. I mean,
+
+05:01
+it's it's scalable. Oh, it's cheaper. Oh, but there's actually
+
+05:04
+a lot more to it. So that's what we're gonna
+
+05:06
+be covering here. So the first core benefit of AI
+
+05:08
+systems is their unlimited scalability or unlimited of course as
+
+05:12
+caveats, but, generally, it can scale as much as you
+
+05:15
+need within the laws of physics. Right? And so consider
+
+05:17
+a basic customer service operation. In a traditional model, handling
+
+05:20
+more customers means hiring more agents,
+
+05:23
+each requiring salary, benefits, training, and management overhead.
+
+05:27
+So your costs, as you expand this customer service team
+
+05:30
+and then scale the rest of the business, your costs
+
+05:32
+are going to rise in direct proportion to your growth.
+
+05:34
+Because if you need a 1 sales rep at a
+
+05:36
+hundred thousand, then you might need 2 at 200000 a
+
+05:38
+month. Right? But an AI system can handle 10 or
+
+05:42
+10000
+
+05:43
+customer queries with nearly identical performance and only marginal cost
+
+05:46
+increases. So this fundamental shift creates a several powerful advantages
+
+05:50
+for businesses. Firstly, you have 0 coordination overhead. Each new
+
+05:53
+human that you hire and the big your team gets,
+
+05:56
+it creates exponential communication complexity.
+
+05:58
+As Brian Chesky, the founder of Airbnb in, this
+
+06:02
+interview
+
+06:03
+notes, that every person brings with them a communication tax.
+
+06:06
+AI eliminates this entirely. No meetings, no management layers, no
+
+06:10
+communication bottlenecks. Smaller organizations are better in almost every way.
+
+06:14
+So while there is a big flex about, oh, I've
+
+06:16
+got like hundreds of people working for me. In reality,
+
+06:18
+maybe a 50 to a hundred person team that has
+
+06:22
+AI systems to support them would be much better and
+
+06:24
+much more efficient because there isn't this communication tax happening.
+
+06:27
+So having a gigantic customer support team makes it very
+
+06:30
+difficult to distribute information to them, to manage them more
+
+06:32
+effectively, to pay all these benefits and training, and having
+
+06:35
+managers upon managers. The smaller the organization can be, the
+
+06:38
+better it is generally. Then we have the benefit of
+
+06:40
+instant deployment, where if you improve an AI system, every
+
+06:43
+single interaction immediately after you deploy that receives those changes
+
+06:46
+and gets those benefits. Right? So you're not having to
+
+06:49
+have massive training sessions for staff. You don't have these
+
+06:52
+adoption curves for bringing people up to speed. You've got
+
+06:54
+no stragglers where there's a few members on your team
+
+06:56
+who need to be brought up and checked and and
+
+06:57
+are lagging behind the training. So when you make changes
+
+07:00
+and you deploy it to production,
+
+07:02
+immediately those changes are gonna be effective working within the
+
+07:05
+system as it's live, and interacting with users. Then we
+
+07:07
+have predictable quality. So whether you're handling a hundred or
+
+07:09
+10000 interactions, the AI system is gonna be delivering nearly
+
+07:13
+identical performance and there's gonna be minimal variation in quality
+
+07:16
+as you scale. Now this is relative to performance of
+
+07:19
+human based teams. So this one's a minimal variation because
+
+07:23
+this really comes down to the the ability of you
+
+07:25
+as a development team to engineer a system in a
+
+07:28
+way that it doesn't have much variation. That's tricky when
+
+07:30
+we're dealing with non deterministic technology and generative AI models
+
+07:34
+to get it to have minimal variation.
+
+07:36
+But the point is that if you have engineered it
+
+07:38
+correctly, if it works for a hundred with a very
+
+07:40
+low erroring rate, then you can scale it up to
+
+07:43
+10000 with that same error rate. So, unlike human teams,
+
+07:46
+you get much more predictable quality as you scale them
+
+07:49
+as there's not differences between each new rep you'd bring
+
+07:52
+on. And we have a more linear cost structure. So
+
+07:54
+growth costs are going to stay nearly flat primarily consisting
+
+07:57
+of the computational resources rather than increased human overhead. So
+
+08:01
+here you can see that human teams while they start
+
+08:03
+off as being,
+
+08:04
+very cheap and very low complexity, you might just hire
+
+08:07
+1 customer support rep and say, hey, can you just
+
+08:09
+hop into this inbox and answer things? But as you
+
+08:11
+begin to scale, the and and the volume of tickets
+
+08:13
+and the size of your business increases, the cost is
+
+08:16
+going to increase in a linear fashion,
+
+08:18
+in lockstep basically in proportion to the increase in growth.
+
+08:21
+So okay, now we're doing 10 times the number of
+
+08:23
+orders. We're going to need 10 times as many customer
+
+08:25
+support reps unless you build better systems, of course. And
+
+08:28
+therefore, the costs are gonna scale in proportion to the
+
+08:30
+scale of the business. And also, you're gonna deal with
+
+08:32
+increasing complexity where you're having to deal with multiple layers
+
+08:34
+of management potentially. Or you've now having to put a
+
+08:36
+customer support, a head of customer support and you've got
+
+08:39
+multiple different people under them. And the complexity of communication
+
+08:42
+like Brian Chesky notes here, which I highly recommend you
+
+08:44
+watch this video. Very, very good on management. The complexity
+
+08:47
+of the system is gonna increase as you have more
+
+08:49
+people moving around. You've got extra things to manage like
+
+08:51
+people needing time off, compensation and bonuses and things like
+
+08:54
+this. And with AI systems, you have a much more
+
+08:57
+straightforward set of problems to deal with really. As you
+
+08:59
+can see, it's a lot more complex and costly to
+
+09:01
+set up initially, but the benefits are going to scale
+
+09:04
+much better as you increase volume. You're only gonna get
+
+09:06
+slight increases in cost and complexity. That's because you've done
+
+09:09
+all of the hard work upfront to get it working
+
+09:11
+at this 100. And as they scale up, all that's
+
+09:14
+gonna increase is the amount of compute you're using and
+
+09:16
+like the API costs you're gonna pay for the generative
+
+09:18
+AI models, that you're using. So it's gonna be much
+
+09:21
+better as you scale and the complexity of the system
+
+09:23
+is going to remain relatively stable throughout that whole period.
+
+09:26
+The next core benefits of AI systems is enhanced customer
+
+09:29
+experience. So imagine a global business serving customers across different
+
+09:32
+countries and time zones. A traditional approach requires multiple office
+
+09:35
+locations, complex scheduling, and limited language coverage. An AI system
+
+09:39
+transforms this completely. So AI systems can always be available
+
+09:42
+where customers get instant responses at 3 AM on Christmas
+
+09:45
+day just as they would at 3 PM on Tuesday.
+
+09:47
+No more, our office is currently closed. AI systems are
+
+09:49
+often multilingual by default as well. The same AI system
+
+09:52
+can fluently communicate in dozens of languages eliminating the need
+
+09:55
+for specialized language teams or translation services. You also get
+
+09:59
+a much more consistent service with every customer getting the
+
+10:01
+same high quality experience
+
+10:03
+regardless of when or how they reach out. No more
+
+10:05
+variation between the good and bad support agents. The impact
+
+10:08
+on business operations is transformative.
+
+10:10
+You've got higher customer satisfaction from instant consistent service. You've
+
+10:13
+got expanded global reach without increased operational complexity as in
+
+10:17
+having multiple different languages,
+
+10:19
+support teams that have different languages. And I am still
+
+10:21
+going on this customer support example we talked about before.
+
+10:23
+You're gonna see reduced customer churn from service issues and
+
+10:26
+you're gonna have an increased customer lifetime value if all
+
+10:28
+of these things are in place. This combination of unlimited
+
+10:31
+scalability and enhanced customer experience creates a powerful competitive advantage
+
+10:34
+that's difficult for traditional operations to match. It's not just
+
+10:37
+about doing things cheaper, it's about doing them in a
+
+10:39
+fundamentally better way.
+
+10:41
+Another benefit is the consistency and systematic improvement of AI
+
+10:44
+systems. So while humans have good and bad days, AI
+
+10:47
+systems deliver the same consistent performance around the clock, again,
+
+10:51
+if you've engineered them correctly. More importantly, they enable systematic
+
+10:54
+improvement through data driven optimization. Every interaction becomes a learning
+
+10:58
+opportunity. When an AI handles a customer conversation or processes
+
+11:01
+a sales lead, it generates valuable data about what works
+
+11:04
+and what doesn't. AKA, I said these things and this
+
+11:07
+person ended up being a qualified lead or I spoke
+
+11:10
+to this person and resolved the ticket successfully. You are
+
+11:12
+collecting all of this data in real time. I mean,
+
+11:14
+you technically are still if you're in front of a
+
+11:16
+human on the phone, but the big difference in this
+
+11:17
+comes with this next point. So, give me a second.
+
+11:20
+This constant stream of information enables continuous refinement of the
+
+11:23
+system's performance, which brings us to rapid testing. So, when
+
+11:25
+you have all of this data, you're saying, okay. Well,
+
+11:27
+this kind of conversation script worked for this in these
+
+11:30
+examples, and these ones didn't seem to, then you can
+
+11:32
+use this data to inform rapid testing of the system
+
+11:35
+to improve it, say, for your customer support or say,
+
+11:37
+for your AI cold calling system or for your AI
+
+11:40
+sales rep, if you wanna take it that far as
+
+11:42
+well. But traditional AB testing requires coordinating multiple teams and
+
+11:45
+members over weeks or months. With AI systems, you can
+
+11:47
+test different approaches simultaneously across thousands of interactions, gathering statistically
+
+11:51
+significant data in days rather than months. So if you
+
+11:54
+wanna run a split test on a sales team, say,
+
+11:56
+let's change the script from this to this. That's gonna
+
+11:58
+take, a bunch of training, a bunch of documentation,
+
+12:01
+a bunch of monitoring to make sure that they're actually
+
+12:02
+sticking to the script. Whereas if you just update and
+
+12:05
+and redeploy the AI sales group that you've built, it's
+
+12:07
+going to immediately put that into action across thousands of
+
+12:10
+interactions over the coming days where you can get data
+
+12:12
+back and make a decision. You also have centralized updates
+
+12:15
+like I talked about before where if you would improve
+
+12:16
+an AI system, every single future interaction benefits immediately. So
+
+12:20
+you don't have to train human teams for updates take
+
+12:22
+weeks to roll out. AI improvements deploy instantly across all
+
+12:25
+operations. Then we have resource optimization as another core benefit
+
+12:28
+of AI systems. So AI can fundamentally change how businesses
+
+12:32
+allocate the resources. Firstly, by focusing on high value work
+
+12:35
+as by handling the routine tasks automatically, AI is able
+
+12:38
+to free human team members to focus on work that
+
+12:39
+truly requires creativity and judgment, AKA our human skills or
+
+12:39
+the areas that
+
+12:41
+creativity and judgment, AKA our human skills or the areas
+
+12:45
+that humans are really the best at. So instead of
+
+12:47
+spending hours in repetitive tasks, teams of your clients can
+
+12:49
+concentrate on strategy, complex problem solving, and building relationships. Secondly,
+
+12:53
+they eliminate operational waste. Traditional operations often require paying for
+
+12:57
+capacity you don't need. You've got quiet periods in customer
+
+13:00
+service, you've got downtime in sales, or excess staffing for
+
+13:03
+occasional peaks. AI systems can help you eliminate this waste
+
+13:06
+by operating exactly when needed and only consuming resources during
+
+13:10
+actual use. So this is an interesting 1 to keep
+
+13:11
+in mind if you're working with a certain type of
+
+13:13
+business that has these big surges and and peaks. AI
+
+13:16
+systems can be particularly helpful for them as they rapidly
+
+13:18
+need to scale up and then scale down without overextending
+
+13:20
+and and
+
+13:21
+hiring too many people and having to wind down and
+
+13:23
+going through a much longer process than necessary. Thirdly, we
+
+13:26
+have predictable costs. With human teams, you get cost fluctuating
+
+13:29
+a lot based on overtime, additional training needs, and variable
+
+13:32
+performance if they're just not doing the work that you
+
+13:34
+need them to do in the time that they typically
+
+13:36
+do it. They're having a bad day or a bad
+
+13:38
+week and they start underperforming. And it might be to
+
+13:40
+do with something that's outside of work entirely. It might
+
+13:43
+be a personal thing. But with AI systems, they can
+
+13:45
+provide clear and predictable operational expenses based on actual usage,
+
+13:49
+making it easier to budget and plan effectively. And finally,
+
+13:51
+we have flexible scaling. Need to handle twice as many
+
+13:53
+customer inquiries this week? AI systems scale instantly to meet
+
+13:56
+demand and scale back down when volume decreases. This flexibility
+
+14:00
+eliminates the traditional challenges of hiring, training, and managing variable
+
+14:03
+capacity. So very similar to what I said here. Right?
+
+14:05
+So now we've covered the core benefits of AI systems,
+
+14:07
+we can get into what I call the AI paradox.
+
+14:10
+And it's a really powerful concept to understand how these
+
+14:13
+benefits can really fit into a business and provide additional
+
+14:16
+second order consequences for businesses. Sure you get the upfront
+
+14:18
+benefits of AI like we've just been over. But some
+
+14:21
+of the things that I've just gone through there with
+
+14:22
+you materialize in different ways that add up to this
+
+14:25
+sort of less tangible but still incredibly valuable difference for
+
+14:28
+a business. The AI paradox is when AI systems create
+
+14:31
+more business value than their human based equivalent despite being
+
+14:34
+worse at individual tasks due to factors like ease of
+
+14:37
+scaling, cost reductions, increased availability, etcetera. So basically, even if
+
+14:42
+the AI system is much worse at doing something, the
+
+14:44
+other benefits discussed above can mean the company makes profit
+
+14:47
+or is even better overall in the eyes of the
+
+14:49
+business owner. So let's break this down with a real
+
+14:51
+example of an AI versus human sales rep. So the
+
+14:54
+human sales rep, you might be likely to get a
+
+14:55
+25 percent close rate. They're available for 8 hours a
+
+14:58
+day and they can do 8 to 10 calls daily.
+
+15:00
+They of course require management and training. Then you have
+
+15:02
+the AI sales system that you as an agency may
+
+15:05
+offer to your clients. You engineer it, you build it,
+
+15:07
+you use in voice agents and you have it on
+
+15:09
+triggers and they can sort of book immediately. That might
+
+15:11
+have a 5 percent close rate. Right? Let's be honest,
+
+15:13
+if you hop on a phone and you had an
+
+15:15
+AI agent that was trying to close you over the
+
+15:17
+phone, a bunch of people would detect it's AI and
+
+15:19
+not really like that. But let's say a fifth of
+
+15:21
+the close rate of the human sales rep. But more
+
+15:24
+importantly, on the website, instead of having to book in
+
+15:26
+a call and a slot with a human sales rep,
+
+15:28
+people can just book a call immediately with 24 7
+
+15:31
+availability and start talking immediately to someone about about the
+
+15:35
+products and services that they offer. And of course, you
+
+15:37
+can handle unlimited concurrent calls. So once you build the
+
+15:39
+system, it can kinda scale to as many live calls
+
+15:42
+as you need. And there's essentially a 1 time setup
+
+15:44
+plus optimization window, and there would of course be ongoing
+
+15:47
+optimization. But you could get it to a point where
+
+15:49
+you're like, I'm happy with how this is working now.
+
+15:50
+Our leads are kind of all roughly the same, and
+
+15:52
+you can get it to a point where you are
+
+15:54
+happy with it or your client is happy with it.
+
+15:55
+And so it's clear that on a 1 to 1
+
+15:57
+basis, the AI sales rep performs much worse than a
+
+15:59
+human. Right? It's 5 percent versus 25 percent close rate.
+
+16:02
+However, if you're putting it into the context of a
+
+16:04
+bustling business, this can change things a lot. So let's
+
+16:07
+say we have a business that's receiving 10000 monthly website
+
+16:10
+visitors. So this is through their booking page, their landing
+
+16:12
+page, whatever they're driving traffic to to book in calls
+
+16:14
+for their product or service. Traditional process using the human
+
+16:17
+sales rep is gonna have 10000 website visitors. You might
+
+16:20
+book 5 percent of those, the conversion rate of 5
+
+16:22
+percent on the landing page. So you get 500 calls
+
+16:25
+booked a month and the deals closed is based on
+
+16:27
+the 25 percent close rate of the sales rep, the
+
+16:29
+human 1. And you're getting a hundred and 25 deals
+
+16:31
+at a thousand dollars a piece. That's a hundred and
+
+16:33
+25000 dollars. The commission for the sales reps is 15
+
+16:37
+percent which is gonna be 18 grand in commissions. And
+
+16:39
+then for fulfillment of this, say for every thousand dollar
+
+16:42
+deal, you have to pay 30 percent of that for
+
+16:44
+your fulfillment and any other operating costs. Then you get
+
+16:46
+down to your profit of being 68750
+
+16:50
+dollars. Now with the AI sales rep in there, we
+
+16:53
+have the same website visitors but because we allow immediate
+
+16:56
+booking and they don't have to wait maybe a day
+
+16:58
+or 2 to get on a call,
+
+17:00
+they can just press call immediately. We could say we're
+
+17:02
+jumping up to 20 percent call booking rate of those
+
+17:05
+visitors, meaning we go from 500
+
+17:07
+calls to 2000 calls. And even based off this, you're
+
+17:10
+gonna get a a show rate of maybe 60, 75
+
+17:14
+percent. So the actual calls taken is gonna be even
+
+17:16
+lower than that. But here you're getting, you could maybe
+
+17:19
+have this at 15 but you're still gonna be getting
+
+17:21
+a ton of calls that actually end up happening because
+
+17:23
+people are gonna book. Well, they're not even gonna book.
+
+17:25
+They're just gonna pick up the phone straight away and
+
+17:27
+call them. Meaning that you're not gonna have a drop
+
+17:29
+off between booked and show. And so, say 20 percent,
+
+17:31
+you're getting 2000 calls out of those 10000 visitors because
+
+17:34
+people are gonna immediately hop on the phone with them.
+
+17:36
+And out of that, you're gonna close 5 percent of
+
+17:38
+those deals because it's less than 25. Remember? A 5
+
+17:40
+percent close rate on our AI sales rep. That gives
+
+17:43
+us a hundred deals at a thousand dollars, a hundred
+
+17:45
+thousand dollars in revenue and our AI sales rep are
+
+17:47
+gonna have a commission.
+
+17:49
+And this is essentially just the operating cost of the
+
+17:52
+like say VAPI usage costs and all of your sort
+
+17:55
+of API usage. And the commission is gonna be 1
+
+17:57
+percent. That's gonna cost you a thousand bucks to get
+
+17:59
+a hundred thousand dollars in revenue. And then you've got
+
+18:01
+the same 30 percent cost for fulfillment on that. Bringing
+
+18:04
+your profit to 69000
+
+18:06
+dollars. Basically, the same as this. It's pretty interesting. Right?
+
+18:08
+When you have these changes between like the immediacy of
+
+18:12
+the AI system where they can immediately book a call
+
+18:14
+because it's always available. It goes back to all these
+
+18:16
+benefits that we've talked about. Always being available, always being
+
+18:19
+there, giving the same kind of experience. And you, of
+
+18:20
+course, can be able to tweak the AI sales rep
+
+18:22
+around and get that immediate deployment of changes so that
+
+18:25
+you can try to push this up to 6 or
+
+18:26
+7. And before you know it, you're making far far
+
+18:28
+more than you would have been before. Partially because you're
+
+18:30
+not having to pay them so much. Right? Sales reps
+
+18:33
+take a lot of money. But we can break this
+
+18:34
+down a little bit further here. So how this seemingly
+
+18:36
+worse AI system can create comparable or even superior business
+
+18:41
+value and outcomes. The key is understanding how different advantages
+
+18:43
+compound. So, you've got the volume effect here. When someone
+
+18:46
+visits a website, they're much more likely to engage if
+
+18:48
+they can talk to someone instantly rather than booking a
+
+18:50
+call for days later. That's why the AI system captured
+
+18:53
+20 percent of the visitors versus 5 percent willing to
+
+18:56
+schedule for a future call. Even with a lower close
+
+18:58
+rate, the AI calls a much larger pool of prospects
+
+19:01
+at their moment of peak interest. And this is really
+
+19:03
+important. There's even like a hidden factor in here that
+
+19:06
+goes into this close rate where maybe you're missing out
+
+19:09
+on a lot of deals even in this purely due
+
+19:11
+to the cool off effect of someone booking and then
+
+19:13
+3 days later them hopping on without the same sort
+
+19:15
+of enthusiasm. You gotta catch them at that moment. And
+
+19:18
+this speed to lead concept, the faster you can get
+
+19:20
+to answering or or engaging with a lead, the more
+
+19:22
+likely they are to close. There's ridiculous stats on that.
+
+19:25
+You can look them up. The cost structure as well.
+
+19:26
+Now if you look at our example, the human systems
+
+19:28
+are going to have a 15 percent commission structure giving
+
+19:31
+away 18000 dollars 750
+
+19:33
+in profit of what would have been profit. The AI
+
+19:35
+sales reps 1 percent operating costs leave almost everything as
+
+19:39
+profit. This near elimination of variable costs is transformative for
+
+19:42
+business economics. And there are, as I mentioned, hidden benefits
+
+19:45
+as well. The real power of the AI paradox becomes
+
+19:48
+clear when we consider
+
+19:49
+the indirect advantages for businesses. No recruitment or training costs
+
+19:53
+for sales reps. 0 management overhead. No HR administration.
+
+19:57
+No team meetings or sales training. No vacation coverage. No
+
+20:00
+1 just saying, hey, I'm sick now or I'm going
+
+20:02
+away for 2 weeks and I've got to find a
+
+20:04
+replacement. No performance management and review and saying, oh, why
+
+20:07
+why are you not performing like you used to? We
+
+20:08
+need what can what can I do? You're not having
+
+20:10
+any commission disputes about who should get paid and who
+
+20:12
+shouldn't. You're having no turnover issues.
+
+20:15
+So when you think about this from a business owner's
+
+20:17
+perspective, would you rather a, manage a large sales team
+
+20:21
+with all the complexity of human dynamics,
+
+20:23
+varying performance, HR issues, and high actually, this is a
+
+20:27
+variable cost because it varies with the, amount of revenue.
+
+20:29
+So it's a percentage of your top line. So would
+
+20:31
+you rather have this
+
+20:33
+or a streamlined system that delivers similar results with minimal
+
+20:36
+oversight, predictable performance and almost no operational headaches? And I
+
+20:40
+know what I would rather do. So this is why
+
+20:43
+the AI paradox is so powerful. What looks like worse
+
+20:46
+performance in isolation actually creates a fundamentally better business when
+
+20:49
+you consider the complete picture. While the raw numbers might
+
+20:52
+be similar, the operational reality is completely different. And this
+
+20:55
+is only when considering the early stage that AI technology,
+
+20:58
+in this case AI voice agent technology is at right
+
+21:00
+now. Soon enough, they will be matching or surpassing humans
+
+21:03
+1 to 1, then the real money will be flowing
+
+21:05
+to those who invested early. So if you can get
+
+21:07
+over onto something like this now
+
+21:10
+and your clients can snap onto this, when the technology
+
+21:13
+improves, you are right there just to make the slight
+
+21:15
+tweaks, tweaks, tweaks. Suddenly,
+
+21:17
+your client is making a ludicrous amount more money than
+
+21:19
+they would have before
+
+21:21
+and all of these extra benefits as well. There's costs
+
+21:23
+to being early. Right? But there's also huge costs to
+
+21:26
+being late. Being early is is gonna be better in
+
+21:28
+this case if you can get yourself or get your
+
+21:30
+clients to sort of bite the bullet
+
+21:32
+and take some of those downsides in the short term,
+
+21:35
+in order to be first to benefit really as the
+
+21:37
+technology improves. So what you see when you switch over
+
+21:40
+to an AI first system like this, you'll see likely
+
+21:43
+a decrease in the conversion rate in this case, but
+
+21:45
+you'll also see an increase in call bookings and the
+
+21:47
+final profit number seemingly increasing as well. But under the
+
+21:50
+surface, what you're getting is smaller teams, less communication,
+
+21:53
+less time spent hiring, no team meetings and sales trainings,
+
+21:56
+0 management overhead. So you see all this stuff on
+
+21:58
+the surface which is, oh, we're getting more calls booked.
+
+22:00
+Our conversion rate has gone down. But you're getting all
+
+22:03
+of these as well.
+
+22:05
+So the key takeaways of this section is that the
+
+22:06
+economics of AI automation fundamentally change what's possible in business
+
+22:10
+operations.
+
+22:11
+These shifts create powerful competitive advantages for early adopters who
+
+22:14
+understand how to leverage them effectively. We have cutthroat competition
+
+22:17
+with companies constantly seeking for market share and profits in
+
+22:20
+a world of limited resources. This is kind of the
+
+22:21
+underpinning of the adoption of new technologies within businesses. They're
+
+22:25
+all looking for an edge so that they can reduce
+
+22:27
+their cost. They can offer them cheaper to clients. They
+
+22:29
+can deliver more easily. They can scale faster. Those who
+
+22:32
+can deliver more value at lower cost will inevitably win
+
+22:35
+customers from their less efficient competitors. This is the underlying
+
+22:38
+factor that is pushing businesses to adopt AI. Then we
+
+22:40
+have the power of AI automation. Implementing AI systems transform
+
+22:43
+business operations through unlimited scale, handling massive volume increases with
+
+22:47
+minimal additional cost, near perfect consistency, delivering identical quality 24
+
+22:51
+7 across all interactions, and 0 coordination where we eliminate
+
+22:55
+the exponential complexity of managing human teams as they grow,
+
+22:58
+and global reach being able to serve customers worldwide in
+
+23:01
+any language and any time without operational complexity increasing. And
+
+23:05
+we covered the AI paradox, which is even when an
+
+23:07
+AI performs worse in humans on an individual level, it
+
+23:10
+often creates a superior business outcome through the compounding effect
+
+23:14
+of the unique advantages of AI like we've been over
+
+23:16
+in this section. From higher engagement through instant availability to
+
+23:20
+dramatically lower operational costs. And finally, the strategic imperative. Early
+
+23:23
+adoption of AI automation isn't just about efficiency, it's about
+
+23:27
+fundamentally transforming the business model to capture market share before
+
+23:30
+competitors adapt. So, understanding these principles and how AI can
+
+23:33
+really drive value for business is crucial in identifying the
+
+23:36
+most valuable automation opportunities
+
+23:38
+and building a sustainable competitive advantage in this AI first
+
+23:41
+future. So, just to go back up to this diagram
+
+23:43
+here. You can pause and take a look at that
+
+23:45
+here. You can see how the funnel breaks it down.
+
+23:47
+You've got website visitors, calls booked, deals closed, revenue, costs,
+
+23:50
+net profit. This is kinda like gross profit after taking
+
+23:53
+out the commission of the sales reps.

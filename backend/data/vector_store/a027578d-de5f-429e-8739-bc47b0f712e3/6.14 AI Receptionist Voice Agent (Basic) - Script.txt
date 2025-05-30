@@ -1,0 +1,3656 @@
+Transcript
+Search
+
+00:00
+Hi, and welcome to the AI receptionist voice agent tutorial.
+
+00:04
+My name is Konstantin, and today I will be walking
+
+00:06
+you through building a voice agent
+
+00:08
+that will act as an AI receptionist for the restaurant.
+
+00:12
+This is going to be a beginner level tutorial, meaning
+
+00:14
+that you're not required to have any prior understanding or
+
+00:17
+knowledge about how to build voice agents.
+
+00:20
+The objective of this session is going to be to
+
+00:22
+give you an understanding of how a basic functional version
+
+00:25
+of the voice agent looks like and what does it
+
+00:27
+take to build 1.
+
+00:29
+Now, by the end of the session, you will learn
+
+00:31
+how to use VAPI to create voice agents,
+
+00:34
+how to write good instructions and prompts for voice agents,
+
+00:37
+giving the knowledge to a voice agent in an easy
+
+00:39
+way without connecting knowledge bases and documents,
+
+00:42
+how we can create reservations in an easy way, and
+
+00:45
+also how we can use the post call analysis method
+
+00:47
+to extract data from the call so we can use
+
+00:49
+it and send to external systems.
+
+00:52
+Now the final solution that we're aiming to get should
+
+00:55
+be natural sounding and having an appealing conversation.
+
+00:59
+It should have an ability to answer questions about the
+
+01:01
+restaurant like kitchen type, amenities,
+
+01:04
+parking, and similar.
+
+01:06
+It should have the ability to create simple reservations using
+
+01:09
+person's name, date and time, and number of guests.
+
+01:13
+The solution should be able to gracefully handle unrelated questions.
+
+01:17
+It should be able to escalate to human representatives
+
+01:20
+and if there's a request to transfer the call to
+
+01:22
+the manager.
+
+01:24
+We also want to be able to add the call
+
+01:26
+data directly to the Airtable so that restaurant admins and
+
+01:28
+managers
+
+01:29
+have access to the history of the calls. The diagram
+
+01:32
+that you see on the screen represents the overall build
+
+01:35
+for the agent.
+
+01:36
+Now there are 3 main components here.
+
+01:39
+There's VAPI, that is the orchestration engine for the voice
+
+01:42
+agent itself. There's Make that acts as a no code
+
+01:45
+automation for connecting VAPI and the Airtable. And finally, there
+
+01:49
+are 2 different Airtables.
+
+01:51
+1 for storing all the calls and the second 1
+
+01:54
+to keep track of the reservations.
+
+01:56
+Now to get into more details about every individual step
+
+01:59
+here, VAPI is essentially going to be the platform that
+
+02:03
+contains the settings for the persona, behavior, and the It
+
+02:15
+will
+
+02:16
+have It will have the logic and instructions to run
+
+02:19
+the call analysis and data extraction so that we can
+
+02:22
+use it in the external systems.
+
+02:24
+And it will have different technical settings such as the
+
+02:26
+latch language model provider, then the model settings,
+
+02:29
+the language that the voice agent is going
+
+02:32
+going to use, and various specific BAPI settings.
+
+02:35
+Now the usual process of using a voice agent is
+
+02:37
+going to look like this.
+
+02:39
+Somebody would call the restaurant
+
+02:41
+and we will have the voice agent connected to a
+
+02:44
+restaurant number.
+
+02:45
+Now there's going to be an exchange of messages between
+
+02:48
+the user by the phone line and the VAPI agent.
+
+02:51
+You can see that is being represented as this kind
+
+02:53
+of a loop happening of the message exchange between the
+
+02:57
+user and the VAPI. Now at some point in that
+
+02:59
+conversation, the the call is going to end. And when
+
+03:02
+we trigger that event, meaning call has ended,
+
+03:05
+what's going to happen is that VAPI is going to
+
+03:07
+send the call data with the extracted parameters to make.
+
+03:11
+Now the make is a as a no code automation
+
+03:13
+platform is going to receive the call data from BAPI,
+
+03:16
+is going to record the call data inside the Airtables,
+
+03:19
+and is going to identify if there was a reservation
+
+03:21
+in the call. And if that is the case, it
+
+03:23
+is going to create another record in a different Airtable
+
+03:27
+for the reservation itself. So first and foremost, without any
+
+03:30
+obstacles, we are going to create the call record
+
+03:33
+either way, and then we're going to check if the
+
+03:36
+data contains a reservation. And if it does, we're also
+
+03:39
+going to create that second record in another Airtable.
+
+03:43
+So now when we have the outline of the voice
+
+03:45
+agent discussed, let's do a quick demo.
+
+03:48
+On the screen here, you can see the voice agent
+
+03:50
+checklist that we discussed earlier. So while I'm doing the
+
+03:52
+demo, you can follow along on these bullet points to
+
+03:55
+understand
+
+03:56
+which points I'm testing. I'm placing the call now.
+
+04:00
+This is Santorini restaurant. Sophie speaking. How can I help
+
+04:02
+you?
+
+04:03
+Hi, Sophie.
+
+04:04
+I need to know until what time are you open
+
+04:06
+today?
+
+04:09
+We're open until 10 PM today. Anything else I can
+
+04:11
+help you with?
+
+04:13
+Yeah. I'm gonna be coming by car. Is there any
+
+04:15
+place I can put my car nearby the restaurant?
+
+04:18
+Yes. We have a private free parking lot with 20
+
+04:21
+spots available for our guests. There's also paid street parking
+
+04:24
+nearby if needed. Anything else I can assist you with?
+
+04:27
+Sure. Can you tell me the distance from Earth to
+
+04:29
+Mars?
+
+04:32
+I don't have specifics on that, but I can pass
+
+04:34
+your request to the team. Is there anything else related
+
+04:36
+to the restaurant I can help you with?
+
+04:38
+Yeah. I'd like to book a table
+
+04:41
+for 5 people
+
+04:43
+for the first of December.
+
+04:46
+Sure. Can I have your name, please?
+
+04:49
+Yes. It's k z.
+
+04:52
+Thank you, k z. What time would you like to
+
+04:54
+have the reservation for on December first?
+
+04:57
+I'm gonna go for 7 PM.
+
+05:01
+Great. How many guests will there be?
+
+05:03
+As I said, there's gonna be 5.
+
+05:07
+Just to confirm, you'd like a reservation for 5 people
+
+05:10
+on December first at 7 PM. Is that correct?
+
+05:13
+Actually, make it 6 people.
+
+05:17
+Just to confirm, you'd like a reservation for 6 people
+
+05:19
+on December first at 7 PM. Is that correct? Yes.
+
+05:23
+That's pretty much correct.
+
+05:25
+I've now created the reservation for you for 6 people
+
+05:28
+on December first at 7 PM. Looking forward to seeing
+
+05:31
+you. Is there anything else I can help you with?
+
+05:34
+Oh, yeah. That's a that that's a final question. 1
+
+05:36
+of the persons joining us is going to be vegan.
+
+05:39
+Do you have vegan menu as well?
+
+05:43
+Yes. We do have vegan friendly options on our menu.
+
+05:46
+Your guest will have plenty to choose from. Anything else,
+
+05:48
+say, I can assist you with?
+
+05:50
+No. That's it, Sophie. Thanks a lot for your help.
+
+05:53
+Goodbye.
+
+05:56
+That's pretty much the end of the demo. So as
+
+05:58
+you can see, we have tested against natural sounding, appealing
+
+06:01
+conversation, ability to answer questions about the restaurants. There was
+
+06:04
+a reservation.
+
+06:06
+It gracefully handled unrelated random questions. So we didn't test
+
+06:10
+for the ability to transfer because this was a web
+
+06:12
+demo that wasn't a real phone line, and BAPI wants
+
+06:15
+it to be an actual phone call to be able
+
+06:17
+to transfer to another phone.
+
+06:19
+And
+
+06:20
+adding the call data to the air table, I can
+
+06:22
+just now say that that stuff works, but we will
+
+06:26
+look into that in the later portion of the tutorial
+
+06:29
+anyways.
+
+06:31
+Alright. So now let's jump into VAPI and let's have
+
+06:34
+a look at how the voice agent is being configured.
+
+06:37
+Now in this specific account, I only have 1 voice
+
+06:40
+agent right now, which is this AI receptionist.
+
+06:43
+So let's go over the different interface parts in VAPI.
+
+06:46
+And after we've done that, we'll go and examine the
+
+06:49
+prompt in more detail.
+
+06:51
+Now the main navigation of the voice agent in VAPI
+
+06:54
+is this bar in the middle of the screen. You
+
+06:56
+can see here model, transcriber, voice functions, advanced, and analysis.
+
+07:01
+Now model is where you have the initial message that
+
+07:04
+the agent says when it accepts the phone call, the
+
+07:07
+system prompt, which is the soul and the heart of
+
+07:09
+the voice agent having all the instructions and everything that
+
+07:11
+it needs to do.
+
+07:13
+And here also, we have the large language model configuration.
+
+07:17
+In this case, we have OpenAI as the provider. The
+
+07:19
+model is GPT 4 0 mini,
+
+07:21
+And we have a temperature set to 0.2, which is
+
+07:25
+the inventiveness of the model. We wanna keep it moderate
+
+07:27
+and want to just follow the instructions inside the prompt.
+
+07:31
+Maximum tokens is 250.
+
+07:33
+This this is how much tokens the model can burn
+
+07:35
+at a maximum when providing a response. Now, transcriber tab
+
+07:35
+here, we can
+
+07:38
+response. Now transcriber tab here, we can configure the way
+
+07:42
+the speech is being transcribed into text. That is when
+
+07:46
+somebody on the phone says something to the voice agent,
+
+07:49
+this part is going to be responsible for converting the
+
+07:52
+voice into the text that is then being passed into
+
+07:55
+the large language model to be analyzed and for the
+
+07:58
+answer to be provided.
+
+08:00
+Now in this case, I'm just choosing Deepgram. The language
+
+08:03
+is English and the model is Nova 2.
+
+08:05
+Now feel free to experiment with the other providers. Empirically,
+
+08:08
+I can say that Deepgram English Nova 2 is 1
+
+08:11
+of the best choices to transcribe the voice into text.
+
+08:15
+So next up is the voice tab, and this is
+
+08:18
+where you can select how your voice agent is going
+
+08:20
+to sound.
+
+08:21
+Now my choice of preference is ElevenLabs
+
+08:24
+Natasha the valley girl, and the model is 11 turbo
+
+08:27
+v 2.5.
+
+08:29
+I think this is a solid choice. It sounds very
+
+08:31
+nice. I've selected this
+
+08:34
+voice for
+
+08:35
+many of my builds. So overall, very good choice. Now
+
+08:37
+additional configuration. I think it's appropriate in this case to
+
+08:40
+select the background noise. Like with an office sound, it
+
+08:43
+just feels more natural when there's some kind of life
+
+08:43
+happening behind the agent. So it
+
+08:47
+life happening behind the agent, so it doesn't feel artificial.
+
+08:51
+Now in terms of input minimum characters, keep it at
+
+08:53
+10. No fill injection, no back channeling, no background noise
+
+08:57
+or denoising. I would enable that.
+
+09:00
+Stability, keep it at 0.6
+
+09:02
+or set it to 0.6.
+
+09:04
+Clarity plus similarity, keep it at 0.2.
+
+09:07
+And all the other settings can be disabled, like set
+
+09:10
+to 0 and use the speaker boost as well. Now
+
+09:14
+you can experiment with these settings. Just set these to
+
+09:17
+the values that I've provided on screen. If that doesn't
+
+09:20
+work for you for any reason, feel free to adjust
+
+09:22
+them and see what they mean. But it's kind of
+
+09:24
+outside of scope of this tutorial to go into very
+
+09:27
+much detail in terms of what exactly these parameters are
+
+09:30
+setting.
+
+09:31
+So let's move on to the next step.
+
+09:34
+Okay. So functions tab is what the name says. It's
+
+09:37
+giving your voice agent additional functionality.
+
+09:40
+In this case, we're not giving it any additional
+
+09:43
+enabling some internal built in functions. And 1 of them
+
+09:46
+is the enable the call end function. So by default,
+
+09:51
+agent can end the call when it detects certain end
+
+09:54
+call phrases. Now in my experience, that is a bit
+
+09:57
+unpolished.
+
+09:59
+So by default, the phrase here, if we remove this
+
+10:02
+1 that I've just provided, by default, it kind of
+
+10:04
+tries to detect anything like goodbye. An agent will naturally,
+
+10:08
+in some cases, say goodbye, and that would lead to
+
+10:10
+the system terminating the call immediately.
+
+10:13
+Now that doesn't feel like a very user friendly behavior,
+
+10:15
+and that's why I'd like to keep the call phrase,
+
+10:18
+the end call phrase, set to something that is unlikely
+
+10:21
+to happen. So in this case, I'm just putting the
+
+10:24
+ultraviolet word here, meaning that the agent will never say
+
+10:27
+this word, that function will never trigger, and the call
+
+10:31
+will never be ended abruptly. Instead, what I like to
+
+10:34
+have is enabling the end call function and then providing
+
+10:37
+inside the system prompt
+
+10:39
+an actual description when the agent needs to trigger that
+
+10:42
+function,
+
+10:43
+which is going to lead to ending the call.
+
+10:45
+This results in a much more cleaner and natural and
+
+10:48
+soft kind of ending of the call, which just generally
+
+10:51
+feels much better for the user. Now we will not
+
+10:53
+be using any dial keypads and any custom functions in
+
+10:56
+this case. So the next up is advanced tab.
+
+11:01
+So on the advanced tab, we have several sections of
+
+11:03
+settings. So let's go through them 1 by 1 and,
+
+11:06
+try to understand what these different settings mean. Now there's
+
+11:09
+a privacy section where we have the HIPAA compliance, audio
+
+11:12
+recording, and video recording.
+
+11:14
+Now HIPAA compliance is something that you only want enabled
+
+11:17
+if you're dealing with the medical sector or something that
+
+11:19
+actually requires HIPAA compliance. So we're gonna keep this off
+
+11:22
+with this, for this kind of agent. Now audio recording,
+
+11:25
+generally, you want to have this on as this gives
+
+11:28
+you a nice audio recording of every call that the
+
+11:30
+assistant receives
+
+11:32
+so that you can relisten to those recordings and maybe
+
+11:35
+understand what's happening there. It actually gives you a lot
+
+11:37
+of insight if you are just launching your assistant and
+
+11:40
+you want
+
+11:41
+to be up to speed and understanding
+
+11:43
+what is actually happening, what does the assistant say, how
+
+11:45
+it sounds, what does the user say, and so on.
+
+11:49
+Video recording, I have never used it. So, we'll keep
+
+11:52
+this off for this agent as well. Now another section
+
+11:55
+is start speaking plan. Now both of these sections, start
+
+11:58
+speaking plan and stop speaking plan, is something that VAPI
+
+12:00
+introduced just recently.
+
+12:02
+They replace
+
+12:04
+a bunch of other settings that used to be there,
+
+12:06
+but this is an attempt to,
+
+12:09
+group the settings and may give them more meaning so
+
+12:12
+that it's easier to understand what exactly they mean. Now
+
+12:14
+they did a pretty good job in
+
+12:17
+adding the descriptions to every 1 of these settings.
+
+12:20
+So you have a very clear understanding what exactly this
+
+12:22
+means. So let's go through them 1 by 1 and,
+
+12:25
+and, and see what the values should be. Now wait
+
+12:29
+seconds, as it says, this is how long a assistant
+
+12:31
+waits before speaking.
+
+12:33
+Essentially,
+
+12:34
+that is as soon as the user stops speaking, this
+
+12:36
+is the amount of time that is required for the
+
+12:38
+assistant to start speaking. Now smart end pointing,
+
+12:42
+this is pretty vague. I don't really understand what the
+
+12:44
+setting means. It says enable for more accurate speech endpoint
+
+12:48
+detection.
+
+12:49
+Have never tested, so,
+
+12:51
+I would keep this off for now. Now then we
+
+12:53
+have the different behaviors of
+
+12:56
+minimum seconds to wait after the transcription ending with a
+
+13:00
+specific symbol. So it's either gonna be a punctuation,
+
+13:03
+no punctuation, meaning that,
+
+13:06
+the user stopped speaking, but this wasn't the end of
+
+13:09
+a sentence, kind of, you know, left it hanging in
+
+13:11
+the air,
+
+13:12
+and when it ends with a number. Now why would
+
+13:15
+we want to have different settings for these kind of
+
+13:17
+cases? This is pretty,
+
+13:19
+interesting.
+
+13:20
+So when you say and that is the end of,
+
+13:24
+of the phrase, it usually would be transcribed
+
+13:27
+or translated into a punctuation, meaning there's gonna be, a
+
+13:31
+point.
+
+13:32
+Now if that happens, then there's a pretty
+
+13:35
+high confidence that the assistant has listened to everything that,
+
+13:39
+you wanted to say, and it will start speaking almost
+
+13:42
+immediately. So you can have the setting lower.
+
+13:44
+Now on no punctuation, meaning that you might be just
+
+13:48
+thinking, so you haven't
+
+13:50
+spoken to the end. You have just
+
+13:52
+reached the, the middle of the of the sentence, and
+
+13:56
+now you would be continuing to say something. So you
+
+13:58
+might wanna wait a little bit longer if that is
+
+14:01
+the case.
+
+14:02
+Now the same is gonna be with numbers. Now let's
+
+14:04
+say that you are dictating back the phone number or
+
+14:07
+kind of an index a post index, something like that.
+
+14:10
+So you don't want the assistant to be interrupting the
+
+14:13
+user when they come up with these numbers. Maybe that's
+
+14:16
+gonna be like, you know, something that is a numeric
+
+14:19
+representation.
+
+14:20
+It often takes people a little bit longer to come
+
+14:22
+up with what's the next digit is gonna be.
+
+14:25
+Now stop speaking plan is vice versa. That is the
+
+14:28
+settings for the assistant to stop speaking.
+
+14:32
+Now you have several settings in here as well.
+
+14:35
+1 of them is how many words does the user
+
+14:37
+need to say for the assistant to be interrupted.
+
+14:41
+Now the second 1 is the voice seconds. That meaning
+
+14:43
+that how long is the stream of voice
+
+14:47
+going from the user to the assistance needs to,
+
+14:50
+to happen
+
+14:52
+for this setting to be effective for the, agent to
+
+14:55
+be interrupted.
+
+14:56
+And back off settings as it says, this is the
+
+14:59
+seconds to wait before the assistance will start speaking again
+
+15:02
+after being interrupted.
+
+15:04
+Meaning that
+
+15:05
+after you interrupt it, it's not going to, like, immediately
+
+15:07
+jump back into the conversation, but it will instead wait
+
+15:10
+a little bit and then it will continue saying or
+
+15:13
+asking you some things that, you know, that you had
+
+15:17
+the discussion between the user and the and the agent.
+
+15:20
+Now call time out settings.
+
+15:23
+This is, as it says, how long to wait before
+
+15:25
+the call is automatically ended due to inactivity.
+
+15:28
+Now usually you want to have this longer.
+
+15:32
+In some cases, 20 seconds is gonna be just enough.
+
+15:35
+But these all of these settings need to be playing
+
+15:37
+nicely with, for example, something that is the max idle
+
+15:41
+or the idle time out, meaning that it's gonna be
+
+15:44
+saying something back to you. So if, for example, you
+
+15:46
+have here, let's say, 10 seconds and also 10 seconds,
+
+15:50
+in the maximum
+
+15:52
+duration sorry. In in in the silence time out, then,
+
+15:56
+you know, it's gonna be, like,
+
+15:58
+mutually exclusive.
+
+16:01
+So call time on settings,
+
+16:02
+how long to wait before the call is automatically ended
+
+16:05
+due to inactivity? Usually, like, 20 seconds is gonna be
+
+16:07
+enough. Maximum duration is where you can cap the absolute
+
+16:13
+last. And even if you are still speaking with the
+
+16:15
+agent,
+
+16:16
+after this, many seconds, it will just terminate the call
+
+16:20
+completely. This is just a fail safe in case, you
+
+16:23
+know, somebody is abusing your agent or maybe somebody left
+
+16:26
+the connection open and it never ended. For some reason,
+
+16:29
+maybe there's some noise coming into the agent. It doesn't
+
+16:32
+actually end the call and so on.
+
+16:34
+Now messaging is an advanced portion of the settings, meaning
+
+16:39
+that,
+
+16:40
+how
+
+16:41
+does the agent communicate with an external service? In this
+
+16:44
+case, messaging, meaning exchange of messages between
+
+16:48
+the the VAPI system and some external,
+
+16:50
+systems.
+
+16:51
+Now we are using make. That's why we have the
+
+16:54
+server URL set to the make webhook automation.
+
+16:57
+We're not using any server URL secrets, but this potentially
+
+17:01
+can be used just to make the connection and the
+
+17:04
+communication between the external system and VAPI a bit more
+
+17:07
+secure by providing this additional phrase
+
+17:10
+or does this this kind of a key that is
+
+17:12
+then going to be used as a validation that this
+
+17:15
+message to that external system is indeed coming from VAPI,
+
+17:19
+not from somewhere else. Not not like somebody is trying
+
+17:21
+to fake it.
+
+17:22
+Now client messages and server messages. Client messages, I would
+
+17:25
+usually keep completely empty, but for some reason, VAPI is
+
+17:28
+giving me error when I,
+
+17:30
+leave no choices in this box. So I would just
+
+17:33
+use voice input, but essentially client messages is just
+
+17:37
+VAPI sending these
+
+17:39
+electronic updates, these messages
+
+17:42
+to a front end client, meaning that when there's
+
+17:45
+a implementation of VAPI on a website,
+
+17:48
+that system, that embedded widget is the client,
+
+17:52
+and the message exchanges between that embedded widget and VAPI
+
+17:56
+as a back end.
+
+17:57
+Now we are gonna be interested in the server messages,
+
+18:00
+and we're only gonna be using 1 single option in
+
+18:03
+this care and in this case, the end of call
+
+18:06
+report. Now I will not be going into, any other
+
+18:09
+of the options. This is outside of the scope of
+
+18:11
+this tutorial.
+
+18:13
+Now voice mail message, again, this is something that you
+
+18:16
+might want the assistant to say if it's an outbound
+
+18:19
+assistant and it has reached the voice mail instead of
+
+18:22
+the actual
+
+18:23
+person. So this is what it's gonna say, but for
+
+18:26
+the most cases, it's, it's it's safe to leave it
+
+18:29
+as it is. I think VAPI by default just, you
+
+18:32
+know, hangs,
+
+18:33
+and doesn't really continue the the call if it hits
+
+18:36
+the voice mail.
+
+18:38
+Now end call message,
+
+18:40
+again, pretty safe to say, to leave it as goodbye.
+
+18:43
+If you want to customize this, that is when
+
+18:46
+the assistant has triggered
+
+18:48
+the end of call
+
+18:50
+function, and the last thing it's gonna say is going
+
+18:53
+to be this message here.
+
+18:55
+Now idle message is something that you do want to
+
+18:57
+configure, and that is very useful, for example, when there's
+
+19:00
+silence and nobody's saying anything.
+
+19:02
+So these idle messages,
+
+19:04
+there's a collection of different predefined ones. I usually set
+
+19:07
+this 1. Let me know if there's anything you need.
+
+19:09
+So what's gonna happen is that if there's a silence
+
+19:12
+on the call, nobody says anything,
+
+19:14
+assistant is going to say this phrase after this many
+
+19:18
+seconds.
+
+19:19
+So after 7.5
+
+19:20
+seconds of silence, assistant is gonna say, let me know
+
+19:23
+if there's anything you need, and it's going to do
+
+19:25
+that up to this many times, meaning maximum of 3
+
+19:28
+times,
+
+19:29
+and then it will just wait until this setting hits,
+
+19:33
+and it will terminate the call.
+
+19:35
+So that's all for the advanced,
+
+19:37
+settings. Let's move forward. Now the final tab here is
+
+19:41
+the analysis. And this is, again, how we are going
+
+19:44
+to extract the data
+
+19:47
+after the call has ended. So it's post call analysis.
+
+19:49
+Now we are not going to be covering the summary.
+
+19:52
+We're not going to be covering the success evaluation.
+
+19:55
+The section that we are interested in this kind of
+
+19:57
+a tutorial is the structured data. Now the prompt for
+
+20:00
+the extraction of the structured data is actually quite simple.
+
+20:04
+So you see here, it says you will be given
+
+20:07
+a transcript of the call and the system prompt of
+
+20:09
+the AI participant, and that is actually I've copied exactly
+
+20:12
+1 to 1 what Webby has by default
+
+20:14
+just to keep things safe. Now I'm also adding here
+
+20:17
+extract the listed parameters.
+
+20:19
+Now I'm giving it the current date and the current
+
+20:22
+time, and I'm doing that in order for the LLM
+
+20:25
+with the large language model to be able to calculate
+
+20:28
+the relative dates. Now in some cases, customers will say,
+
+20:31
+I want the reservation tomorrow, or I want it next
+
+20:34
+Friday, something like that. Now if the large language model
+
+20:38
+has these relative dates,
+
+20:40
+and it understands what's the current date, then it's gonna
+
+20:43
+go ahead and calculate
+
+20:45
+what that day is. What's the number of that day
+
+20:48
+of month?
+
+20:49
+What's the number of the week? What's the day of
+
+20:52
+the week and so on. Now, in terms of extraction
+
+20:54
+of the parameters, we want to extract
+
+20:57
+these 5 parameters. That is the reservation,
+
+20:59
+reservation date,
+
+21:01
+name, time, and number of guests.
+
+21:04
+Now under each of these parameters, if you click on
+
+21:06
+add description, you can see that I've actually provided
+
+21:09
+additional description for the language model to extract this parameter
+
+21:13
+and to understand how to extract it. Now for reservation,
+
+21:17
+I've said true if reservation was requested by the user,
+
+21:20
+otherwise false. And we will be using that parameter later
+
+21:23
+in our automation to decide which pathway in our automation
+
+21:26
+we wanna go with reservation or without.
+
+21:29
+Now reservation
+
+21:31
+date, again, I'm just giving it instruction extracted in this
+
+21:34
+format, meaning that there's gonna be 4 digits for the
+
+21:36
+year,
+
+21:37
+2 digits for the month, and 2 digits for the
+
+21:39
+day. I'm giving it an example just in case, just
+
+21:42
+to make sure it's gonna do its job correctly.
+
+21:45
+Now reservation name is just the name of the person
+
+21:47
+requesting the reservation. As you heard in the demo, agent
+
+21:50
+is actually asking me for my name. So it's going
+
+21:53
+to extract that name later on the post call analysis
+
+21:56
+and assign it to this variable here. Now reservation time,
+
+22:00
+again, I want this to be a value as a
+
+22:02
+24 hour format representation of the time, for example, 8
+
+22:06
+PM.
+
+22:07
+Now number of guests is just the number of guests
+
+22:09
+in the reservation, for example, 4. And 1 last thing
+
+22:12
+I will mention here is that every parameter has a
+
+22:15
+type associated.
+
+22:16
+Like the first 1 is gonna be a Boolean, meaning
+
+22:18
+true or false. The last 1 is gonna be number,
+
+22:21
+like the actual number of guests that's gonna be an
+
+22:23
+integer.
+
+22:24
+And the rest of the parameters are just strings.
+
+22:27
+So we have just covered all the main settings of
+
+22:30
+the agent. Now let's move on to examining the prompt
+
+22:33
+of the agent, as I mentioned, which is the heart
+
+22:36
+and soul of this implementation.
+
+22:39
+And that's where all of the abilities
+
+22:41
+and functionality of the voice agent is actually described.
+
+22:46
+Now when working with prompts for any kind of LLM
+
+22:49
+and voice agents included, I would highly recommend using Notion.
+
+22:53
+And the reason for that being is that Notion has
+
+22:55
+a very nice structure for the elements.
+
+22:58
+So whenever you add, let's say a heading, you can
+
+23:00
+actually select if it's going to be a heading 1,
+
+23:02
+heading 2, or heading 3, which then very nicely translates
+
+23:06
+into markdown format that is being used by LLMs as
+
+23:09
+a primary formatting way for the system prompt.
+
+23:13
+Now let's go over the actual parts of the prompt,
+
+23:16
+and then I will show how you can copy over
+
+23:18
+the prompt from Notion
+
+23:20
+into the voice agent without any effort,
+
+23:23
+or without any hassle.
+
+23:25
+Now the first section here is persona. That is describing
+
+23:29
+what the role of the voice agent is, meaning who
+
+23:32
+it is, what's its traits, what what's its characteristics.
+
+23:36
+This will help the voice agent to position itself against
+
+23:39
+the user and to take the correct role.
+
+23:42
+Now the next 1 is task. I usually try to
+
+23:45
+keep it as simple and as straightforward as possible. So
+
+23:48
+don't include too much of the, let's say, instructions in
+
+23:51
+this task is the ultimate objective of what the agent
+
+23:55
+needs to achieve. In this case, the primary task is
+
+23:58
+to maintain a professional and positive open minded discussion with
+
+24:01
+the customer, answer questions, and create reservations if requested.
+
+24:05
+Again, don't go into too much detail going about exactly
+
+24:08
+how it needs to do that. Just say this is
+
+24:10
+what you are targeting at your position, at your role.
+
+24:14
+Now next, I'm including the all the restaurant information I
+
+24:17
+wanna give the voice agent, and that is the actual
+
+24:20
+knowledge.
+
+24:20
+So we're not including any documents, any knowledge bases. I'm
+
+24:23
+just dumping all of the information that it needs to
+
+24:26
+know about the restaurant right into the system prompt, which
+
+24:29
+is a good option if the amount of information is
+
+24:32
+moderate.
+
+24:32
+So this can be, let's say, maybe double of the
+
+24:34
+information that you see here. Just keep in mind that
+
+24:37
+it needs to be fairly moderate so that the voice
+
+24:40
+agent doesn't choke on this knowledge,
+
+24:43
+being in its in in a system prompt.
+
+24:45
+Now I've described here in the restaurant information, its location,
+
+24:50
+type of kitchen,
+
+24:51
+what amenities are in the restaurant, the availability of the
+
+24:54
+parking for the guests, today's specialties.
+
+24:57
+Again, this can be updated.
+
+24:58
+Somebody can go into the voice agent and update these
+
+25:01
+ones when they they change. The price ranges of different
+
+25:04
+dishes, hours of operation, contact information, dress code, alcohol license,
+
+25:08
+and so on. So the next main section is reservations.
+
+25:12
+Now this section just gives agent general instructions
+
+25:16
+related to reservations, meaning that, you know, when they can
+
+25:18
+be requested and what days, what time periods are available
+
+25:22
+for reservations, what is the maximum number of people. And
+
+25:26
+I'm also including here the current date and the current
+
+25:28
+time. So again, voice agent has some context in terms
+
+25:31
+of understanding
+
+25:32
+when is the person or when is the user requesting
+
+25:35
+the reservation and it can handle that in a conversational
+
+25:38
+way.
+
+25:39
+Standard operating procedure for the agent, meaning I'm describing exactly
+
+25:44
+step by step how the agent needs to go about
+
+25:48
+handling the reservation. What it needs to ask, how it
+
+25:50
+needs to do that with some examples. So just go
+
+25:54
+step by step. 1, 2, 3, 4, 5 and 6.
+
+25:57
+Where once,
+
+25:58
+step 1 being ask the customer for the name, ask
+
+26:01
+the customer for the day of the reservation,
+
+26:03
+for the time of the reservation,
+
+26:05
+and for the number of guests. In some cases, I'm
+
+26:08
+just giving it some additional context saying make sure the
+
+26:11
+number of guests is 10 or less. If it's more
+
+26:13
+say that the reservations can only be created for maximum
+
+26:16
+of 10 guests. Again, things like this I hear for
+
+26:19
+as an example, you can take them, adjust them. You
+
+26:21
+can move this to another point in this, instruction just
+
+26:25
+to give it a bit more constraints
+
+26:27
+or a bit more context on how it needs to
+
+26:29
+handle that specific item in the instruction manual.
+
+26:33
+Now
+
+26:34
+1 of the final points is reading the summary back
+
+26:37
+and reconfirming that from the customer just to make sure
+
+26:39
+that everything is correct, that agent didn't make any mistakes.
+
+26:39
+So the customer has a final say, any
+
+26:46
+changes
+
+26:48
+and we want to listen to them, accept them, and
+
+26:50
+reconfirm back to the customer. So it's kind of describing
+
+26:53
+that it needs to go into a loop on this
+
+26:53
+point up to the point where customer says, needs to
+
+26:54
+go into a loop on this point up to the
+
+26:56
+point where customer says that they are happy with it.
+
+26:59
+Now
+
+27:00
+final point is say that the reservation is accepted and
+
+27:02
+thank the customer. I'm giving it an example of how
+
+27:05
+it needs to do that, saying wait for the answer
+
+27:08
+to accept the answer from the customer before proceeding. And
+
+27:11
+then, you know, ask if you can help with anything
+
+27:13
+else. Another section of the system prompt is ending the
+
+27:16
+call. I'm just, again, making it super clear for the
+
+27:19
+agent that there is an end goal function
+
+27:22
+available to it. And so when the time is ripe
+
+27:24
+to end the call, when everybody said everything, agent can
+
+27:28
+trigger that function and that will end the call, not
+
+27:30
+based on some keywords in the dialogue.
+
+27:33
+Now I'm describing
+
+27:34
+the specifics of how the escalation and the system request
+
+27:38
+can happen.
+
+27:39
+Again, giving it just a bit more context
+
+27:42
+at when this can be considered an escalation or assistance
+
+27:43
+request. 1 is customer directly
+
+27:46
+request. 1 is customer directly
+
+27:48
+requesting to speak with the manager. And 2 is customer
+
+27:51
+is not satisfied with the service or your answers. In
+
+27:53
+that case, agent can suggest to connect to the manager
+
+27:57
+just to handle this situation a bit more smoother.
+
+28:00
+Now rules and limitations is a section I like to
+
+28:02
+include in my system prompts. And this is just a
+
+28:05
+bullet list of different do's and don'ts.
+
+28:08
+Meaning that I'm exclusively saying to the agent, do it
+
+28:11
+like this or never do it like this.
+
+28:14
+Because some of these things are just empirically found and
+
+28:16
+discovered.
+
+28:18
+Like, you know, in the beginning here, you will see
+
+28:20
+that this very restaurant specific, like when listing menu items
+
+28:24
+or specialties do not, you know, name ingredients initially.
+
+28:27
+But some other points are the ones that I've transferred
+
+28:29
+over from the other configurations.
+
+28:33
+Points like that are, for example, keep your responses short
+
+28:36
+and only include most relevant information. Do not use numbered
+
+28:39
+lists.
+
+28:40
+If there is no information in the context and, you
+
+28:42
+know, that you can use to answer, just say that
+
+28:44
+you will pass it to the team.
+
+28:46
+Like use more casual phrases like, well, sure. I mean,
+
+28:51
+something that would make the agent a bit more conversational.
+
+28:54
+Now this is an important 1. Always ask 1 question
+
+28:57
+at a time because LLMs usually wanna go on a
+
+29:00
+rant and ask like 10 different things and ask you
+
+29:03
+to provide an answer to those in 1 go as
+
+29:05
+well, which is quite in inconvenient.
+
+29:09
+Again, some restrictions here, like never ask the customer for
+
+29:12
+their phone number. That is simply because we will have
+
+29:14
+it at all times.
+
+29:16
+Never say the word function or tools.
+
+29:19
+Never say great choice and never say things like, sure,
+
+29:22
+I'd be happy to. This just feels a bit too
+
+29:25
+cheesy because
+
+29:26
+LLMs and especially OpenAI,
+
+29:29
+ChatGPT
+
+29:30
+is trying to be very pleasing and it's trying to
+
+29:33
+add these phrases at the end of everything that it
+
+29:35
+says back to you.
+
+29:38
+Okay. So now that we've covered the prompt,
+
+29:41
+let me show you how you can easily
+
+29:43
+transfer this prompt from Notion into the voice agent. So
+
+29:46
+start by just copying the text as you would normally
+
+29:48
+do inside a word document and things like that. Just
+
+29:51
+hit command c,
+
+29:53
+or control c if you're on a PC.
+
+29:56
+And then let's go
+
+29:58
+to the voice agent
+
+30:00
+model
+
+30:01
+system prompt, select everything, delete and paste. And there you
+
+30:05
+have it.
+
+30:06
+Nicely formatted markdown format directly from Notion.
+
+30:09
+So this keeps at all times a backup of your
+
+30:12
+system prompt in Notion
+
+30:14
+where I would suggest that you go ahead and edit
+
+30:16
+if you need something. And then from here, just copy
+
+30:19
+it over into the voice agent and you're gonna be
+
+30:21
+good.
+
+30:23
+Okay. Now let's examine how make automations work.
+
+30:27
+Now to remind you, make is being a connecting system
+
+30:30
+between VAPI and Airtable.
+
+30:33
+It is a system that allows us to
+
+30:35
+accept the call report data,
+
+30:37
+extract different pieces, pick and choose different data pieces of
+
+30:41
+it. And from those data pieces, compile
+
+30:44
+a request
+
+30:46
+against the air table to create a record there.
+
+30:49
+Now, this is what a request looks like. If we
+
+30:52
+click on this item here, because I've just done a
+
+30:54
+test run just to save us all time, a test
+
+30:57
+run gives us data that is coming into this automation.
+
+31:00
+And this is what
+
+31:02
+the data coming into the make automation looks like.
+
+31:06
+So we have a message and we have a whole
+
+31:08
+bunch of different parameters here, like timestamp, like analysis. That's
+
+31:11
+where the summary is and the structured data that there
+
+31:14
+was a reservation. What's the date? Who is the the
+
+31:17
+person creating the reservation? What time, how many people, all
+
+31:21
+of that stuff. Everything that we need to create records
+
+31:24
+inside Airtable.
+
+31:26
+Now to quickly give you an overview inside Airtable,
+
+31:29
+the call logs are going to contain the call ID,
+
+31:32
+the phone number of the person calling,
+
+31:34
+the call time, the duration of the call, the cost
+
+31:36
+of the call,
+
+31:37
+assistant
+
+31:39
+or the,
+
+31:40
+customer ending the call. That is the end reason.
+
+31:43
+A quick call summary, just for reference and
+
+31:46
+a reference
+
+31:48
+to the reservation if that existed or if that was
+
+31:51
+requested on the call.
+
+31:53
+Again, all of this linking and all the structure of
+
+31:55
+this air table will be given
+
+31:57
+as part of the resources with the tutorial. So you
+
+32:00
+can import that into your air table, into your make
+
+32:03
+and VAPI and have a play with this. But for
+
+32:06
+now, let's go back to make and have a look
+
+32:08
+at
+
+32:09
+how the automation is being constructed.
+
+32:12
+Now, the first step is this web hook that is
+
+32:14
+receiving the data. Now, just to quickly recap,
+
+32:17
+this web hook is just a module that provides you
+
+32:21
+with the URL that you can use in the other
+
+32:23
+system
+
+32:24
+for that other system to send the data to this
+
+32:27
+URL.
+
+32:28
+Now this URL is, has been set in VAPI
+
+32:32
+on the,
+
+32:33
+advanced configuration
+
+32:35
+in the server URL
+
+32:37
+field right here. So we're gonna be sending from BAPI
+
+32:40
+to this URL, the end of call report,
+
+32:43
+and Make is gonna be listening to that
+
+32:46
+and performing certain actions. So this webhook is the entry
+
+32:49
+point where BAPI is sending data. After that is the
+
+32:52
+module called router.
+
+32:54
+Router's
+
+32:54
+objective is to execute certain legs of the automation. So
+
+32:58
+it's gonna go ahead and execute the first leg and
+
+33:00
+then the second leg. And if there's a third, it's
+
+33:02
+gonna execute the third leg as well. Now the first
+
+33:05
+leg is being executed without any conditions. It just going
+
+33:07
+to be like that always. So whenever there's a data
+
+33:10
+coming in, the router is going to execute this leg.
+
+33:13
+And what this does, this actually creates a record inside
+
+33:16
+air table
+
+33:17
+that is representing the call summary.
+
+33:20
+Now in here, as you can see, we're using this
+
+33:23
+type of connection,
+
+33:25
+which in your make automation, you will have to authorize
+
+33:28
+yourself connecting your make pipeline or your make scenario to
+
+33:32
+the Airtable instance that is also yours. You will have
+
+33:35
+to select the appropriate base
+
+33:37
+that is being
+
+33:41
+this is the name of the base. So it's just
+
+33:43
+the base with multiple tables inside of it. So selecting
+
+33:46
+the base and you select the table.
+
+33:48
+And based on that selection, it will ask you to
+
+33:50
+populate these fields
+
+33:52
+that are required for the record to be created. Now
+
+33:55
+call ID, if we just look at the data, you
+
+33:58
+can see that we have
+
+34:00
+accepted
+
+34:02
+message,
+
+34:03
+then
+
+34:04
+call and then ID. So I've just gone ahead and
+
+34:06
+selected this 1. As you can see, just added the
+
+34:09
+second time so I can delete it, but that's how
+
+34:11
+you actually go ahead and traverse the data
+
+34:15
+and try to pick and choose these different pieces
+
+34:18
+that you need to pass into these different fields in
+
+34:21
+order to create them inside air table. Now the phone
+
+34:23
+number again is just a selection.
+
+34:26
+It's a message customer number. So the message is this
+
+34:30
+part here. So we expand that. Then we expand customer
+
+34:33
+and then we just pick a number from there.
+
+34:36
+Now
+
+34:37
+call time exactly like that. So in this
+
+34:40
+specific
+
+34:41
+example, there's no transformation of any of the data. We're
+
+34:44
+just taking
+
+34:45
+exactly what arrived at the webhook, and we're just picking
+
+34:48
+and choosing the values from there, adding them to different
+
+34:51
+fields inside air table.
+
+34:53
+And then we are just saving that. So let's hit
+
+34:56
+okay. That's going to create
+
+34:59
+the record inside Airtable. So every time the automation executes,
+
+35:02
+there's going to be a record created.
+
+35:04
+Now a final step, what we want to do is
+
+35:06
+as soon as that record has been created,
+
+35:08
+what we want also to grab from that action
+
+35:12
+is the ID of the record that has just been
+
+35:15
+created inside Airtable.
+
+35:16
+Why we wanna do this is because on that second
+
+35:19
+leg of the automation, we would need that record ID
+
+35:23
+to link
+
+35:24
+the reservation
+
+35:25
+record
+
+35:26
+with the the call record.
+
+35:29
+Now in this case, the second leg has a condition.
+
+35:31
+It has a filter. So it's not going to be
+
+35:33
+executed absolutely all the time because not all the calls
+
+35:36
+are gonna going to have the reservation in them.
+
+35:39
+That is why we needed to extract that parameter
+
+35:42
+in VAPI,
+
+35:44
+which was reservation. So on the analysis tab, we have
+
+35:47
+this parameter here, reservation, which is a boolean, true or
+
+35:50
+false.
+
+35:51
+So now in make, what we can do is we
+
+35:54
+go ahead and edit this.
+
+35:57
+Just a sec. Let's see how we can edit that.
+
+36:00
+It's a bundle structured data.
+
+36:04
+Reservation
+
+36:05
+equals to true. I'm not sure why is it not
+
+36:07
+expanding
+
+36:08
+as I would expect it to,
+
+36:11
+but
+
+36:14
+edit filter. Is there any way we can
+
+36:18
+yes. Now we have expanded that. So we can look
+
+36:21
+at this as analysis structured data reservation.
+
+36:24
+That's a boolean. So we want to check if it's
+
+36:26
+equal to true. And if that is the true, then
+
+36:28
+the leg is gonna pass this test and is going
+
+36:31
+to continue the execution here. Now this module is just
+
+36:35
+retrieving the variable
+
+36:37
+that was previously set on this leg,
+
+36:39
+And we want to kind of recover that because unfortunately
+
+36:43
+make doesn't share values between legs. You have to save
+
+36:45
+it here and then recover that value here.
+
+36:48
+Now with that
+
+36:50
+ID of the record created in this step, we now
+
+36:53
+can proceed and create a reservation ID in a different
+
+36:57
+table.
+
+36:58
+So it's the same base, but the table is not
+
+37:00
+calls anymore. It's now reservations.
+
+37:03
+You can see that in in the other module, we
+
+37:05
+had calls selected.
+
+37:06
+Now in here again, we are setting pretty much all
+
+37:09
+the data just 1 to 1, just picking and choosing
+
+37:11
+from whatever arrived at this webhook
+
+37:14
+except for the date. Now the date needs to be
+
+37:16
+transformed
+
+37:17
+into something that make once.
+
+37:20
+And that's why we have this parse date function
+
+37:23
+used in this field and into that function where passing
+
+37:25
+the parameter
+
+37:27
+that has been accepted on the webhook and just changing
+
+37:29
+it slightly so that it is being digestible
+
+37:33
+by the Airtable.
+
+37:34
+Now the rest of the parameters are just passed as
+
+37:37
+they are. And this is the call record ID that
+
+37:39
+we have recovered in a previous step so we can
+
+37:42
+link the records in between themselves.
+
+37:45
+And that's it essentially.
+
+37:47
+As soon as that data arrives from VAPI and this
+
+37:49
+automation executes,
+
+37:51
+we have now records being added to the all calls
+
+37:54
+table and the reservations table
+
+37:56
+so that they can be referenced and taken further by
+
+37:59
+the restaurant administrators or whoever is being assigned to handle
+
+38:02
+these,
+
+38:03
+either calls or observe them or maybe act on something
+
+38:06
+that has happened.
+
+38:08
+So we are giving an interface to the business owner
+
+38:11
+in the form of the Airtable so they can build
+
+38:14
+on top of that.
+
+38:15
+Now to help you set up the whole thing on
+
+38:18
+your accounts, I have prepared several resources that you can
+
+38:21
+use to get up to speed really fast.
+
+38:24
+1 of them is going to be this make automate
+
+38:26
+that you will be able to download
+
+38:28
+among other resources of this tutorial, and it works actually
+
+38:31
+pretty simple.
+
+38:33
+So you just open the automation
+
+38:36
+and you run it once. So before I run it,
+
+38:38
+let me show you my VAPI
+
+38:40
+account right now. So I only have this AI receptionist
+
+38:43
+that I was demoing to you earlier. Now if I
+
+38:46
+go back to make and I just run this automation
+
+38:49
+once, I have to edit it,
+
+38:51
+run once.
+
+38:54
+Let's wait for a second. It finishes. Now if we
+
+38:56
+go back to VAPI
+
+38:58
+and we
+
+39:00
+refresh
+
+39:01
+the page, just a second,
+
+39:03
+we will see another agent being added. It's It's called
+
+39:06
+AI receptionist import, and it has exactly the same settings.
+
+39:10
+Absolutely everything that we've gone over in this tutorial, it's
+
+39:13
+all there,
+
+39:14
+for you to start playing with. So super simple. Just
+
+39:18
+run that automation, and it's gonna be good.
+
+39:21
+1 thing you will have to do before running the
+
+39:23
+automations is you will have to edit this module, and
+
+39:26
+you would have to replace
+
+39:27
+this token here. So keep the bearer part. Just replace
+
+39:31
+this token with the 1 from your VAPI instance,
+
+39:34
+and you should be good to go.
+
+39:37
+Also to save you time, I've prepared an import template
+
+39:40
+for the Airtable.
+
+39:41
+So after you have your Airtable base created, just navigate
+
+39:45
+into it. And in here, press on the add or
+
+39:47
+import button.
+
+39:49
+Then select Microsoft Excel format
+
+39:51
+and browse the files and select the Airtable underscore template
+
+39:55
+file.
+
+39:56
+Now this will give you an import dialog.
+
+40:00
+And in here, just select create a new table next.
+
+40:03
+And you can see that this dialog has 2 tables
+
+40:06
+that it wants to create all calls and reservations.
+
+40:09
+Now, 1 thing we can do right here on this
+
+40:11
+screen is change the types of fields. The call ID
+
+40:15
+needs to be to single line text. The phone number
+
+40:17
+needs to be of type phone number. Call time, keep
+
+40:20
+it as it is for all calls table.
+
+40:22
+Call duration, let's keep it as number. Call cost, let's
+
+40:26
+keep it as currency.
+
+40:28
+And end reason, let's go for single line text. Call
+
+40:31
+summary, let's keep it as long text.
+
+40:33
+Now for reservations,
+
+40:35
+we want to do the same change to call ID,
+
+40:37
+single line text. Phone number to a phone number.
+
+40:40
+Name,
+
+40:41
+single line text.
+
+40:43
+Date, let's keep it as date. That's a correct 1.
+
+40:45
+Now time, single line text. Number of people, a number.
+
+40:49
+And a call. We're gonna switch that to actually being
+
+40:52
+the link field. So for now, let's smash that import
+
+40:54
+button and wait for Airtable to complete the import process.
+
+40:58
+Now, 1 thing we want to update still is on
+
+41:01
+the reservations.
+
+41:03
+We want to change the date
+
+41:05
+slightly.
+
+41:06
+Let's edit that field and let's remove the time here.
+
+41:09
+Optionally, you also may want to change the date format.
+
+41:13
+After input is gonna show that as an ISO format,
+
+41:16
+but you wanna change that to something that works best
+
+41:18
+for you.
+
+41:19
+Now with that out of the way, let's hit save.
+
+41:24
+1 final thing that we wanna do is to change
+
+41:27
+the call column into a link.
+
+41:29
+So let's edit the field and let's switch it from
+
+41:31
+single line text to link to another record.
+
+41:34
+Let's select
+
+41:35
+all calls to. Let's unselect allow linking to multiple records.
+
+41:40
+Save.
+
+41:41
+Skip the next screen. Don't select anything here. Skip it.
+
+41:44
+And there we have. So
+
+41:47
+now we can select a record from an adjacent table,
+
+41:51
+which is going to create the link. So now if
+
+41:53
+we navigate back and forth between these ones, you can
+
+41:56
+see that there's a reservations column linking to the reservation
+
+41:59
+record. And inside reservations,
+
+42:01
+we have this this identifier, this column linking back to
+
+42:04
+the calls column.
+
+42:06
+That's it. That's how you import your tables
+
+42:09
+and speed up the process.
+
+42:12
+Okay. So now let's look at how we can import
+
+42:14
+the Make automation and configure it so it's fully functional.
+
+42:17
+You will start by creating a new scenario in Make.
+
+42:21
+In here, immediately, you can go to this button more,
+
+42:24
+import blueprint,
+
+42:27
+select the file that is called AI receptionist make all
+
+42:30
+report,
+
+42:32
+and save
+
+42:33
+it. Now at this point, after you have saved the
+
+42:36
+blueprint,
+
+42:37
+you will not have these modules fully functional as they
+
+42:40
+require the parameters in your instance of Make. So let's
+
+42:44
+start with webhooks.
+
+42:45
+You can see that there's no webhook assigned. There's the
+
+42:48
+module that is called webhooks, but there's no actual connection
+
+42:50
+inside the make system
+
+42:52
+to any URL. So let's add 1.
+
+42:55
+Just keep it by default my gateway webhook,
+
+42:58
+and that's gonna be fine. Now we can copy this
+
+43:01
+address. You can say okay,
+
+43:03
+and you can immediately go ahead and inside VAPI, you
+
+43:06
+can go and use that address.
+
+43:10
+On your
+
+43:11
+AI in the advanced tab,
+
+43:14
+you can scroll down to the server URL and and
+
+43:16
+you can paste this URL in here so that you
+
+43:19
+have it updated and connected to that automation that you
+
+43:21
+just created.
+
+43:23
+Let's go back to make. Now this 1 out of
+
+43:25
+the way. Next are going to be the Airtable modules.
+
+43:29
+Now we also need to have a connection first and
+
+43:32
+foremost with your Airtable
+
+43:34
+account to be able to configure these modules. So go
+
+43:37
+ahead and create 1. Let's go add.
+
+43:39
+Let's go select Airtable auth.
+
+43:42
+My auth connection. Save. Now it's going to redirect you
+
+43:46
+to the Airtable,
+
+43:47
+screen where you can add the base,
+
+43:50
+select the base that you created previously where you imported
+
+43:53
+those tables that I've shown you and grant access.
+
+43:56
+Now this will give Make access to your Airtable base
+
+43:59
+and this will open up this window with these parameters
+
+44:03
+being not red, like filled with with the red color,
+
+44:06
+but being these kind of a placeholders.
+
+44:08
+Now, as soon as you start selecting the tables here,
+
+44:11
+what's gonna happen is that it's going to flush
+
+44:13
+all of this. It's going to empty all of these
+
+44:15
+fields. Now we don't wanna lose those values. So let's
+
+44:18
+hit okay for now.
+
+44:21
+Next thing what we're gonna do is we're gonna say
+
+44:23
+clone
+
+44:24
+and we're going to position this clone module in between
+
+44:27
+the Airtable module and the tools module.
+
+44:30
+Why we wanna do this is we wanna have this
+
+44:33
+clone
+
+44:34
+accessible for us so we can copy and paste the
+
+44:37
+values over so you don't have to reinvent them.
+
+44:40
+Now let's do the same thing here. Let's add the
+
+44:42
+connection that we just created. It's gonna be this 1.
+
+44:46
+Let's Let's hit okay. And let's clone this module.
+
+44:50
+So it sits right next to the original 1. So
+
+44:53
+this 1 and this 1 are currently clones. Now why
+
+44:56
+we wanted to do that is this. As soon as
+
+44:57
+you start selecting your imported tables, and in this case,
+
+44:58
+I don't have
+
+44:59
+my
+
+45:00
+selecting your imported tables, and in this case, I don't
+
+45:03
+have my imported table so I'm just gonna select all
+
+45:05
+calls back. So in my case, it doesn't really flush
+
+45:09
+these settings, but let's just try and select a different
+
+45:11
+1 so you can see what's gonna happen in reality.
+
+45:11
+So you'll end up with the empty field. See what's
+
+45:12
+gonna happen in in reality.
+
+45:14
+So you'll end up with the empty fields. I'm gonna
+
+45:17
+switch back to all calls. It's probably gonna populate them,
+
+45:20
+but yeah. So in case you don't have these values
+
+45:23
+in here, what you can do, you can go into
+
+45:25
+this cloned module,
+
+45:27
+copy the
+
+45:28
+value, click command
+
+45:30
+c, go back to this module,
+
+45:33
+and paste the value here. So this kind of saves
+
+45:35
+you time and headaches of going back and forth and
+
+45:38
+figuring out which fields you need to place into this
+
+45:41
+or which values you need to place into this input
+
+45:43
+fields.
+
+45:44
+So we can just go ahead and copy copy and
+
+45:47
+paste all of them and you'll be good to go.
+
+45:50
+Now as soon as that's done, as soon as you
+
+45:52
+have configured everything,
+
+45:54
+you can delete the cloned module. You don't need that
+
+45:56
+anymore.
+
+45:57
+So and the same goes here. Now I have the
+
+46:01
+reservations table selected since this was
+
+46:04
+me exporting this template connected to the original Airtable base.
+
+46:04
+Then I I
+
+46:05
+don't
+
+46:14
+configuring this, that's what I'm trying to explain is that
+
+46:18
+you can do this in an easy way
+
+46:20
+without going back and forth. Now again, I have everything
+
+46:23
+here set up. Let's go okay. Let's delete the clone
+
+46:28
+and let's save that. We can also use this magic
+
+46:31
+wand to organize the scenario in a nicer way.
+
+46:34
+Okay. So this is what you should end up with
+
+46:37
+after importing the blueprint and creating the scenario. So you
+
+46:40
+have the webhook configured. You have the URL copied and
+
+46:43
+pasted into the agent in VAPI.
+
+46:46
+Now you have the Airtable connection created and you have
+
+46:49
+all the fields mapped out.
+
+46:52
+In order for you guys to be able to test
+
+46:54
+this newly imported automation, I've also created another scenario in
+
+46:57
+Make that you can use to shoot out a test
+
+47:00
+message, a test data payload
+
+47:03
+to your newly imported make automation and see if it
+
+47:06
+actually produces any Airtable records.
+
+47:08
+Now, this is the 1 that I've just imported.
+
+47:11
+I will go into this automation. I will go to
+
+47:13
+webhooks.
+
+47:14
+I will again copy this address to clipboard. I will
+
+47:17
+go back to scenarios and I will open up this
+
+47:20
+automation that should, you should have imported by now. That's
+
+47:24
+called test end of call automation. Let's go inside of
+
+47:26
+it. Let's edit
+
+47:28
+the module.
+
+47:30
+Let's replace this
+
+47:31
+webhook URL with the 1 that I just copied and
+
+47:33
+pasted. I think it's gonna be the same since I
+
+47:35
+did this before as well. And then let's hit okay.
+
+47:39
+And
+
+47:40
+what we can do now, have a look at the
+
+47:43
+make. So we have only 1 record here.
+
+47:45
+Let's go back. Sorry, this is the Airtable. We only
+
+47:47
+have 1 record here. Let's go back to the receptionist,
+
+47:52
+test end of call automation and run it once.
+
+47:55
+So this has run. If we look now at the
+
+47:57
+Airtable, we have the second record just appearing.
+
+48:00
+Again,
+
+48:01
+this automation is only here to shoot out a test
+
+48:05
+payload.
+
+48:06
+As you can see, there's a bunch of text here
+
+48:07
+that is the actual data that usually is sent by
+
+48:10
+VAPI
+
+48:11
+into Make. But we're just emulating that to be able
+
+48:14
+to test that and make sure
+
+48:16
+that your newly configured
+
+48:17
+automation in make that is listening for data coming from
+
+48:20
+BAPI is actually functional. So we're just sending it test
+
+48:23
+data to see if it produces
+
+48:25
+the records inside Airtable.
+
+48:27
+And it did. So at this case, we are sure
+
+48:30
+that this part is functional.
+
+48:33
+Now,
+
+48:34
+you probably have already pasted that webhook URL from the
+
+48:38
+primary
+
+48:39
+scenario that is listening to VAPI. So this 1 here,
+
+48:43
+let's take this again.
+
+48:45
+Copy address to clipboard. Now go back to VAPI. And
+
+48:48
+inside your agent on the advanced tab, just paste this
+
+48:51
+URL
+
+48:52
+in the server URL inbox box, and you should be
+
+48:54
+good to go.
+
+48:56
+So let's do a final test of the voice agent
+
+48:59
+and see how it all works together. I will make
+
+49:01
+a call now to the restaurant using my phone. I
+
+49:04
+will ask couple of questions, create a reservation, and then
+
+49:06
+ask Sophie to transfer me to the manager. Let's see
+
+49:09
+how it goes.
+
+49:12
+Hi. This is Santorini restaurant. Sophie speaking. How can I
+
+49:14
+help you? Hi, Sophie. Can you tell me until what
+
+49:17
+time are you open today?
+
+49:20
+Sure. We're open until 10 PM today. Anything else I
+
+49:22
+can help you with? Yeah. I'll be coming by car.
+
+49:24
+Can you tell me if there's any parking available nearby
+
+49:27
+the restaurant?
+
+49:29
+Of course. We have a private free parking lot with
+
+49:32
+20 spots available for our guests. There's also paid street
+
+49:35
+parking near me if needed. Anything else that I can
+
+49:37
+do for you?
+
+49:38
+Sure. I would like to book a table
+
+49:41
+for the, let's say,
+
+49:43
+the twentieth of October.
+
+49:46
+I can help with that. May I have your name,
+
+49:49
+please? It's Dennis.
+
+49:53
+Thank you, Dennis. What time would you like to have
+
+49:55
+the reservation on the twentieth of October?
+
+49:57
+It's gonna be 7 PM.
+
+50:01
+Got it. How many guests will there be?
+
+50:03
+6.
+
+50:06
+Just to confirm, you would like to reserve a table
+
+50:08
+for 6 guests on the twentieth of October at 7
+
+50:11
+PM. Is that correct?
+
+50:13
+That's correct.
+
+50:15
+I've now created the reservation for you. Looking forward to
+
+50:18
+seeing you. Is there anything else I can help you
+
+50:20
+with? Yes. Can you also please connect me to the
+
+50:22
+manager?
+
+50:24
+Transferring the call now.
+
+50:29
+And I'm getting the call on my second phone, so
+
+50:32
+it all works nicely.
+
+50:34
+Okay. So by now, we should be able to see
+
+50:37
+the new records being added to the Airtable. Let's have
+
+50:40
+a look at that.
+
+50:42
+So this 1 was a prior test. Now this 1,
+
+50:44
+that's happened just now, and here we have it. So
+
+50:47
+the test just came in. The end reason is assistant
+
+50:50
+forwarded the call.
+
+50:53
+All right. So we've made it to the end of
+
+50:54
+the tutorial.
+
+50:56
+Now the next steps for you are going to be
+
+50:58
+to download all tutorial resources
+
+51:00
+that I've mentioned throughout the session,
+
+51:02
+import the tables into your Airtable base so that you
+
+51:05
+have all the setup, all the fields, everything laid out.
+
+51:08
+Now import to make 3 scenarios.
+
+51:11
+1, that is the primary automation is the call report
+
+51:14
+scenario. That is the 1 that VAPI is going to
+
+51:17
+use
+
+51:18
+to send the data to make, which is then going
+
+51:21
+to be translated
+
+51:23
+into the Airtables.
+
+51:24
+Now the 2 other ones are just the convenience
+
+51:27
+scenarios. 1 is to creating the agent in VAPI, as
+
+51:30
+the second 1 is the testing
+
+51:33
+of the end call, meaning that emulation
+
+51:36
+of the data being sent by VAPI to make so
+
+51:38
+that you can make sure that the setup is working,
+
+51:41
+that Make Automation is accepting that data, and is translating
+
+51:45
+that into the Airtable records. Now the fourth step is
+
+51:48
+going to be to copy your API key in VAPI
+
+51:50
+and add it to the create agent in VAPI scenario
+
+51:54
+so that you can successfully
+
+51:55
+push the agent config and create the agent in VAPI
+
+51:58
+without manually going and creating it yourself and copying over
+
+52:01
+all the configurations.
+
+52:03
+Now the fifth step is going to be to configure
+
+52:05
+the call report scenario in Make as shown in the
+
+52:07
+tutorial, meaning that you would have to create the webhook,
+
+52:11
+URL that you will be using through throughout other systems
+
+52:14
+and to configure the Airtable connection. Make sure that all
+
+52:18
+the fields are mapped
+
+52:19
+and then test it. Now the sixth step is going
+
+52:22
+to be to copy that webhook URL that you just
+
+52:25
+received in the previous step
+
+52:27
+and add it to the VAPI agent and also the
+
+52:30
+test end call scenario in Make so you can test
+
+52:33
+how it's working.
+
+52:34
+Now the seventh step is run the test end end
+
+52:36
+of call scenario and make sure
+
+52:39
+that the rows are added to the Airtables.
+
+52:41
+And that should be it. You should be good to
+
+52:42
+go. You should be good to start experimenting and modifying
+
+52:45
+the setup to your liking. Make sure to share your
+
+52:48
+results. It's very interesting to see how this tutorial is
+
+52:50
+going to help you progress with understanding voice agents and
+
+52:54
+achieving
+
+52:55
+your business objectives.

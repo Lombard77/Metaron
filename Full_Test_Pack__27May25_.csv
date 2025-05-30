@@ -1,0 +1,34 @@
+Test Case,How to Perform,How to Verify
+Register New User,LoginCard.jsx → submit form,"✅ Message shown: 'User registered successfully'
+✅ Open `logs/chat_logs.db` → `users` table should have new entry"
+Login with Existing User,LoginCard.jsx → submit login form,"✅ Message shown: 'Login successful'
+✅ Check in browser console:
+`localStorage.getItem('user_id')` returns real email"
+Create Coaching Goal (with file),"Dashboard.jsx → click 'New Goal', fill fields, upload file, submit","✅ Goal shows in sidebar
+✅ Check `data/vector_store/{goal_name}/` exists
+✅ Check DB: `kb_meta` and `uploads` have new entries"
+Create Coaching Goal (without file),Try submitting without a file,"✅ Alert: 'Please provide a goal name and at least one file'
+✅ No DB or vectorstore update
+✅ `logs/error.log` may show validation failure"
+Edit Goal (unchanged),Open goal → click Edit → Save without changes,"✅ Alert: 'No changes detected'
+✅ No embedding run
+✅ Vectorstore untouched"
+Edit Goal (with changes),Edit goal + upload file or change intent/timeframe,"✅ Vectorstore overwritten
+✅ New file appears in `uploads` table
+✅ Goal metadata in `kb_meta` is updated"
+Start Session,Click 'Start Session' on any goal,"✅ Message: '📘 Session Started'
+✅ Browser console: successful POST to `/start-session`
+✅ No crash or error"
+Chat (ask question),Ask question inside session view,"✅ LLM returns response
+If fails: user-friendly message shown, `logs/error.log` has entry from `ask_question()`"
+Persistence Test,Refresh browser or logout/login again,"✅ `localStorage.getItem('user_id')` persists
+✅ Coaching goals reloaded on login"
+Multi-user Isolation,Register and log in as a second user,"✅ No goals shown initially
+✅ Their own created goals do not appear for first user
+✅ `kb_meta` shows distinct `user_id`s"
+DB: Users,Open `logs/chat_logs.db` in DB Browser → Browse `users`,"✅ Registered users listed with email, name, etc."
+DB: Uploads,Open `logs/chat_logs.db` → `uploads`,"✅ Contains filename, session_id, timestamp"
+DB: Coaching Metadata,Open `logs/chat_logs.db` → `kb_meta`,"✅ Goal name, intent, timeframe, and description logged for each user"
+Error Log: Embedding Fail,Manually break file format or delete model,✅ Check `logs/error.log` for `[embed_and_store]` entries
+Error Log: Chat Fail,Break API key or provider config,✅ Check `logs/error.log` for `[ask_question]` entries
+Error Log: Upload Failure,Remove write access to vectorstore folder,✅ Check `logs/error.log` for `[upload_kb]` error entry

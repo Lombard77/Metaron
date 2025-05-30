@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  @apply bg-gray-50 text-gray-800 font-sans text-sm;
+}
+
+/* Custom input and button styles */
+.input {
+  @apply w-full p-2 mb-3 border border-gray-300 rounded-md 
+         focus:outline-none focus:ring-2 focus:ring-blue-400 
+         text-sm;
+}
+
+.btn {
+  @apply py-2 px-4 rounded-md font-semibold text-sm;
+}

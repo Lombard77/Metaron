@@ -1,0 +1,3731 @@
+Transcript
+Search
+
+00:00
+Okay. Now we're getting into core generative AI use cases.
+
+00:02
+Now that we have the solution sphere as our main
+
+00:04
+to model our lattice to hang things on, we're ready
+
+00:06
+to put everything we've learned together and reveal the core
+
+00:08
+AI use cases for businesses. In this section, you'll learn
+
+00:10
+exactly how generative AI has been used in businesses to
+
+00:13
+gain an edge. The hope is that by pouring all
+
+00:14
+of this knowledge into your head, you'll be able to
+
+00:16
+hop onto calls with potential clients and be able to
+
+00:18
+give them recommendations on systems that are proven to create
+
+00:20
+value for other businesses. Finding the good stuff. While AI
+
+00:23
+can theoretically be applied to countless business processes, identifying those
+
+00:26
+that drive significant value rather than those that are mediocre
+
+00:29
+can be difficult. The difference between the 2 is often
+
+00:32
+due to forcing generative AI to do things that it
+
+00:34
+isn't suited to do. As Einstein famously said, everyone is
+
+00:37
+a genius but if you judge a fish by its
+
+00:38
+ability to climb a tree, it will live its whole
+
+00:40
+life believing that it's stupid. This wisdom perfectly applies to
+
+00:42
+AI implementation for businesses and that success comes not from
+
+00:45
+forcing AI to do everything, but from applying it where
+
+00:48
+its unique capabilities create the most value. So there's this
+
+00:50
+nice picture that kinda summarize that Einstein quote.
+
+00:53
+But for a fair selection everybody has to take the
+
+00:55
+same exam. Please climb that tree. Now, obviously, I think
+
+00:57
+the monkey's really suited to that or the bird maybe.
+
+00:59
+But like Einstein's fish, AI excels in its natural environment
+
+01:02
+handling repetitive tasks at scale, processing vast amounts of information,
+
+01:06
+and maintaining consistency across thousands of interactions. Therefore, our focus
+
+01:09
+is on the core use cases that lean into these
+
+01:12
+inherent strengths rather than forcing AI into unsuitable applications, create
+
+01:15
+enough value to justify the investment as covered in AI
+
+01:18
+automation economics, and can be implemented reliably with today's technology.
+
+01:21
+The breakdown formula for all of these use cases that
+
+01:23
+we're gonna cover, we're gonna have these things. So firstly,
+
+01:25
+the core problem, fundamental business challenge that this use case
+
+01:28
+addresses, and why traditional approaches fall short in comparison to
+
+01:31
+the AI version. We have implementation options, different options for
+
+01:34
+solving the problem with AI. The solution sphere integration, how
+
+01:37
+the typical implementation fits into the solution sphere framework. We
+
+01:40
+have the inaction part which is gonna be a step
+
+01:42
+by step step theoretical example of implementations. The key advantage,
+
+01:45
+why this particular use case provides value to a business.
+
+01:47
+And community examples, actual solutions being solved by AAA members,
+
+01:50
+including pricing and results. Now, we have a lot to
+
+01:53
+get through here. I will be skimming over these. You'll
+
+01:54
+be able to access this document of course and go
+
+01:56
+through it at your own pace. But I'll be skimming
+
+01:58
+over the core parts of it here and leaving say
+
+02:01
+the parts here. We're giving examples of community. I'm not
+
+02:04
+gonna be covering those. You can check them out yourself
+
+02:06
+or just pause the video. So starting off with Copilot
+
+02:08
+Systems. This is 1 of the core use cases. The
+
+02:10
+core problem here is that knowledge workers spend a significant
+
+02:12
+amount of time on routine and repetitive tasks that take
+
+02:14
+away from their core value creating activities. Traditional approaches require
+
+02:17
+employees to manually handle everything from research to data entry
+
+02:20
+creating several challenges. Hours spent on low value administrative work,
+
+02:23
+inconsistent quality and routine tasks, limited capacity to handle increased
+
+02:26
+workload and valuable expertise trapped in repetitive activities. Copilots are
+
+02:30
+specialized AI systems for a specific role that handle routine
+
+02:33
+tasks allowing employees to focus on high value work. So,
+
+02:36
+Copilots can be deployed in various ways. You can integrate
+
+02:38
+them with say, Slack where people can chat away to
+
+02:41
+their own Copilot within a Slack channel. You can do
+
+02:43
+it through Microsoft Teams, it's a pretty popular 1. You
+
+02:45
+can build custom web apps around them. You can do
+
+02:47
+them through interfaces provided by AI agent building platforms like
+
+02:50
+Relevant AI which I showed you earlier in this section
+
+02:52
+of videos Or you can make them connected to, say,
+
+02:54
+WhatsApp if you need it on the go. And say
+
+02:56
+you've got a construction worker CoPilot and they you attach
+
+03:00
+it to a WhatsApp number, are they gonna ask questions
+
+03:02
+to it over SMS or WhatsApp? While these are less
+
+03:04
+common, they are definitely ways that it can be integrated
+
+03:06
+into, a workflow. The key is to make the Copilot
+
+03:09
+easily accessible within the employee's natural workflow like I just
+
+03:11
+said. For example, a sales rep's Copilot might include a
+
+03:14
+generic prospect background report, takes in the LinkedIn profile and
+
+03:17
+the company website, performs multi step research, generates insights based
+
+03:20
+on that and suggest the talking points of the call.
+
+03:22
+You might want another 1 for sales reps who need
+
+03:24
+to generate custom payment links on calls so you make
+
+03:27
+a tool in the Copilot so that while they're on
+
+03:29
+the call, they can type away to the Copilot on
+
+03:30
+the side of the screen and instantly create a custom
+
+03:32
+Stripe payment link and invoice when a prospect is ready
+
+03:35
+to move forward. And after the call, you can have
+
+03:37
+a post call CRM update process which automatically processes call
+
+03:41
+details and updates to CRM ensuring perfect record keeping, ensuring
+
+03:44
+perfect record keeping without manual data entry. So in action,
+
+03:47
+this may look like a new sales process being a
+
+03:49
+book and receipt through the calendar. 5 minutes before the
+
+03:51
+call, the rep requests to the Copilot a prospect report
+
+03:54
+and say, hey, I have a call with x y
+
+03:56
+z next. Can you please give me a report before
+
+03:58
+this call? AI compiles all the insights. It gives a
+
+04:01
+quick 1 page summary to the rep and then during
+
+04:03
+the call, the rep generates custom payment links instantly to
+
+04:05
+get people over the edge with a special offer perhaps.
+
+04:07
+And after the call, a quick voice member updates all
+
+04:09
+systems. And so this is how you make a sales
+
+04:11
+rep co pilot. You get impact on key metrics where
+
+04:13
+ad generated prospect reports increase the close rate from 20
+
+04:16
+to 23 percent by being better prepared. The instant payment
+
+04:19
+link might add another percent by allowing special offers that
+
+04:21
+can be sent. Accurate CRM data helps manage the swap
+
+04:23
+patterns adding maybe an extra 2 percent lift. The total
+
+04:25
+close rate improvement could be from 20 to 26. And
+
+04:28
+the sales rep monthly churn drops from 10 to 5
+
+04:30
+as they are spending their time on things that actually
+
+04:32
+matter rather than grinding away on up any CRMs manually.
+
+04:34
+Financial impact here, I'll just skip over that. You can
+
+04:36
+pause and take a look. But the key advantage here
+
+04:38
+is that beyond simple efficiency gains, these Copilot systems create
+
+04:41
+a compounding competitive advantage. While competitors employees split time between
+
+04:45
+admin work and valuation, your team can focus entirely on
+
+04:47
+revenue driving activities. This creates a double benefit you operate
+
+04:50
+with smaller more agile teams while simultaneously improving performance through
+
+04:54
+better job satisfaction and focus. The result is a business
+
+04:56
+that can scale faster and adapt quicker than competitors bound
+
+04:59
+by traditional operational overhead. I have a community example here
+
+05:02
+from Tim Kikia. He'll pause that and check that out.
+
+05:04
+Then getting into lead generation systems. Core problem is that
+
+05:06
+every business needs a consistent flow of leads to survive
+
+05:08
+and grow, but traditional lead generation faces major limitations. Businesses
+
+05:11
+can only engage with a tiny fraction of potential customers
+
+05:14
+due to human capacity constraints, and valuable opportunities are lost
+
+05:17
+due to delayed responses or inconsistent follow-up. The cost of
+
+05:20
+this can be significant. You're missing opportunities when prospects reach
+
+05:23
+out after hours, inability to engage with every website visitor,
+
+05:26
+valuable sales time wasted on unqualified leads, and limited ability
+
+05:29
+to scale outreach without proportional headcount increases as well. AI
+
+05:32
+lead generation system solve this by engaging with unlimited prospects
+
+05:35
+simultaneously 24 7 while a qualifying interest before any human
+
+05:39
+involvement. Some implementation options for this will be through conversational
+
+05:42
+AI like we've been through website chat bots, WhatsApp chat
+
+05:45
+bots, voice agents, etcetera. These are places where you can
+
+05:48
+create an agent that is connected to some kind of
+
+05:50
+interface. And when the customer or the prospect comes along
+
+05:52
+and wants more information, they can immediately chat to the
+
+05:55
+web agent or they can chat to the WhatsApp agent
+
+05:56
+or they can call up and they can ask questions
+
+05:58
+to the inbound voice agent. All these different ways are
+
+06:00
+allowing customers to get the information they need at the
+
+06:02
+right time. But lead generation systems will typically have some
+
+06:05
+kind of you could throw in a tool that offers
+
+06:07
+some kind of value like, hey, by the way, I
+
+06:08
+can do x y z for you. Would you like
+
+06:10
+me to do that? Okay. Great. Well, in exchange, could
+
+06:12
+you give me your details? Or, hey. Okay. Sounds like
+
+06:14
+you're ready to move forward. I can give you an
+
+06:15
+instant quote. Bang. You give them a quote, and then
+
+06:17
+you ask for the details so the sales team can
+
+06:19
+follow-up beyond that. So that's conversational AI lead generation, where
+
+06:22
+the customers wanna interact with. You have your AI agent
+
+06:25
+ready to go and and chat back and forth, answer
+
+06:26
+questions, and then move them towards a lead capture and
+
+06:29
+even to an appointment setting if you feel like that
+
+06:31
+as well. You have AI lead magnets which are slightly
+
+06:33
+different way. AI can actually be used to create juicy
+
+06:35
+lead magnets like we talked about earlier that provides some
+
+06:37
+kind of personalized value to website visitors, video viewers, cold
+
+06:40
+email recipients, and other forms of traffic. These are typically
+
+06:42
+an AI tool which expects some kind of input from
+
+06:44
+the user which is passed into a series of LLMs
+
+06:47
+or other functions like perplexity for web search which convert
+
+06:49
+those inputs into some kind of more valuable output that
+
+06:52
+they actually wanna get. So, and that's of course in
+
+06:54
+exchange for the contact information. So, so this can be
+
+06:56
+a great way to give away limited access to your
+
+06:58
+proprietary methods in order to generate leads. And can be
+
+07:01
+used as stand alone on a site with ads running
+
+07:02
+to it or it can be used in organic content
+
+07:04
+or can even be worked into an offer through a
+
+07:06
+chatbot like those discussed above as a way of setting
+
+07:08
+up lead capture. So, like I said, you could have
+
+07:10
+a calculator tool or a or instant quote generator or
+
+07:13
+you could have a free report creator. And it's like,
+
+07:15
+hey, if you give me these details, I can generate
+
+07:17
+this report for you and I'll send it to your
+
+07:18
+email, etcetera. So those are some lead generation methods. There
+
+07:21
+aren't many others which we're gonna touch on that are
+
+07:23
+kinda outside of the scope of these. But lead generation
+
+07:25
+of course a a big part of it and there's
+
+07:27
+many different ways to do it with AI. So in
+
+07:29
+action, 1 of these conversational systems would look a bit
+
+07:31
+like this. When the visitor arrives on the website, the
+
+07:33
+AI engages them, they answer questions on the product and
+
+07:35
+services, and then it mentions that it can give them
+
+07:37
+a free report on their business in seconds. All you
+
+07:39
+need to do is provide your site URL, generates a
+
+07:41
+report, and asks for the email and name so that
+
+07:43
+they can send it over. Captures this information and logs
+
+07:45
+it to a CRM. And the bonus would be that
+
+07:47
+it triggers a qualification automation to analyze the report and
+
+07:50
+decide if they're qualified and then update the CRM to
+
+07:52
+qualified, plus notification via Slack saying, hey, look, we've got
+
+07:55
+a new qualified lead. And so you can check out
+
+07:57
+the numbers here. As for the system integration, we have
+
+07:59
+the outer layer where the website chatbot is handling that
+
+08:01
+first touch. Then we've got a number of systems in
+
+08:03
+the core such as updating the CRM,
+
+08:06
+triggering follow-up sequences, and post sales call updating that CRM
+
+08:09
+again with information from the transcript. And in the middle
+
+08:11
+layer, you've got sales team using AI tools to prep
+
+08:13
+sales calls that pulls data from the CRM. And you
+
+08:15
+could also have a report generation tool for lead gen
+
+08:17
+too. The key advantage here is that while competitors only
+
+08:20
+with leads during business hours, AI lead generation systems can
+
+08:23
+capture and qualify opportunities across all channels 24 7. This
+
+08:26
+creates a compounding effect. Not only do you capture more
+
+08:28
+leads, but faster response times dramatically improve conversion rates. Each
+
+08:31
+interaction provides valuable data to further refine and optimize the
+
+08:34
+systems creating an ever growing advantage over late adopters. Use
+
+08:37
+of AR lead magnets can present much more value to
+
+08:39
+prospects, helping businesses to convert more visitors into leads in
+
+08:42
+exchange of personalized value packed outcome. Community examples are these
+
+08:46
+ones here. I'll let you pause that and take a
+
+08:47
+look. So appointment setting systems are next and they're similar
+
+08:50
+to what we've just covered but a little bit different.
+
+08:51
+Setting appointments is a fundamental business function that directly impacts
+
+08:54
+revenue. No meetings equals no business for many service based
+
+08:57
+businesses. Yet the traditional appointment setting process is incredibly inefficient.
+
+09:01
+It requires content availability,
+
+09:03
+consumes valuable staff time with back and forth communication, and
+
+09:06
+is limited by human capacity. And if you think about
+
+09:08
+it, there's also a lot of traffic that is run
+
+09:10
+through a typical appointment setting system of of having a
+
+09:13
+few appointment setters where they don't actually set like that.
+
+09:15
+They might have a 50 percent qualification rate. So half
+
+09:18
+of the work of all of the teams wasted. So
+
+09:20
+while you have to have you typically have more capacity
+
+09:22
+than you need because you've gotta dig through the rubbish
+
+09:24
+to get through the actual people who are qualified for
+
+09:26
+the offer. Right? So this naturally creates a bottleneck in
+
+09:28
+business growth and the cost is significant of not having
+
+09:30
+this sorted out. Lost opportunities when no 1 is available
+
+09:33
+to respond in the in the right time. People just
+
+09:35
+go to someone else for their needs. There's valuable employee
+
+09:37
+time spent on scheduling rather than revenue generating activities. You've
+
+09:40
+got inconsistent follow-up leading to lower show rates and limited
+
+09:43
+capacity to handle increased booking volume as you scale. AI
+
+09:46
+appointment setters solve this by providing 24 7 availability and
+
+09:49
+unlimited capacity while maintaining a consistent professional experience for every
+
+09:53
+prospect. Our options for implementation here are through a text
+
+09:56
+based platform like WhatsApp or website chatbot or through SMS.
+
+09:59
+We can do through voice based agents via like an
+
+10:01
+inbound AI receptionist or for outbound calls like you've got
+
+10:05
+a cold caller or a list re engagement agent that's
+
+10:07
+calling up your your old leads and asking, hey, would
+
+10:09
+you be interested in this new offer? Or through social
+
+10:10
+media platforms like Instagram DMs where they reply to a
+
+10:13
+story like DM me grow if you're interested and then
+
+10:15
+the seller jumps in and is able to qualify and
+
+10:17
+then set them if they're they are qualified. The choice
+
+10:19
+really depends on where your prospects prefer to engage. For
+
+10:22
+example, a barbershop might use WhatsApp while a b to
+
+10:24
+b service might prefer voice calls. So in action, a
+
+10:27
+barbershop might put this appointment center on WhatsApp, customer messages
+
+10:30
+the business number, AR responds instantly, checks live calendar availability,
+
+10:34
+books the appointment, sends confirmation with the details to them,
+
+10:37
+and then sends reminders via SMS automation to them as
+
+10:39
+well. The system integration for this is, there's 2 different
+
+10:41
+ways you could look at this, for a basic system
+
+10:43
+like the 1 we just covered. Just an outer layer
+
+10:45
+being WhatsApp appointment setter, with real time calendar availability,
+
+10:49
+checking and scheduling. And at the core, you put a
+
+10:50
+basic automation for the reminders or it can even be
+
+10:53
+done through Calendly. For a more comprehensive system like high
+
+10:55
+ticket services, you'd have the outer layer of a text
+
+10:57
+based on WhatsApp or Instagram handling the qualification and scheduling.
+
+11:01
+At the core, you'd have automated research on confirmed appointments,
+
+11:03
+and an outbound voice agent for confirmation calls and show
+
+11:06
+rate optimization. So as soon as they've been confirmed on
+
+11:08
+your end, you might send an outbound voice agent, to
+
+11:11
+increase the show rate like, hey, by the way, you've
+
+11:12
+got a call coming up in 30 minutes. Is everything
+
+11:14
+all good? And in the middle layer, you can have
+
+11:16
+sales teams using AI generated research briefs like we've gone
+
+11:18
+over many times now for meeting preparation. So the key
+
+11:21
+advantage is that AI appointment setting delivers more than just
+
+11:23
+scheduling efficiency. It eliminates traditional growth constraints. While competitors miss
+
+11:27
+bookings and waste staff time on administration, your business or
+
+11:30
+your client's business capture every opportunity instantly with perfect calendar
+
+11:33
+optimization. This removes a typical scaling bottleneck with hiring and
+
+11:36
+managing a team of appointment setters, allowing you to expand
+
+11:38
+marketing or enter new markets without the proportional increase in
+
+11:41
+overhead that limits competitors. This is a massive part of
+
+11:43
+it and the difficulty of training and managing and keeping
+
+11:47
+them motivated and replacing appointment setters when they churn because
+
+11:50
+they inevitably do because it's such brute force like mundane
+
+11:53
+work. This is a major benefit to the AI appointment
+
+11:55
+setting system is that it eliminates that need for having
+
+11:59
+such a high turnover team of appointment setters and training
+
+12:01
+them and managing them and making sure they're on schedule,
+
+12:03
+making sure you you they're showing up on time to
+
+12:05
+take over when the other person goes to sleep kind
+
+12:07
+of thing. It can be an absolute nightmare. So here's
+
+12:08
+an example from the community from Liam. I've got even
+
+12:11
+more from Isaiah, Brandon, and Sadar, all the all agents
+
+12:14
+of our community. Getting into knowledge retrieval systems. The core
+
+12:17
+problem is that businesses can accumulate vast amounts of information,
+
+12:20
+product details, processes, policies, expertise, but making this knowledge easily
+
+12:23
+accessible is a major challenge. You have staff wasting hours
+
+12:26
+searching for information, customers get inconsistent answers, and available institutional
+
+12:30
+knowledge is often lost or underutilized.
+
+12:32
+The costs are significant. You've got employees spending 30 percent
+
+12:34
+of their time searching for information according to some sources,
+
+12:37
+inconsistent responses to customer inquiries, knowledge bottlenecks when key employees
+
+12:41
+are unavailable,
+
+12:41
+and training new staff takes longer than necessary. AI knowledge
+
+12:44
+retrieval systems solve this by making all information instantly accessible
+
+12:47
+through natural conversation ensuring consistent accurate responses 24 7. So
+
+12:51
+this is basically just let's put all of the documents
+
+12:53
+that are relevant to a certain set of the team
+
+12:55
+or maybe the entire company and let's make a knowledge
+
+12:58
+base for that and connect it to an agent and
+
+13:00
+then connect that agent to somewhere that's useful. So, the
+
+13:02
+implementation options here would be a company wide internal documentation
+
+13:05
+helper that's attached to a Slack channel where you can
+
+13:08
+easily within Slack say, hey, what are we supposed to
+
+13:10
+do when x y z happens? Or who's supposed to
+
+13:12
+talk to about this? Or where can I find this?
+
+13:14
+Or Microsoft Teams if you're working with bigger companies. You
+
+13:17
+can have a knowledge based assistant that's niched down sort
+
+13:19
+of by specific departments e g the sales team knowledge
+
+13:22
+assistant or sales team assistant. You can have client support
+
+13:24
+systems provided to the customers for around the clock support
+
+13:27
+for common queries as well. So say for a marketing
+
+13:29
+agency client of yours, they might want 1 of these
+
+13:31
+systems where their client could always ask questions to this
+
+13:34
+knowledge based system about, oh, where can I find this
+
+13:37
+or wait, why are we doing this? What's the deal
+
+13:38
+with this? And it can answer those really annoying nagging
+
+13:41
+questions that can slow down an agency or cause them
+
+13:43
+to need to hire extra people for that client company
+
+13:46
+can
+
+13:47
+implement a internal documentation helper that an employee messages on,
+
+13:51
+Slack asking what's our process for changing YouTube descriptions. The
+
+13:54
+AI instantly pulls relevant information from the standard operating procedure
+
+13:57
+documentation it's got in the knowledge base. It provides a
+
+13:59
+quick clear answer and then also a link to the
+
+14:02
+full documentation. And of course, all of these questions are
+
+14:04
+being tracked and over time, it can be used to
+
+14:06
+improve the system. So how this works is based on
+
+14:08
+a vector database, which you can check out LLM field
+
+14:10
+work and AI foundations if you haven't already. Stores the
+
+14:12
+company documentation that preserves the meaning and context and when
+
+14:15
+someone asks a question the LLM understands that intent, pulls
+
+14:18
+out the most relevant information from the knowledge base and
+
+14:20
+creates a natural conversational way to access company knowledge that
+
+14:22
+feels like asking a knowledgeable colleague. So the system integration
+
+14:25
+for this would be in the middle layer, an internal
+
+14:27
+documentation assistant for employee use via Slack for example. A
+
+14:31
+human operated document ingestion tool for manual uploads. So say,
+
+14:35
+maybe you have a Google doc link and you wanted
+
+14:37
+to put that document into a new standard operating procedure
+
+14:39
+that you've written. And I wanna put this into my
+
+14:42
+sales department knowledge base. Okay. Well, I could go into
+
+14:44
+a tool that you create in relevance or something and
+
+14:46
+you put in here's the link to the Google Doc
+
+14:48
+making sure it's on view viewable by everyone. And then
+
+14:50
+you put in the, the tag. You could say this
+
+14:53
+is for the sales department and click enter or click
+
+14:55
+run and it's going to take that Google Doc link.
+
+14:57
+It's gonna be able to pull that information, put that
+
+14:59
+document into the sales knowledge base and then from there
+
+15:02
+on immediately, it's propagated throughout the system and any sales
+
+15:05
+rep who's asking questions to it will be able to
+
+15:07
+get access to that right and correct up to date
+
+15:09
+information. And at the core, you can have optional automated
+
+15:12
+knowledge base ingestion for new company docs. So if you
+
+15:14
+wanna do an automated system rather than a human operated
+
+15:17
+1, you can do that too. And so the advantage
+
+15:18
+of this is that these AI knowledge systems can transform
+
+15:21
+information from static resources into dynamic competitive advantages. While most
+
+15:24
+businesses waste hours searching for information or make decisions based
+
+15:27
+on incomplete data, organizations with AI knowledge systems give their
+
+15:30
+teams instant access perfectly organized contextual insights. This creates a
+
+15:34
+compound effect. This creates a compound effect. Employees not only
+
+15:37
+save time but work quality improves and everyone operates with
+
+15:39
+the combined knowledge of the entire organization. We have some
+
+15:42
+examples here from the community. You can check those out.
+
+15:44
+Another 1 here. Now, getting into AI personas. So the
+
+15:47
+core problem here is that expert knowledge and unique perspectives
+
+15:50
+are typically locked inside of your own brain, limiting their
+
+15:53
+reach and scalability. So whether it's a thought leader or
+
+15:56
+a coach or a subject matter expert, their ability to
+
+15:59
+share knowledge and interact with others is gonna strained by
+
+16:01
+the time and often their physical presence as well. Traditional
+
+16:04
+solutions like books or courses lack the interactive element that
+
+16:06
+makes learning from experts so valuable. So these AI personas,
+
+16:10
+they work similar to the knowledge system we've just covered
+
+16:12
+but with a little twist. So unlike the simple knowledge
+
+16:15
+retrieval systems we've
+
+16:16
+just gone over that just find and present the information,
+
+16:18
+AI personas are designed to embody a specific individual's personality,
+
+16:22
+expertise, and communication style. They combine a knowledge base of
+
+16:25
+the person's content such as transcripts, books, videos, etcetera. Like
+
+16:28
+you could do it for me. You could take all
+
+16:29
+of my YouTube content and accelerator content and create an
+
+16:32
+AI persona of me with carefully crafted prompts that shape
+
+16:35
+how they interpret and present that knowledge. The prompt engineering
+
+16:37
+is crucial. It defines not just what information to use
+
+16:40
+but how to communicate it in a way that matches
+
+16:42
+the original person's style and approach. So that is the
+
+16:44
+difference between an AI persona and just a regular knowledge
+
+16:47
+assistant. AI persona is a a more curated set of
+
+16:50
+data. It's like, okay, I'm trying to recreate Liam Motley
+
+16:53
+as an AI persona. I want an AI persona of
+
+16:55
+him that I can talk to and ask questions to
+
+16:56
+about my business. You can take a curation of my
+
+16:59
+best videos or course content and put it into a
+
+17:02
+knowledge base and then the prompt on top of that
+
+17:04
+is also crucial and you need to write it in
+
+17:06
+such a way that it transforms the agent into me.
+
+17:09
+Like you are Liam Motley, you do this, Your approach
+
+17:12
+is this. Use the information that is received from the
+
+17:14
+knowledge base in this way. So it's essentially prompting and
+
+17:17
+and programming the behavior of how the agent is gonna
+
+17:19
+act and its objectives and goals as well. It's like,
+
+17:22
+what is it trying to do? It's trying to help
+
+17:23
+people to understand how to start an AI business. And
+
+17:26
+the prompt aspect on top of the knowledge base is
+
+17:28
+how you define an AI persona. Common applications for this
+
+17:31
+include coaches and consultants, proprietary methodology and mentorship can be
+
+17:34
+scaled through AI versions of themselves, allowing students and clients
+
+17:37
+to get personalized guidance 20 fourseven. For example, a business
+
+17:40
+coach's AI persona can guide students through their methodology, answer
+
+17:43
+questions, and provide feedback on their unique style. These can
+
+17:46
+be built into standalone products and monetized also. So, there's
+
+17:48
+a monetization option for coaches and consultants who have some
+
+17:51
+kind of proprietary methodology. Business leaders can also use it
+
+17:54
+as well. For example, a CEO might use AI personas
+
+17:56
+for training and culture transmission by creating an AI version
+
+17:59
+of themselves to help new employees understand the company vision.
+
+18:02
+Or a manager might create a training persona to consistently
+
+18:04
+onboard new team members with their exact methods and approaches.
+
+18:07
+You can also do synthetic customer surveying. AI personas can
+
+18:10
+be prompted to act as a specific type of user
+
+18:12
+or client and then new products, features and pricing, etcetera
+
+18:15
+can be pitched to these personas and the persona will
+
+18:18
+generate realistic feedback. You will see an example from the
+
+18:20
+community at the bottom of this little
+
+18:23
+section. So in action, you'd have a business coach in
+
+18:25
+this example. The traditional approach would be, this is a
+
+18:27
+person who's got 40 hours a week for 1 to
+
+18:29
+1 calls. They charge 500 an hour and the knowledge
+
+18:31
+is shared only during these active sessions and it's limited
+
+18:34
+to geographic and time zones due to where they are
+
+18:37
+and there's no scalability beyond the time available. With this
+
+18:39
+AI solution, you can create an AI persona containing their
+
+18:42
+entire methodology and as much of their experience as possible.
+
+18:44
+This is offered as a low ticket product to those
+
+18:46
+who can't afford 1 on 1. It's available 24 7
+
+18:48
+to 4 student questions and it maintains consistent teaching style,
+
+18:51
+scales to unlimited students
+
+18:53
+and provides personalized guidance based on their approach. The system
+
+18:55
+integration for this would be an outer layer with an
+
+18:57
+AI agent that's been prompted to embody a person's communication
+
+19:00
+style and expertise with access to a knowledge base for
+
+19:03
+their accurate responses. You can prototype it
+
+19:06
+on GPTs. You can prototype it on Agentive. Agentive's good
+
+19:08
+because you can easily integrate it with whatever platform you
+
+19:10
+want. You can do it on relevance AI even. And
+
+19:12
+at the core of this, you can have usage analytics
+
+19:15
+generated weekly. So, that's 1 of the the really important
+
+19:17
+and valuable things of of these systems is you'd be
+
+19:19
+able to track all of the data and like what
+
+19:21
+are these people asking about most often? What are the
+
+19:23
+common questions? Where could I improve the conversions? Or maybe
+
+19:26
+I'm trying to upsell. What upsells was I able to
+
+19:28
+get? And yeah, like I said, conversation analysis and just
+
+19:31
+usage analytics will be helpful as well. And the key
+
+19:33
+advantage here is that AI personas solve a fundamental challenge
+
+19:36
+of scaling personal expertise and unique perspectives. They allow individuals
+
+19:39
+to extend their reach and impact without traditional limitations of
+
+19:42
+time and physical presence while maintaining the interactive personalized nature
+
+19:45
+of human communication. Unlike basic knowledge retrieval systems, they provide
+
+19:49
+not just information but the experience of interacting with a
+
+19:51
+specific individual.
+
+19:53
+Here's some community examples.
+
+19:55
+This 1 here is what I was talking about. As
+
+19:56
+you can see, Abby sold it for a lot of
+
+19:58
+money here in creating a multiple different AI avatars or
+
+20:01
+AI personas that reflected the different segments of a company's
+
+20:04
+user base. And so they could do real time market
+
+20:07
+testing and get a pretty good approximation of what the
+
+20:10
+different personas are gonna think of it. Then we have
+
+20:12
+mass outreach systems. So the core problem here is that
+
+20:15
+businesses need to reach large numbers of prospects, customers, or
+
+20:17
+stakeholders, but traditional outreach methods are severely limited by human
+
+20:21
+capacity. Whether it's cold calling, following up with old leads,
+
+20:23
+or reaching out to existing customers with new offers, the
+
+20:25
+manual approach creates a bottleneck that limits growth and misses
+
+20:28
+opportunities.
+
+20:29
+The options here for implementation,
+
+20:31
+we've got a bunch of them. What generative AI offers
+
+20:33
+businesses are conversational agents that can be used to reach
+
+20:36
+out to existing or potential customers and engage them in
+
+20:38
+a sales conversation. Instead of just blasting out the same
+
+20:40
+message then handling responses manually, the entire process from outreach
+
+20:43
+to appointment setting can be automated. Personalization of each conversation
+
+20:46
+is also possible at scale when sufficient information on the
+
+20:49
+person being contacted is available. E. G. When writing a
+
+20:51
+personalized email sequence, contact scrape from their LinkedIn or company
+
+20:55
+website is often needed. My point here is that we
+
+20:56
+have mass outreach systems. Sure. It's nothing new but the
+
+21:00
+key with generative AI is that like versus just traditional
+
+21:02
+cold email or cold DMing and things like this. We
+
+21:05
+have the conversational agent which can step in to response.
+
+21:08
+So say you're doing cold DMs as soon as a
+
+21:10
+response is received. It's not just okay, now we have
+
+21:13
+to go and get a human in there to reply.
+
+21:15
+Not only can you personalize the message that goes out
+
+21:17
+using AI, but you can also have a conversational agent
+
+21:20
+that jumps in when replies are received. Because 95 percent
+
+21:23
+of your your DMs or your cold emails are gonna
+
+21:25
+be completely ignored. So you're basically saving all of that
+
+21:28
+waste. And as soon as there is a reply, the
+
+21:30
+agent is stepping in immediately to answer it. So instead
+
+21:32
+of someone having to manually send those DMs out, you'd
+
+21:34
+likely be using an automation. But the conversational agent that
+
+21:37
+can step in to handle responses combined with the personalization
+
+21:41
+of the opening messages and and the sequences is really
+
+21:43
+where and generative AI shines. So businesses have several options
+
+21:46
+for AI assisted mass outreach, each with distinct advantages. You've
+
+21:50
+got phone calls being the most direct and hardest to
+
+21:52
+ignore. While email open rates hover around 20 percent, phone
+
+21:55
+calls achieve a 30 to 45 percent connection rate. AI
+
+21:57
+voice agents can now conduct natural conversations at scale, making
+
+22:00
+this previously expensive channel newly accessible. Previously expensive meaning that
+
+22:04
+you'd have to get actual people on the phone and
+
+22:06
+hire a cold caller to do it. You've got SMS
+
+22:08
+and WhatsApp where you've got high open rates but limited
+
+22:10
+by regulations and platform restrictions, best for existing customer relationships
+
+22:14
+or opt in lists. So you might be blasting, mass
+
+22:17
+outreach and conversational agents attached to that mass outreach to
+
+22:20
+your existing customer lists. Instagram DMs are good for b
+
+22:22
+to c businesses with a social presence but limited by
+
+22:25
+platform rules again and lower response rates. Instagram is pretty
+
+22:28
+tough around automation and things like that but you have
+
+22:31
+auto I G D M which is from the OmniFusion
+
+22:33
+AI guys which allows you to automate your Instagram outreach.
+
+22:36
+Reach. They also offer setters as well through their own
+
+22:39
+offer. And then you have email, mass outreach, sort of
+
+22:41
+the OG. Scalable but suffering from low engagement due to
+
+22:43
+inbox saturation these days. Even well crafted campaigns see 15
+
+22:46
+to 25 percent open rates and they can actually benefit
+
+22:49
+hugely from AI personalization. The game changer is that modern
+
+22:52
+AI can now handle 2 way conversation across these channels
+
+22:54
+instead of just blasting 1 way messages or rigid automated
+
+22:57
+flows. We can engage prospects in natural and even personalized
+
+23:00
+dialogue at scale. So you might be thinking like,
+
+23:03
+I've tried mini chat. I can tell it what to
+
+23:05
+say. I can integrate these different parts here and here,
+
+23:07
+and I can make a nice conversation flow. And if
+
+23:09
+they don't answer the right question, then they won't be,
+
+23:11
+qualified. But it's still limited by being a a sort
+
+23:14
+of rigid automated flows. And if you're able to get
+
+23:17
+a conversational agent in there to step in, you have
+
+23:20
+a much more natural way and and flexible way of
+
+23:22
+qualifying people and getting them into, your your calendar really.
+
+23:26
+So in action, this will look like a real estate
+
+23:28
+agent with a database of 2000 past leads and clients.
+
+23:31
+And they know statistically that 3 to 5 percent of
+
+23:32
+their list might be interested in selling their house at
+
+23:34
+a given time. That's 60 to a hundred potential listings
+
+23:37
+hidden in their database that they just don't have the
+
+23:39
+muscle or the time to find. Then we have traditional
+
+23:41
+options which would be to call everyone manually, a hundred
+
+23:43
+hours of work, hire an assistant for 20 dollars an
+
+23:45
+hour plus commission or like most people do, just do
+
+23:48
+nothing and miss these opportunities. So the AI solution here
+
+23:50
+would be an outbound AI calling system which loads the
+
+23:52
+database of 2000 contacts, AI calls everyone over 2 to
+
+23:55
+3 days, offers a free property valuation and mentions current
+
+23:58
+market conditions, makes a special offer or free professional photos
+
+24:02
+worth 500 dollars something like that. And if they're interested,
+
+24:04
+immediately notifies the agent and also sends them a text
+
+24:06
+message with further information about this offer. The system integration
+
+24:09
+for this would have at the front layer an AI
+
+24:11
+voice agent handling outreach with basic are you interested kind
+
+24:14
+of script. Nothing too complex. Hey, we've got this offer.
+
+24:16
+Would you be interested? Then a text message with a
+
+24:18
+link to fill out a form is automatically sent to
+
+24:20
+the interested parties. In the back layer, you've got instant
+
+24:22
+notifications for interested parties and form submissions. So those notifications
+
+24:26
+go into the team or the realtor. And then you
+
+24:27
+have CRM updates with with the call outcomes. So like,
+
+24:30
+hey, this person is no longer stale. This is someone
+
+24:32
+who's ready to sell. The key advantage here is that
+
+24:34
+AI outreach systems fundamentally change the economics of customer acquisition.
+
+24:37
+While traditional businesses are constrained by human calling capacity and
+
+24:40
+working hours, organizations with AI outreach can engage thousands of
+
+24:43
+prospects simultaneously across multiple time zones. This creates a scale
+
+24:46
+advantage. Not only do they reach more prospects, but the
+
+24:49
+consistency and optimization of AI interactions leads to improving conversion
+
+24:53
+rates. AI personalization of course can be a potent advantage
+
+24:56
+when trying to cut through the clutter in social and
+
+24:57
+email inboxes and increase those response rates. Here's some examples
+
+25:01
+from the community. You can pause and take a look
+
+25:03
+at them or hit them up on LinkedIn if you
+
+25:04
+want more information. I've covered a lot of these on
+
+25:06
+my YouTube videos as well when I break down like
+
+25:08
+the list of solutions so it's worth watching those videos
+
+25:10
+as well. They're all on my channel for you guys
+
+25:12
+to check them out. Alright. Next, getting into qualification systems.
+
+25:14
+So the core problem here is that high volume situations
+
+25:17
+create massive inefficiencies in businesses. Whether it's job applications,
+
+25:20
+sales leads, or potential partnerships, manually qualifying large numbers of
+
+25:23
+prospects is incredibly time consuming and often wasteful. For example,
+
+25:27
+talking to a thousand leads, 9200 will be a fit.
+
+25:29
+Means that 80 percent of the time your resources are
+
+25:31
+spent on dead ends. If you've got common high volume
+
+25:33
+scenarios being job applications, hundred or thousands per position, sales
+
+25:37
+leads from advertising with databases, partnership opportunities with channel partners
+
+25:41
+and affiliates,
+
+25:42
+and event registrations and qualifying the attendees and stuff like
+
+25:45
+that. The AI solution is that AI qualification systems can
+
+25:48
+act as intelligence, scalable filters that can engage with unlimited
+
+25:52
+prospects
+
+25:52
+simultaneously through various channels. You've got text based, systems through
+
+25:56
+WhatsApp, SMS, and website chat bots, and voice based systems
+
+26:00
+through inbound or outbound calling. In action, a qualification system
+
+26:03
+may look like this with a LinkedIn job ad campaign.
+
+26:06
+The scenario would be that they're hiring for a senior
+
+26:08
+sales representative. They receive 2000 applications. This is something they
+
+26:11
+just left open for a long time and and drive
+
+26:13
+a lot of traffic to. And they need to shortlist
+
+26:15
+the top 50 candidates.
+
+26:17
+So the traditional screening time is gonna be 15 minutes
+
+26:19
+per candidate AKA 500 hours. Traditional option to deal with
+
+26:22
+this would be to manually review them all which would
+
+26:24
+be impossible. Other 1 would be random selection. The other
+
+26:26
+1 would be first come first served which is gonna
+
+26:28
+miss the later ones that come along or it's to
+
+26:31
+outsource it to a recruitment agency which could cost 10,
+
+26:33
+15000 dollars. The AI solution would be an application form
+
+26:36
+that collects phone numbers. The AI voice agent calls each
+
+26:38
+applicant within 24 hours, conducts a structured interview and then
+
+26:42
+the system either a, evaluates the responses live during the
+
+26:44
+call using a criteria or b, records responses for batch
+
+26:48
+analysis against criteria,
+
+26:49
+via the call transcript. And from this evaluation, they can
+
+26:52
+do a shortlisting to get down to that top 50
+
+26:54
+that they're looking for. Maybe even a top 200
+
+26:57
+and then they shortlist down to the top 50 manually
+
+26:59
+themselves. But they've still saved a ton of work. And
+
+27:01
+the system integration for this would be an outer layer
+
+27:03
+with an outbound voice agent prompted with a set of
+
+27:05
+questions to collect answers for. At the core, you'd have
+
+27:07
+the automated transcript analysis to shortlist and rank these applicants
+
+27:11
+based on criteria and update the applicant spreadsheet. You've got
+
+27:13
+notification system for when a promising applicant is identified And
+
+27:16
+you've got automated email and SMS to send a booking
+
+27:18
+link for an actual interview, human based interview, to the
+
+27:21
+shortlisted applicants. The key advantage of this is that while
+
+27:24
+most businesses are forced to choose between thoroughness and speed,
+
+27:27
+organizations with AI qualification can process unlimited submissions or lead
+
+27:31
+or potential customers efficiently. Though AI screening may miss some
+
+27:34
+opportunities that humans could catch,
+
+27:36
+the dramatic reduction in time and resources creates a compelling
+
+27:39
+advantage. Businesses can see how their operations while competitors remain
+
+27:42
+constrained by the economics of manual screening. I've got a
+
+27:45
+a an example here from Jorge
+
+27:47
+where he's done it for a whiskey investment company and
+
+27:49
+a few more from the community here. Next, we have
+
+27:51
+the OG, the customer support system. The core problem with
+
+27:54
+this is, that customer support is a critical bottleneck as
+
+27:57
+businesses grow. You've got traditional support models that force companies
+
+28:00
+to choose between service quality and cost efficiency. Either hire
+
+28:03
+more staff as you scale or maintain a small team
+
+28:06
+and have poor service quality and and long response times,
+
+28:08
+which is usually what companies end up doing. Hey, we'll
+
+28:10
+get back to you in 24 hours. It's never a
+
+28:12
+nice thing to see as a customer who's paying these
+
+28:14
+people money and they say, oh, you're gonna have to
+
+28:16
+wait a day or 2 just to get an answer.
+
+28:18
+This creates a growth ceiling where businesses can't effectively serve
+
+28:21
+more customers without proportionally increasing their costs. Support categories, we
+
+28:24
+have 2 different types. You've got the pre purchase support
+
+28:26
+where potential customers are seeking information before buying. These interactions
+
+28:30
+directly impact revenue as prospects often abandon purchases if they
+
+28:33
+can't get quick answers. The challenge is providing instant accurate
+
+28:36
+responses about products, pricing, and features at scale. Then you
+
+28:39
+have post purchase support. So existing customers needing help with
+
+28:42
+your product or service. These interactions impact retention and referrals
+
+28:45
+and therefore indirectly impact,
+
+28:47
+your long term revenue. The challenge is providing consistent high
+
+28:50
+quality support across technical issues, account management, and service delivery
+
+28:54
+without ballooning costs. So the options here for implementation are
+
+28:57
+text based and voice based support, but modern AI support
+
+28:59
+systems typically operate in a hybrid model, just as a
+
+29:01
+bit of a disclaimer here, which is that they can
+
+29:03
+handle the majority of routine inquiries themselves, the current AI
+
+29:06
+technology isn't advanced enough to do complete automation of customer
+
+29:10
+support. Instead, these systems excel at handling 80 percent or
+
+29:13
+more ideally of common queries while intelligently routing complex issues
+
+29:17
+to human specialists.
+
+29:18
+This creates an efficient tiered support structure across various channels.
+
+29:21
+So via text based support, you can have website chat
+
+29:24
+bots, WhatsApp, SMS channels, etcetera, that allow businesses to meet
+
+29:27
+customers where they are. These systems can answer questions from
+
+29:29
+a knowledge base. And when the AI encounters a complex
+
+29:31
+issue or detects customer frustration, it can smoothly transition the
+
+29:34
+conversation to a human agent providing them with the full
+
+29:36
+context of the interaction.
+
+29:38
+Over a text based chatbot, this can be difficult depending
+
+29:40
+on which platform you use to build it. For example,
+
+29:42
+Voiceflow has options like this human handoff here and shout
+
+29:45
+out to Taha, who who's made this video here. He's
+
+29:48
+an OG accelerated member. And you've got voice based support
+
+29:50
+where AI customer support lines do a similar thing to
+
+29:53
+the text based, but they're handling inbound calls 24 7,
+
+29:56
+providing a familiar phone experience to normal customer support without
+
+29:59
+the staffing costs. And these systems can answer common questions,
+
+30:02
+route complex issues to the right team, perform basic functions
+
+30:05
+like checking order status, and also update records for the
+
+30:08
+customers as well. Like text based systems, voice agents are
+
+30:10
+designed to recognize when issues exceed their capabilities and seamlessly
+
+30:14
+transfer the calls to human specialists. This ensures customers always
+
+30:17
+receive appropriate support while maximizing the efficiency of your human
+
+30:20
+team. So in action, you guys can take a pause
+
+30:23
+and run through this. I'm not gonna bore you with
+
+30:24
+all of that, by me reading over it. But there's
+
+30:26
+certain advantages to if you're handling a thousand support calls
+
+30:29
+monthly to switching from traditional to AI solutions
+
+30:33
+here. And I will touch on this though. There are
+
+30:34
+enhanced versions of these basic customer support systems where you
+
+30:37
+can have a more AI receptionist style of system that
+
+30:41
+can answer the calls, book and manage appointments, and do
+
+30:43
+more than just answering questions from a knowledge base. System
+
+30:46
+integration of a customer support system like this, could be
+
+30:49
+an inbound AI voice agent that answers support line calls
+
+30:52
+with access to a knowledge base and 1 to 2
+
+30:54
+key tools, e g check order status or human handoff.
+
+30:57
+At the core, you'd have automated transcript analysis to improve
+
+30:59
+the knowledge base. Like what questions are being asked? Okay.
+
+31:01
+What do we need to actually update the knowledge base
+
+31:03
+with? You've got data and insights extracted and provided to
+
+31:06
+the customer support manager.
+
+31:07
+Like what are the patterns and what are we seeing
+
+31:09
+in these conversations the most? And the CRM updates to
+
+31:11
+maintain customer interaction history like what they chatted to us
+
+31:14
+on the fifth of April and they said this or
+
+31:16
+had this issue so that people are always aware. And
+
+31:18
+finally, the key advantage is that these AI support systems
+
+31:20
+can transform the economics of customer service by handling the
+
+31:23
+majority of routine inquiries automatically while improving the customer experience
+
+31:27
+through instant 24 7 availability. This allows businesses to scale
+
+31:30
+their support operation without proportional cost increases, breaking through the
+
+31:33
+traditional growth ceiling of support costs. So again, we're seeing
+
+31:36
+this pattern where
+
+31:37
+if you're answering the same question over and over and
+
+31:40
+over and over and over and over again, it does
+
+31:42
+not make sense to have a human doing it anymore.
+
+31:44
+They're better off doing the complex gnarly problems that need
+
+31:47
+the brains and problem solving abilities of a human. Whereas
+
+31:50
+customers actually from getting a fast response 24 7 or
+
+31:53
+at any time of the day. Getting the answer they
+
+31:55
+need and moving on rather than waiting for someone 12
+
+31:57
+24 to 48 hours to just give them the most
+
+31:59
+generic response that they've had to give to 5 other
+
+32:01
+customers in the past hour. Some community examples here, of
+
+32:04
+course, there's a lot of customer support systems out there
+
+32:07
+and our community is leading the way with that. Then
+
+32:08
+we have written content generation and repurposing systems. So the
+
+32:11
+core problem is that content marketing has emerged as the
+
+32:14
+most cost effective way to build brand awareness and generate
+
+32:17
+leads in the digital age. I would be the first
+
+32:19
+1 to tell you that. And unlike paid ads, posting
+
+32:21
+content is free and can generate huge returns. Every business
+
+32:23
+knows they need to maintain an active presence across multiple
+
+32:26
+social platforms but the reality of content creation creates severe
+
+32:29
+operational challenges that limit most companies ability to execute effectively.
+
+32:32
+Traditional content creation methods face several critical limitations. Time consumption
+
+32:36
+is perhaps the biggest barrier. Creating fresh and engaging content
+
+32:39
+for multiple platforms daily requires hours and hours of work.
+
+32:42
+A single piece of long form content a blog or
+
+32:44
+video can take 4 to 8 hours to research, create,
+
+32:46
+and polish or more.
+
+32:48
+Then adapting that content for different platforms like Twitter, LinkedIn,
+
+32:50
+Instagram, etcetera can take additional hours on top of that.
+
+32:53
+Quality consistency becomes nearly impossible at scale. When rushing to
+
+32:57
+feed the endless content machine, businesses often sacrifice quality leading
+
+33:00
+to subpar posts that can actually damage brand perception. The
+
+33:03
+pressure to constantly produce new content while maintaining high standards
+
+33:05
+creates significant stress on marketing teams. And platform optimization adds
+
+33:09
+another layer of complexity. Each social network has its own
+
+33:11
+best practices, content formats, audience expectations. What works on LinkedIn
+
+33:15
+likely needs a complete overhaul for TikTok or Instagram. This
+
+33:18
+multiplies the work required for effective cross platform presence. The
+
+33:21
+implementation for some of these written content generation and repurposing
+
+33:25
+systems, we have a few very powerful approaches to deal
+
+33:28
+with this issue. Firstly, we have content generation systems. This
+
+33:31
+is using AI to create original content from scratch, handling
+
+33:34
+everything from research to writing. A sophisticated implementation might include
+
+33:37
+an AI agent, research agent that scrapes relevant sources and
+
+33:41
+synthesizes key insights from say a competing blog post or
+
+33:43
+a competing YouTube video. Then you have a content planning
+
+33:46
+AI that structures topics and key points. Then we have
+
+33:48
+multiple LLM steps and passes to generate and refine the
+
+33:51
+actual content. Then We have platform specific formatting and optimization.
+
+33:55
+So aside from content generation, creating new original content, we
+
+33:58
+have repurposing systems. So these take your existing long form
+
+34:01
+content, podcasts, videos, articles, etcetera, and automatically transform them into
+
+34:05
+multiple formats through video transcription,
+
+34:08
+best bits identification and extraction, and content generation in the
+
+34:11
+tone and style of the original creator. So in action,
+
+34:13
+an automated short form content system,
+
+34:15
+for a business coach would look a bit like this.
+
+34:17
+The coach provides a topic, e g, leadership during organizational
+
+34:20
+change. The AI research agent would then analyze recent leadership
+
+34:24
+studies, identifies key trends and insights, pulls relevant statistics and
+
+34:27
+examples, and then their content planning AI agent would structure
+
+34:31
+insights into a compelling narrative, creates platform specific content plans,
+
+34:35
+suggests hooks and engagement points, and then the generation engine
+
+34:38
+produces 3 2 minute TikTok or real scripts with supporting
+
+34:41
+visual suggestions and optimize descriptions and hashtags. And the entire
+
+34:44
+process takes 15 minutes of the coach's time compared to
+
+34:46
+4 to 6 hours traditionally. The solution sphere integration of
+
+34:49
+this would be a middle layer mainly of just an
+
+34:51
+AI tool that is used by the founder, takes in
+
+34:53
+this input. Again, AI tools are human or agent operated
+
+34:56
+and they take an input and do a number of
+
+34:58
+steps and then give you some kind of output. Where
+
+35:00
+the founder or marketing manager will be using this AI
+
+35:03
+tool and takes in the topic, sends a generative content,
+
+35:05
+which takes in the topic and sends the generated content
+
+35:07
+to a Notion database for review. The key advantage here
+
+35:09
+is that the AI content systems automate the creation and
+
+35:12
+distribution of quality, consistent content across multiple social media platforms,
+
+35:15
+enabling businesses to achieve content velocity
+
+35:18
+without increasing costs. Compared to paid advertising, content marketing allows
+
+35:21
+businesses to generate leads for a much lower cost preventing
+
+35:24
+cash flow issues and making scaling far easier. So Shahz
+
+35:27
+here has a system for YouTube repurposing.
+
+35:29
+A bunch of other people have it in the community
+
+35:31
+as well. Next up, we have visual asset generation system.
+
+35:34
+So these are different from written content which is why
+
+35:37
+I've split them up here. Very different things but they
+
+35:39
+are both content generation systems on the list. The core
+
+35:41
+problem is that businesses require a constant stream of high
+
+35:44
+quality visuals these days for content marketing and any kind
+
+35:47
+of marketing really ads, anything you could imagine, branding packages,
+
+35:51
+product design, etcetera. But traditional methods are costly and time
+
+35:54
+consuming creating severe bottlenecks for them in the creative process.
+
+35:57
+Companies are forced to choose between expensive creative agencies with
+
+36:00
+long turnaround times or lower quality in house production, limiting
+
+36:03
+their ability to test and optimize creative variance. And I
+
+36:05
+leave it at in here, another option of just having
+
+36:07
+to spend a whole lot of money per month for
+
+36:09
+an in house team. And this directly impacts marketing performance
+
+36:12
+and revenue potential. As for implementation options, businesses now have
+
+36:14
+several options for AI driven visual creation each suited to
+
+36:18
+different needs. So we've got image generation,
+
+36:20
+the most versatile and immediately applicable. These modern image generation
+
+36:24
+models can create product photos, ad creatives, marketing visuals in
+
+36:27
+minutes rather than days. While early systems produce inconsistent results,
+
+36:31
+current technology can generate photorealistic images that match specific brand
+
+36:34
+guidelines and marketing requirements. This is particularly powerful for e
+
+36:37
+commerce and digital advertising where constant creative testing is driving
+
+36:41
+performance. I've covered this on my channel talking about the
+
+36:43
+ChatChippity 4 0 image generation model which can be a
+
+36:46
+great starting point for anyone looking to explore image generation
+
+36:48
+capabilities.
+
+36:49
+We have AI video avatars as well. We've got breakthroughs
+
+36:52
+in this technology allowing you to use HeyGen and Synthes
+
+36:55
+here in platforms like this that transform text script into
+
+36:57
+professional looking video content featuring AI generated presenters. This is
+
+37:01
+something that I'm actually experimenting with right now for my
+
+37:04
+channel and for business education programs with Horningside's business education
+
+37:07
+side. These things are going to be the future of
+
+37:10
+content 1 way or another and it's just how they're
+
+37:12
+going to be rolled out and who's able to take
+
+37:14
+advantage of them early on. And what they do really
+
+37:16
+is make video content creation scalable and consistent, enabling businesses
+
+37:19
+to maintain an active video presence across platforms without traditional
+
+37:22
+filming constraints.
+
+37:24
+Systems like HeyGen can create even multilingual versions automatically, expanding
+
+37:28
+global reach.
+
+37:29
+So if you're not familiar, hey, Jen.
+
+37:33
+They do these so you can provide a script and
+
+37:35
+you say, okay. I want you to say this, and
+
+37:37
+then it's going to you need to provide video,
+
+37:39
+of yourself,
+
+37:40
+and it creates a model like this of you and
+
+37:42
+then I can provide a script and say, hey Liam,
+
+37:44
+can you say this? And it's going to use my
+
+37:46
+voice and my likeness and generate video content that I
+
+37:49
+can use in YouTube videos or course content.
+
+37:51
+In here, we also have another 1 which is just
+
+37:53
+video generation models. We have Soarer and we have things
+
+37:56
+like Runway as well, which also offers a great option
+
+37:58
+for visual asset generation.
+
+38:00
+So image generation and video generation
+
+38:03
+are big opportunities,
+
+38:04
+and a massive value add if you can use them
+
+38:06
+correctly. You also have product visualization. So you can get
+
+38:09
+specialized systems that generate product images in different context, colors
+
+38:12
+and environments without physical photography. This is a massive
+
+38:15
+game changer for e commerce and anything that needs product
+
+38:18
+photos, allowing businesses to create entire product catalogs worth of
+
+38:21
+variations without physical samples or photo shoots. The game changer
+
+38:25
+about all of these is that these systems can produce
+
+38:27
+dozens or hundreds of variations in the time that it
+
+38:29
+traditionally took to just create 1. This enables true creative
+
+38:32
+optimization where businesses can test multiple visual approaches simultaneously,
+
+38:36
+adapt creatives quickly based on performance, scale scale successful concepts
+
+38:39
+across multiple formats, maintain consistent quality while reducing costs. So
+
+38:43
+in action, a system like this would look like an
+
+38:45
+e commerce brand launching a new product line. They need
+
+38:47
+new product photos, social media content and add creatives across
+
+38:50
+multiple platforms. A A traditional option would be to hire
+
+38:52
+a creative agency which is gonna cost a lot and
+
+38:54
+take a long time. Do an in house photo shoot
+
+38:56
+which might take a week and cost a lot less
+
+38:58
+but they're gonna get limited variation and and limited quality
+
+39:01
+as well or they can use basic stock photos which
+
+39:03
+is gonna be fast but not exclusive. The AI solution
+
+39:05
+would be a visual asset generation system which generates 50
+
+39:08
+plus product photos or even a hundred or 200 or
+
+39:10
+300 product photos in different context and out of these
+
+39:13
+photos, the best 10 or 20 would be taken picked
+
+39:15
+by humans and in a second phase used to create
+
+39:18
+ad creative variations with text and other graphic elements on
+
+39:20
+top of those photos. And within 24 to 48 hours,
+
+39:23
+they would have a full set of ad creatives, a
+
+39:25
+hundred of them that they can test for a percentage
+
+39:27
+or a fraction of the original cost. System integration of
+
+39:29
+this would just be a middle layer, a set of
+
+39:31
+AI tools for image generation that are used by marketing
+
+39:33
+staff to generate many variations
+
+39:35
+of these creatives on demand. So the key advantage of
+
+39:37
+these systems is that it transforms the economics of creative
+
+39:39
+production by enabling unlimited testing and optimization. As Mozzy says,
+
+39:43
+the top 0.1 percent of advertisers split test 11 times
+
+39:46
+more ad creatives than the remaining advertisers do. Businesses now
+
+39:49
+can find winning creatives through rapid testing rather than relying
+
+39:51
+on expensive creative expertise or gut instinct.
+
+39:55
+Got a few examples here. Matteo Trappella's got a really
+
+39:57
+interesting agency here that's kind of a generative AI creative
+
+40:00
+studio. That's a spin of the AI automation model which
+
+40:03
+is worth checking out. And some avatar work here and
+
+40:06
+imagery for real estate and marketing here. Next, we have
+
+40:09
+document drafting systems. So businesses face a critical bottleneck in
+
+40:13
+a document creation that directly impacts revenue and operational efficiency.
+
+40:16
+Whether it's sales proposals, contracts or legal agreements.
+
+40:19
+Traditional manual drafting methods force companies to choose between speed
+
+40:23
+and quality. Sales team will often wait days for proposals
+
+40:25
+to be created, contracts get delayed in the legal review,
+
+40:28
+and inconsistencies across documents create business risk. This traditional approach
+
+40:31
+creates a gross ceiling where businesses can't scale the document
+
+40:34
+production without proportionally increasing the administrative or legal staff. So
+
+40:37
+the options here, you can set up a AI document
+
+40:39
+drafting system like a a proposal generation system that transforms
+
+40:43
+maybe a sales calls, recordings or meeting notes into a
+
+40:45
+polished branded proposal using a relatively straightforward make dot com
+
+40:49
+automation. That content can be generated based on the transcript
+
+40:52
+and then be inserted into variables on a Google Docs
+
+40:54
+template or PandaDoc is another 1. This can create professional
+
+40:57
+proposals that would traditionally take hours to create manually. And
+
+40:59
+also you have contract generation as well. So similar to
+
+41:02
+proposal generation, input data like a proposal from perhaps this
+
+41:05
+step and a reliable contract template as well can be
+
+41:08
+passed into a basic automation that fills in some key
+
+41:10
+fields like the scope of work, contract value, payment terms,
+
+41:13
+etcetera. These AI systems can generate the first drafts and
+
+41:16
+minutes by understanding service requirements and the context about the
+
+41:19
+business and automatically applying appropriate legal frameworks and clauses. This
+
+41:23
+dramatically reduces the time to get agreements in front of
+
+41:25
+clients while maintaining legal compliance. The game changer is that
+
+41:28
+these kinds of systems can now understand context and nuance
+
+41:30
+in ways previously requiring human judgment. So instead of rigid
+
+41:34
+templates with simple field replacement, modern AI can extract key
+
+41:37
+information from natural conversations like your sales calls, apply appropriate
+
+41:41
+language and formatting, ensure compliance
+
+41:43
+and maintain the correct brand voice and style guidelines for
+
+41:45
+your documents. So in action, this would look like a
+
+41:48
+consulting firm handling 20 new client opportunities per month, each
+
+41:51
+requiring a custom proposal and contracts. They'd have to spend
+
+41:53
+4 to 6 hours on each proposal. They'd get a
+
+41:56
+legal review for 2 to 3 days potentially.
+
+41:58
+Template modification which can be prone to errors and multiple
+
+42:01
+revision cycles with the team. We have the AI solution
+
+42:03
+which will be a document drafting system that takes the
+
+42:05
+recording of the discovery call with the prospect, analyzes that
+
+42:08
+transcript, extracts requirements,
+
+42:10
+generates a proposal within 3 minutes, creates contract draft simultaneously
+
+42:14
+and routes them to a human for a initial review
+
+42:17
+and then delivers both documents to the client or potential
+
+42:19
+client in the same day. This look like a a
+
+42:22
+set of core automations that takes the post call transcript
+
+42:25
+and automatically generates the proposal draft and then it takes
+
+42:28
+the proposal once it's generated and generates the contract as
+
+42:30
+well. So you can see how these are kinda interconnected
+
+42:32
+but that information is coming from the sales recording and
+
+42:34
+just passing it through a number of AI steps. The
+
+42:36
+key key advantage here is that an AI document drafting
+
+42:38
+system can significantly reduce the time employees spend on mundane,
+
+42:42
+non value adding tasks such as document creating. This often
+
+42:45
+time consuming process which can take 30 to 60 minutes
+
+42:47
+or more per client adds up considerably at scale. By
+
+42:50
+automating document drafting, businesses can free up valuable employee time,
+
+42:53
+allowing them to focus on high value activities that drive
+
+42:56
+business growth. We have, Josh Hem here who's got an
+
+42:58
+example of something that he built to automate proposal creation.
+
+43:01
+Next up, we have data extraction and reformatting systems. So
+
+43:03
+the core problem is that businesses are drowning in unstructured
+
+43:06
+data trapped in various formats, PDFs,
+
+43:09
+scanned documents, images, emails, and digital files. Converting this information
+
+43:12
+into something usable, some structured data manually can be incredibly
+
+43:15
+time consuming and error prone. Whether it's extracting information from
+
+43:18
+resumes, processing receipts, or analyzing technical documents, the traditional approach
+
+43:22
+of manual data entry creates massive bottlenecks that limit operational
+
+43:25
+efficiency and increases costs. Companies are forced to either hire
+
+43:28
+large data entry teams or accept significant delays in processing
+
+43:32
+important information. So you've got 2 options here for implementation
+
+43:35
+or just 2 sort of main ones. We have text
+
+43:37
+based extraction. So for digital documents and text content, the
+
+43:41
+LLMs we have these days can process this unstructured text.
+
+43:44
+Meaning, structured text would be something like JSON and unstructured
+
+43:47
+text would be just a document like this where it's
+
+43:49
+kinda it looks structured to the human eye but the
+
+43:51
+structure doesn't communicate anything about the data, inside of it.
+
+43:54
+And with unstructured text like this document, you can extract
+
+43:56
+specific data points with a remarkable accuracy. Like you could
+
+43:59
+put this entire document in, send it to ChatGPT and
+
+44:01
+say, can you please extract
+
+44:03
+each of the core use cases, the titles of each
+
+44:05
+of them and can you extract
+
+44:07
+the implementation options for each of them and respond with
+
+44:09
+these in JSON format. And it will take all of
+
+44:11
+this information and it will go data extraction and reformatting
+
+44:14
+systems. In JSON, it will write this and it will
+
+44:16
+drop down another line. It'll have a little list and
+
+44:18
+it'll have these 2 here. And in a few seconds,
+
+44:20
+you can convert this whole unstructured set of information
+
+44:23
+into exactly what you wanted to pull out of it
+
+44:26
+which is extremely powerful. This technology can analyze everything from
+
+44:28
+resumes to technical reports, automatically identifying and structuring relevant information
+
+44:32
+that previously required manual review. Looking for maybe names and
+
+44:36
+entities or company names, anything like that. It can extract
+
+44:38
+out and give it to you in some kind of
+
+44:40
+JSON format or other formats that you want. Maybe it's
+
+44:42
+just a list. These kind of systems maintain consistent output
+
+44:44
+formats while handling variations in the input structure. That's the
+
+44:47
+key thing that it can handle very varied inputs and
+
+44:50
+it's super flexible because these models are so smart now.
+
+44:53
+Then we have image based extraction. So for physical documents,
+
+44:55
+receipts, scanned materials, etcetera. These computer vision models that we
+
+44:59
+have nowadays like GPT Vision are super easy to access
+
+45:01
+through APIs on things like make dot com. You can
+
+45:04
+literally access it and send an image to something within
+
+45:06
+make dot com and it can analyze it and you
+
+45:09
+can say, hey, can you please try to look for
+
+45:11
+x y z in this image and it will spit
+
+45:13
+out a response telling you if it's or not. And
+
+45:15
+this allows us to convert visual information into machine readable
+
+45:18
+text or other formats as well. Whether it's like detecting
+
+45:22
+if an entity is in an image or it might
+
+45:24
+be, let's look at a receipt and can you please
+
+45:26
+take that receipt information and extract all the text and
+
+45:29
+give it to me in JSON where it's like itemized
+
+45:31
+receipt. This is then processed through specialized AI workflows to
+
+45:34
+extract and structure the relevant data from the images. This
+
+45:37
+technology has transformed previously manual processes like receipt processing or
+
+45:40
+or document digitization.
+
+45:41
+But we are seeing leaps and bounds with this technology
+
+45:43
+these days where you can have a much more varied
+
+45:46
+set of use cases for it. And it may not
+
+45:48
+be extracting text out of images. It might just be
+
+45:50
+identifying certain things. Is this in it or not? Or
+
+45:52
+what or classification even? Is this image a this? And
+
+45:55
+you can route things based off that kind of classification
+
+45:58
+and using logic within your automations. So instead of rigid
+
+46:01
+template matching, modern AI can adapt to varying document formats
+
+46:04
+and output formats,
+
+46:05
+extract multiple types of entities at once and handle multiple
+
+46:08
+languages. So in action, we use the recruitment agency example
+
+46:11
+again. They've got a thousand resumes coming in monthly for
+
+46:13
+multiple client requirements. The traditional method would be manual data
+
+46:17
+entry. So you've got someone actually looking over and scrolling
+
+46:20
+over the whole resume and going, okay. Well, what's their
+
+46:22
+name? What past experience do they have? What's their email?
+
+46:25
+And manually putting that into a spreadsheet or they can
+
+46:27
+outsource their processing and they get someone else to do
+
+46:29
+it or they can use basic OCR tools where it's
+
+46:32
+gonna pass the document and try to extract the text
+
+46:34
+out which you're gonna get high error rates and limited
+
+46:37
+extraction capabilities. The AI solution or tune into AI solution
+
+46:40
+would be a data extraction system. So when a new
+
+46:42
+resume is received, it's going to trigger an extraction automation.
+
+46:45
+The data in that resume is then passed to an
+
+46:47
+LLM step and the key data from it like name,
+
+46:50
+location, past experience, email, etcetera is outputted in JSON format.
+
+46:54
+And at the same time, it automatically categorizes and shortlist
+
+46:57
+the candidates
+
+46:58
+based on their information and the criteria that was provided
+
+47:01
+for the particular,
+
+47:02
+role. And finally, once it's in JSON format, you've got
+
+47:06
+all of this data, it can be inserted into the
+
+47:07
+candidate database for review and basically flagged as like shortlisted
+
+47:10
+or not, good fit or great fit, etcetera
+
+47:13
+in the Airtable database. The system integration for this would
+
+47:15
+be a make dot com automation that's triggered on new
+
+47:18
+submissions, to extract the info and insert it into the
+
+47:20
+database. The key advantage here is that certain businesses have
+
+47:23
+high document flow like legal recruitment or financial firms and
+
+47:25
+they face a constant challenge extracting and structuring data from
+
+47:28
+countless documents. Manual processing is slow, expensive and prone to
+
+47:31
+errors, hindering scalability. AI powered data extraction eliminates this bottleneck
+
+47:35
+and with the right prompt, AI can instantly process documents,
+
+47:38
+accurately extracting and structuring data at scale. This automation transforms
+
+47:41
+operations, enabling real time decision making, boosting productivity and unlocking
+
+47:44
+scalability that manual methods simply can't match. Got a few
+
+47:47
+examples of them here.
+
+47:49
+If you wanna go through them. Now we get onto
+
+47:51
+our final core use case here which is onboarding and
+
+47:53
+training systems. Traditional onboarding creates a critical bottleneck in business
+
+47:57
+growth whether it's for new employees or clients. Manual processes
+
+48:00
+can be inconsistent, time consuming, and difficult to track, leading
+
+48:03
+to poor first impressions and reduced engagement. Companies face the
+
+48:05
+painful choice between dedicating significant staff time to hand holding
+
+48:08
+new relationships or risk high drop off rates with minimal
+
+48:11
+guidance. This creates a scaling problem where businesses can't effectively
+
+48:14
+grow the team or client base without proportionally interest without
+
+48:17
+proportionally increasing their training and support staff. So we have
+
+48:20
+2 implementation options here or 2 main types. We have
+
+48:22
+structured chatbot guidance, going back to what we talked about
+
+48:25
+earlier in this module. We have step by step chatbots
+
+48:28
+that can walk users through an onboarding process, providing immediate
+
+48:30
+answers to questions and directing them to the relevant resources.
+
+48:33
+This creates a consistent experience while allowing users to progress
+
+48:36
+at their own pace. The key advantage is 24 7
+
+48:38
+availability, real time support from the AI and the ability
+
+48:41
+to track progress in real time. So this is using
+
+48:43
+that voice flow style build. You may have to connect
+
+48:45
+it to a custom front end and build a bit
+
+48:47
+of an app around it. This allows you to say,
+
+48:48
+hey, can you please do this? Let me know when
+
+48:50
+you've done it. And then the AI can actually check
+
+48:52
+on the back end if they've done that by calling
+
+48:53
+a few APIs. Then you can have AI agent support
+
+48:56
+which is a bit like customer support systems that we
+
+48:58
+mentioned earlier but this time using conversational AI connected to
+
+49:00
+some kind of knowledge base or even other helpful tools.
+
+49:03
+And you can provide a round the clock set of
+
+49:05
+answers or answering system
+
+49:07
+for new staff or clients helping them to find the
+
+49:09
+training material that they're looking for, the documentation,
+
+49:12
+and video content as needed. So essentially, you create an
+
+49:14
+AI persona or just a document retrieval or knowledge retrieval
+
+49:17
+system and you give that to your new hires or
+
+49:20
+to your new clients like we've talked about before.
+
+49:22
+And they can ask questions to that and get information
+
+49:25
+directly and this can help them particularly if you're training
+
+49:27
+a new employee. It's like, hey, I don't even know
+
+49:29
+what the hell I'm supposed to be doing. Who do
+
+49:31
+I talk to? What do I do here? Oh, great.
+
+49:32
+I've got this sort of WhatsApp chatbot that I can
+
+49:34
+talk to or some Slack somewhere that I can access.
+
+49:36
+So rather than overwhelming users with a lot of information
+
+49:39
+at once, the AI can deliver relevant content based on
+
+49:41
+their current stage and specific needs. They can ask a
+
+49:43
+question to this agent and say, hey, I'm struggling with
+
+49:46
+this. What am I supposed to do? The game changer
+
+49:48
+is that these systems can automate the majority of a
+
+49:50
+business's onboarding or training needs which ramp up significantly as
+
+49:53
+they scale. If you're working with an agency and they
+
+49:55
+want to go from taking on 5 clients a month
+
+49:57
+to 15, that's a massive increase in onboarding capacity that
+
+50:00
+they need and a system like this would be very
+
+50:02
+valuable. So in action, if you look at a digital
+
+50:04
+agency who's onboarding their clients, the traditional option would be
+
+50:07
+a set of emails and calls, static documentation packages,
+
+50:11
+scheduled training sessions and ad hoc support requests. But with
+
+50:13
+an AI solution, you can have an automated step by
+
+50:15
+step welcome and set up process via a conversational AI
+
+50:18
+application you build and a dashboard to the business owners
+
+50:21
+to monitor the progress. So imagine that you're the agency
+
+50:23
+owner and you get to see where the onboarding process
+
+50:25
+each of your clients are and you can tell some
+
+50:27
+of your team to reach out to them and make
+
+50:29
+sure they're okay. And you can see sort of a
+
+50:30
+high level overview of where your clients are at in
+
+50:33
+the onboarding process. So how this would look with our
+
+50:35
+system integration would be, an outer layer where the onboarding
+
+50:38
+chatbot is set up via a custom web app and
+
+50:40
+middle layer with a dashboard instead of tools to monitor
+
+50:42
+the onboarding progress of staff and clients. At the core,
+
+50:44
+you'd have automations which trigger at key steps with the
+
+50:46
+onboarding and training process,
+
+50:48
+for the client's sake or for the business's sake. And
+
+50:51
+the key advantage of this is that manual onboarding processes
+
+50:53
+are time consuming, resource intensive, and can lead to inconsistent
+
+50:56
+experiences.
+
+50:57
+The onboarding experience is crucial
+
+50:59
+to kicking off a successful project or engagement,
+
+51:03
+and you can even insert things that increase revenue like,
+
+51:06
+hey. Please sign up to this, and you insert your
+
+51:08
+affiliate link. That's a a super easy 1 you can
+
+51:10
+get to try to claw back some of the revenue
+
+51:12
+you've spent on setting up the system. So you can
+
+51:14
+implement an AI powered conversational tool to guide users through
+
+51:17
+the onboarding process which can increase satisfaction and free up
+
+51:19
+business owners to monitor progress and analyze results rather than
+
+51:23
+doing it themselves. This automation allows for consistent personalized onboarding
+
+51:26
+experiences at scale 24 7. Here's a few examples of,
+
+51:29
+training or onboarding chat bots and systems built by the
+
+51:32
+community. And I think there's even 1 more here. Yep.
+
+51:34
+And so that brings us to the end of the
+
+51:36
+AI solution landscape. I think that's been the biggest section
+
+51:39
+of this program thus far. I hope you can understand
+
+51:41
+why we need to be so in-depth about this.
+
+51:43
+This is really what you're paying us for is to
+
+51:45
+give you this information. I've had to earn this through
+
+51:48
+repeated exposure to dozens and dozens and dozens of different
+
+51:50
+systems through Morningside by closely monitoring all the success in
+
+51:54
+this community and in the free community where we have
+
+51:56
+hundreds of thousands of people. I have boiled all of
+
+51:58
+this down into giving you this world view of the
+
+52:01
+AI solution landscape so that you can go out there
+
+52:04
+as an agency owner and actually know what the hell
+
+52:06
+you're talking about. So if that hasn't all sunk in,
+
+52:09
+go back and do it again. Do the quiz associated
+
+52:11
+with this. And if you aren't acing that, you really
+
+52:14
+need to go back and listen to this again or
+
+52:15
+dig through the documents. It's all there. Next, I'm gonna
+
+52:18
+be giving you a walk through of our solutions database
+
+52:20
+which is 1 of the most valuable assets in this
+
+52:22
+entire program for you to be able to go and
+
+52:24
+find things that are actually selling. Like I have provided
+
+52:27
+examples in this document here. But find actual examples of
+
+52:30
+things that are selling in the community that are proven
+
+52:32
+to work, that are proven to be sellable as your
+
+52:35
+starting point for defining the offers that you wanna start
+
+52:37
+selling to your connections or to offer through your social
+
+52:39
+platforms and things like that. So thank you guys for
+
+52:41
+watching. Thank you for sticking with us and I'm looking
+
+52:43
+forward to seeing you in the next video.

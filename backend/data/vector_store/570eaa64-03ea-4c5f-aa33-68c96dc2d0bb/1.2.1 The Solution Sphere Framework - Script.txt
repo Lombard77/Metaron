@@ -1,0 +1,1292 @@
+Transcript
+Search
+
+00:00
+Alright. So next up, we have the solution sphere framework.
+
+00:03
+In today's rapidly evolving AI landscape, AAA owners face a
+
+00:06
+daunting challenge. Making sense of the various AI solutions available
+
+00:09
+and understanding how they can work together effectively. The sheer
+
+00:12
+number of options from chat bots to automation tools to
+
+00:15
+AI systems can create confusion about what to implement and
+
+00:18
+where and how different solutions complement each other and drive
+
+00:21
+the most value within businesses. To bring order to this
+
+00:23
+complexity and chaos, we need a mental model that helps
+
+00:26
+us to understand not just what each AI solution does,
+
+00:29
+but where it creates the most value in a business.
+
+00:31
+As Charlie Munger wisely noted, you can't really know anything
+
+00:33
+if you just remember isolated facts and try to bang
+
+00:35
+them back. If the facts don't hang together in a
+
+00:37
+lattice work of theory, you don't have them in a
+
+00:39
+usable form. You've got to have mental models in your
+
+00:42
+head and you've got to array your experience, both vicarious
+
+00:45
+and direct, on this lattice work of models. So every
+
+00:47
+day, you're gonna encounter new AI solutions, tools, and platforms.
+
+00:50
+And without a mental model to organize this information, these
+
+00:53
+just become isolated facts. Difficult to remember and harder to
+
+00:56
+apply effectively. The SolutionSphere framework provides this essential lattice work
+
+00:59
+offering a clear way to map AI solutions to business
+
+01:02
+operations while revealing how different solutions can work together synergistically.
+
+01:06
+So here we have the solution sphere. We have the
+
+01:07
+alpha layer, the middle layer, and the core. And we're
+
+01:10
+gonna be breaking this down and how this applies to
+
+01:12
+what we've just learned about the different types of AI
+
+01:14
+solutions. And this is how I see
+
+01:16
+the solutions and how I map them in my brain
+
+01:18
+when I am visualizing how AI can help a business.
+
+01:20
+So you guys are getting really the exact methodology that
+
+01:22
+I use and the team at Morningside uses as well.
+
+01:24
+So 3 layers of business operations. At the heart of
+
+01:27
+the solutions fear framework is the understanding that every business
+
+01:29
+operates across 3 distinct layers. The outer layer is the
+
+01:32
+customer interface. This is where a business meets the world.
+
+01:35
+It encompasses all customer touch points from initial contact through
+
+01:38
+service delivery. And you can think of this as a
+
+01:40
+business's service area. Every point where a company interacts with
+
+01:43
+prospects, customers, and the broader market. This layer is crucial
+
+01:47
+because more connections with prospects means more sales. So systems
+
+01:50
+in this layer directly impact revenue generation. So the outer
+
+01:52
+layer here is the first touch, the outreach, the qualification,
+
+01:55
+the appointment setting, the customer support, this outer interface with
+
+01:59
+the world, and your customers.
+
+02:00
+The middle layer is employee operations. So inside a business,
+
+02:03
+this is where the team performs their daily work to
+
+02:05
+deliver your products and services. It's the realm of human
+
+02:08
+expertise, judgment, and creativity. Here, employees can analyze
+
+02:12
+data, make decisions, create content and more. And this layer
+
+02:15
+is where your business's unique value proposition comes to life
+
+02:17
+through process, human intelligence, effort and skill. Think of it
+
+02:20
+as the voluntary or conscious actions taken in order to
+
+02:23
+move towards goals. So this is the layer where you
+
+02:26
+do the thing that creates value for your customers. And
+
+02:28
+so within this middle layer, we have all of the
+
+02:30
+knowledge work around the services you deliver. It's applying a
+
+02:33
+certain copywriting framework or hook style that you are really
+
+02:36
+good at. This is for if you're doing maybe a
+
+02:38
+marketing agency or something or a creative agency. It might
+
+02:41
+be your researching process. It might be the delivery process
+
+02:44
+for, okay, we use this particular set of softwares and
+
+02:47
+we have this template etcetera. So all of this is
+
+02:49
+the employee operations that happen in the middle in order
+
+02:52
+to deliver your services.
+
+02:53
+And then within the core, you have the business systems.
+
+02:55
+At a business's foundation lies the core. Basically, the engine
+
+02:58
+room of operations for the company. This is where essential
+
+03:01
+processes run, data flows between systems, and routine tasks are
+
+03:04
+executed. Think of it as the business's nervous system, connecting
+
+03:07
+everything together and keeping the wheels turning smoothly. You can
+
+03:09
+think of it as the involuntary actions the business, similar
+
+03:12
+to a body, takes to stay alive like breathing, digesting,
+
+03:14
+etcetera. That's probably the best way that I can describe
+
+03:17
+what happens in the core. It's about all of the
+
+03:18
+things that need to happen and keep ticking over. Data
+
+03:21
+tracking and management, notifications so people know what's going on,
+
+03:24
+scheduled reportings, sequence triggers that happen when x happens then
+
+03:27
+do y. All of this happens in the core of
+
+03:29
+the business. And as businesses scale, these systems need to
+
+03:31
+be rock solid so that it can handle the volume
+
+03:34
+and support, the middle layer and the customer interface, the
+
+03:37
+outer layer, at the same time.
+
+03:39
+So now, we get to the interesting part which is
+
+03:40
+mapping our AI solution types which we've just covered to
+
+03:42
+these business layers and to the solution sphere. What makes
+
+03:45
+this sphere so powerful is that it naturally maps these
+
+03:48
+3 main types of systems to the business layers we've
+
+03:50
+just discussed. So the outer layer, if you hadn't figured
+
+03:52
+it out, is mapped to the conversational AI systems we've
+
+03:55
+talked about before. Remember, the primary function of these conversational
+
+03:58
+AI systems is to be that outer interface and first
+
+04:00
+touch with customers. It's where your business meets the world
+
+04:03
+which is what the outer layer is essentially. And in
+
+04:05
+this outer layer where conversational AI can be the most
+
+04:07
+valuable is where businesses face 1 of their biggest scaling
+
+04:10
+challenges which is converting the huge volume of customer interactions
+
+04:13
+into revenue. Because everyday, businesses receive thousands of potential
+
+04:17
+opportunities through website visitors. You've got people calling on phone
+
+04:19
+lines. You've got people liking and commenting on social media
+
+04:22
+or DMing them on their social profiles. And while each
+
+04:24
+Instagram DM or comment might have a lower conversion probability
+
+04:27
+than a website form submission, ignoring these touch points and
+
+04:30
+all of these Instagram DM's and likes and comments means
+
+04:33
+leaving significant revenue untapped. Whereas if you had reached out
+
+04:36
+to them or or done something to engage that interest,
+
+04:38
+they're still interacting with the business in some way. There's
+
+04:41
+just it's economically unfeasible through traditional approaches in order to
+
+04:44
+engage with these kinds of opportunities of likes, comments, DMs,
+
+04:48
+every person visiting website, anyone calling your phone line. A
+
+04:50
+business that receives 5000 monthly visitors and 1000 social interactions
+
+04:54
+might only meaningfully engage with 2 to 3 percent of
+
+04:57
+all of that interest and traffic that has been sent
+
+04:58
+their way. And this is where conversational AI can transform
+
+05:01
+this equation by cost effectively handling
+
+05:04
+these thousands and thousands of interactions, trying to qualify the
+
+05:06
+interest of these visitors and these interactions, and guiding their
+
+05:09
+prospects towards some kind of conversion. These systems leverage the
+
+05:12
+core benefits discussed in the AI automation economics to dramatically
+
+05:15
+expand the business's effective reach. This is going back those
+
+05:17
+benefits that we talked about previously. We have unlimited scale.
+
+05:20
+Conversational AI systems set up in this outer layer can
+
+05:23
+handle thousands of simultaneous conversations without degradation of quality or
+
+05:26
+response time. You've got cost effective growth. There's marginal cost
+
+05:29
+per conversation approaches 0 unlike a linear scaling with human
+
+05:32
+teams. So say you have appointment setters on your Instagram
+
+05:34
+DMs, having a conversational AI system set up there, adding
+
+05:37
+an extra conversation on basically is not gonna cost you
+
+05:39
+anything at all. You can scale up to thousand and
+
+05:41
+thousands before you notice any meaningful changes in costs on
+
+05:44
+operating those systems which is a huge advantage for businesses.
+
+05:47
+They're always available capturing 24 7 interest across all time
+
+05:50
+zones, multilingual support, no missed opportunities. And you've got consistent
+
+05:53
+quality like I've said before, every interaction follows your best
+
+05:55
+practices and messaging perfectly. Again, perfectly as
+
+05:59
+in in quotations, it depends on how you've engineered the
+
+06:01
+system. If you are good enough, you can create conversational
+
+06:04
+systems that can do what they need to do and
+
+06:06
+have a very very low error rate equal to or
+
+06:08
+or lower than what a human would error at as
+
+06:10
+well. It's just like self driving cars. It's difficult to
+
+06:12
+get there eventually, but once you have it across that
+
+06:14
+line, it will either match or be even safer than
+
+06:17
+the human equivalent. And we also have the multi channel
+
+06:19
+aspect of it where you can deploy conversational AI systems
+
+06:22
+across websites, WhatsApp, voice calls, social media, all at once.
+
+06:25
+And so linking back to another concept we discussed as
+
+06:27
+well, is this a manual assisted or automated system? Well,
+
+06:29
+these are typically fully automated rather than manual or assisted
+
+06:32
+because they need to operate autonomously at scale. So in
+
+06:35
+this outer layer, we have conversational AI doing personalized outreach,
+
+06:38
+appointment setting, answering questions and providing details about the products
+
+06:42
+and services. And because there's such a huge amount of
+
+06:44
+scale being pushed through these in in most cases, these
+
+06:47
+are fully automated in most cases. Aside from the odd
+
+06:50
+human hand off feature. But that is not really the,
+
+06:52
+the sort of assisted model. It's still automated with a
+
+06:55
+sort of blow off and release valve to handle any
+
+06:57
+edge cases. An assisted approach would be more like, I
+
+06:59
+am a customer support rep a human and I'm using
+
+07:02
+AI to help me answer questions live on the phone
+
+07:04
+kind of thing. Automated is typically where you gonna end
+
+07:06
+up with these systems like fully automated appointment setting systems.
+
+07:09
+We use them heavily at Morningside. And when you have
+
+07:11
+them working correctly, they are an incredibly
+
+07:13
+powerful, edge in the market. And in the middle layer,
+
+07:16
+we have AI tools. So the challenge shifts from pure
+
+07:18
+scale in this middle layer to enhancing human capabilities in
+
+07:22
+that service delivery and value creation processes of a business.
+
+07:25
+So AI tools excel here because they can handle the
+
+07:27
+routine time consuming aspects of knowledge work like research analysis
+
+07:30
+and content creation while preserving human judgment for strategic decisions.
+
+07:34
+This creates a multiplier effect. When AI handles the heavy
+
+07:36
+lifting, employees can focus on high value activities that truly
+
+07:40
+require human creativity and expertise. For example, a sales team
+
+07:43
+using AI research tools might analyze a hundred prospects in
+
+07:46
+the time it previously took to research 10 while maintaining
+
+07:48
+high quality and consistency. This force multiplication
+
+07:51
+effect makes AI tools particularly valuable in the middle layer
+
+07:54
+where the goal is to enhance rather than replace human
+
+07:56
+capabilities. So with AI tools at this middle layer, you
+
+07:59
+have enhanced productivity, turning hours of work into minutes while
+
+08:01
+maintaining that crucial human oversight in that service delivery process.
+
+08:05
+Is it getting better decisions by providing vastly more information
+
+08:08
+before making any choices? Instead of having to hire a
+
+08:10
+whole research assistant, you can now get AI and use
+
+08:13
+deep research features to get all this information into you
+
+08:15
+and help you to make that decision when previously you
+
+08:17
+would have just had to wing it. Then we have
+
+08:18
+scalable expertise. You can give every employee AI powered capabilities
+
+08:22
+previously limited to specialists. Like you can use these powerful
+
+08:24
+image generation models we have to create custom AI assisted
+
+08:28
+design systems for your employees who maybe aren't aren't trained
+
+08:31
+in design but they can still get maybe 80 90
+
+08:33
+percent of the way there with help from a a
+
+08:35
+custom AI system that you build for your clients or
+
+08:37
+you use for your own team. Instead of having to
+
+08:39
+pay the specialist wage with AI tools, you can empower
+
+08:42
+them to have be sort of an AI generalist which
+
+08:44
+is what I talk about quite a lot and having
+
+08:46
+a a generalist skill set by using AI to get
+
+08:48
+those powers. And the flow on effect from what I
+
+08:50
+just said is that you can have smaller teams not
+
+08:52
+having to have all of these specialists and and people
+
+08:54
+that are on payroll doing basic functions like research or
+
+08:58
+or design. You can eliminate that low level work,
+
+09:01
+meaning you get much leaner teams overall. And so is
+
+09:03
+this a manual assisted automated system? You should know that
+
+09:06
+by now these are assisted, because they're designed to augment
+
+09:08
+rather than replace human judgment. So you start to see
+
+09:10
+how all of this fits together. These different types of
+
+09:13
+systems and the evolution of work we're going through, the
+
+09:15
+different types of solutions that are in the AI solution
+
+09:17
+landscape and the layers of a business and how they
+
+09:19
+all map together. And then we have the core which
+
+09:22
+is mapped to AI workflow automation. So at the core,
+
+09:25
+the challenge is maintaining operational efficiency as business complexity grows.
+
+09:29
+So workflow automation is nothing new as we've covered. But
+
+09:32
+thanks to LLMs and other generative AI tools, the range
+
+09:35
+of capabilities for modern AI enhanced workflow automation is far
+
+09:38
+greater than ever before. Remember, the main difference is the
+
+09:41
+complexity of the tasks that can now be handled with
+
+09:43
+workflow automation, thanks to AI integration of various AI models.
+
+09:47
+So traditional workflow automation could handle basic functions like splitting
+
+09:50
+text, updating databases, searching for keywords, etcetera.
+
+09:53
+But now, it is far easier to automate more complex
+
+09:55
+tasks that previously required human judgment like categorizing documents, identifying
+
+09:59
+entities and images, generating document drafts, or even deciding next
+
+10:03
+steps in a process, all while maintaining perfect consistency at
+
+10:06
+scale. That is, of course, if you engineer it correctly.
+
+10:08
+So the key advantage is compounding efficiency. Each automated process
+
+10:10
+reduces operational overhead and eliminates potential errors while creating capacity
+
+10:13
+for further automation. So this creates a virtuous cycle where
+
+10:16
+the business can continuously optimize the operations while reducing costs.
+
+10:20
+So this is a very interesting point to make which
+
+10:23
+is with any kind of automation, whether it's through, conversational
+
+10:26
+AI. Conversational AI, in many cases, would not be bothered
+
+10:29
+with by the company, like, replying to all DMs is
+
+10:31
+just something that they wouldn't be doing. So you're essentially
+
+10:34
+increasing the capacity for dealing with those leads and and
+
+10:36
+adding new, leads to to the business and and increase
+
+10:39
+the amount of traffic that they can get an interest
+
+10:41
+in their offers. Right? So you're kind of expanding from
+
+10:43
+a a low baseline that, hey, look, we're not even
+
+10:45
+doing this, but now we can do it. But in
+
+10:47
+this case, it's that people are likely already doing. You
+
+10:50
+are actually freeing up their time and by automating it,
+
+10:52
+they get back maybe 1 or 2, maybe an hour
+
+10:55
+a day or or 5 hours a week. And with
+
+10:56
+that additional capacity, you can essentially go and and look
+
+10:59
+to do further automation with that. So you can work
+
+11:01
+with them or train them up in automation so that
+
+11:03
+they can then continue to automate more and more of
+
+11:05
+the tasks. This is a a really virtuous cycle that
+
+11:07
+businesses can get into as they free up time. It
+
+11:10
+makes more time for further automation, which is really the
+
+11:12
+magic here. So the core benefits of AI workflow automation
+
+11:15
+at the core are human level intelligence, generative AI allows
+
+11:18
+far more complex workflows to be automated than ever before.
+
+11:20
+You have perfect consistency, eliminate human error and variation and
+
+11:23
+routine processes, and infinite scalability, which handles increasing volume with
+
+11:27
+only slightly increased usage cost. And so is this a
+
+11:29
+manual assisted automated system? These systems are, of course, typically
+
+11:33
+fully automated because they handle well defined processes that benefit
+
+11:36
+from complete automation. Now there is an interesting,
+
+11:38
+sweet spot or I wouldn't even say sweet spot, but
+
+11:41
+an interesting caveat, which is the combination of automated and
+
+11:44
+assisted systems, which is say, like Daniel Dines, the UiPath
+
+11:48
+CEO is talking about how you may have a series
+
+11:51
+of, an automation that does a certain process. Say it's
+
+11:53
+drafting a contract, takes an information, it's it's triggered when
+
+11:56
+a call finishes, it takes in the information from the
+
+11:59
+transcript, and then it does a number of steps and
+
+12:01
+then make automation or whatever platform you're on to get
+
+12:03
+to a point where it's generated a draft contract and
+
+12:05
+modified a template that you had originally. From
+
+12:07
+full
+
+12:09
+automation to sort of a a human in the loop
+
+12:10
+aspect,
+
+12:11
+where you can have a team that say your your
+
+12:14
+legal team or your operations guy. When they come in
+
+12:16
+in the morning, they go, oh, I've got this queue
+
+12:18
+of things to check. And basically, they're holding up their
+
+12:20
+automation and the rest of the process where they can
+
+12:22
+say click on, 1 of the things in their sidebar.
+
+12:24
+Just review over the contract, make sure it looks all
+
+12:26
+good, and then they can go, okay. Yep. Sweet. Click
+
+12:28
+on that. Yes. And then it shoots it off to
+
+12:29
+the next part of the automation. So that's a combination
+
+12:32
+of full automation with still using human review and double
+
+12:35
+checking within it. So that's a very interesting thing you
+
+12:37
+can do on things like make on in a 10.
+
+12:39
+Sorry. If you go to in a in
+
+12:42
+so say if we're on an automation like this,
+
+12:45
+you can actually add in something here, which is a
+
+12:47
+human in the loop. So you can say, wait for
+
+12:50
+human response by, say, Slack. And you can set up
+
+12:52
+a human in the loop step where it's going to
+
+12:54
+send a message to Slack and await for approval. And
+
+12:57
+someone can maybe read over the information that's in Slack.
+
+12:59
+You can be outputting all of these. Hey, this contract
+
+13:01
+is ready for review. This contract
+
+13:04
+And it may it may include in the Slack message
+
+13:05
+a link to view that draft contract. And once it's
+
+13:07
+all good to go, they can go back into Slack.
+
+13:09
+You can set up an automation that monitors for emojis
+
+13:12
+on the Slack messages. And once they put a a
+
+13:14
+tick emoji, then bang, it continues it on to the
+
+13:16
+next step. And these kind of features like what we
+
+13:17
+have in n I 10 of a human in the
+
+13:19
+loop can be very powerful for those kind of hybrid
+
+13:21
+assisted and automated workflows. So here we have the core,
+
+13:24
+where we have the mapping of the AI workflow automation
+
+13:26
+type of AI solution to most of the processes here
+
+13:29
+because they're low complexity, high volume, but increasingly high complexity
+
+13:32
+as we start to get more and more advanced AI
+
+13:34
+that we can plug into it. And with the use
+
+13:36
+of through hybrid automated and assisted systems like we just
+
+13:39
+went over, you can really increase that complexity because you
+
+13:41
+can add a human in the loop aspect to it
+
+13:43
+as well. Let me get into the power of cross
+
+13:45
+layer integration.
+
+13:46
+True magic of the solution sphere framework emerges when we
+
+13:48
+understand how multiple AI solutions across multiple layers can actually
+
+13:52
+work together to create a larger and far more valuable
+
+13:54
+system. So it's not just AI tools in isolation now.
+
+13:57
+It's not just a conversational AI in isolation or an
+
+13:59
+inbound voice agent in isolation
+
+14:01
+or an automation that underpins all of that. You can
+
+14:04
+connect them together into comprehensive systems that really drive significant
+
+14:08
+value for businesses. So we have, for example, an AI
+
+14:10
+sales development system. You'll see kind of recurring patterns here,
+
+14:13
+fairly obvious use cases that come up. And we're gonna
+
+14:15
+be covering those extensively later in this set of videos.
+
+14:17
+But we can start off here that combines all 3
+
+14:19
+layers to create a comprehensive sales machine. So the outer
+
+14:22
+layer would be conversational AI where you have an AI
+
+14:24
+agent that conducts initial outreach via phone or DMs, which
+
+14:27
+is the outreach part of it. And then it handles
+
+14:29
+the qualification conversations at scale, which is qualification. And then
+
+14:32
+it's going to book appointments with interested prospects,
+
+14:34
+in the setting process. So 1 AI agent doing cold
+
+14:37
+outreach via phone, so cold calling or you could do
+
+14:39
+it via cold outreach on teams and it's gonna be
+
+14:41
+able to answer those questions, sort of go back and
+
+14:43
+forth and make sure that they're qualified and then can
+
+14:44
+set them into appointments if they are qualified. Then in
+
+14:47
+the middle layer, we can have AI tools as the
+
+14:49
+next step in this process where sales reps can use
+
+14:52
+AI research tools to generate pre call reports for insights.
+
+14:54
+So, hey, here's the LinkedIn profile for this person. Here
+
+14:57
+is their name and the company name and the company
+
+14:59
+URL. Can you please give me some information and do
+
+15:01
+a web search, etcetera, to give me some better ingredients
+
+15:04
+to go into this call with a better understanding of
+
+15:06
+how I can approach it. Then, the final step would
+
+15:08
+be an underlying workflow automation process that has automatic post
+
+15:11
+call analysis to update the CRM post call with conversation
+
+15:14
+outcomes and provides coaching insights and provides data to the
+
+15:17
+sales manager. So there's some really cool stuff you can
+
+15:19
+do immediately after that call has ended, and you can
+
+15:21
+see how all of this can kind of fit together
+
+15:23
+into a comprehensive system. So a business using the system
+
+15:26
+can engage hundreds of prospects daily while ensuring each conversation
+
+15:29
+is informed by deep research and followed up consistently. What
+
+15:32
+previously required multiple SDRs or appointment centers can now be
+
+15:35
+accomplished with 1 to 2 closes focusing purely on qualified
+
+15:38
+opportunities. So the key takeaways for this section is that
+
+15:40
+as an AI automation agency owner, understanding how different AI
+
+15:43
+solutions map to operations is crucial for your success. The
+
+15:45
+solution sphere framework gives you a powerful mental model for
+
+15:48
+understanding and classifying the vast majority of solutions you'll encounter
+
+15:51
+and helps to remind you where various forms of AI
+
+15:53
+should be implemented for maximum effect. That's really the key
+
+15:56
+thing here of mapping those different types of solutions to
+
+15:58
+where they can be implemented for maximum effect within the
+
+16:01
+business. So again, we have the 3 layers. The outer
+
+16:03
+layer, where businesses meet their market, all customer touch points,
+
+16:06
+sales conversations, and service delivery. This is where scale of
+
+16:08
+engagement directly impacts revenue. And within this outer layer, conversational
+
+16:12
+AI is the best here. It excels in this outer
+
+16:14
+layer by enabling unlimited high quality customer interactions. When you
+
+16:17
+help 1 of your clients to engage with every prospect
+
+16:20
+24 7, you unlock additional revenue for them. Then we
+
+16:22
+have the middle layer where teams create value through expertise
+
+16:25
+and effort, research analysis, content creation, and decision making. This
+
+16:28
+is where their human capabilities can be amplified. And of
+
+16:30
+course, AI tools create maximum value here in this middle
+
+16:33
+layer by multiplying these human capabilities. Your best workers, you
+
+16:35
+want them to be supercharged. And this is really good.
+
+16:37
+We're gonna see the shift in the in the labor
+
+16:39
+force where you have companies that downsize drastically but just
+
+16:42
+all of that downsize to the most capable and and
+
+16:44
+intelligent people at the top,
+
+16:46
+because then they can cut away a lot of the
+
+16:48
+stuff underneath and just have these super intelligent people who
+
+16:50
+are doing all of the best work supported by AI
+
+16:53
+agents and AI tools in this middle layer. So, your
+
+16:55
+clients, teams can accomplish in minutes what used to take
+
+16:57
+hours, dramatically improving productivity without losing that human judgment. And
+
+17:00
+finally, the core, the operational foundation, processes, data flows, and
+
+17:03
+routine tasks that keep the business running. This is where
+
+17:05
+the automation compounds efficiency. And of course, AI workflow automations
+
+17:09
+fit in here, thriving at the core layer by handling
+
+17:11
+increasingly complex processes at scale. And the level of complexity
+
+17:14
+you can handle is determined by, well, 1, the capabilities
+
+17:17
+of the technology as it continues to get better and
+
+17:19
+better, but also your engineering capabilities as a team. So
+
+17:21
+as your clients grow, these systems become more and more
+
+17:24
+valuable creating compounding efficiency gains. As the system that you
+
+17:26
+create at handling a hundred units or a hundred tasks
+
+17:29
+per month can scale up to 10000, it's an incredibly
+
+17:32
+big jump up in value that you're providing for your
+
+17:34
+client and making that scaling process a lot easier. Which
+
+17:36
+brings us to a recap of hybrid versus isolated systems.
+
+17:39
+So, when starting out, it's best to focus on just
+
+17:41
+getting a small win for your clients. Then once you've
+
+17:43
+delivered these kinds of small wins successfully, these isolated systems,
+
+17:46
+we might just pick, hey, let's just build 1 AI
+
+17:48
+tool for you. Or let's just build 1 workflow automation
+
+17:51
+or 1 conversational AI system. Once you've got those down
+
+17:53
+and you've got a bit of momentum and experience under
+
+17:55
+your belt, you can explore how you can build other
+
+17:57
+systems across the layers that knit together into something far
+
+18:00
+more valuable. You might start with an AI tool and
+
+18:02
+say, hey. Well, we can actually push this up 1
+
+18:04
+or down 1 and we can add different things on
+
+18:06
+either side of it. Only once you have experience delivering
+
+18:08
+more comprehensive systems should you start pitching for them out

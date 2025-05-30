@@ -1,0 +1,2225 @@
+Transcript
+Search
+
+00:00
+Hi, and welcome to the website chatbot with the Gentev
+
+00:02
+tutorial. My name is Konstantin, and in this session, we
+
+00:05
+will be building a chatbot using a Gentev and deploying
+
+00:08
+that chatbot to the website.
+
+00:10
+This is going to be a beginner level tutorial, and
+
+00:12
+the objective of this tutorial is going to be creating
+
+00:15
+a cleaning company chatbot that will be able to answer
+
+00:17
+questions, provide service estimates, and register service requests. In this
+
+00:21
+tutorial, you will learn how to use AgenTiv to create
+
+00:25
+and configure chatbots, what are the best practices for chatbot
+
+00:28
+prompting,
+
+00:28
+how you can connect relevant AI tools to Adjentive, how
+
+00:31
+you can connect Airtable to Adjentive, and also how you
+
+00:34
+can deploy the Adjentive chatbot to the website. As a
+
+00:37
+result of this tutorial, we are aiming to get a
+
+00:39
+chatbot that is deployed to the website as a widget,
+
+00:42
+a chatbot that can have a helpful and polite conversation,
+
+00:45
+a system that can ask the customer questions using data
+
+00:47
+from the knowledge base, that can provide service cost estimates
+
+00:50
+based on property type and square footage, and the system
+
+00:53
+that records service requests in the Airtable to be handled
+
+00:55
+by the team. Also, just a heads up for you
+
+00:57
+guys, everything that you see in this tutorial including all
+
+01:00
+the prompts, instructions, all the files used in the tutorial,
+
+01:04
+links to all the services and systems, and also step
+
+01:06
+by step instructions to replicate this exact build will be
+
+01:09
+available for you to download.
+
+01:11
+This diagram here represents the overall build and the components
+
+01:15
+used for this chatbot. Now this widget here represents the
+
+01:18
+deployment of the chatbot to the website. That is the
+
+01:21
+pop up that customers will use on the website to
+
+01:24
+communicate with the bot. Now this middle part is the
+
+01:26
+agentive part, and that is the chatbot orchestration system in
+
+01:29
+this diagram. It will handle providing cost estimates, registering service
+
+01:34
+request, answering questions from knowledge base, and also the technical
+
+01:37
+communication with OpenAI.
+
+01:39
+Now in terms of components,
+
+01:40
+agentive will have the knowledge base in the form of
+
+01:43
+the PDF document that we will upload, and it will
+
+01:45
+also have the abilities and these tools,
+
+01:48
+to satisfy the 2 things that we want to provide
+
+01:51
+to the customers.
+
+01:52
+1 being getting the service cost estimates, and the second
+
+01:55
+1 registering the service requests. Now both of these functions
+
+01:58
+are going to use external tools
+
+02:00
+to provide the output. Now the cost estimates is going
+
+02:03
+to be provided by Relevance AI, where we have a
+
+02:06
+custom tool that takes the property type, apartment or house,
+
+02:09
+takes the square footage, in this case, for example, 800
+
+02:12
+square feet, and is going to use the large language
+
+02:14
+model to generate
+
+02:16
+the response to that query. And we will return the
+
+02:19
+result of that generation back to Adjentive. And Adjentive is
+
+02:22
+going to use that in communication with the customer.
+
+02:25
+Now registering the service request is going to be handled
+
+02:28
+by Airtable. Again,
+
+02:30
+what we want to do is we want to take
+
+02:32
+customer details. Details, we want to take the property details,
+
+02:34
+and based on that information, we're going to create a
+
+02:37
+record inside Airtable.
+
+02:39
+Now when we have spent some time looking at the
+
+02:41
+building blocks of this build, let's discuss why we are
+
+02:43
+building it in the first place.
+
+02:45
+So the question is why would you wanna have a
+
+02:47
+chatbot on your website?
+
+02:49
+And the answer is pretty simple. You want to reduce
+
+02:51
+the time required for your customers to get the answers
+
+02:53
+to their questions to as little as possible. The initial
+
+02:56
+part of that is going to be handled by the
+
+02:58
+knowledge base. This is static data, so customers get the
+
+03:00
+answers, right away. Now the second convenience that we are
+
+03:03
+introducing with the chatbot is for customers to get the
+
+03:06
+cost estimate as quickly as possible.
+
+03:08
+Why we wanna do that is because this dramatically increases
+
+03:11
+the chances of customer becoming an actual buying customer.
+
+03:15
+Because if they are unhappy with the price, if this
+
+03:17
+is not something that they're willing to pay, or they
+
+03:19
+wanna compare your prices against somebody else's, this will give
+
+03:22
+them a very clear understanding if they wanna do business
+
+03:24
+with you. Now the second tool that we have, register
+
+03:27
+service request.
+
+03:28
+Essentially, as soon as customer decides that they are willing
+
+03:31
+to request the actual service price from you, this makes
+
+03:35
+it super easy for them. So we are asking them
+
+03:37
+for the type of property, for the size of the
+
+03:38
+property, number of bathrooms, potentially any other parameters that you
+
+03:41
+would wanna get before giving them a quote.
+
+03:44
+And this is like qualifying the lead. So anybody working
+
+03:47
+in your business, like a sales manager or just a
+
+03:49
+manager, would be able to use that information
+
+03:52
+to provide customer with a more detailed quote or just
+
+03:54
+to contact them and to ask them additional questions.
+
+03:58
+So this is the general
+
+04:00
+framework why we're building this. Hopefully, this allows you to
+
+04:03
+better understand
+
+04:04
+why we're doing this and why the decisions have been
+
+04:07
+made to use the tools we're using. So now let's
+
+04:10
+create an agent inside of Genif.
+
+04:12
+So to do that, we will need a couple of
+
+04:14
+building blocks. 1 is going to be the prompt, the
+
+04:17
+second 1 is the knowledge base, and the third 1
+
+04:20
+is going to be the API key of OpenAI.
+
+04:22
+Now let's hit the create agent button here. Let's give
+
+04:25
+it a name. Let's say sparkly.
+
+04:29
+The description is going to be
+
+04:31
+sparkly
+
+04:35
+cleaning
+
+04:36
+services.
+
+04:38
+So the select OpenAI API key, I have 1 key
+
+04:40
+selected, but let's go ahead and create a new 1
+
+04:43
+so you can see how it's being done.
+
+04:45
+I'm going to create this 1 and name it again
+
+04:48
+sparkly.
+
+04:50
+And you can get your API key by going into
+
+04:52
+platform open a I dot com,
+
+04:55
+dashboard,
+
+04:56
+API keys, and in here just create a new secret
+
+04:59
+key, give it a name, select the project that you
+
+05:01
+would like to associate the key with, and create the
+
+05:04
+secret key. Now again, I have the key pre created,
+
+05:07
+so I will use that 1. Because I will paste
+
+05:10
+my key here. I will select the model as GPT
+
+05:13
+4 0 mini
+
+05:14
+and create the agent.
+
+05:16
+Now let's have a look at the problem before we
+
+05:17
+copied over into the agentive
+
+05:19
+agent.
+
+05:21
+So we have several sections here like persona, task knowledge,
+
+05:24
+providing cost estimates, registering service requests, and important rules. So
+
+05:27
+the first 1, persona, is just giving it identity, saying
+
+05:30
+who you are, what your main objective is, and why
+
+05:33
+you are here.
+
+05:35
+The second 1 is the task, saying,
+
+05:37
+what are your actions? What are you expected to to
+
+05:40
+do and how I would like you to perform?
+
+05:43
+So this is a pretty standard thing. I will not
+
+05:44
+go over the actual text, but just explaining why we
+
+05:47
+have that there. Now what is important in in this
+
+05:50
+case is the knowledge section. This is quite different from
+
+05:52
+what we used to have in the previous tutorials.
+
+05:55
+And since we're using exactly Adjentive, that is using
+
+05:59
+OpenAI as its engine to power the agent,
+
+06:04
+this this prompt here for the knowledge is actually constructed
+
+06:06
+based on deep understanding both of these systems.
+
+06:09
+Now the important part here is that,
+
+06:12
+this part, always use the file search tool to retrieve
+
+06:16
+relevant information whenever the user asks a question that you
+
+06:19
+do not know how to answer.
+
+06:21
+Now this might seem as a simple,
+
+06:23
+instruction. However, the way it is being written, the way
+
+06:26
+it's constructed, and the terms used in the sentence
+
+06:28
+actually come from the understanding of how how this system
+
+06:32
+works. Now first of all, the file search tool. Now
+
+06:34
+file search tool is a term that is used by
+
+06:36
+OpenAI
+
+06:38
+to identify
+
+06:39
+a tool that works with files that
+
+06:42
+you attach to your agent. In this case, we call
+
+06:45
+this knowledge base,
+
+06:46
+but it's actually a file that has been chunked up
+
+06:49
+into different pieces.
+
+06:50
+So whenever you're asking for something that is potentially
+
+06:54
+existing in the information in the file, it will go
+
+06:57
+ahead and use the file search tool
+
+06:59
+to retrieve the chunks that are relevant
+
+07:01
+from that file to try and provide an answer to
+
+07:04
+that. Now the second part is that we say whenever
+
+07:07
+the user asks a question that you do not know
+
+07:10
+how to answer,
+
+07:11
+Meaning that the agent will only go ahead and use
+
+07:14
+the file search if the information is not yet present
+
+07:17
+in the history of the conversation or the prompt. Okay.
+
+07:20
+So the next thing is providing cost estimates.
+
+07:24
+So 2 things here. We wanna have a step by
+
+07:27
+step process, and we also wanna mention the tool that
+
+07:30
+is used to actually provide the cost estimates since this
+
+07:33
+is an external tool.
+
+07:34
+So essentially, even if we don't provide
+
+07:37
+these 3 steps and we only say use the get
+
+07:40
+cost estimate function to fetch the estimate, would actually be
+
+07:43
+sufficient.
+
+07:44
+But I find that it's much better. It produces better
+
+07:47
+results if you give the agent inside the prompt as
+
+07:49
+well. You kind of duplicate the process. You say, just
+
+07:53
+a reminder,
+
+07:54
+before you run the get cost estimate, you want to
+
+07:56
+identify the property type, and you also want to identify
+
+07:59
+the square footage.
+
+08:00
+So
+
+08:01
+this might be, like a stabilizer
+
+08:04
+for running this,
+
+08:05
+for running this this function. This also serves as a
+
+08:08
+visual representation,
+
+08:09
+kind of reminded to anybody who would be potentially modifying
+
+08:12
+the chatbot afterwards
+
+08:14
+what is the process connected to this, getting cost estimate.
+
+08:18
+Okay. So next thing up is registering the service request.
+
+08:21
+And again, we are
+
+08:23
+telling it
+
+08:25
+that it needs to use the register service request function
+
+08:27
+for that. And the way you call this is actually
+
+08:30
+1 to 1 exact
+
+08:32
+mentioning
+
+08:34
+of how the function is called inside the
+
+08:38
+the schema
+
+08:39
+when you create the tool.
+
+08:41
+So it's not just me thinking that I would like
+
+08:44
+to call this in the prompt like this. It is
+
+08:46
+actually me copying that name here
+
+08:50
+from the tool so that the agent sees exact match,
+
+08:53
+exact correlation,
+
+08:55
+between the name of the tool,
+
+08:57
+and the way it is being referenced in the prompt,
+
+09:00
+which makes it very stable,
+
+09:02
+and predictable for the agent to run this tool.
+
+09:05
+Next up is the important rule section, and this is
+
+09:07
+just a list of do's and don'ts for the agent
+
+09:10
+that I empirically found,
+
+09:12
+is a very good addition
+
+09:14
+to stabilize the way agents work and the way they
+
+09:17
+formulate their messages. So now let's copy over this prompt
+
+09:20
+to agentive.
+
+09:22
+So I will paste the prompt.
+
+09:24
+And 1 other thing I will do is I will
+
+09:26
+add the knowledge to my agent.
+
+09:29
+Hit create new, provide knowledge base name is going to
+
+09:32
+be
+
+09:34
+sparkly.
+
+09:35
+It's going to have the key that I just added,
+
+09:38
+create the knowledge base.
+
+09:40
+So in here, we need to drag and drop the
+
+09:42
+PDF files to the knowledge base. So let's do that.
+
+09:45
+Let's add the file here. It's going to say that
+
+09:47
+it's processing.
+
+09:48
+To update finish processing, let's hit upload,
+
+09:51
+and the knowledge base should be created. Okay. So we
+
+09:54
+have the knowledge base here. At this point, we are
+
+09:56
+ready to publish the assistant and give it a first
+
+09:58
+test drive.
+
+10:02
+Okay. So the assistant is published, so let's let's try
+
+10:05
+communicating with it. Okay. Let's ask it something from the
+
+10:08
+knowledge base. So I know that inside my knowledge base,
+
+10:10
+I have the service listed that we do provide the
+
+10:13
+window cleaning services. I will ask it that.
+
+10:16
+So it did recognize that. So 1 other thing we
+
+10:19
+can say, and sure enough, it goes ahead and lists
+
+10:22
+all the services. So just to validate that, let's have
+
+10:24
+a look at the knowledge base.
+
+10:26
+Inside knowledge base, we have services offered regular maintenance, deep
+
+10:29
+cleaning, move in move out, post renovation, eco friendly. And
+
+10:33
+this is exactly
+
+10:38
+the basic version of the chatbot without any tools so
+
+10:40
+far, but you can see that it is already capable
+
+10:43
+of answering questions based on knowledge base. So next we
+
+10:44
+will be giving the agent abilities or tools. 1 is
+
+10:45
+going to be the So next, we will be giving
+
+10:46
+the agent abilities or tools.
+
+10:49
+1 is going to be requesting the service cost estimates
+
+10:51
+and the second 1 is going to be registering
+
+10:54
+the request for providing the service. So let's start with
+
+10:57
+the sparkly cost estimate tool. Now this tool is meant
+
+11:01
+to be providing the service cost estimates
+
+11:04
+based on the data that we've given to the tool.
+
+11:06
+So I've implemented this tool inside Relevance AI, and as
+
+11:09
+you can see inside it, we have 2 parameters that
+
+11:11
+the tool expects to receive. 1 is the property type
+
+11:15
+and we have only 2 options there, apartment and house.
+
+11:17
+And the second 1 is the square footage, which is
+
+11:19
+going to be just a number representing the square footage
+
+11:22
+of the apartment or the property.
+
+11:24
+Now what's gonna happen next is that when these parameters
+
+11:27
+are received,
+
+11:28
+we have an LLM step or a large language model
+
+11:31
+reasoning step
+
+11:32
+that is that has a prompt and it's going to,
+
+11:36
+take the property type and the property square footage. And
+
+11:38
+it has this large JSON describing
+
+11:41
+the different variations based on the, you know, these are
+
+11:44
+the apartment prices and later down in the configuration, we
+
+11:48
+have the house prices. So let's say up to 100
+
+11:51
+up to 1500 square feet is going to have these
+
+11:54
+kind of prices up to 2000 square feet is going
+
+11:56
+to have a different kind of prices. So it's just
+
+11:58
+a service cost estimate. Again, this is, the idea here
+
+12:02
+is to be able to provide instant,
+
+12:04
+price ranges to the customer.
+
+12:06
+And this should be based off the information that we
+
+12:09
+describe in the tool. So it's dynamic.
+
+12:11
+It's not like just, you know, hey, go ahead and
+
+12:14
+just look at the prices on our website, but it's
+
+12:16
+actually asking them for what type of property are you
+
+12:19
+looking to get the cleaning service for, what's the size
+
+12:21
+of the property, and then what is going to go
+
+12:23
+ahead and reference,
+
+12:25
+the information inside this tool and come back with some
+
+12:28
+kind of estimate, which is just feels a bit more
+
+12:30
+natural, feels a bit more,
+
+12:33
+like you are being serviced,
+
+12:34
+with this information rather than somebody saying go ahead and
+
+12:37
+look it for yourself.
+
+12:39
+So what's gonna happen is that when this tool runs,
+
+12:42
+it's going to come back with a set of data
+
+12:44
+something like this saying that the regular maintenance is going
+
+12:47
+to cost this much. In this case, it's custom quote,
+
+12:49
+but let's have a look at something here. So it's
+
+12:51
+gonna say regular maintenance 130
+
+12:54
+units of that money that the bot is going to
+
+12:56
+be configured to use. The deep cleaning is going to
+
+12:58
+be a bit more expensive, move in, move out cleaning
+
+13:01
+and so on. So we can give this,
+
+13:03
+this tool a test. Let's say the, this is going
+
+13:07
+to be the apartment and the square footage is going
+
+13:09
+to be
+
+13:10
+900. Let's run the tool and let's see what it
+
+13:12
+comes back with. Okay. So it says the estimate is
+
+13:15
+that this regular maintenance and cleaning is going to be
+
+13:17
+80,
+
+13:18
+deep cleaning hundred and 40, moving moat cleaning and so
+
+13:21
+on. Now inside the tutorial resources, there will be a
+
+13:24
+link for you to add this tool to your relevance
+
+13:26
+account. Now once you do that, the way you can
+
+13:29
+add this tool to your agent is by clicking this
+
+13:31
+custom actions button here at the top right.
+
+13:34
+Then scroll down to the point number 2, select the
+
+13:36
+tool, scroll down a bit more. Here we will come
+
+13:40
+back in just a second to generate the API API
+
+13:43
+key. And before we do that, we want to click
+
+13:45
+this button to generate open API schema. And just a
+
+13:48
+quick hint, guys, like this is not open AI. This
+
+13:50
+is open API. This is a different thing. So open
+
+13:53
+API is a standard for generating the schemas, and OpenAI
+
+13:57
+is the company providing large language models like chat gbt.
+
+14:01
+So when we've done that, let's click this copy button
+
+14:04
+here.
+
+14:05
+Now next inside the agent, let's click on the tools,
+
+14:08
+and let's
+
+14:09
+hit edit agent.
+
+14:12
+Now in here,
+
+14:13
+create new tool provider. Inside this box here, open
+
+14:17
+API specification. Let's click paste. And this is the schema
+
+14:21
+that we just copied inside Relevance
+
+14:23
+AI. And 1 other thing that we need to do
+
+14:25
+is add the authentication
+
+14:27
+so that the tool can be run. This is going
+
+14:29
+to be API key. It's going to be
+
+14:32
+custom.
+
+14:33
+It's going to be here,
+
+14:37
+authorization
+
+14:38
+with a z.
+
+14:42
+And
+
+14:43
+let's go back to relevance. Now inside relevance AI, let's
+
+14:47
+scroll back to the point number 3. Let's here select
+
+14:51
+custom authentication,
+
+14:52
+generate API key.
+
+14:55
+K. So let's copy this key.
+
+14:57
+And inside the agent config, let's
+
+15:00
+paste the key here. So again, this is an API
+
+15:03
+key.
+
+15:03
+It's a custom API key or a custom header for
+
+15:06
+providing the API key. The header name is going to
+
+15:09
+be authorization with a z
+
+15:11
+and let's paste the key here. So update authentication
+
+15:15
+and let's create the tool.
+
+15:17
+Okay. So now we have the tool added to the
+
+15:19
+agent and we are ready to test drive that tool.
+
+15:22
+So the expectation is that when we say how much
+
+15:25
+does the apartment cleaning costs, it's actually going to go
+
+15:28
+into Relevance UI using this tool and fetch the exact
+
+15:32
+price for the apartment. Let's see what happens.
+
+15:38
+Again, so this could you please provide the square footage
+
+15:41
+of your apartment? Is a question that is derived from
+
+15:44
+the parameter that we defined on the tool as something
+
+15:47
+that we would like the customer to provide before we
+
+15:49
+can give an estimate.
+
+15:51
+Again, notice that I've just said how much for the
+
+15:53
+apartment cleaning so it knows that the property type is
+
+15:55
+going to be apartment not a house. So it only
+
+15:58
+needs to figure out what's the square footage. So let's
+
+16:00
+say I'm gonna say
+
+16:02
+1200.
+
+16:04
+So at this point, it goes into Relevance AI. It
+
+16:06
+fetches that data from it, and it should come back
+
+16:09
+to me listing 4 different options of what it can
+
+16:12
+provide as the apartment cleaning.
+
+16:16
+Okay. So it came back with the tool response and
+
+16:18
+it says, the estimated prices for your 1200 square feet
+
+16:22
+apartments, regular maintenance cleaning this, deep cleaning,
+
+16:26
+and so on. So it also says, and we have
+
+16:28
+that in the prom, that please note that the final
+
+16:30
+prices may vary based on the condition of the apartment
+
+16:32
+and specific requirements.
+
+16:34
+And it also asks me, would you like to proceed
+
+16:36
+with the service request? Now we still cannot do that
+
+16:39
+because I haven't added the tool for requesting the service,
+
+16:42
+but we will do that as next step here.
+
+16:46
+Next, let's add another tool to the agent, and that
+
+16:48
+is going to be connecting the Airtable
+
+16:50
+so that we can create the service requests.
+
+16:53
+Now we can do that by first examining the Airtable
+
+16:56
+that we have for that purpose. In this case, you
+
+16:58
+can see that I have the base called sparkly, and
+
+17:01
+inside that I have the table called leads. Now in
+
+17:03
+that, I have 1 record, and I will explain why
+
+17:06
+I need to have at least 1 record before we
+
+17:08
+can continue.
+
+17:09
+So next, what you need to do is click on
+
+17:11
+your username,
+
+17:12
+then click on the build the hub, and we can
+
+17:15
+open that in a new tab.
+
+17:17
+Switch that tab.
+
+17:18
+So in here, let's go to developer docs.
+
+17:23
+Let's click on the web API.
+
+17:26
+In here, click on your base that is sparkly.
+
+17:31
+And in here, you can select the leads table. And
+
+17:34
+underneath that, select create records.
+
+17:37
+Now why we wanted to have
+
+17:39
+at least 1 record is that we can get this
+
+17:42
+example of how to create
+
+17:43
+a record inside the leads table, and we can use
+
+17:46
+this example to feed it to chat g p t
+
+17:49
+that we will ask to provide the open API schema
+
+17:51
+that we can use inside of GenTIFF
+
+17:53
+to generate this connection and generate this tool that can
+
+17:56
+be talking to Airtable
+
+17:58
+and can be registering leads and registering the service requests.
+
+18:02
+So what I said here is that please create an
+
+18:04
+open API schema in JSON format for this request. And
+
+18:07
+next, I will paste the request that I've just copied
+
+18:09
+inside Airtable
+
+18:11
+developer documentation. So let's click and let's see what it
+
+18:14
+comes back with. Okay. So fast forward,
+
+18:17
+the JPG just created the open API schema that we
+
+18:20
+can now copy. Now inside of agenda, we can click
+
+18:23
+here and
+
+18:24
+create new tool provider and paste
+
+18:27
+the schema.
+
+18:29
+And 1 final thing that we need to do is
+
+18:30
+we need to add authentication.
+
+18:32
+This is going to be API key. In this case,
+
+18:34
+compared to Relevance AI, Airtable has a more standard way
+
+18:38
+of authenticating requests. It's going to be a bearer token.
+
+18:41
+So we don't have to type any custom headers. We'll
+
+18:43
+just provide the bearer token right in this field. Now
+
+18:46
+to get your token from the Airtable, you would also
+
+18:49
+go to your account, build a hub. In here, you
+
+18:51
+have the personal access tokens. Create
+
+18:54
+the new token.
+
+18:55
+Give it a name. What we need to add to
+
+18:57
+it is the base. In this case, it's going to
+
+19:00
+be sparkly and we need to add a scope. In
+
+19:02
+this case, it's going to be data records read and
+
+19:04
+data records write. Create a token. Copy that token. And
+
+19:08
+inside of agentive, just paste that token here. Update authentication.
+
+19:12
+And let's create that tool. We now have 2 tools
+
+19:14
+connected to the agentive chatbot.
+
+19:16
+1 is by Relevance AI and the second 1 is
+
+19:19
+by Airtable.
+
+19:20
+1 important thing that I forgot to mention is that
+
+19:23
+after you copy this tool schema from the relevance,
+
+19:26
+you'd wanna go to something like a JSON formatter. So
+
+19:29
+if you just Google for JSON formatter, you should come
+
+19:31
+up with this website
+
+19:33
+and you paste that JSON here. So what this gives
+
+19:36
+you is a nice nicely formatted and structured JSON that
+
+19:39
+you can edit. Now copy this from here. And next,
+
+19:42
+you wanna go into some kind of a text editor.
+
+19:44
+In this case, I'm just using a Notion with a
+
+19:46
+code block inside of the page.
+
+19:48
+So I'm going to replace and paste the schema here.
+
+19:51
+Now why you wanna do this is because you want
+
+19:53
+to give your tool the correct name and the description
+
+19:56
+so that large language model can recognize this tool because
+
+19:59
+we are referencing it inside prompting and also to give
+
+20:02
+it a bit more context so it can understand better
+
+20:05
+when to invoke this tool based on what the user
+
+20:07
+actions are.
+
+20:08
+So you can see that this operation ID, this is
+
+20:11
+what is going to be the tool name that we
+
+20:13
+will be referencing inside our prompt and the description is
+
+20:15
+going to be the context, so like kind of a
+
+20:17
+wider explanation
+
+20:18
+of when this tool needs to be used.
+
+20:21
+We are using
+
+20:23
+the function name get cost estimate. So let's use that
+
+20:26
+on the relevance.
+
+20:27
+So operation ID, let's just get cost estimate. And as
+
+20:31
+for the description, we're gonna
+
+20:33
+say,
+
+20:35
+use this tool
+
+20:38
+when user is asking
+
+20:43
+for the price
+
+20:47
+of cleaning
+
+20:50
+the apartment
+
+20:53
+for
+
+20:54
+the house.
+
+20:56
+Okay.
+
+20:57
+So
+
+20:58
+this is a very clear
+
+20:59
+identification for the large language model as to what the
+
+21:02
+tool name is and when it should be using that.
+
+21:05
+So when you've done that,
+
+21:07
+then, copy the schema and use it when creating the
+
+21:10
+tool inside AgenTiff.
+
+21:12
+Now in the same way as we just formatted the
+
+21:14
+tool,
+
+21:15
+from Relevance AI, you want to replace the same values
+
+21:18
+like operation ID and the description inside the schema for
+
+21:22
+the Airtable tool.
+
+21:23
+Now we have used ChargeGPT to come up with the
+
+21:26
+schema, so we don't need to use the JSON formatter
+
+21:29
+to give it a nice, formatting. So we can just
+
+21:31
+copy it from chat g p t. And then again,
+
+21:35
+I'm just going to import that,
+
+21:37
+that JSON schema as as the code inside my Notion,
+
+21:40
+but you can use any text editor,
+
+21:43
+that you feel comfortable with,
+
+21:45
+with, or use Notion as I'm doing right here. So
+
+21:47
+just paste it, and let's replace the operation ID and
+
+21:50
+the description. So for operation ID, we will be using
+
+21:53
+register service request. That is how we are referencing this
+
+21:56
+tool inside our prompting. Operation ID is going to be
+
+22:01
+so creates and saves
+
+22:03
+service
+
+22:06
+requests
+
+22:08
+in the paired table
+
+22:11
+to
+
+22:12
+be
+
+22:13
+used
+
+22:15
+later.
+
+22:16
+Okay.
+
+22:17
+So this is a much better explanation. So again, just
+
+22:20
+copy this schema after you have edited it and use
+
+22:23
+it when creating the tool inside Agento.
+
+22:25
+So I know that all of this information about adding
+
+22:28
+tools to a agenda using open API,
+
+22:31
+schemas can be a little bit puzzling. So let me
+
+22:34
+summarize what we discussed.
+
+22:36
+Essentially, there can be different situations
+
+22:38
+where
+
+22:39
+you have to add the tool to a agenda.
+
+22:41
+And 1 way of doing this is when that service
+
+22:45
+that you're gonna be using, and in this case, I'm
+
+22:46
+referencing to Relevance
+
+22:48
+AI, but they can be similar services that will be
+
+22:50
+providing you the open API schema right away, right within
+
+22:53
+the tool. So the functionality that you create will also
+
+22:57
+have or that service will also have
+
+22:59
+some way to get the open API directly from them.
+
+23:03
+Maybe the only thing that you would need to do
+
+23:06
+is to then use a tool something like Notion, or
+
+23:08
+you can also use the text edit inside Mac or
+
+23:10
+any other editor for the code, where you would paste
+
+23:13
+the schema, and then you would just update the operation
+
+23:15
+ID and the description of the tool just to make
+
+23:18
+it super clear for the large language model how this
+
+23:21
+tool is named and when it needs to use that.
+
+23:24
+Second use case can be where there's a system that
+
+23:28
+doesn't provide you with an open API schema right away
+
+23:31
+out of the box, but it has some sort of
+
+23:33
+documentation explaining how you would interact with that service. And
+
+23:36
+in this case, we're using Airtable.
+
+23:38
+And in the Airtable, we are using the documentation.
+
+23:41
+And if you have access to that documentation, it's either
+
+23:44
+in this format or some other format just describes what
+
+23:47
+the endpoints are, how do you send the data, what's
+
+23:50
+the format of the data. Like, for example, here you
+
+23:52
+can see that it needs to
+
+23:54
+accept a JSON with the key records, and within that,
+
+23:56
+there's gonna be an array
+
+23:58
+with the fields inside of it. So you just copy
+
+24:01
+and paste that chunk of log and make a snapshot,
+
+24:03
+like an actual screenshot of that, and then you use
+
+24:06
+chat g p t with the prompt,
+
+24:08
+please generate open API schema
+
+24:11
+from this image, from this documentation.
+
+24:15
+And you copy the output of chat GPT,
+
+24:18
+and in the same way, you use some kind of
+
+24:20
+a text editor or Notion or code editor where you
+
+24:24
+paste that schema and then you update
+
+24:26
+the operation ID and the description of that tool.
+
+24:30
+And then you can use that,
+
+24:32
+copy it, and paste it into a Genentive and create
+
+24:35
+the tool there. So hopefully, this clears these things up,
+
+24:38
+but again, you will only learn these things when you
+
+24:41
+start experimenting and practicing and asking questions, but these are
+
+24:44
+the 2 ways we use it in this specific tutorial.
+
+24:47
+So let's move forward. So now after the tools have
+
+24:50
+been added, let's give the agent another test. So let's
+
+24:53
+start by saying, hey.
+
+24:56
+So the expectation is that it's gonna either come up
+
+24:58
+with a price, so it's gonna ask me for the
+
+24:59
+square footage.
+
+25:01
+So it just goes ahead and says, okay, like, the
+
+25:04
+regular maintenance, blah blah blah. This is please note that
+
+25:06
+the final price
+
+25:08
+may vary based on the state of the property.
+
+25:10
+This is coming all from the knowledge base, and now
+
+25:12
+it says, could you please provide the square footage of
+
+25:14
+the apartment to give a more accurate estimate?
+
+25:16
+So at this point, it has the type of the
+
+25:18
+property, which is the apartment, and it has the square
+
+25:20
+footage, which is 950.
+
+25:22
+It goes out into relevance and it fetches the actual
+
+25:25
+prices that we have provided for that type of property
+
+25:28
+and that size of the property, and it lists them
+
+25:31
+here. Also, a very useful feature in in Agentive is
+
+25:34
+whenever you get a response back from the agent, you
+
+25:36
+get this show usage link here. So if you just
+
+25:39
+hover that, you can see what's the usage of tokens,
+
+25:44
+what's the model being used.
+
+25:46
+And also what's very useful is when any of the
+
+25:48
+tools have been invoked in this call, then you will
+
+25:50
+see the tool usage. In this case, it's get cost
+
+25:53
+estimate. And it gives you a nice data about how
+
+25:56
+the tool was called, meaning what's your role, what method,
+
+25:59
+what was the payload of that, were there any authorization
+
+26:02
+headers? And you can also switch to the output here.
+
+26:05
+And so this is what the relevance tool in this
+
+26:07
+case gave us back, and that's is the information
+
+26:11
+that agent based its reasoning on and displayed the information
+
+26:14
+back to the user.
+
+26:15
+So I'm gonna go for
+
+26:19
+jamie.
+
+26:21
+It's gonna be
+
+26:23
+jamie
+
+26:25
+at
+
+26:27
+domain dot com, and my phone number is gonna be
+
+26:30
+1 2 3 4 5 6 7 9.
+
+26:34
+Yeah.
+
+26:35
+So idea is that this data along with the property
+
+26:38
+size and the type is going to be added now
+
+26:41
+to the Airtable. So let's see what it comes back
+
+26:43
+with.
+
+26:44
+This thank you, Jamie, for his service request has been
+
+26:47
+successfully registered. So let's have a look at the Airtable.
+
+26:50
+And fair enough, we can see that inside Airtable, we
+
+26:52
+now have another record here added,
+
+26:54
+which means that the tool has worked, just fine. Now
+
+26:57
+when we've tested that the agent works, let's see how
+
+27:00
+we can deploy it to the website. Let's start doing
+
+27:03
+that by hitting the deploy button here, switching to the
+
+27:06
+website mode, and let's see what options we have on
+
+27:08
+this screen. So there's the widget name, that's going to
+
+27:11
+be the title of the widget when this pop up
+
+27:13
+come comes up. I'll keep it as sparkly. The widget
+
+27:16
+description is going to be the tagline right after right
+
+27:19
+under the title. I'm gonna keep it sparkly cleaning services
+
+27:22
+as I provided earlier. Now for the main color, I'm
+
+27:25
+gonna switch to like a lighter blue,
+
+27:28
+something like this.
+
+27:30
+And I will also add a logo.
+
+27:32
+So I have the logo prepared. You will have it
+
+27:34
+in the resources as well, so you can configure your
+
+27:36
+agent the same way. So I'm gonna upload that
+
+27:39
+star like looking logo.
+
+27:42
+Now, the starting messages is gonna be how can I
+
+27:44
+help you today? Now I've done previously the configuration for
+
+27:47
+the deployment. So I have these conversations
+
+27:49
+start us here as well. Services, prices, guarantees, so you
+
+27:53
+can either delete them or you can add a new
+
+27:55
+1. So I'll just retype the guarantee.
+
+27:59
+So these are the buttons that,
+
+28:01
+users will see when they open up the widget. Just
+
+28:03
+a quick buttons, quick links for them to press on,
+
+28:06
+not to type something, but just to select 1 of
+
+28:08
+the predefined choices.
+
+28:10
+Now when we go next to the widget size, I'm
+
+28:13
+gonna keep it as regular. I'm not gonna remove the
+
+28:16
+agent, the agent of watermark.
+
+28:18
+So now let's preview the widget.
+
+28:21
+This just gives you a nice understanding of how this
+
+28:23
+widget would look like if you were to deploy to
+
+28:26
+the website. This is not an actual deployment. This is
+
+28:28
+just a preview.
+
+28:29
+Okay. So this is what we see. We're gonna say,
+
+28:32
+hey. It's gonna come back with something.
+
+28:36
+And
+
+28:37
+here we are. Okay. Good enough.
+
+28:40
+When you actually wanna deploy this widget to your website,
+
+28:42
+the first thing that you need to do is click
+
+28:44
+the update widget button, and then use this deploy button
+
+28:47
+at the top here
+
+28:49
+to get access to the JavaScript code that you need
+
+28:51
+to copy and paste into your website. Now I will
+
+28:54
+demonstrate how you can do that using the dummy index
+
+28:57
+HTML file and an editor called Playcode IO. In the
+
+29:00
+tutorial resource, there will be a link to the system.
+
+29:02
+It's called Playcode
+
+29:04
+IO. After creating an account in Playcode IO, you will
+
+29:07
+land on a page like this where you have no
+
+29:08
+projects. So you can click on the plus sign to
+
+29:11
+create a new project.
+
+29:12
+I'll select HTML.
+
+29:15
+And in here, I will delete the index file because
+
+29:18
+we will
+
+29:19
+add our own.
+
+29:23
+To add my own file, I will click on the
+
+29:25
+plus sign here,
+
+29:26
+upload a file, and I will now drag and drop
+
+29:28
+the file from the resources of this tutorial which is
+
+29:31
+called index HTML.
+
+29:33
+So this is the file that we've just uploaded. Let's
+
+29:36
+open that up. And you can see that inside that
+
+29:38
+file,
+
+29:39
+we have the place that is called replace this with
+
+29:42
+a agenda script. Now before I do that, let's also
+
+29:44
+switch the editor into a 2 column view.
+
+29:47
+So we have the preview on the right.
+
+29:50
+So right now we have just a sparkly demo, and
+
+29:52
+now let's copy the script from Magento. You can do
+
+29:55
+that by using this button here. And back in the
+
+29:58
+editor, just select this piece of code here and click
+
+30:01
+paste. Okay. So you can see that it immediately rendered
+
+30:04
+the widget, and we can see that this widget came
+
+30:07
+up here on the web page. So essentially, this is
+
+30:11
+not an actual deployment to your website. This just demonstrate
+
+30:14
+that This is how you do that. You copy the
+
+30:17
+script from a agent and you find a place on
+
+30:20
+your website, which might be a a completely different place
+
+30:23
+depending on which system you're using, whether that's a WordPress,
+
+30:26
+a custom built website,
+
+30:27
+something like, Shopify web store. So it will heavily depend
+
+30:31
+on the exact system that you use and how you
+
+30:34
+do that in your exact system is outside of scope
+
+30:36
+of this tutorial. But the idea is that you will
+
+30:39
+have a place somewhere in the code or in the
+
+30:41
+CMS of your,
+
+30:43
+website system where you can place the script similar to
+
+30:46
+how you add, for example, the Google Analytics tracking script
+
+30:49
+or something like that.
+
+30:50
+So you will paste the script there,
+
+30:53
+and this script will then render the website widgets
+
+30:57
+over Genetive
+
+30:58
+on your web page.
+
+31:00
+So as it goes, the next steps are download all
+
+31:03
+the tutorial resources,
+
+31:04
+use the setup instructions inside the tutorial resources to replicate
+
+31:08
+this build and have everything set up, and then obviously
+
+31:11
+experiment with the chatbot and let us know how it
+
+31:13
+went. This has been KZ, and I will see you
+
+31:15
+in the next 1.

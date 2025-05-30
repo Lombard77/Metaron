@@ -1,0 +1,42 @@
+Test ID,Category,Test Case,How to Perform,Expected Outcome
+A1,Auth & Account Flow,Register new user,LoginCard.jsx → submit form,"✅ Message: 'User registered successfully'
+✅ New entry in DB: logs/chat_logs.db → users table"
+A2,Auth & Account Flow,Login with correct credentials,LoginCard.jsx → submit login form,"✅ Message: 'Login successful'
+✅ localStorage has correct user_id"
+A3,Auth & Account Flow,Login with incorrect password,LoginCard.jsx → wrong password,❌ Message: 'Incorrect password'
+A4,Auth & Account Flow,Login with non-existent user,LoginCard.jsx → fake email,❌ Message: 'User not found'
+A5,Auth & Account Flow,Re-register existing email,LoginCard.jsx → try existing email,❌ Message: 'Email already registered'
+B1,Coaching Goal Setup,Create goal with name + file,Dashboard → Add Goal,"✅ Goal appears in sidebar
+✅ /upload-kb returns success"
+B2,Coaching Goal Setup,Create goal with name only (no file),Dashboard → Add Goal → no file,❌ Message: 'Please provide at least one file'
+B3,Coaching Goal Setup,Create goal with OpenAI and valid key,Select OpenAI + enter API key,"✅ Status shows embedding
+✅ Upload finishes"
+B4,Coaching Goal Setup,Create goal with Open Source,Leave default provider,✅ Upload and embedding complete
+B5,Coaching Goal Setup,Upload corrupt/unsupported file,Upload damaged PDF,"❌ Message in UI
+✅ Error in logs/errors.log"
+C1,Goal Management,Load dashboard with goals,Login → Dashboard loads,✅ Sidebar shows all goals
+C2,Goal Management,Edit goal (change fields),Click 'Edit Goal',✅ Save changes updates DB
+C3,Goal Management,Cancel edit/create goal,Click ✖ Cancel,"✅ Returns to home
+✅ Backend logs cancel"
+C4,Goal Management,Add multiple files,Upload 2+ PDFs,"✅ All filenames shown
+✅ Embedded together"
+C5,Goal Management,Start session after goal creation,Click Start Session,"✅ Moves to Chat mode
+✅ /start-session logs"
+D1,Ask Questions,Ask question with context,Chat UI (after goal loaded),✅ Answer includes embedded content
+D2,Ask Questions,Ask question with no goal,Chat UI before plan,❌ Message: 'Please select a goal first'
+D3,Ask Questions,Chat history saved,Ask question,✅ Entry in logs/chat_logs.db → chats table
+E1,Logging & Error,Trigger known error (bad API key),OpenAI + bad key,"❌ UI message
+✅ logs/errors.log"
+E2,Logging & Error,Normal flow logs to files,Register + Upload + Chat,"✅ logs: chat_logs.db, uploaded_files.log"
+E3,Logging & Error,Backend cancel logging,Click ✖ Cancel on create/edit,✅ logs/event.log or stderr: 'User aborted...'
+F1,UI Behavior,Dynamic button label,Upload goal → see rotating text,✅ Label cycles: Uploading → Embedding → Finalizing
+F2,UI Behavior,Status feedback visible,During file process,✅ Status visible above Cancel
+F3,UI Behavior,Clicking New Goal cancels old unsaved edit,Start new goal while editing,"✅ Prompts if changes unsaved
+✅ Logs cancel"
+G1,Abort Flow,Abort creation before save,Click ✖ after entering data,"✅ Logs cancel
+✅ UI resets to home"
+G2,Abort Flow,Abort edit with unchanged state,Click ✖ without edits,"✅ UI resets
+✅ No new log"
+H1,File UX,File shown only once cleanly,Upload 1 file,✅ Single line: filename + size
+H2,File UX,Large PDF upload timing,7MB+ PDF,"✅ Delay expected
+✅ Progress updates"

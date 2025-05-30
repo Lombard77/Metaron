@@ -1,0 +1,1457 @@
+Transcript
+Search
+
+00:00
+Now getting into the implementation challenge. In the previous section,
+
+00:03
+we explored the transformative benefits that AI automation offers businesses.
+
+00:07
+Yet despite these compelling advantages, most businesses haven't taken a
+
+00:10
+significant step towards adoption. Let me explain why and more
+
+00:13
+importantly, how you can help them to bridge this gap.
+
+00:15
+The current state of adoption. As we learned earlier in
+
+00:17
+our discussion on the technology adoption life cycle, businesses fall
+
+00:20
+into distinct categories in their approach to AI. The innovators
+
+00:22
+are these tech forward companies that are pioneering AI adoption
+
+00:25
+since 20 22. Well, this is generative AI but likely
+
+00:28
+a long time before that. They've gained a valuable early
+
+00:31
+advantage but weathered the challenges of unstable platforms and evolving
+
+00:34
+tools. Then you've got the early adopters who are the
+
+00:36
+forward thinking businesses actively seeking AI solutions now, ready to
+
+00:39
+invest but struggling to find reliable
+
+00:41
+implementation partners. We have the early majority which of course
+
+00:44
+is our biggest opportunity. Businesses that see AI's potential but
+
+00:47
+need proven success cases and clear implementation paths before committing.
+
+00:50
+And we have the late majority and laggards. Companies either
+
+00:53
+unaware of AI's potential or waiting until solutions become industry
+
+00:56
+standard before considering adoption. So we can break down this
+
+00:59
+market. The people we're really selling to are going to
+
+01:00
+be these these people here and we can break these
+
+01:02
+people down into a number of different segments even further.
+
+01:05
+That'll make it a lot clearer to who you're trying
+
+01:07
+to sell to and the problems that you need to
+
+01:08
+solve for them as an AI automation agency when you're
+
+01:11
+trying to present some value to them. So this spread
+
+01:13
+here in the market creates distinct segments based on their
+
+01:16
+needs and what we can offer them. So let's examine
+
+01:19
+each of these groups. Firstly, we have the unaware which
+
+01:21
+is the majority of people and businesses at the moment.
+
+01:24
+There are large portion of businesses that lack basic understanding
+
+01:27
+of AI capabilities and benefits. They need foundational education before
+
+01:30
+they can even consider implementation. The majority of businesses here
+
+01:34
+are gonna be
+
+01:35
+this this is 84
+
+01:37
+percent of the population and they are likely unaware of
+
+01:40
+AI and what it can really do and they just
+
+01:42
+need some kind of education to get them to be
+
+01:45
+aware of what AI can do for them and why
+
+01:47
+it's so important that they move on it. Then we
+
+01:48
+have the interested but uncertain. These are businesses that are
+
+01:51
+familiar with AI and heard about it. Maybe they're dipping
+
+01:53
+their toe in but they're unsure about where to start.
+
+01:56
+They need expert help to identify the high ROI opportunities
+
+01:59
+within their operations. Someone to tell them this is what
+
+02:02
+you should do. These are where the opportunities are for
+
+02:04
+you, and that's this interested segment. And then you have
+
+02:06
+the ready to implement. And those who understand the value
+
+02:08
+but need technical expertise to deliver their their solutions
+
+02:11
+effectively, they need development services and ongoing support.
+
+02:14
+So they are ready to go but they're just looking
+
+02:16
+for someone they can trust to help them get into
+
+02:18
+the AI game and and to build the systems that
+
+02:20
+they know they need. So understanding these segments helps us
+
+02:22
+see why businesses aren't all rushing to adopt AI right
+
+02:25
+now and reveals 4 key challenges that we need to
+
+02:28
+address in order to make money off them.
+
+02:31
+Firstly, we have the awareness gap. So most businesses simply
+
+02:34
+don't understand modern AI's capabilities
+
+02:36
+or how it could benefit them. They just don't have
+
+02:38
+the time or they're not necessarily techy. They're basically stuck
+
+02:40
+at the starting line needing some clear education about what
+
+02:43
+AI can realistically do today, how it creates business value,
+
+02:46
+the common implementation approaches, the typical results and time frames.
+
+02:50
+And this really represents our largest market opportunities as AI
+
+02:53
+automation agencies which is helping businesses to move from complete
+
+02:56
+unawareness
+
+02:57
+to understanding AI's potential for their specific situation. Agencies who
+
+03:01
+can effectively move businesses through this phase will profit greatly
+
+03:04
+at later stages. So we have this awareness gap here
+
+03:07
+where they aren't aware of what AI can do for
+
+03:09
+them. And we can move them from this segment to
+
+03:11
+this through products and services and convert them into someone
+
+03:14
+who's interested and then someone who's ready as we're gonna
+
+03:16
+see. And then we have the strategy gap. So even
+
+03:18
+businesses who understand the benefits of AI and are interested
+
+03:21
+in it often struggle with identifying the highest value opportunities,
+
+03:25
+prioritizing different possible implementations, building a realistic roadmap and finding
+
+03:29
+reliable technical partners. This creates demand for expert agencies to
+
+03:32
+guide their AI journey, helping them make informed decisions about
+
+03:35
+where and how to implement AI effectively the first time
+
+03:38
+around. What you need to keep in mind is that
+
+03:40
+these are often big spends for companies. They're having to
+
+03:43
+look, well we need to spend a lot of money
+
+03:45
+on this whole system that we run and have been
+
+03:47
+using for a long time and we need to upgrade
+
+03:49
+this to be AI first and to integrate AI into
+
+03:51
+it in some way. These are big decisions and while
+
+03:54
+some companies will kind of pilot and do small things
+
+03:57
+on the side, at some point they know they need
+
+03:59
+to attack some of these bigger issues. Other people in
+
+04:01
+their market are gonna likely be attacking it as well
+
+04:04
+and this is when they are aware that's why they're
+
+04:05
+not they don't have the awareness gap. They are aware
+
+04:08
+that they need to do something about this. But because
+
+04:11
+there's such a heavy investment, because there's such a technical
+
+04:13
+gap between where they are and where they where they
+
+04:15
+need to be in order to execute a roadmap effectively,
+
+04:18
+They are looking for someone to help them with as
+
+04:19
+a strategy and road mapping their AI journey. And then
+
+04:22
+next, we have the investment challenge which is when businesses
+
+04:25
+are ready to implement AI as in they've they've gone
+
+04:28
+through this and they've moved from interested to ready and
+
+04:30
+they know what they need and they're ready to go
+
+04:31
+and they're just looking for a team. They still face
+
+04:33
+significant financial considerations
+
+04:35
+which is upfront costs. We've got development, integration, and training
+
+04:38
+expenses that can range from 20 to a hundred thousand
+
+04:41
+dollars or more requiring careful budgeting and substantial initial investment.
+
+04:44
+They've when and how these investments will actually pay off
+
+04:47
+through
+
+04:52
+opportunity for agencies who can price competitively
+
+04:55
+while maintaining high quality development teams. And also in here,
+
+04:58
+very clearly communicating that you are the team for them
+
+05:00
+to work with. You are someone they can trust and
+
+05:00
+they can put that money in your hand and you
+
+05:00
+telling them that yes, they're someone they can trust and
+
+05:02
+they can put that money in your hand and you
+
+05:04
+telling them that yes, this is the right move for
+
+05:06
+you. They will get that ROI. It's a there's almost
+
+05:08
+a confidence layer in here as well that someone who
+
+05:11
+knows what they are talking about has told them that
+
+05:13
+this is what they should do. And that essentially does
+
+05:15
+come in a strategy gap. This is more so how
+
+05:17
+can we make it make sense for us financially within
+
+05:19
+a reasonable
+
+05:20
+return timeline. So through efficient delivery and really dialing in
+
+05:23
+your delivery processes and clear ROI planning for your clients,
+
+05:26
+payment plans and other methods, agencies can help make these
+
+05:29
+investments more manageable and believe that it's actually gonna deliver
+
+05:32
+on the results.
+
+05:33
+To demonstrate faster past and positive returns. So your past
+
+05:36
+work and and pointing out, hey we did this for
+
+05:38
+this. Ideally, if you're working in a space where you
+
+05:40
+are doing a similar project for other other clients, that's
+
+05:43
+gonna make it a lot easier for to make that
+
+05:44
+big investment. Right? And so the better the proof, the
+
+05:47
+bigger the investment and the more clear the ROI is
+
+05:49
+gonna be for them. And so this investment challenge, once
+
+05:51
+you can help them cross that by again having streamlined
+
+05:54
+processes for your agency, having the right talent for the
+
+05:57
+job, not overpaying for talent, and offering them competitive payment
+
+05:59
+plans so that they can actually make it make sense
+
+06:01
+over 6 months or so. You can help them move
+
+06:03
+from this ready to being actually AI enabled and actually
+
+06:06
+having implemented it within their business, which is where a
+
+06:08
+small group of businesses are right now. And the final
+
+06:10
+challenge that comes after that is the management, which is
+
+06:13
+even after successful implementation, businesses face ongoing operational concerns about
+
+06:17
+managing, maintaining, and optimizing their AI systems. So 1 option
+
+06:20
+is to have an internal capability.
+
+06:22
+Organizations struggle with whether to build internal AI expertise or
+
+06:25
+rely on external partners for long term management weighing factors
+
+06:28
+like cost, control and reliability. So this is an opportunity
+
+06:31
+for you whether or not you pitch your agency as
+
+06:33
+a long term partner. Look, it's gonna cost you all
+
+06:35
+this money to set it up internally. We wanna be
+
+06:37
+your go to AI team and we can help you
+
+06:40
+sort of grow and be a long term partner for
+
+06:42
+you. Or you can do on the flip side. Look
+
+06:43
+we've built this all out for you. But at the
+
+06:45
+end of the day, you're gonna need to have your
+
+06:46
+own AI internal capability. So I'll tell you what, we
+
+06:49
+also have this program for you which is gonna help
+
+06:51
+you to connect you with the right developers. We will
+
+06:54
+help to get them placed. You know, you can start
+
+06:55
+to create packages off the back of that where you
+
+06:58
+could even put 1 of your devs into the company
+
+07:00
+and say look we're gonna give you 1 of our
+
+07:02
+guys for 6 months or 3 months. There's all these
+
+07:04
+different ways that you can solve this because this is
+
+07:06
+just another problem that they're willing to pay for. We
+
+07:08
+either need it internally or we need a long term
+
+07:10
+partner that isn't gonna rip us off and we can
+
+07:12
+rely on. And that's not just for development, it's also
+
+07:15
+for strategy as well. A recurring strategy partner like, hey.
+
+07:18
+Okay. It's been a year now or it's been 2
+
+07:20
+quarters.
+
+07:21
+What's new and what should we be doing? These are
+
+07:23
+ongoing things that you can do as part of this
+
+07:24
+management challenge to monetize the demand. Secondly, we have the
+
+07:27
+system evolution. AI capabilities and best practices are constantly advancing
+
+07:31
+like I just said before, requiring ongoing updates and improvements
+
+07:34
+to maintain competitive advantage. Then we have performance optimization as
+
+07:38
+well. Certain systems need continuous monitoring and refinement to maintain
+
+07:41
+their peak performance and adapt to changing business conditions. Say
+
+07:44
+your ICP starts to shift and your AI sales rep
+
+07:47
+isn't performing at 5 or 6 percent anymore. It's down
+
+07:49
+to 2. They need to know that they have someone
+
+07:51
+there who can help them to, get that performing again.
+
+07:53
+So this management challenge creates opportunities for triple a's to
+
+07:56
+provide ongoing management services and help businesses build internal capabilities
+
+08:00
+over time. The key is understanding that AI implementation isn't
+
+08:03
+a 1 time project. It's the beginning of a long
+
+08:06
+term transformation that requires sustained attention
+
+08:08
+and expertise.
+
+08:11
+And a little bonus for you here is this human
+
+08:13
+factor. So 1 challenge that isn't talked about enough is
+
+08:15
+the human factor
+
+08:17
+inside businesses
+
+08:18
+managing the internal politics as you go through an AI
+
+08:21
+transformation. So successful implementation requires carefully managing organizational change. The
+
+08:26
+leadership needs to be brought in. Right? So the executives
+
+08:28
+must understand and support the transformation while maintaining strategic control.
+
+08:32
+Employee adoption. Staff need clear communication about how AI will
+
+08:35
+enhance rather than replace their roles. This is a massive
+
+08:38
+1 and the bigger the company you go into sort
+
+08:40
+of the slower moving. If you're in these digital spaces
+
+08:42
+like agencies
+
+08:44
+People are always kinda pretty open minded and ready to
+
+08:46
+do a I stuff because they're like, oh if it
+
+08:48
+makes my job easier and I can do more then
+
+08:49
+great. But as you get into big companies and you
+
+08:52
+get into companies that are in sort of more slower
+
+08:54
+moving industries. You're more and more likely to run into
+
+08:57
+people who are terrified of AI. They are they hate
+
+09:00
+the technology. They are absolutely hate it. Whether they're creative,
+
+09:04
+whether they are an engineer or something, but they just
+
+09:06
+despise it. And out of a hundred people, you're bound
+
+09:09
+to get 1 of those. We see this in our
+
+09:11
+consultancy
+
+09:12
+a lot. We've got a handful of bad eggs who
+
+09:15
+unfortunately need to be cut or they need to be
+
+09:17
+very carefully managed into the through the transition. There also
+
+09:20
+needs to be a pretty substantial culture shift within organizations
+
+09:23
+as they must evolve the processes and the mindset to
+
+09:25
+fully leverage AI capabilities. We need you to experiment. We
+
+09:28
+need you to give us the ideas that you have
+
+09:30
+so that we can sort of dig through them and
+
+09:32
+plan it. We provide strategy for our consulting clients on
+
+09:35
+how to get sort of this AI cultural shift and
+
+09:37
+sort of committees and things that you can set up
+
+09:39
+there. So this is a a bit of a broader
+
+09:41
+issue I'd say for, than the many of you starting
+
+09:44
+an agency you're gonna need to worry about. And I'll
+
+09:46
+likely cover this in a later, later course
+
+09:49
+that will go more in-depth in how we do these
+
+09:51
+kind of AI transformations of businesses particularly
+
+09:53
+on the the morning site consulting side. And so now
+
+09:55
+that you know these different segments and you know the
+
+09:57
+challenges that they're facing, we have the unaware, interested, and
+
+10:00
+ready, and the AI enabled,
+
+10:02
+and the awareness gap, the strategy gap, the investment challenge,
+
+10:05
+and the management challenge. We can get into the triple
+
+10:08
+a opportunity.
+
+10:09
+Now I know you've probably heard this a million billion
+
+10:11
+times in this course so far right now. But this
+
+10:13
+is how to monetize off of these different challenges. Right?
+
+10:16
+So each of these challenges represents an opportunity
+
+10:18
+for AI automation agencies to create value. In the next
+
+10:21
+section, we'll explore how to build effective solutions for each
+
+10:24
+market segment, helping businesses progress from wherever they are today
+
+10:27
+to successful AI implementation. So you've got the awareness gap
+
+10:30
+which is a need for education. You've got the strategy
+
+10:32
+gap which is a need for guidance. You've got the
+
+10:35
+investment challenge which is a need for affordable and capable
+
+10:37
+development partners. And then you've got the management challenge which
+
+10:40
+is the need for support or even expertise, ongoing expertise
+
+10:43
+could be put in there too. So educational products, guidance
+
+10:46
+and strategy and consulting relating products, development offers and development
+
+10:49
+services that are well priced and you have ongoing management
+
+10:53
+either placements as well. You can do things like that
+
+10:55
+like I said before. But these opportunities at each of
+
+10:57
+these levels, that's what I'm trying to make you aware
+
+10:58
+of now. It's not just build me x. It's some
+
+11:02
+of your clients that you're gonna run into will need
+
+11:04
+this. And it's a case of how do you prioritize
+
+11:06
+these as your agency. What is your strategy? Are you
+
+11:08
+gonna start with education? And I'm just gonna start with
+
+11:10
+a few small educational products for my niche. And I'm
+
+11:13
+gonna use that and get a bit of money and
+
+11:14
+then I'm gonna use that income to help me get
+
+11:17
+a developer or consultant on and then I'm gonna start
+
+11:19
+to expand my offering. But I wanna really reveal this
+
+11:21
+because many of you think that this model is only
+
+11:23
+this. But it's it's it's all of this as well.
+
+11:25
+And this is what I talked about a lot for
+
+11:26
+the expansion we're doing at Morningside and how we're seeing
+
+11:29
+a lot of success with the educational and consulting section
+
+11:32
+of of this, sort of demand spread we've got before
+
+11:34
+they get to this point. So by understanding these distinct
+
+11:36
+needs, we can create targeted offerings that address each stage
+
+11:39
+of their journey from basic education through consulting implementation and
+
+11:43
+ongoing support and optimization.
+
+11:45
+So the AI transformation journey. As we've seen, businesses need
+
+11:48
+different types of support depending on where they are in
+
+11:50
+the AI adoption journey. Success as a triple a means
+
+11:53
+being able to provide value at every stage of this
+
+11:56
+transformation process. Let's say at least
+
+11:59
+1 stage.
+
+12:01
+So you obviously got to start off and do 1
+
+12:03
+but it would be good if you can expand to
+
+12:05
+having multiple like we do at Morningside where we can
+
+12:06
+do from education all the way through to sort of
+
+12:09
+long term partnerships and and support. So the journey typically
+
+12:11
+unfolds across 4 key stages,
+
+12:13
+each requiring different types of support. So education tier is
+
+12:16
+building trust and awareness through free content like I do
+
+12:19
+on YouTube, workshops and basic assessments. So you can run
+
+12:23
+live workshops. You can run pre recorded workshops.
+
+12:26
+Basically, kind of free course content and you can do
+
+12:28
+basic assessments for free. This helps businesses to understand AI's
+
+12:31
+potential and starts positioning you as their trusted guide. Alright.
+
+12:34
+We are the people who can help you through this.
+
+12:36
+We understand your problems and concerns. Then the consulting tiers,
+
+12:38
+once they grasp the potential and they're ready to move
+
+12:40
+forward, say okay. Now we need to move on this.
+
+12:42
+You can offer paid strategic services like AI audits to
+
+12:45
+identify and plan the the AI implementation roadmap. This includes
+
+12:48
+auditing your operations and creating clear roadmaps for success. Then
+
+12:51
+we have the implementation tier which is when you have
+
+12:53
+a solid plan in place. You can then deliver development
+
+12:55
+and integration services that turn their AI vision that you
+
+12:58
+painted here and sort of prep them for up here
+
+13:01
+into a reality. You focus on creating systems that integrate
+
+13:03
+seamlessly with your operations starting with the quick wins using
+
+13:06
+the difficulty value matrix which we've covered already in this
+
+13:09
+program in order to build trust. And finally, the partnership
+
+13:11
+stair is providing ongoing management and optimization services to ensure
+
+13:15
+long term success. You can help them find talented AI
+
+13:17
+automation engineers to begin building their own internal AI innovation
+
+13:21
+engine and get paid big bucks. Here you can see
+
+13:23
+education tier, free content workshops, basic assessments, consulting tier, doing
+
+13:27
+the audits, helping them strategize, get the AI roadmap. You
+
+13:29
+got the implementation tier where you actually do the building
+
+13:32
+for them and picking out the sort of easiest quick
+
+13:34
+wins for them so that you can build even further
+
+13:35
+trust. Right? It's all really just a slow process of
+
+13:38
+trust building. In my example, they watch my YouTube videos.
+
+13:41
+They go, oh, well this guy kinda knows what he's
+
+13:42
+talking about. Oh, great. Yeah. I might I might subscribe
+
+13:44
+to his newsletter or something and they get on the
+
+13:46
+newsletter and they start to hear me talking more and
+
+13:48
+more and more about the AI business related things I
+
+13:50
+do. And they go, okay. Well, if he can do
+
+13:51
+it for his own business, then he can definitely do
+
+13:53
+it for me. So maybe I'll book an a call
+
+13:55
+with Morningside and I book on a call and my
+
+13:57
+team will recommend, hey, sounds like you're not quite ready
+
+13:58
+for implementation.
+
+14:00
+We have a 6 week strategy audit we can put
+
+14:02
+you through and then we'll close them on that. We
+
+14:04
+just close 1 for 60000 US dollars for a 4
+
+14:07
+week strategy audit and that was a massive win for
+
+14:09
+us recently within the consultancy division and we just closed
+
+14:11
+another 1 for 30000 or 35000
+
+14:14
+USD.
+
+14:15
+So that's a pretty massive set of deals for us
+
+14:18
+just on this particular bit alone. And that helps us
+
+14:20
+eventually to sell them on implementation as well for hundred
+
+14:23
+thousand, 500000
+
+14:25
+even. I suspect we're gonna be taking on million dollar
+
+14:27
+deals here within the next maybe 12 months. Because we
+
+14:30
+are prepping and building such a high amount of trust
+
+14:32
+in these previous phases, this is quite advanced strategy for
+
+14:35
+you all but I want you to know where you
+
+14:36
+can take this. It's not just 3000 dollar chat bots
+
+14:39
+guys. You should be able to expand to doing these
+
+14:41
+bigger and bigger deals and taking on much larger commitments
+
+14:43
+from clients as you build trust with them. And finally,
+
+14:45
+the partnership tier is where they might just come back
+
+14:47
+to you and say, hey, we wanted a couple changes
+
+14:49
+here and there and it's very easy retainers to do
+
+14:51
+at least if you like the client. So by structuring
+
+14:53
+our services this way, we can meet businesses wherever they
+
+14:56
+are in their journey and guide them towards successful AI
+
+14:58
+adoption. And I say here, as I said before, take
+
+15:01
+it easy. Right? To provide end to end AI transformation
+
+15:03
+is a big operation and I'm giving you this context
+
+15:06
+now so that you see the breadth of services we
+
+15:08
+can provide to create value for businesses to help them
+
+15:10
+to bridge that AI adoption gap. Some of you will
+
+15:13
+be great communicators, better suited to education and consulting. Some
+
+15:16
+will be devs who want to do the implementation.
+
+15:18
+But just pick 1 area first and nail it before
+
+15:21
+moving up or down the
+
+15:22
+pipeline. And there is another caveat to that which is
+
+15:24
+the best proof is going to come from implementation. Right?
+
+15:27
+I said morning side, we can do consulting and people
+
+15:29
+will pay us 60000 dollars for consulting because we do
+
+15:32
+this. Right? If you didn't do this, it would be
+
+15:34
+a lot harder to sell them on 60000 dollar consulting.
+
+15:37
+Right? And also the education stuff that I do for
+
+15:39
+free on YouTube also helps to provide credibility for this
+
+15:42
+and this as well. So it all kinda ties together.
+
+15:44
+But if you were to just start trying to do
+
+15:45
+consulting and you didn't necessarily have any proof, the only
+
+15:48
+way that you could get to actually make money through
+
+15:50
+AI consulting would be that that you'd done it for
+
+15:53
+free for a few people and you told them what
+
+15:54
+to do. You measure the results off the back of
+
+15:56
+that and they were like, well, this guy's obviously knows
+
+15:58
+what he's doing when it comes to AI consulting. His
+
+16:01
+clients are getting results. So that's a good
+
+16:03
+substitute for actually doing yourself as you've recommended it. It
+
+16:06
+ended up well and that's how you sell your consulting
+
+16:08
+gigs. But this is obviously the best proof you can
+
+16:10
+get. But at the same time, you could just start
+
+16:12
+off with a few courses, make a bit of content,
+
+16:14
+and sell that to a certain niche. And then you
+
+16:17
+start offering consulting as well. And again, you're just closely
+
+16:19
+monitoring all the results that you get out of the
+
+16:21
+education and consulting and using that as your proof in
+
+16:23
+order to get more customers. The key takeaways of this
+
+16:26
+section, understanding the barriers to AI adoption reveals why even
+
+16:29
+compelling technology faces resistance and how AI automation agencies can
+
+16:33
+create value by helping businesses overcome these fundamental challenges. First
+
+16:36
+thing, it ain't easy. Right? So successfully implementing AI systems
+
+16:40
+that provide a meaningful competitive edge without blowing up frequently
+
+16:43
+requires significant expertise. It is pretty tough. Production grade AI
+
+16:47
+applications are not not a walk in the park. The
+
+16:50
+current technology is not perfect and still requires a lot
+
+16:52
+of work to get right which makes it difficult for
+
+16:54
+businesses to dive in themselves.
+
+16:56
+So I mean it's even difficult for us as agencies
+
+16:58
+to do it. Can you imagine how difficult it would
+
+17:00
+be for businesses to do it themselves? That's why they
+
+17:03
+feel scared. That's why they feel completely out of their
+
+17:05
+depth and they want to pay you. The market reality
+
+17:07
+of this is that the AI adoption market breaks into
+
+17:09
+the distinct segments from completely unaware businesses to those ready
+
+17:12
+for implementation. And that's why you get a byproduct of
+
+17:14
+the technology adoption life cycle. That's these segments are the
+
+17:17
+sort of materialization of the the needs that come from
+
+17:20
+these different segments. Success means meeting businesses where they are
+
+17:23
+and guiding them forward with the right support at each
+
+17:25
+stage. Having the right products and services to be able
+
+17:27
+to accept businesses within your niche or within whatever area
+
+17:31
+that you're operating,
+
+17:32
+at various stages of the journey. Then Then we have
+
+17:34
+the 4 implementation barriers. Firstly, the awareness gap. Most remain
+
+17:38
+unaware of AI's true capabilities and practical business applications. They
+
+17:41
+still don't get why they need it or what it
+
+17:44
+even is. And many of them are quite happy living
+
+17:46
+in this little bubble. Then we have the strategy gap
+
+17:48
+where even interested businesses struggle to identify their best opportunities
+
+17:51
+and have confidence in executing it themselves. Then we have
+
+17:53
+the investment challenge where businesses then need to decide on,
+
+17:57
+okay, am I really willing to put this money up?
+
+17:59
+Is there a clear ROI for me here? And our
+
+18:01
+job as agencies is to communicate that clearly and give
+
+18:03
+them the confidence they need to make these big investments
+
+18:06
+that are gonna really change parts of the business from
+
+18:07
+the ground up. Then we have the management challenge. Sorry,
+
+18:10
+I forgot to add that 1 in. The ongoing management
+
+18:12
+and optimization of AI systems concerns businesses and this is
+
+18:15
+another opportunity for us to make money. Whether it's providing
+
+18:17
+ongoing sort of retainer services or if it's through saying,
+
+18:20
+hey, I will help you to build your own AI
+
+18:22
+department based off our experience. So even that, just that
+
+18:25
+alone could be your offer. We help businesses in the
+
+18:29
+x y z industry create their own internal AI expertise
+
+18:32
+and own AI division that's gonna be capable of managing
+
+18:35
+innovation. So you can plant people in there, you can
+
+18:37
+train their existing people up. There's so many different routes
+
+18:39
+you can take. But that alone would be a huge
+
+18:41
+business. Right? Being able to help them create their own
+
+18:44
+AI division that can do their own innovation and you
+
+18:46
+can sort of pass on your strategy on top of
+
+18:48
+that for them to execute. There's so much in here
+
+18:51
+for you guys to make money with. You just need
+
+18:52
+to pick where you wanna start. And finally, we have
+
+18:54
+human challenges around guiding both technical and human elements through
+
+18:57
+this transformation.
+
+18:58
+Dealing with difficult staff members, making sure the c suite
+
+19:01
+is fully educated and aligned.
+
+19:03
+There's a lot of human challenges that come with this
+
+19:05
+AI transformation within companies. Then we have the agency opportunity.
+
+19:08
+So each barrier is representing us a chance to create
+
+19:10
+value and make money from education and strategic guidance through
+
+19:13
+to implementation and optimization.
+
+19:15
+By understanding these challenges, agencies can structure these services to
+
+19:18
+help businesses successfully navigate the AI transformation journey. The path
+
+19:22
+forward from here is that success as an AI automation
+
+19:24
+agency means being able to identify where each business is
+
+19:26
+in their journey and provide exactly what support they need
+
+19:29
+to move forward 1 step at a time. Understanding these
+
+19:31
+implementation challenges is crucial for building an agency that can
+
+19:33
+effectively guide businesses through the AI transformation journey while creating
+
+19:37
+sustainable value at every step. Like I said, you don't
+
+19:39
+need to do all of them at once but just
+
+19:41
+be aware that these are the challenges that you'll need
+
+19:43
+to solve

@@ -1,0 +1,863 @@
+Transcript
+Search
+
+00:00
+K. Now getting into the future of AI services. We
+
+00:03
+couldn't finish this video up on the economics of AI
+
+00:05
+automation without addressing the elephant in the room. Won't self
+
+00:08
+serve AI tools eventually make AI automation agencies obsolete? This
+
+00:11
+fear comes up constantly in our industry as AI platforms
+
+00:14
+become more and more user friendly and SaaS solutions emerge.
+
+00:17
+Won't businesses just implement everything themselves? And of course, this
+
+00:20
+concern isn't new. So let's dismantle it by looking at
+
+00:22
+a very powerful historical parallel. Of course, we look back
+
+00:25
+to the web which is not too long ago now
+
+00:28
+and we have in 19 95 websites,
+
+00:31
+having only really technical experts being able to build them.
+
+00:34
+10 years later by 2005,
+
+00:36
+you start to get website builders emerge like WordPress and
+
+00:39
+things like this. And they ultimately predicted to kill web
+
+00:41
+development agencies, Kill
+
+00:43
+these experts that are building websites. It's like, oh, in
+
+00:45
+the future, I'll be able to do it all myself
+
+00:46
+and I won't need this. I'll just be able to
+
+00:49
+go on to this and type in a few words
+
+00:50
+and move it around. I won't need to pay someone
+
+00:53
+50, a hundred thousand, 200000 dollars for a website. Well,
+
+00:57
+by 20 23, web development is a 250000000000
+
+01:01
+dollar industry and growing 23 percent annually. If anything, it
+
+01:05
+accelerated
+
+01:06
+the growth of the web development, custom web development industry.
+
+01:08
+So what actually happened here? Website builders like WordPress and
+
+01:12
+then Wix and Squarespace and things like these, they didn't
+
+01:14
+kill the web agencies.
+
+01:16
+They essentially expanded the market dramatically. They helped millions of
+
+01:19
+businesses understand the value of having a web presence. They
+
+01:22
+essentially lowered the bar of what financial investment and time
+
+01:25
+investment businesses need to give in order to just get
+
+01:27
+on the web and see what the benefits were. You
+
+01:30
+know, as soon as they start getting that, oh, you've
+
+01:31
+just received a new, inquiry or bang, we've just received
+
+01:34
+a new lead or some cha ching, someone's just purchased
+
+01:36
+on our website and you're like, holy moly. I just
+
+01:38
+put this bloody
+
+01:42
+amount of traffic and these number of calls and these
+
+01:44
+people reaching out to work with me without having to
+
+01:46
+go to an agency and engage in this long process.
+
+01:48
+So the self serve platforms and these tech revolutions drastically
+
+01:51
+expand the bottom end of the market and make the
+
+01:53
+benefits of the technology much more accessible to the bottom
+
+01:56
+half of people who maybe just starting a business or
+
+01:59
+a bit of a lag in technology wise and they
+
+02:01
+don't know how to work with a dev agency. They
+
+02:03
+don't know what they want. They're a bit scared by
+
+02:04
+it. And as all of these businesses grew, the ones
+
+02:06
+who just started to build on these platforms,
+
+02:08
+many of them eventually graduated to working with professional agencies
+
+02:11
+who could deliver more sophisticated
+
+02:13
+and customized designs. It's like a drug dealer giving them
+
+02:16
+a a little hit here and getting them hooked and
+
+02:18
+go, oh, wow. I can really see the value in
+
+02:20
+having this website now. And then sure enough down the
+
+02:22
+line, they start trying to sell them bigger and bigger
+
+02:24
+bags or whatever drug dealer reference you wanna make here.
+
+02:26
+But eventually, people who started off on website builders thinking,
+
+02:29
+oh, I can just do it myself,
+
+02:31
+their business takes off. They eventually go, well, if this
+
+02:33
+is doing such a big part of my business or
+
+02:35
+it's such a big part of our acquisition and how
+
+02:38
+we present ourselves to the world, then maybe it is
+
+02:40
+worthwhile us investing 20, 30, 40, a hundred thousand, 200000
+
+02:44
+dollars in really nailing our web presence. So that's how
+
+02:47
+we see graphs like this where we have the entire
+
+02:50
+web development industry in 19 95 and the web development
+
+02:53
+agencies and people who are doing web development as a
+
+02:56
+service are in here. Then by 2005,
+
+02:58
+we have the entire
+
+03:00
+industry. So the website development industry itself has grown many
+
+03:03
+times.
+
+03:04
+And actually, these 2 should probably be swapped around in
+
+03:06
+size where you have website building platforms sort of a
+
+03:09
+bit smaller and on the rise. And you have web
+
+03:11
+development agencies still taking up a significant chunk, but overall,
+
+03:15
+the size of the market has grown a ton. And
+
+03:17
+then by now, you see that we have like this
+
+03:19
+enormous market. Like it says here, 250000000000
+
+03:22
+dollars and growing 23 percent annually. The size of the
+
+03:25
+market is just so much bigger and these both of
+
+03:27
+them have grown a huge amount inside that as well.
+
+03:30
+So it's not like 1 cannibalizes the other and the
+
+03:33
+size of the industry remains static. The size of the
+
+03:35
+industry is still getting bigger and bigger by the day,
+
+03:38
+but the distribution of it is changing around. Both of
+
+03:40
+them are growing. So you have these thriving website building
+
+03:43
+platforms and then that money is in funneled up to
+
+03:45
+the web development platforms as well. And the exact same
+
+03:47
+thing is going to happen of course with AI agencies
+
+03:49
+and AI automation agency services where right now we are
+
+03:52
+here. And we're starting to have these self serve platforms
+
+03:54
+where businesses can kinda do it themselves if they know
+
+03:56
+what they're doing. But it's still quite difficult and we'll
+
+03:59
+see this maybe with like AI receptionist as an example
+
+04:02
+where they can either come to an agency now and
+
+04:03
+pay quite a lot of money to get 1 built
+
+04:05
+or someone might make a sass around say, wrap it
+
+04:08
+around VAPI or or an AI voice or 11 Labs
+
+04:10
+and make a wrap around that. They make a sass
+
+04:12
+that's like AI receptionist
+
+04:14
+DIY and they try it and they go, wow. This
+
+04:16
+is really cool. And they realize how how powerful it
+
+04:18
+is and then they go, okay. Well, if it's so
+
+04:20
+powerful and such a big part of our business, why
+
+04:22
+don't we see if there's someone who's actually a specialist
+
+04:24
+in this who can build us a custom 1 that
+
+04:25
+does all the things that we needed to do because
+
+04:27
+this platform doesn't quite do that. And that's when the
+
+04:30
+demand then funnels back to us as the agencies. So
+
+04:32
+it's only gonna continue to grow and scale as the
+
+04:34
+industry grows. We are still just scratching the surface of
+
+04:38
+the extraction of value from the AI services industry of
+
+04:41
+how much money needs to be spent across all businesses
+
+04:43
+worldwide to make the transition. It's fucking ludicrous.
+
+04:46
+The same pattern is gonna merge with AI automations. Like
+
+04:48
+I said, we'll get self serve tools and SaaS solutions
+
+04:51
+that will help businesses to understand
+
+04:53
+AI's potential. They actually try it themselves. They get a
+
+04:55
+little hit and try it like, holy moly. This is
+
+04:57
+awesome. And it's actually good because these platforms are gonna
+
+04:59
+have to run ads and create awareness and acquire these
+
+05:01
+customers and get them to use their software. And then
+
+05:03
+eventually, they'll just go, oh, that was fun. Okay. And
+
+05:05
+I'm gonna go to someone who really knows what they're
+
+05:06
+doing. I need more features. So they're gonna go and
+
+05:09
+market stuff for us and we can just piggyback and
+
+05:11
+sit there and kinda camp the spawners as these people
+
+05:13
+come out eager for more custom implementation of that particularly
+
+05:16
+valuable AI system. So businesses will do their early experiments
+
+05:19
+with their basic tools just to prove the ROI and
+
+05:21
+make sure they're comfortable with it. Then growing businesses will
+
+05:23
+actually seek expertise
+
+05:25
+through agencies like ourselves in order to maximize those returns.
+
+05:27
+So let me go to a specialized AI voice agency
+
+05:30
+who can really do this and they know what they're
+
+05:32
+doing. They've got a lot of experience with other clients
+
+05:34
+and they can knock knock this thing out of the
+
+05:36
+park for us and get us even better results than
+
+05:37
+our competitors. So here you can see we've got a
+
+05:39
+market evolution funnel. You gonna have the self serve solution
+
+05:42
+at the top where they're marketing like crazy. They're getting
+
+05:44
+all these people into their platforms. Like, oh, cool. These
+
+05:47
+chat bots are pretty nice with these voice agents or
+
+05:49
+this automation was really handy.
+
+05:50
+And then when they see how much value it's gonna
+
+05:53
+provide, they ultimately go, well, maybe it's worthwhile sort of
+
+05:55
+doing a they might run into some issues with it.
+
+05:57
+I need it to do this or this. Then that
+
+05:59
+comes the agency and that's where we're perfectly positioned to
+
+06:01
+to monetize that demand. So if we think about Mike's
+
+06:03
+plumbing business from a previous example, he had 3 options.
+
+06:06
+First 1 would be to build an internal AI team
+
+06:08
+himself which might be on a 300 grand annually. If
+
+06:12
+he's a team of maybe 2 or 3 people, that's
+
+06:14
+easily 300 grand. If you're getting good devs, it's gonna
+
+06:16
+be pretty slow to develop that expertise. He has to
+
+06:18
+go and hire all these people. He's gonna have some
+
+06:20
+sort of management overhead on actually managing that team and
+
+06:22
+they're gonna have limited cross industry insights. So he's only
+
+06:25
+really gonna grab some devs, put them in his business
+
+06:26
+and say, let's figure this out. Whereas, if you're working
+
+06:28
+with an agency, they're gonna be able to see across
+
+06:30
+industries the patterns and how things are being implemented for
+
+06:33
+maximum effect.
+
+06:35
+The other option would be to use self serve tools
+
+06:37
+if they existed for him at that time. Let's say
+
+06:40
+maybe you were implementing them a little bit more down
+
+06:42
+the line when John was and there are self serve
+
+06:44
+tools. They might be cheaper upfront but they're gonna have
+
+06:46
+a limited capabilities. It's gonna be fairly time consuming for
+
+06:49
+them to learn how to set it up and use
+
+06:50
+it themselves. There's gonna be little to no strategic guidance
+
+06:53
+from the platform, maybe a bit of documentation. So they're
+
+06:55
+kinda using trial and error to get themselves to where
+
+06:57
+they want to go. So it might take them a
+
+06:59
+lot longer than if they work with an agency which
+
+07:01
+is the final option here. Where you pay for immediate
+
+07:04
+expertise. These people know what they're doing. They've given me
+
+07:06
+a clear quote. And they've got proven implementation methods. They've
+
+07:09
+done it for other people. They can do rapid deployments.
+
+07:11
+They basically just bolt on something that they've done from
+
+07:13
+someone else, and they've got a clear ROI timeline. Look,
+
+07:15
+it's gonna take 4 weeks for this and then another
+
+07:17
+4 weeks of testing. And then by the end of
+
+07:20
+it, we're going to be, basically ready to step out
+
+07:22
+and train your team on it. So for a business
+
+07:24
+owner focus on growth, their choice is pretty clear when
+
+07:27
+you look at these options. Right? You're gonna pay for
+
+07:29
+the expertise that delivers results quickly. Right? The real cost
+
+07:32
+isn't in the implementation. It's the opportunity cost delayed or
+
+07:35
+suboptimal results.
+
+07:37
+In both of these, it's going to take a long
+
+07:39
+time, a drawn out process of a lot of effort.
+
+07:42
+Whereas here, they might pay a bit more in the
+
+07:44
+in the near term, but they get expertise,
+
+07:46
+they get rapid results, and they're not gonna have to
+
+07:49
+be spending a huge amount annually. And they can really
+
+07:51
+get it spun up as fast as possible with the
+
+07:53
+highest chance of success for them to get a return
+
+07:55
+on their investment.
+
+07:57
+So just as the website builder market grew alongside professional
+
+08:00
+web development, we'll see similar expansion in AI automation. We
+
+08:03
+have got self serve tools which will create awareness, basic
+
+08:06
+implementations will provide value to those businesses, and then complex
+
+08:09
+needs will drive agency growth and demand for agency services.
+
+08:12
+The key is understanding that different businesses need different levels
+
+08:15
+of service.
+
+08:16
+Some will succeed with self-service tools, others will need full
+
+08:19
+agency support. The market is big enough for both and
+
+08:21
+growing larger every day. This This is why successful triple
+
+08:24
+a's focus on businesses who value speed to market, they
+
+08:27
+understand the opportunity cost, they need reliable implementation, and they
+
+08:30
+want proven expertise and they're willing to pay for it.
+
+08:33
+For these clients, the question isn't can we do this
+
+08:35
+ourselves, but how quickly can we get results? We just
+
+08:38
+need to position ourselves as experts in the market so
+
+08:40
+that when those businesses are ready to make the dive
+
+08:42
+with cash in hand, we will be right there to
+
+08:44
+help them. And that comes a lot through content and
+
+08:46
+marketing yourself effectively which we'll cover extensively in this course
+
+08:49
+in inbound systems. So the key takeaways of this section
+
+08:51
+is that the future of AI services presents a compelling
+
+08:54
+opportunity for AI automation agencies despite concerns about self serve
+
+08:57
+tools and emerging SaaS solutions. Understanding the market dynamics helps
+
+09:00
+to build confidence in the long term viability of the
+
+09:02
+triple a model. We have the historical precedent of the
+
+09:04
+web development industry's evolution and shows how new technologies expand
+
+09:08
+rather than contract from professional services.
+
+09:11
+They create market awareness. They catalyze basic implementations that prove
+
+09:14
+business value to skeptics or people who are on the
+
+09:17
+fence. The growing complexity of the systems that they try
+
+09:19
+to build on these platforms drives demand for increased expertise
+
+09:22
+and custom development and the market size increases both for
+
+09:24
+DIY and professional services as a result of that. The
+
+09:27
+implementation reality is that businesses face 3 distinct paths to
+
+09:30
+AI adoption. The latter makes most sense in most cases
+
+09:33
+at start of the AI transition or exploration. They can
+
+09:35
+either go and make their own internal team which is
+
+09:37
+gonna have a high cost, slow development and limited cross
+
+09:40
+industry insights. They can go to self serve tools where
+
+09:42
+the capabilities will be limited, time consuming to learn and
+
+09:45
+they must go through a trial and error process in
+
+09:47
+order to see results. And finally, the agency partnership route
+
+09:49
+which is immediate expertise, proven methods, rapid deployment, and clear
+
+09:53
+ROI.
+
+09:54
+And for us as agency owners, success means focusing on
+
+09:57
+businesses that value speed to market and understand the opportunity
+
+09:59
+cost of delay. Those who want proven expertise rather than
+
+10:02
+trying to figure out everything for themselves. Communicating the reality
+
+10:04
+of the AI curious businesses will allow you to close
+
+10:06
+more deals, which is why we're covering all of this
+
+10:08
+right now. Is that like if you are on the
+
+10:10
+call then you need to make this case and you
+
+10:11
+need to present, look, this is the downside. This is
+
+10:13
+the risk if you don't take action on what we're
+
+10:15
+offering you here. Sometimes you do need to twist the
+
+10:17
+knife a little bit to push people over the edge
+
+10:18
+and get them to make the dive into doing this
+
+10:20
+for their business. And finally, we have ongoing value delivery
+
+10:23
+where triple a's create lasting value by delivering proven solutions
+
+10:25
+quickly and reliably, combining technical implementation with strategic guidance to
+
+10:29
+accelerate the client's AI transformation journey. So that is really
+
+10:31
+your differentiating factor. You have the strategic guidance. You can
+
+10:35
+be their partner. You can be a real person they
+
+10:37
+can talk to. Sure they can go into all of
+
+10:38
+these platforms here and there. And at the end of
+
+10:40
+the day, knowing what the latest in the tech is,
+
+10:42
+where they should be implementing it, what tools to use
+
+10:45
+even. Like you could recommend them self serve stuff to
+
+10:47
+use even and say, hey, just try this out. Here's
+
+10:49
+our DIY
+
+10:51
+guide on how to get this up and running. Do
+
+10:52
+it for yourself. See how you like it. And if
+
+10:54
+you're ready, you can come to us for the second
+
+10:56
+stage and we can do a more custom feature for
+
+10:58
+you. But for now, I reckon we work on this
+
+11:00
+project here first because we can't. It's like you're really
+
+11:03
+at a stage where you need custom development for this
+
+11:05
+first. So you can use it as part of your
+
+11:06
+strategy. Just help them to get the result that they
+
+11:09
+want. So understanding these principles helps to position your agency
+
+11:11
+as a clear choice for businesses serious about capturing the
+
+11:13
+advantages of early AI adoption while minimizing risk and implementation
+
+11:16
+challenges.

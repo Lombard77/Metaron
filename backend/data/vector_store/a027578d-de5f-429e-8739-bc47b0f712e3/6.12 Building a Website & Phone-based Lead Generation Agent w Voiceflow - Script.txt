@@ -1,0 +1,5591 @@
+Transcript
+Search
+
+00:01
+Alright. So that is 2 builds out of the way.
+
+00:03
+Well done if you made it this far. We have
+
+00:05
+another big 1 here. This is gonna be breaking down
+
+00:08
+how to use Voiceflow. Let's take this off here.
+
+00:11
+To build an agent that is gonna be both accessible
+
+00:13
+through a website chat. So you can chat to it
+
+00:15
+on a website as a as a chat widget, which
+
+00:17
+you're probably familiar with. But we're going to connect the
+
+00:19
+exact same agent and exact same functionality that you get
+
+00:21
+through that chat widget also to a phone number on
+
+00:24
+the website that we'll be able to call and have
+
+00:25
+the same experience. So this is gonna show you how
+
+00:27
+on VoiceFlow, you can build both chat and voice experiences,
+
+00:31
+and this is a new feature for them as of
+
+00:32
+the time of filming. And this agent is what we
+
+00:34
+can classify as an AI customer support and lead generation
+
+00:37
+agent for both website and phone, and we're gonna build
+
+00:39
+it on VoiceFlow, of course. And the purpose of this
+
+00:41
+agent is that it's designed to be able to answer
+
+00:42
+common questions from potential customers via a website chatbot and
+
+00:46
+also via a phone number that can be called. Not
+
+00:48
+only can it answer questions to help them sort of
+
+00:50
+move them towards a, a purchase, but it can also
+
+00:52
+generate instant quotes for interested parties. This is intended to
+
+00:55
+increase the number of leads that they get because people
+
+00:58
+who see a contact form may be like, hey. I
+
+01:00
+wanna get instant response. I wanna know instantly how much
+
+01:02
+it is because I'm shopping around. And rather than just
+
+01:04
+filling in a contact form and waiting, having this instant
+
+01:07
+quotation can give people confirmation on the price, so they're
+
+01:10
+ready to take a step forward and end up getting
+
+01:12
+the sale ultimately. So that instant quotation feature is a
+
+01:15
+cool 1, very easy to do, with a custom tool
+
+01:17
+on relevance that we're gonna build. And finally, this agent
+
+01:19
+is gonna be able to actually capture lead information from
+
+01:21
+those who have been given a quote. So after they've
+
+01:23
+been given a quote, then we'll move to say, hey.
+
+01:25
+Give us your details and we will follow-up. Our team
+
+01:28
+will follow you up and set an appointment for the
+
+01:29
+service. And the value here of the system is that
+
+01:31
+customers are gonna often want instant answers so that they
+
+01:33
+can make a purchase. So by offering easy ways for
+
+01:36
+them to get this information, we can increase the chance
+
+01:38
+that they're gonna purchase from the business.
+
+01:40
+Companies typically have to spend money on some kind of
+
+01:42
+customer support or sales team in order to get these
+
+01:45
+kind of answers given to customers when they need them.
+
+01:47
+But this agent can essentially be a 1 and done
+
+01:49
+solution,
+
+01:50
+to both help increase the sales of the business by
+
+01:52
+increasing that likelihood of purchasing because they now have more
+
+01:54
+information,
+
+01:56
+while also saving the business money that they would typically
+
+01:58
+spend on some kind of support stuff. Say, if this
+
+02:01
+chatbot can handle dozens and dozens of responses a week,
+
+02:05
+that would typically have to have gone through a support
+
+02:07
+person, then we're saving the company money and also helping
+
+02:09
+them increase their chance of generating more revenue. So,
+
+02:12
+here's a rough layout of the design here. We are
+
+02:13
+gonna have a website. I'll give you a template for
+
+02:15
+this. It's very easy to set up. And we're just
+
+02:17
+gonna throw in a number, that's gonna be connected to
+
+02:19
+the voice agent that we build. And we're gonna be
+
+02:21
+setting up Voiceflow's web chat widget as well. And this
+
+02:24
+agent is gonna have access to a knowledge base to
+
+02:26
+answer questions,
+
+02:27
+that prospects may have about the business and their services,
+
+02:30
+etcetera.
+
+02:31
+It's gonna have a tool that is allowing them to
+
+02:33
+generate an instant quotation. So it's gonna take in some
+
+02:35
+information. This is gonna be for a cleaning business or
+
+02:37
+a hypothetical cleaning business. And then we're going to be
+
+02:39
+able to generate an instant quote for them based on
+
+02:41
+the property type and the size of the property they
+
+02:43
+need cleaned. And we're gonna be able to capture the
+
+02:45
+lead information afterwards and log it into a CRM. In
+
+02:47
+this case, we'll just use Google Sheets, but it's fairly
+
+02:49
+easy to swap that out to whatever CRM you want.
+
+02:51
+So it's gonna look a bit like this. I've actually
+
+02:53
+added a little bit more. And we are using another
+
+02:54
+relevance tool in here. This is from a different project
+
+02:56
+from my accelerator, but I'm gonna be pinching that and
+
+02:58
+putting it in here for you all. And this is
+
+03:00
+the,
+
+03:01
+tool number 2 here, the generate instant quote. So we're
+
+03:04
+gonna be slotting that in there, taking in some information,
+
+03:06
+answering questions, etcetera. The process of building on Voiceflow is
+
+03:08
+1 of my kind of favorite experiences,
+
+03:10
+in the automation space. I really like the the way
+
+03:12
+they've brought out their, their Flow Builder. So I'm sure
+
+03:15
+you guys will enjoy building this, step by step with
+
+03:17
+me. And then the general usage pattern of the system
+
+03:19
+is that the person's going to arrive on the website.
+
+03:21
+They'll either click to chat with the chatbot and engage
+
+03:23
+with this functionality, or they'll enter the phone number into
+
+03:25
+the phone. And then the agent will jump in and
+
+03:27
+respond either through text or through, voice and determine what
+
+03:30
+they're needing help with, which is this section here. And
+
+03:32
+then it's going to be routing using this router section
+
+03:35
+here to the correct tool whether they want a question
+
+03:37
+answered or they wanna get a quote,
+
+03:39
+and then each of these branches will execute on that,
+
+03:42
+functionality depending on their intent. So it's gonna look a
+
+03:44
+bit like this. We'll have a phone number and we'll
+
+03:46
+have a chatbot like this. This is actually an agent
+
+03:48
+of chatbot from my own software, but we'll be swapping
+
+03:50
+this out to a voice flow 1 in this build.
+
+03:52
+So without further ado, let's jump into voice flow.
+
+03:56
+So when you click that link on the Figma, it's
+
+03:57
+gonna take you to sign up page. You can sign
+
+03:59
+up there. And then once you're in, you're gonna get
+
+04:00
+a page that looks a bit like this. The first
+
+04:02
+thing that we want to do, of course, is to
+
+04:03
+create a new agent up here on the top right.
+
+04:06
+Let's call this Sponor's cleaning,
+
+04:08
+website and phone agent.
+
+04:10
+Let's just start with a basic template here. Import knowledge.
+
+04:13
+For this import knowledge, we can actually just skip that
+
+04:15
+for now. And then we get into the flow builder
+
+04:17
+on Voiceflow.
+
+04:18
+So just a quick orientation, if you are new to
+
+04:20
+the Voiceflow platform, this is where we can add in
+
+04:22
+our knowledge, which we will do shortly. The workflows are
+
+04:24
+where we access the flow builder. In most simple builds
+
+04:27
+like this, you were just gonna have 1 workflow, so
+
+04:28
+you don't need to worry too much about that now.
+
+04:30
+We have integrations
+
+04:31
+like, the widget which we're gonna be using to deploy
+
+04:34
+this on a website. We have the phone number integration
+
+04:36
+which we're gonna be doing later as well. Then we
+
+04:38
+have API keys, etcetera, which you don't need to worry
+
+04:40
+too much about right now. We have some publishing features
+
+04:43
+here, which we'll double with later. We have access to
+
+04:45
+transcripts. So once we deploy this, you can access all
+
+04:47
+of the transcripts either by voice or through chat here
+
+04:49
+and and sort of dig through the answers and and
+
+04:51
+see how the, people are interacting with the agent that
+
+04:54
+you've built. Something that a lot of people neglect after
+
+04:56
+they've put 1 of these into production. And then we
+
+04:58
+have things like analytics, etcetera. But obviously, we need some
+
+05:01
+data before we see anything useful there. And then the
+
+05:02
+settings page is not too much you need to worry
+
+05:04
+about right now, which is sort of on a need
+
+05:05
+to know basis. The more important stuff, of course, is
+
+05:07
+up in this first tab here, which is content. So
+
+05:09
+we have messages,
+
+05:10
+we have prompts, we have components. And we're gonna be
+
+05:13
+working a lot with prompts shortly. So that's the main
+
+05:15
+1 we need to be, worried about. But for now,
+
+05:17
+we can just go into workflows and we open up
+
+05:18
+this first workflow and edit it. And here we have
+
+05:21
+the template that our Voiceflow gives for us, which I'm
+
+05:23
+actually just going to nucleus and we'll start fresh. And
+
+05:26
+if you see on the Figma, we have a design
+
+05:27
+here that we're roughly working towards. I'm gonna be showing
+
+05:30
+you this sort of step by step. So we need
+
+05:31
+a a welcome step.
+
+05:33
+So we're gonna start off by going here and dropping.
+
+05:36
+I'll try to zoom in a bit for you guys
+
+05:38
+here.
+
+05:39
+Talk message. So message is how you send a message,
+
+05:42
+via the chat. So start is when maybe you click
+
+05:44
+on the widget that pops up. And this message that
+
+05:46
+we're about to put in is the first message the
+
+05:47
+bot is going to send. So we say,
+
+05:49
+up here.
+
+05:51
+Hey.
+
+05:52
+Hey. Welcome to Con. Corner's point.
+
+05:55
+I'm gonna zoom this up for a bit for you
+
+05:56
+guys. And right away, we have a little tip and
+
+05:58
+trick that I wanna give to you because we are
+
+05:59
+building this as a chat and voice assistant.
+
+06:02
+We want to over voice. You don't wanna overuse punctuation
+
+06:05
+because it leaves these big long pauses when the the
+
+06:07
+voice agent is going, hey.
+
+06:09
+Welcome to Connor's cleaning.
+
+06:10
+So we wanted to just say, hey. Welcome to Connor's
+
+06:12
+cleaning a bit more natural. So there's times where you'll
+
+06:14
+see me on the side of sloppier punctuation, but that's
+
+06:17
+just to ensure that when we get to testing it
+
+06:18
+on voice, it sounds as natural as possible. So, hey.
+
+06:21
+Welcome to to Connor's cleaning. And then, of course, we're
+
+06:23
+going to wait for them to reply and say something
+
+06:25
+back to us. We go to listen and then capture,
+
+06:27
+and this is going to capture the information. We want
+
+06:29
+to change this from capturing entities, which is like, say,
+
+06:31
+I'm looking for a price or an address. We're just
+
+06:34
+going to go the entire user reply, and their reply
+
+06:36
+is going to be save into this variable here. So
+
+06:38
+we actually want to change this to,
+
+06:40
+first
+
+06:41
+user
+
+06:42
+reply
+
+06:43
+because we're going to need a little bit later,
+
+06:46
+the users
+
+06:47
+first reply.
+
+06:50
+And I like to name these as we go, so
+
+06:52
+we can call this welcome.
+
+06:54
+Drag this out here, get a new 1 and we're
+
+06:56
+going to be doing a,
+
+06:58
+a set step here. So we're going to be setting
+
+07:00
+some variables and I'm going to add a new variable
+
+07:02
+to set.
+
+07:03
+We're going to do it based off a prompt here
+
+07:05
+which is a cool feature in Voiceflow that I've added
+
+07:07
+recently. And we're going to be able to select the
+
+07:08
+prompt that's gonna take this information from this first reply
+
+07:11
+and then generate some kind of output from it instead
+
+07:13
+of variable. And the variable we're gonna set here is
+
+07:15
+called last response. So this typically what you're gonna put
+
+07:17
+as a last response from the AI or from the
+
+07:19
+agent.
+
+07:20
+Last response here. And last utterance is typically the most
+
+07:22
+recent,
+
+07:24
+message from the user. So utterance is coming from the
+
+07:26
+user, the most recent last utterance, and the last response
+
+07:29
+is what the the AI or the agent or the
+
+07:31
+system has last responded to. So we want to set
+
+07:33
+the last response
+
+07:34
+to
+
+07:35
+something that is generated through this prompt here. So we
+
+07:37
+can create a new prompt here. And this is basically
+
+07:40
+gonna take in the data from the chat and the
+
+07:41
+conversation so far, and we'll be able to generate things
+
+07:43
+off of it. So say, we add in here the
+
+07:46
+conversation history. That's a good thing to have in in
+
+07:48
+most cases. I'm gonna be dumping in some of the
+
+07:50
+prompts here just to save us a bit of time.
+
+07:51
+But basically, we're saying summarize the customer's question below and
+
+07:54
+ask them to confirm that that's what they meant. And
+
+07:56
+so we're actually gonna be generating the last utterance here.
+
+07:58
+We're gonna be adding in the last or the first
+
+08:01
+user reply that we got. I mean, it's going to
+
+08:03
+be included here in the conversation history, but there's no
+
+08:05
+harm really in in hard coding it or at least
+
+08:07
+putting the variable in here to make sure that it's
+
+08:09
+in there. We're just saying, summarize the customer's question and
+
+08:12
+basically say a confirmation statement. So just to confirm, this
+
+08:14
+is what you're looking to do. So you imagine this
+
+08:16
+over the phone. Hey. I'm, yeah, I'm I'm not really
+
+08:19
+sure what I was supposed to be doing here, but,
+
+08:21
+I was thinking thinking if you if you guys would
+
+08:22
+possibly do do do do do do. So as all
+
+08:24
+of that information is taken in, we can flick back
+
+08:26
+to them and say, just to confirm this, it sounds
+
+08:28
+like you're looking for this. Yes or no? So ensure
+
+08:30
+your tone is empathetic, speak directly to the end customer,
+
+08:32
+keep your answer brief, and 2 sentences max. So if
+
+08:35
+we go back here,
+
+08:37
+actually, we can name that prompt. So it's,
+
+08:41
+summarize problem.
+
+08:44
+And then we need to, send the response. So this
+
+08:47
+prompt is going to take in the information we provided
+
+08:50
+here. It's going to use this prompt to take in,
+
+08:52
+the conversation history so far and this information, from the
+
+08:56
+user in the first question. It's going to generate a,
+
+08:59
+a question to ask back, and it's going to save
+
+09:01
+it to this variable that we have here. So apply
+
+09:03
+output to variable, last response. There is actually an easier
+
+09:06
+way to do AI responses like this. But in our
+
+09:08
+case, we need to be saving this variable so it'll
+
+09:10
+make sense in a second. But we can go into
+
+09:12
+here and we can go,
+
+09:13
+last response.
+
+09:15
+And then it's going to send that information back to
+
+09:17
+them. So let's just do a quick test here. Click
+
+09:20
+start.
+
+09:21
+Hey. Welcome to Connor's Cleaning.
+
+09:23
+Oh, actually,
+
+09:24
+we need to ask a question. Hey. Welcome to Connor's
+
+09:26
+Cleaning.
+
+09:28
+How
+
+09:29
+can I
+
+09:30
+help?
+
+09:36
+I'll say,
+
+09:38
+I need cleaning
+
+09:39
+services for my house.
+
+09:42
+Sounds like you're looking for cleaning services for your greenhouse.
+
+09:44
+Is that correct? Want to make sure I understand your
+
+09:46
+specific needs before we proceed. So I obviously spelled house
+
+09:49
+with g house. So we thought it was a greenhouse.
+
+09:51
+But that's what we want, some kind of confirmation message
+
+09:53
+just saying like, hey. Look. Is this what you're actually
+
+09:54
+looking to do? Before we then go and trigger the
+
+09:56
+different tools that we are equipping our agent with. By
+
+09:58
+the way, there is a way of changing between trackpad
+
+10:00
+and mouse. So I am panning around, with my mouse
+
+10:03
+here. You can also do a trackpad method which is
+
+10:04
+a lot easier to use if you're if you're having
+
+10:06
+trouble using it. Okay. So after that, they're obviously gonna
+
+10:08
+say yes or no, whether like, have I got the
+
+10:10
+question or have I summarized what you're looking for correctly?
+
+10:12
+And we can go to a choice step here
+
+10:15
+and we can set up some triggers. We can set
+
+10:17
+the intent to yes. And then we can add another
+
+10:20
+trigger and we can set it as no. So this
+
+10:22
+is basically using AI to analyse what they've said and
+
+10:26
+grouping it around these certain things which are called intents.
+
+10:28
+So what is the intent of them of this, of
+
+10:30
+the response? And in this case, they have some pre
+
+10:32
+built ones but we are going to be building our
+
+10:34
+own custom intents later. But for now, just know that
+
+10:36
+if you look into sorta split traffic or split people
+
+10:39
+coming through the system, these choice blocks with the default,
+
+10:42
+intents from Voiceflow, yes and no are ready to use
+
+10:44
+out of the box. And if they don't say yes
+
+10:46
+or no clearly or we can't pick it up, we
+
+10:48
+can add a no match here. We can say, sorry
+
+10:50
+I didn't get that. Can you say it again?
+
+10:53
+Yes or no. That's enough.
+
+10:56
+And then we can say to follow a path after
+
+10:58
+these re prompts, which we'll call no match. And then
+
+11:00
+we have this, no match path which we'll set up,
+
+11:03
+in a second here. I'll just put it as a
+
+11:05
+filler for now. Basically, if if they don't say yes
+
+11:07
+or no, this is setting up error handling. And basically
+
+11:10
+if
+
+11:11
+people particularly over the phone, there's so many different ways
+
+11:14
+that the conversation can go and end up and you'll
+
+11:16
+want to while I don't focus on it too much
+
+11:18
+in this build,
+
+11:20
+as you're building production grade assistance, you'll need to build
+
+11:22
+a lot more of these fallbacks and these re prompt
+
+11:24
+and these no match things to handle edge cases where
+
+11:27
+people use it in a weird way that you don't
+
+11:28
+expect. So I wanna give you a little taste of
+
+11:30
+that in this tutorial, but it is nowhere near representative
+
+11:33
+of what it takes to actually get something into production
+
+11:35
+that you can trust on a on a customer's website.
+
+11:37
+Okay. So we've got this choice block set up to
+
+11:39
+determine if we have got the summarization of the problem
+
+11:41
+correct. And we can take this up to here and
+
+11:43
+we can set another,
+
+11:45
+variable. And so this is really the core part of
+
+11:47
+the application, which is determining what their intent is, what
+
+11:50
+are they looking to do, and which tool are we
+
+11:51
+going to route them to it. So this is a
+
+11:53
+very handy school to have, which I'm going to teach
+
+11:54
+you, which is how to set up some kind of
+
+11:56
+intent classification system,
+
+11:58
+which is really, really essential to building agents on on
+
+12:01
+Voiceflow. And any kind of agent with the platform itself
+
+12:03
+isn't automatically handling that for you. So if we go
+
+12:06
+set a new variable and we're gonna do it through
+
+12:07
+a prompt,
+
+12:09
+we're going to set a new variable here called desired
+
+12:13
+action.
+
+12:14
+So basically people coming through and asking questions can be
+
+12:17
+saying,
+
+12:18
+hey, look, I I just have a quick question about
+
+12:20
+where you guys are based. And then we're gonna route
+
+12:21
+them to the knowledge base. And then someone may be
+
+12:23
+saying, hey, how much does it cost for this? And
+
+12:24
+then we're gonna route them to the pricing, the instant
+
+12:27
+quotation,
+
+12:28
+system that we're setting up. So it needs to be
+
+12:29
+able to determine what they're looking for, and we're gonna
+
+12:31
+route them depending on that. And that's what this router
+
+12:33
+is gonna do. So the action that the prospect wants
+
+12:37
+to take, the most likely action the prospect wants to
+
+12:40
+take.
+
+12:41
+Then we need to make a new prompt here. We're
+
+12:43
+going to call this intent classifier.
+
+12:47
+Classifies the intent of the,
+
+12:51
+prospect
+
+12:51
+into,
+
+12:52
+asking the knowledge base or generating an instant quote.
+
+12:58
+Add in the conversation history. It's always good to have
+
+13:00
+that in there. And I'm gonna put in the prompt
+
+13:01
+that I've written previously. And this is a pretty basic
+
+13:03
+1 as well, which is just saying, what does the
+
+13:04
+customer want to do? Ask a question, get a real
+
+13:06
+time quote or something else entirely. You must output a
+
+13:08
+label for this only. Your options are ask a question,
+
+13:12
+get a quote, or other. And you guys can just
+
+13:14
+pause and see what I've got in there. But basically,
+
+13:16
+anything asking a question is gonna be about the business
+
+13:18
+and their services. And if there's anything about pricing or
+
+13:20
+directly related to getting a quote and now, like, they're
+
+13:22
+ready to move on this, then we're going to route
+
+13:24
+them to get a quote and anything else is gonna
+
+13:26
+go to other. And because in the next step, we
+
+13:28
+are gonna be looking out for either this as the
+
+13:30
+output or this or this, a really clear statement saying
+
+13:32
+this is all you need to output, just this and
+
+13:34
+not, hey, I took a look at the the conversation
+
+13:37
+history and it seems like the user wants to do
+
+13:38
+get a quote. We just want just get a quote
+
+13:41
+and we can explicitly state that with this big caps
+
+13:43
+lock block here. And as with the other builds, all
+
+13:44
+of these prompts are gonna be available in the resources
+
+13:46
+for you to follow along with.
+
+13:48
+Okay. So now we get to the cool bit, which
+
+13:51
+is routing this. So if we go condition, add this
+
+13:54
+in here
+
+13:55
+and we go
+
+13:57
+add path condition builder and we say if desired action
+
+14:03
+is ask
+
+14:05
+a
+
+14:06
+question.
+
+14:11
+Oh, that's that's what we need there. So as you
+
+14:13
+can see that's added 1 in here. And if we
+
+14:15
+wanna add another 1 in we go if
+
+14:17
+desired action is,
+
+14:21
+what do we have to label as output?
+
+14:24
+What do we
+
+14:26
+what's the exact label that we had in here? So
+
+14:28
+this prompt is gonna be outputting
+
+14:30
+these labels, so we need to make sure they match
+
+14:32
+up. So ask a question, get a quote. Yep.
+
+14:39
+Get a quote.
+
+14:42
+And other 1 is
+
+14:43
+other.
+
+14:47
+And it's already got an else path in there for
+
+14:49
+any error handling as well. So what this now allows
+
+14:51
+us to do is to build out our different tools.
+
+14:53
+So we can go up to here to ask a
+
+14:55
+question. Just throw this in for now so we can
+
+14:57
+get an idea of what it's gonna look like.
+
+15:04
+Other, this is gonna be sort of error handling.
+
+15:08
+And if it's else, that means that the LLM step
+
+15:11
+here hasn't outputted any of the labels that we told
+
+15:13
+it to and it's likely thrown in a bunch of
+
+15:14
+rubbish. So this is sort of an error handling
+
+15:18
+step. It should say, sorry something went wrong, at least
+
+15:21
+during this prototyping phase. So now what I'd like to
+
+15:23
+do is make this look a little bit prettier. We
+
+15:25
+can go through and add things in here like this
+
+15:27
+is the,
+
+15:28
+confirm problem.
+
+15:31
+Intent classifier slash router.
+
+15:34
+And then we can go here, add a note. You
+
+15:37
+can say tool number number 1,
+
+15:39
+answer from null knowledge.
+
+15:48
+Talk to. You guys have had this something that's something
+
+15:50
+that's easy for you guys to see. I understand. I
+
+15:51
+know if you need to, this might look pretty, pretty
+
+15:52
+confusing.
+
+15:55
+And then this other 1, we don't need to worry
+
+15:57
+about too much. So to keep things quick, I'm not
+
+15:58
+gonna test this just yet. I'm gonna test it once
+
+16:01
+we've got that functionality set up on either side, at
+
+16:03
+least for this top 1 first. So now we need
+
+16:05
+to go and set up our knowledge base. And to
+
+16:07
+do this, we can click on the back button here,
+
+16:09
+go to our knowledge. And here we have a data
+
+16:11
+source which you can upload. I'm going to upload a
+
+16:13
+file, but you can put in URLs, different websites, etcetera.
+
+16:16
+I'm gonna be uploading a file here.
+
+16:20
+And I'm gonna upload this Connor's Cleaning FAQ kinda document,
+
+16:23
+which you guys are gonna have access to in the
+
+16:24
+resources. Basically, it's just about us, location,
+
+16:27
+our services, rararara.
+
+16:29
+Some frequently asked questions, etcetera. So I've just AI generated
+
+16:32
+this. And if you're doing any kind of prototype builds,
+
+16:35
+I recommend you do the same just to throw it
+
+16:36
+in there and see if the knowledge base is working
+
+16:37
+as expected. Obviously, you'd swap this out with actual customer
+
+16:40
+data or your clients FAQ. I'm just gonna throw that
+
+16:43
+in there for now and you guys can do the
+
+16:45
+same.
+
+16:48
+And when you're setting up your knowledge base, you can
+
+16:50
+also set up the settings for it. So in this
+
+16:52
+case, it's using by default, Claude 3.5 Haiku, and you
+
+16:55
+can see how many tokens this is gonna cost you
+
+16:56
+for Voiceflow's usage.
+
+16:58
+What is Haiku? Haiku seems to be the cheapest. You've
+
+17:01
+got GPT 4 0 Mini. Let me just check on
+
+17:03
+GPT 4 0 Mini here. We want this thing to
+
+17:05
+be pretty deterministic. So I'd say 0.1 is fine. Max
+
+17:08
+tokens,
+
+17:09
+we can increase that just in case it needs to
+
+17:11
+give a longer answer.
+
+17:12
+And chunk limit of
+
+17:14
+of 3 should be enough. So that's just So this
+
+17:16
+stuff is a little bit more advanced as I said
+
+17:18
+vector databases I was talking about. Basically, knowledge base is
+
+17:21
+gonna be sending the message that we ask it and
+
+17:23
+querying it and getting back chunks of information.
+
+17:26
+Because our knowledge base is quite small, we don't really
+
+17:28
+need to have too many chunks. If you put this
+
+17:29
+up, you'd just be getting the whole document back anyway.
+
+17:31
+So max token is a number of tokens that it's
+
+17:33
+gonna include in the response. So we wanna increase that
+
+17:35
+to 4 80, so that it can give a longer
+
+17:37
+response if they need. Maybe just turn that down a
+
+17:39
+bit. And these are of course kinda controls that you
+
+17:41
+have on how much you want to allow the app
+
+17:43
+to spend. And those settings are obviously the main ways
+
+17:45
+that you can control how much, your knowledge base is
+
+17:47
+using and how much your you or your client are
+
+17:49
+ultimately spending on the AI features for the knowledge base.
+
+17:52
+So once we've got that set up, we can go
+
+17:53
+back to workflows here. Open this up again.
+
+17:57
+And then to plug in our knowledge base, we can
+
+17:59
+go to the dev section here. We can go to
+
+18:00
+kb search. Pop this in here.
+
+18:03
+I will
+
+18:05
+need to delete that and reconnect this up to the
+
+18:08
+top.
+
+18:09
+And we're gonna delete this as well.
+
+18:12
+And so we can go into this knowledge based app
+
+18:14
+here and we can enter the query. So what we're
+
+18:16
+gonna say is we basically wanna throw the information that
+
+18:19
+we've got from the user already about what they want,
+
+18:21
+which is, we have here as the first message they
+
+18:23
+gave us, which might be a bit long winded. Then
+
+18:25
+we have the summary that they have confirmed.
+
+18:27
+And then we can put these into the query that's
+
+18:29
+gonna be asking the knowledge base. Hey. Like, this is
+
+18:32
+what we want information on. Can you give us some
+
+18:33
+information back?
+
+18:35
+So we can go user
+
+18:37
+first message. Put it in the bracket. We can go
+
+18:41
+first use reply, and then we can also go summarized
+
+18:43
+problem.
+
+18:44
+Now you can see why if we put last response
+
+18:46
+here, why we have this variable saved instead of just
+
+18:49
+sending it automatically. So
+
+18:50
+actually don't like using last response because that's something that
+
+18:52
+you like to update quite a lot. So I'm actually
+
+18:54
+just gonna switch this to,
+
+18:56
+changing it to
+
+18:57
+summarized
+
+18:59
+problem
+
+19:01
+just so we don't get any kind of overlaps that
+
+19:03
+cause problems on the line.
+
+19:05
+A summary
+
+19:06
+of the user's
+
+19:13
+problem.
+
+19:14
+Let me put this in here, get to spit it
+
+19:16
+out.
+
+19:18
+So when you put a variable in a message, it's
+
+19:20
+just gonna print out and spit out the value that's
+
+19:23
+inside that variable. So we've set the summarized problem variable
+
+19:26
+and then we're just gonna spit it out and send
+
+19:27
+it to the chat or over the over the phone.
+
+19:29
+So now we can come back out to our knowledge
+
+19:31
+base and we can take out the slash response and
+
+19:33
+replace it with summarized
+
+19:35
+summarized problem. Then we can save the chunks that come
+
+19:37
+back from the knowledge base. I don't wanna get too
+
+19:39
+in-depth on what chunks are specifically. It's a little bit
+
+19:41
+more advanced. But for now, we can just know that
+
+19:43
+it's gonna return some information from that knowledge base. It's
+
+19:45
+gonna chop up that document we put in. And when
+
+19:48
+we put in this question, it's gonna basically ask that
+
+19:51
+knowledge base, can we get 3 chunks that most closely
+
+19:53
+match the information that is in this query that we
+
+19:55
+sent to it? So we can save these chunks, which
+
+19:57
+is gonna be 3 because we set that up in
+
+19:59
+the knowledge base settings, into this chunks variable
+
+20:01
+and the chunk limit is 3 still. If we click
+
+20:04
+this, we can add in a chunks not found path
+
+20:05
+but for this tutorial we don't need to worry about
+
+20:07
+that necessarily. And then we're going to use those chunks
+
+20:09
+that came back from the knowledge base to generate an
+
+20:11
+answer based on the original question. So if we put
+
+20:13
+this here, we get talk, we get prompt And for
+
+20:15
+this prompt, if we go here, we can create a
+
+20:17
+new prompt.
+
+20:18
+And we can add in the conversation history just for
+
+20:20
+good measure here to give it the full context of
+
+20:22
+what's going on. And then I have a prompt here.
+
+20:24
+You are an AI customer support rep from Connors Cleaning.
+
+20:26
+Helping customer with a question. Use the provided details below
+
+20:29
+to answer the customer's question. Ensure you keep your answer
+
+20:32
+brief and speak directly to your end customer you are
+
+20:34
+speaking to them over the phone. It's the input data,
+
+20:36
+provided details, which is the chunks variable. I'll just put
+
+20:39
+that in again.
+
+20:41
+Chunks to make sure it's set up properly.
+
+20:44
+2,
+
+20:45
+the user's
+
+20:46
+original,
+
+20:47
+question. We can put all this information back in. So
+
+20:50
+first reply, this is what they asked us as soon
+
+20:52
+as they picked up the phone or the first message
+
+20:53
+they sent. When we asked them what can we help
+
+20:55
+you with, and then we also just put in for
+
+20:57
+good measure
+
+20:58
+a summary of their problem that they confirmed.
+
+21:02
+And we can go to
+
+21:04
+our summarized problem variable
+
+21:06
+and throw it in. That should be good to go.
+
+21:10
+And I like to make these look purple or some
+
+21:12
+kind of cool color.
+
+21:14
+Call this k b query.
+
+21:18
+Let me change this to
+
+21:20
+generate
+
+21:21
+answer
+
+21:22
+from chunks.
+
+21:24
+Let's say from k b. Chunks are gone clear. And
+
+21:25
+if you want to make this a bit easier for
+
+21:27
+you to kind of understand at a glance, you can
+
+21:29
+add in your descriptions on this. So if we go
+
+21:31
+to edit again, let me go here.
+
+21:34
+This takes in chunks from the
+
+21:37
+from the KB and the original question and writes a
+
+21:40
+short and sweet answer. And we have this in here
+
+21:42
+that you are speaking to them over the phone because
+
+21:44
+we wanna make sure that we're building this with the
+
+21:46
+phone in mind, which is more tricky than just chat.
+
+21:48
+So long text outputs don't really work that well over
+
+21:50
+the phone. So that's kind of why we're putting them
+
+21:52
+in there as well. And we can call this, Generate
+
+21:56
+Answer.
+
+21:58
+Alright. So now we can actually give this a spin.
+
+22:01
+We can start it right from the beginning again.
+
+22:06
+We may need to if we just click run. Okay.
+
+22:08
+There's no training needed yet. We can run test.
+
+22:13
+Where are you located?
+
+22:15
+Sounds like you're asking about a business location. Could you
+
+22:17
+confirm if you'd like to know the specific address where
+
+22:20
+Conners Cleaning operates? Okay. It's good that this popped up
+
+22:22
+because as you can see, it's asking for a non
+
+22:23
+yes or no answer. We're just looking for a confirmation,
+
+22:26
+which in yes or no. And so this would technically
+
+22:29
+break the system and they'd be saying, oh, I'd like
+
+22:30
+a specific address. And this is looking for yes or
+
+22:33
+no. And so it would send it to this no
+
+22:34
+match. So what we can do to fix this is
+
+22:36
+to go into the summarize problem prompt,
+
+22:39
+modify the prompt,
+
+22:40
+and then say they should be able to answer only
+
+22:43
+with yes or no. This is a confirmation step,
+
+22:46
+not asking for more information.
+
+22:51
+So now if we run that again,
+
+23:02
+Whereabouts are you located?
+
+23:06
+Sounds like you want to know the specific location of
+
+23:08
+our cleaning business. Is that correct? Yep.
+
+23:12
+Now it goes to the router here.
+
+23:15
+It's going to determine that I said yes. Bam, bam,
+
+23:17
+bam. And there we go. So that that'll open pretty
+
+23:20
+quickly, but you can see it sort of broken down
+
+23:22
+through here. If I click over here, it's gonna remove
+
+23:25
+all of this. Okay. So let's break down how this
+
+23:26
+happens step by step.
+
+23:28
+So you can see this through here. It's still using
+
+23:30
+3.5 Haiku for some reason. I'll need to double check
+
+23:33
+why that's still using the model we didn't select. But
+
+23:36
+basically, it comes through. This step here is the intent
+
+23:38
+classifier. So you can see that it set it as
+
+23:40
+yes. That is the correct intent.
+
+23:43
+And predicted intent, yes. And that routed it to this.
+
+23:47
+And then using the model again, it analyzed the information
+
+23:51
+that it was given, and then it set the desired
+
+23:53
+action variable to ask a question, which is 1 of
+
+23:55
+the labels that we wanted, and that is correct. And
+
+23:57
+then it said condition matched taking path 1. So it
+
+24:00
+set the desired action variable to ask a question. We
+
+24:03
+were checking for it here and said, okay, great. Now
+
+24:05
+I'm sending it up here to the knowledge base query.
+
+24:07
+It says it's query received. We pass in all the
+
+24:10
+information we're about to locate it and then the summary
+
+24:12
+that we gave it. And then we got 2 chunks
+
+24:14
+back from the KB.
+
+24:16
+And the AI response here finally took in all of
+
+24:18
+this information
+
+24:19
+and it gave us the final output and generated this
+
+24:21
+response. We are located at 2 47 r
+
+24:38
+intents, as needed. But for now, that is a knowledge
+
+24:41
+base and that's how you can ask questions. So that
+
+24:42
+is tool number 1 knocked out, which was easy enough.
+
+24:45
+So great. We can go on to tool number 2
+
+24:47
+now. So for the second quote, I'll be able to
+
+24:48
+give you a relevance tool that we're using for it.
+
+24:50
+Let's just jump into answering these questions. So they've said
+
+24:53
+here that they wanted something related to pricing or quoting.
+
+24:56
+Remember in here in the router, we have set the
+
+24:58
+intent classifier to say, it's going to go to the
+
+25:00
+get a quote if they're asking about pricing or have
+
+25:02
+directly request a quote. And this will take them to
+
+25:05
+a real time quotation tool that takes their property type
+
+25:07
+and size and then returns an estimate. So that's the
+
+25:09
+people that are gonna be getting to this next branch
+
+25:11
+of the agent. So desired action is get a quote.
+
+25:15
+We can say,
+
+25:17
+okay. Do you want to get give you an instance
+
+25:19
+quote by Jess?
+
+25:25
+Okay. Sure. To give you an instant quote, I just
+
+25:27
+need the properties type and size and square feet.
+
+25:30
+And I'm going to add another chat step or message.
+
+25:33
+Sorry.
+
+25:34
+And we can ask a
+
+25:36
+question.
+
+25:38
+Is the property a house or an apartment?
+
+25:43
+And then next, we can do 1 of these choice
+
+25:45
+steps again. And this time, we get to create some
+
+25:47
+custom intents. So
+
+25:49
+we can go to triggers here, and we want to
+
+25:51
+select an intent. See, it doesn't have a house, so
+
+25:53
+we can go create an intent, and we say house.
+
+25:56
+The user's
+
+26:00
+property type
+
+26:01
+is a house.
+
+26:03
+And then we can add in some examples here. So,
+
+26:05
+obviously, house. This is just giving examples to Voiceflow's AI
+
+26:08
+engine to help us better to classify the different intents
+
+26:11
+as they come into the steps. So we can say
+
+26:13
+home, and then you can add in some,
+
+26:16
+AI generated ones here, which usually pretty easy and, which
+
+26:18
+usually pretty good. Okay. Residence, dwelling, property, abode, living place.
+
+26:22
+This this gets tricky,
+
+26:24
+because some of these could overlap with apartment. So property
+
+26:28
+is probably abodes too broad, living place,
+
+26:32
+dwelling,
+
+26:34
+residence.
+
+26:35
+Potentially we can get away with. We could say like
+
+26:38
+manor,
+
+26:40
+mansion,
+
+26:41
+family
+
+26:42
+home,
+
+26:45
+single family
+
+26:48
+home. And by now we've given enough examples where we
+
+26:50
+can just go to create. And then we need to
+
+26:52
+do the same for apartments. So we'll go to create
+
+26:55
+an attempt,
+
+26:57
+apartment,
+
+26:58
+the users
+
+26:59
+property
+
+27:01
+type. The user's property type is an apartment, and then
+
+27:03
+we can put an apartment.
+
+27:10
+See what else has got for us.
+
+27:13
+Townhouse,
+
+27:14
+penthouse,
+
+27:16
+duplex,
+
+27:17
+flat, probably not right.
+
+27:19
+Loft, probably not right. A townhouse, penthouse, I think that's
+
+27:22
+a good bunch.
+
+27:24
+And then we can add in a no match here
+
+27:26
+as well.
+
+27:29
+I mean, added a re prompt. Sorry, I didn't get
+
+27:33
+that. Is it a house or an?
+
+27:40
+If it is a house, we can come up here
+
+27:41
+and set it as
+
+27:43
+logic here and go set.
+
+27:47
+We can go.
+
+27:51
+Value or expression
+
+27:52
+select the variable to set and we're going to go
+
+27:54
+proper
+
+27:55
+TType.
+
+27:58
+The
+
+28:02
+Save that variable
+
+28:04
+or create that variable, sorry. And then we can enter
+
+28:06
+this in
+
+28:08
+and set this as house.
+
+28:12
+So we're setting the property type variable to house when
+
+28:14
+it's been triggered
+
+28:16
+by this particular route.
+
+28:19
+And then we need to add another 1, so I'll
+
+28:20
+probably just duplicate this.
+
+28:24
+That's by right clicking on 1 of these blocks.
+
+28:27
+And then we can connect up apartment to it.
+
+28:30
+Property type, instead of being house, we can make it
+
+28:33
+apartment.
+
+28:37
+And from here, now that we know the property type,
+
+28:39
+we can set the size of the apartment or the
+
+28:41
+house. So we go,
+
+28:43
+and how many square
+
+28:46
+and how many square feet is it.
+
+28:50
+We can connect both of these up here and then
+
+28:52
+we're going to save the entire user reply on a
+
+28:54
+capture step.
+
+28:56
+So anything that they respond to after this, we wanna
+
+28:58
+capture the entire thing.
+
+29:02
+And we want to go here, set up a set
+
+29:08
+step. Sorry, that's alright.
+
+29:18
+Using a prompt.
+
+29:19
+And what we're going to do is use AI to
+
+29:21
+analyze the response and then extract the number of square
+
+29:24
+feet from it. We could have used a step here
+
+29:26
+where we change this to instead of the entire user
+
+29:28
+reply, we change it to an entity.
+
+29:31
+But it's not as reliable as doing it this way.
+
+29:33
+So I'd prefer to just get it right the first
+
+29:35
+time. Because
+
+29:36
+a entity of the number of, a number of feet
+
+29:40
+may be a bit harder to pick up than a
+
+29:41
+clear word like an entity of house or apartment or
+
+29:44
+a name, etcetera.
+
+29:45
+So
+
+29:46
+just to make sure that it works every time for
+
+29:48
+us.
+
+29:49
+We want to create a new prompt and I'm going
+
+29:51
+to put this in here. Extract the number of square
+
+29:53
+feet from what the user said in numerical format only,
+
+29:55
+e g 500. Include nothing else in your responses. It'll
+
+29:58
+be saved as a variable and passed on API to
+
+30:00
+a quote generator function. So giving it a bit of
+
+30:02
+context about what's been going on and also put in
+
+30:04
+the memory there just for good measure.
+
+30:08
+And we didn't name the prompt. We can call this
+
+30:10
+extract
+
+30:11
+square.
+
+30:17
+And then we need to set the variable that we
+
+30:18
+want to save this to, which is gonna be property
+
+30:22
+size.
+
+30:23
+So now we're saving that response,
+
+30:25
+the size of the users.
+
+30:30
+The size of the user's property in square feet.
+
+30:33
+And then we need to do 1 kind of tricky
+
+30:35
+step, but it's just something that you guys will pick
+
+30:37
+up as you go and, as you build more of
+
+30:39
+these. But the next step after this is gonna be
+
+30:41
+sending that information to our relevance tool. And the relevance
+
+30:44
+tool is expecting not what's called a string, which is
+
+30:46
+just
+
+30:47
+a a number of letters or just text.
+
+30:50
+You can have a number as a text, which is
+
+30:51
+confusing, but basically, it's just the format,
+
+30:53
+in which it's being received in. So because we're sending
+
+30:56
+it over an API, we need to be specific about
+
+30:58
+the format. And so I can't take this is essentially
+
+31:01
+going to be saving that 500 or say if we
+
+31:03
+say it's a 500 square foot property, this is going
+
+31:05
+to be plucking that out and giving us 500 as
+
+31:08
+a string. In order to get the response we want
+
+31:10
+from relevance, we need to convert it to a number
+
+31:13
+and then send it. So a little block of, custom
+
+31:16
+code here. Now this was a no code tutorial, but
+
+31:19
+I hope you can forgive me for this. And all
+
+31:22
+we need to do is put this in here. So
+
+31:25
+property size, size, this is a variable. Again, we go
+
+31:27
+property size.
+
+31:29
+And we're just casting this variable
+
+31:32
+as a number and then reassigning it to the variable
+
+31:35
+that it was before. So we're taking whatever came out
+
+31:37
+of this. We're We're saying, okay, can you just make
+
+31:39
+it a number? And we'll save it and sort of
+
+31:41
+overwrite the existing variable.
+
+31:44
+So now we have the number 500 in that case
+
+31:46
+that we're ready to send to the next step. And
+
+31:48
+then if that's gone correctly, we can talk to them
+
+31:50
+and say,
+
+31:54
+1 sec while I get.
+
+32:00
+And then we have this JavaScript fail route here, which
+
+32:02
+you can just sort of throw down there for now.
+
+32:05
+There is a chance that this prompt outputs not just
+
+32:08
+a number. As you can see, we're asking it for
+
+32:10
+just this. And therefore, the property size variable, if it
+
+32:15
+just is 500,
+
+32:17
+But sometimes it could say,
+
+32:19
+hey, your size is
+
+32:22
+500. And then we end up with a variable that's
+
+32:24
+not actually convertible into a number.
+
+32:26
+So we do need to add a little bit there
+
+32:29
+as a as a potential fallback.
+
+32:31
+Probably won't be doing it in this video if I'm
+
+32:33
+honest. It's fairly basic. But you would add this in
+
+32:35
+there, some sort of looping back in to make sure
+
+32:37
+that it is actually in the right format. Or just
+
+32:39
+make sure that your prompt is actually only you put
+
+32:41
+like a strict instruction. Only output just
+
+32:45
+just the number, so that you get less errors there.
+
+32:46
+So the next major step after this is to get
+
+32:47
+our relevance AI research. If we go back to the
+
+32:49
+Figma here, you'll see that we have this relevance AI
+
+32:52
+tool, which is going to allow us to,
+
+32:55
+generate the instant quote. So I've premade this and I've
+
+32:57
+actually sniped it from some of my accelerated resources.
+
+33:00
+So if you open this link,
+
+33:02
+it's going to allow you to clone this into your
+
+33:04
+Relevance account. So up here, you can click clone, and
+
+33:07
+we'll just clone it into Morningside AI.
+
+33:12
+And now this thing is gonna be taking in a
+
+33:14
+property type and a size in square feet. And then
+
+33:16
+we have a basic LLM step here. This is a
+
+33:18
+really, really simple 1. Again, like I said earlier in
+
+33:20
+this video,
+
+33:22
+the building
+
+33:23
+really powerful and advanced functionality does take a lot longer.
+
+33:26
+And if I was to do things that weren't just
+
+33:28
+a very basic LLM step like this, then it'll take
+
+33:30
+a lot longer with different platforms you have to sign
+
+33:31
+up for. The idea is to teach you how these
+
+33:33
+things can connect, and then you can come into relevance
+
+33:36
+here. Once you know how to connect voice flow to
+
+33:37
+relevance through an API call, you can come in here
+
+33:39
+and throw whatever the hell you want and make it
+
+33:41
+as advanced as you want. But in this case, we
+
+33:43
+literally could have done this in Voiceflow, if I'm being
+
+33:46
+fully honest. But the idea of being able to access
+
+33:48
+an external tool via an API is really the skill
+
+33:51
+that I'm trying to teach you here. So what this
+
+33:52
+is doing is taking in the property type. I've got
+
+33:55
+2 options here
+
+33:56
+and the square footage and, a number. See here? It's
+
+33:59
+a it's a number I can't just type in here.
+
+34:01
+It has to be a number. So that's what the
+
+34:02
+API is gonna be expecting. You can see here that
+
+34:04
+it says it's expecting a number.
+
+34:06
+And then we pass this into a basic prompt here
+
+34:08
+that's saying the customer is requesting this,
+
+34:11
+and these are the rough prices for the different square
+
+34:13
+footage and different types. And the LLM in this case,
+
+34:15
+GPT 4 0 Mini, just gonna look over that, take
+
+34:17
+in their input, and then give an output. So if
+
+34:19
+I just go up here and I say it's it's
+
+34:21
+an apartment
+
+34:22
+and I mean I don't know what
+
+34:24
+how big is an apartment?
+
+34:26
+In square feet? I don't know.
+
+34:28
+But we can run that.
+
+34:33
+It's going to give us some kind of output
+
+34:36
+and then it gives us the estimate. So it's saying
+
+34:38
+regular maintenance cleaning for 60, deep cleaning for 1 20,
+
+34:40
+move and move out, etcetera. So that's the output that
+
+34:42
+we're gonna be sending back to Voiceflow, and we're gonna
+
+34:45
+be turning that into a nice message to send through
+
+34:47
+chat or through the phone. So in order to set
+
+34:49
+this tool up in Voiceflow and be able to interact
+
+34:50
+with it, we need to we can hide this.
+
+34:53
+Make sure the tool's been saved and you have it
+
+34:54
+in your account. And then you can go to use
+
+34:56
+here. And just like we learned in the, NA 10
+
+34:59
+tutorial, we can go to API here. And then we
+
+35:02
+get an API for us to use and again, as
+
+35:04
+the post request, and it tells us how to use
+
+35:06
+it. So we have params, basically the inputs it's expecting
+
+35:09
+of the property type and a string. You see how
+
+35:11
+it's got 2, quotations? That means anything inside it is
+
+35:14
+a string. And the square footage here, you can see
+
+35:16
+it isn't in quotations. So it's not a string. It's
+
+35:18
+in this case, it's a number. And of course, you
+
+35:19
+have the project ID here letting relevance know which tool
+
+35:22
+that we've created that we're actually trying to interact with.
+
+35:24
+And so all we need to do now to interact
+
+35:26
+with this and set up our quote generator is to
+
+35:28
+copy this link. So this is the endpoint URL that
+
+35:30
+we're gonna be calling over the Internet, and this is
+
+35:32
+what it's expecting in the in the body of that
+
+35:34
+post request. If you go back to Voiceflow here
+
+35:37
+and we need to go to dev API,
+
+35:41
+we're gonna change this to post,
+
+35:43
+put in that URL.
+
+35:45
+And in this case, seems that we've got a little
+
+35:46
+bit of a different page and relevance some reason. So
+
+35:48
+we can actually do the authentication step, which is helpful.
+
+35:51
+So you can click generate API key here. It may
+
+35:52
+have changed by the time you're watching this video, but
+
+35:54
+but should roughly be the same. And we can click
+
+35:57
+deploy here. Make sure that the API is up and
+
+35:59
+running for us to interact with.
+
+36:02
+Actually, now that we've deployed it, we don't need the
+
+36:04
+authentication anymore. That was a bit strange.
+
+36:07
+Actually, I will do the API key just so you
+
+36:09
+guys see how this works. We can make it private
+
+36:11
+here.
+
+36:13
+So now that we have our API key, we need
+
+36:14
+to see how it's expecting to receive that API key
+
+36:16
+via the HTTP request, which we're gonna be sending from
+
+36:19
+Voiceflow.
+
+36:20
+So if you scroll down here, curl is usually the
+
+36:22
+1 I like to go to. There is a little
+
+36:23
+bit I haven't really explained in terms of headers and
+
+36:25
+bodies when it comes to API calls. But for now,
+
+36:28
+just know that when you have a curl request like
+
+36:30
+this, maybe it's even easier on the, JavaScript here. We
+
+36:33
+have what's called headers, and this is basically like the
+
+36:36
+the the envelope that that you put the information in.
+
+36:38
+So this up here is the information that we're putting
+
+36:41
+in the request. It's going inside the envelope and the
+
+36:43
+headers and the method and the endpoint URL. I like
+
+36:46
+the stamp and the information that you put on the
+
+36:48
+outside of the envelope to make sure it gets where
+
+36:50
+it wants to go. So you can say that this
+
+36:51
+endpoint here, that's what we call the endpoint, same as
+
+36:54
+up here. That's the the same as we have just
+
+36:56
+here. Endpoint is like the address where the envelope is
+
+36:58
+being sent to. We have the
+
+37:01
+post, the method. Maybe this is like super fast mail
+
+37:04
+or like overnight delivery or maybe like a parcel versus
+
+37:07
+an envelope. Basically, the type of delivery that you're doing
+
+37:10
+or type of request. And the headers include important stuff
+
+37:12
+like the type of content that's inside it. So you
+
+37:14
+might say this like this is there's written text or
+
+37:16
+there's a letter in here. So it might seem a
+
+37:18
+little bit complicated, but we'll fill this all in now.
+
+37:20
+Anytime you are making API call, you'll see these headers
+
+37:22
+around and you'll see the endpoint and the method and
+
+37:24
+then the body which we are gonna be setting up.
+
+37:26
+So this will all make sense in 2 seconds. But
+
+37:28
+let's just say for now, we have content type and
+
+37:30
+it's going to be application JSON. That's 1 of our
+
+37:32
+headers. So if you go back to Conus cleaning
+
+37:35
+and we open up the headers,
+
+37:37
+we can go content type here
+
+37:40
+as we saw here. Right? So content type, we need
+
+37:42
+to set it to application slash JSON, very common 1
+
+37:44
+that you're gonna be using.
+
+37:47
+And we have another 1, which is authorization.
+
+37:50
+So this is basically the majority of the endpoints you're
+
+37:52
+gonna be seeing, which is authorization and content type. And
+
+37:54
+a lot of the time, it's gonna be an API
+
+37:56
+key and application json.
+
+37:59
+So then we can go back to relevance. We can
+
+38:01
+get our API key.
+
+38:04
+And now to set up the body of the request,
+
+38:08
+which is this, we can copy this
+
+38:11
+and change this to raw, and we'll paste this in.
+
+38:15
+We have the params or the inputs in this case,
+
+38:17
+the property type and square footage for the tool. And
+
+38:19
+what we want to do is insert the variables that
+
+38:21
+we've got over here
+
+38:23
+into these. So we can go inside these quotations here
+
+38:26
+and we can go property,
+
+38:29
+type in this case.
+
+38:31
+And then for square footage, we can go
+
+38:34
+property
+
+38:36
+size.
+
+38:38
+And so because the property type is expecting a string,
+
+38:41
+as we can see if we go back here,
+
+38:44
+to build,
+
+38:45
+It's expecting a string and this is expecting a number.
+
+38:49
+The string must be wrapped around in, these quotations
+
+38:53
+and the square footage is a number. And so we
+
+38:56
+can just put the number because we've already
+
+38:59
+Alright. So that's probably the trickiest part of all the
+
+39:00
+stuff I'm gonna teach you today. And now that we
+
+39:02
+have this set up, we can actually send a test
+
+39:04
+request and we can say,
+
+39:06
+house.
+
+39:07
+We can say 500
+
+39:08
+and test this API call.
+
+39:11
+And there we go. It's complete. We have got back
+
+39:13
+our answer, the estimate, etcetera.
+
+39:16
+And all of the information is coming back from Relevance
+
+39:18
+AI as expected. And now what we need to do
+
+39:20
+is extract the information which we want, which is this
+
+39:22
+answer from this API call and from the response. So
+
+39:25
+we sent a request and we got a response. Remember
+
+39:27
+how we were using those terms before we can click
+
+39:29
+on answer.
+
+39:31
+And we can save it to and we can call
+
+39:33
+it
+
+39:34
+raw
+
+39:36
+quote data.
+
+39:38
+Because it is quite raw.
+
+39:42
+Raw quote data from.
+
+39:47
+And now we have the information back from relevance AI.
+
+39:49
+What we need to do is make it pretty and
+
+39:51
+use AI to generate a message that summarizes the quote
+
+39:54
+to the customer. So we can go
+
+39:56
+a,
+
+39:57
+prompt step here.
+
+39:59
+We can create a new prompt.
+
+40:02
+Let's add in the conversation history for context.
+
+40:05
+And I've got this prompt here.
+
+40:09
+Write a short and clear explanation of this quote for
+
+40:11
+the customers.
+
+40:12
+We can go property
+
+40:15
+property type
+
+40:17
+for the customers property type and we can put in
+
+40:19
+the raw quote data here.
+
+40:21
+So that's going to insert this with the customer's apartment
+
+40:24
+or the customer's house, and then we're just gonna dump
+
+40:26
+in the raw data that came back from Relevance AI.
+
+40:29
+Your response will be read over the phone, so it
+
+40:30
+must be all in 1 paragraph and no longer than
+
+40:32
+3 to 4 short sentences. It should read like and
+
+40:35
+I've given an example here of how I wanted to
+
+40:36
+give the outputs.
+
+40:41
+And so we can change this to quote.
+
+40:45
+Quote response.
+
+40:47
+And now we are ready to give this a spin.
+
+40:50
+So if we run this whole thing from the top,
+
+40:53
+run.
+
+41:00
+How much for a weekly clean?
+
+41:02
+So I'm going straight to the asking a question about
+
+41:05
+price. You're asking about a pricing for our weekly cleaning
+
+41:07
+service. Is that correct? Yes.
+
+41:10
+Bam. Bam.
+
+41:12
+Okay. Sure. To give you an instant quote, I just
+
+41:14
+need the property type and size and square feet. Is
+
+41:16
+the property a house or an apartment?
+
+41:18
+It's a house.
+
+41:23
+How many square feet is it? 500. I don't know.
+
+41:26
+Is that a big? That sounds very small to me.
+
+41:30
+I don't know. 500. I've I've I've no I've no
+
+41:32
+clue about the sizes of houses. A 500 is normal
+
+41:34
+or not.
+
+41:37
+And there we go. Based on your 500 square foot
+
+41:39
+house, we have 4 cleaning packages.
+
+41:41
+Regular maintenance cleaning and 90 dollars for standard weekly cleaning,
+
+41:44
+deep cleaning, rah rah rah rah. So we're giving them
+
+41:46
+a quick summary based on their 500 square foot house
+
+41:48
+or x number of square feet, x property type,
+
+41:52
+and giving them a quick summary. So that's pretty cool.
+
+41:54
+We're using Relevance tool and we're getting this information back.
+
+41:56
+Now there is 1 more step that I have added
+
+41:58
+on to this this I get this thing where if
+
+42:00
+I've gone this far with you guys, I may as
+
+42:02
+well add in like the rest of it to make
+
+42:03
+it actually a bit more useful,
+
+42:05
+which is a quick lead capture using Google Sheets and
+
+42:08
+make dot com. So I couldn't leave you guys hanging
+
+42:11
+on this. I thought I may as well throw it
+
+42:12
+in there. So stick with me because this is really
+
+42:14
+where you're gonna be like, oh, this is this is,
+
+42:16
+opening my eyes to to what you can do with
+
+42:17
+these kind of platforms. So the reason we're adding this
+
+42:19
+on is because the person has asked about pricing or
+
+42:22
+they're directly interested in some kind of services, and we've
+
+42:24
+given them an instant quote. And now we're trying to
+
+42:26
+immediately follow that up with, hey. Look. Give us your
+
+42:28
+details, and we'll be in touch when we'll get that
+
+42:30
+service booked in right away. So we can jump into
+
+42:33
+a,
+
+42:34
+message block here. This is I'll just paste this in
+
+42:36
+to keep things nice and quick here. Please provide your
+
+42:38
+name and phone number, and I'll get 1 of the
+
+42:40
+team to call you to find a time that works.
+
+42:41
+Now 1 thing I will change is as you saw
+
+42:43
+on that last run, it had a question at the
+
+42:45
+bottom. It's like, which 1 are you interested in? I
+
+42:48
+would probably try to remove
+
+42:50
+that.
+
+42:52
+Do not ask
+
+42:54
+a question at the end just give them this.
+
+43:04
+So that's just going to end the message and saying
+
+43:06
+look this is the quote Bam and then the next
+
+43:08
+message I get is this please provide your name and
+
+43:10
+phone number and I'll get 1 of the team to
+
+43:12
+call you to find a time that works. And so
+
+43:14
+we want to save this entire user reply with a
+
+43:16
+capture step. Capture step. There we go. Change this to
+
+43:20
+entire user reply. So we want to capture all of
+
+43:22
+the information
+
+43:23
+that they send or over the phone or either through
+
+43:24
+chat. So in this response, they're gonna say their name
+
+43:26
+and their phone number. Right? And we need to extract
+
+43:28
+those out.
+
+43:31
+I'm gonna put this here into a set step.
+
+43:34
+We're going to use a prompt or setting this with
+
+43:38
+AI.
+
+43:39
+And we're gonna create a new prompt.
+
+43:42
+Let's just set the variable first. Let's say this is
+
+43:44
+gonna be put into last response.
+
+43:49
+Make a new prompt here.
+
+43:53
+And this is the prompt that we're gonna be using.
+
+43:54
+So we have just asked the user to provide their
+
+43:56
+name and phone number. We need to attempt to extract
+
+43:57
+the information and then confirm it with them. Here is
+
+43:59
+their reply, last utterance which they've just provided and we've
+
+44:02
+captured. If there is a valid name and phone number
+
+44:04
+present, then you must do a confirmation e g okay
+
+44:06
+quickly to confirm your name is this and number is
+
+44:08
+this. Is that correct? However, if 1 or both are
+
+44:11
+missing or appear to be invalid, you must output only
+
+44:14
+retry as your response and nothing else. This retry variable
+
+44:17
+will be checked and if it matches exactly, then it
+
+44:19
+will trigger another attempt to capture. So either a, write
+
+44:22
+a short and sweet confirmation message
+
+44:24
+or b, output retry for another attempt at capturing. So
+
+44:27
+what we're doing here is using AI to analyze the
+
+44:29
+response and say, look, we're looking to pluck out a
+
+44:31
+name and phone number and we wanna also confirm that
+
+44:34
+because this is likely gonna be over the phone. And
+
+44:35
+if the AI doesn't see a clear valid phone number
+
+44:38
+and a valid name, then it's going to output only
+
+44:40
+the word retry. So
+
+44:42
+give us a response. If it's good to go and
+
+44:44
+we can move on to the next step. If it
+
+44:46
+says retry, then we're going to try to retry.
+
+44:49
+Now of course this retry doesn't actually do anything unless
+
+44:51
+we build the functionality in to look for that retry
+
+44:53
+keyword which we'll do in a second.
+
+44:56
+Untitled prompt, we can change this to,
+
+44:59
+extract.
+
+45:00
+What? Attempt. Extract. Name.
+
+45:05
+And then we can go to
+
+45:07
+conditions here.
+
+45:09
+And go
+
+45:12
+if last response which is the variable that we're saving
+
+45:15
+the output of that prompt into here. Whether it's gonna
+
+45:18
+be retry or the say just to confirm, is this
+
+45:20
+your phone name and phone number?
+
+45:22
+If last response is retry
+
+45:26
+or even just to make it a bit more flexible
+
+45:28
+contains retry.
+
+45:29
+Unless unless the person's name is like Bill retry Smith,
+
+45:33
+then, this should be fine. And actually just to make
+
+45:35
+this look a bit cleaner, I might change this to,
+
+45:37
+if last response,
+
+45:39
+does not contain,
+
+45:41
+retry.
+
+45:42
+Then we're gonna go up here
+
+45:48
+and we are going to send the last response
+
+45:53
+because as we said, it's gonna either generate the confirmation
+
+45:55
+message or it'll output retry. So if it's valid, it'll,
+
+45:58
+and we put up last response here,
+
+46:00
+they'll say their name and phone number. We'll analyze it,
+
+46:02
+and then we'll go, great. It doesn't contain the word
+
+46:04
+retry in it. And bang. Hey. Just to confirm, this
+
+46:07
+is your name and this is your phone number. And
+
+46:09
+then for the choices here, we can go and use
+
+46:11
+our handy dandy. They're gonna be giving us a yes
+
+46:13
+or no answer to this. So we can put in
+
+46:14
+these 2 triggers, yes and no.
+
+46:19
+And so if they say no to the confirmation, say
+
+46:21
+no, that's not my correct phone number or name, then
+
+46:24
+we need to have some kind of retry,
+
+46:25
+logic here.
+
+46:27
+I usually like to make my retries,
+
+46:30
+a orange color and then my failures a red.
+
+46:35
+So it's a
+
+46:38
+Okay. Let's try that again. Can you please give me
+
+46:40
+a full name and phone number, please? And then we're
+
+46:42
+going to send them all the way back to this
+
+46:44
+step here. So they're basically gonna recapture their information and
+
+46:47
+then put them through this process and this is a
+
+46:49
+loop that can be done over and over and over
+
+46:50
+again. So And then we also need to deal with
+
+46:52
+this else step. So if the word does contain retry
+
+46:56
+and it has said, hey look this isn't a valid
+
+46:58
+phone number or a name, then we need to deal
+
+47:00
+with that as well. So we can come down here
+
+47:02
+and go to message.
+
+47:04
+Put pop it under here.
+
+47:05
+And I've got a message for this. Sorry I didn't
+
+47:07
+quite get that. Can you please give me your full
+
+47:08
+name and phone number so a member of our team
+
+47:10
+can get in touch?
+
+47:14
+Right click on this and you can go block color,
+
+47:16
+change it to an orange and then we're gonna be
+
+47:18
+going back to here as well. So it's helpful you
+
+47:21
+can click on these arrows, so the lines here and
+
+47:24
+you can change them to the same color. So we
+
+47:26
+wanna make them a bit more obvious that they're coming
+
+47:29
+in from places we expected.
+
+47:33
+We can make this an orange 1 as well.
+
+47:37
+And this 1 too.
+
+47:40
+So if they come in and they say, hey. My
+
+47:42
+name is Bill and my phone number is 0 2
+
+47:44
+1 1 1. And it comes in here and it
+
+47:46
+goes, hey. That doesn't look like it's proper. It's going
+
+47:48
+to send a retry as the output. We're gonna pick
+
+47:51
+it up here and it's gonna say, sorry. I didn't
+
+47:52
+quite get that. And it's gonna come back up and
+
+47:54
+they're gonna be expected to give it again and it
+
+47:56
+will go through. And then once we got a valid
+
+47:58
+name and phone number and it's not outputting retry, then
+
+48:00
+it's going to go through here. It's going to spit
+
+48:02
+that out and say, hey, just to double check, this
+
+48:04
+is your phone number and email before we proceed. Yes
+
+48:07
+and no. No is gonna be handled there and it's
+
+48:09
+gonna take them back to the first step again. So
+
+48:11
+that's a nice,
+
+48:12
+error handling and sort of looping that you're gonna need
+
+48:14
+to be building into a lot of your conversational AI
+
+48:16
+agents, especially on VoiceFlow. Right. And so the last steps
+
+48:18
+here are some quick variable extractions. So we can go
+
+48:21
+to Dev logic here and go to set.
+
+48:24
+And we're going to extract the name and the phone
+
+48:25
+number.
+
+48:27
+So we'll go prompt. Holy moly, it is.
+
+48:30
+It's bloody hard here. The variable that we want to
+
+48:33
+save this, we were gonna be extracting the name. So
+
+48:35
+add a new variable called name,
+
+48:37
+the user's
+
+48:39
+name.
+
+48:42
+And this is going to be called
+
+48:45
+extract name.
+
+48:48
+Here's a quick and easy prompt. You can pause it
+
+48:50
+to take a look at that. It's just gonna extract
+
+48:52
+their name.
+
+48:53
+We need to add another variable. This is gonna be
+
+48:55
+their phone number.
+
+49:00
+And then we need another prompt.
+
+49:05
+Just paste this 1 in here. Pretty basic. You can
+
+49:07
+pause it if you wanna take a look.
+
+49:09
+And
+
+49:10
+I haven't named that prompt. It's gonna annoy me.
+
+49:14
+Extract
+
+49:15
+phone number.
+
+49:18
+And now we're gonna have their name and their phone
+
+49:20
+number extracted out of this response.
+
+49:23
+And,
+
+49:24
+oh,
+
+49:26
+and, actually, we need to add in the conversation history
+
+49:29
+there
+
+49:30
+so that it actually has the this information in it.
+
+49:36
+And then we go
+
+49:43
+great. Let me get that added into our system.
+
+49:46
+This buys us a bit of time as we use
+
+49:48
+our,
+
+49:49
+Make webhook, which we're gonna set up now. So the
+
+49:51
+next step is to get a Google Sheet set up
+
+49:53
+and to use make dot com to,
+
+49:55
+take this data and shoot it into a Google Sheet.
+
+49:58
+So So do that. I will leave a link on
+
+50:00
+I mean you can just search up. It's
+
+50:03
+make dot com. Alright. I'll save you the hassle.
+
+50:06
+So you sign in to make dot com, create an
+
+50:07
+account, whatever you wanna do
+
+50:10
+or need to do.
+
+50:17
+Go to scenarios and then we're going to create a
+
+50:19
+new scenario.
+
+50:22
+I'm gonna pull from scratch here.
+
+50:24
+I'm gonna get all that rubbish out of way. I
+
+50:26
+don't know why it's acting like I'm some rookie here.
+
+50:30
+And then we need to go
+
+50:31
+to webhooks, custom webhook.
+
+50:34
+We're going to,
+
+50:36
+we're going to add in a new webhook. This is
+
+50:39
+gonna
+
+50:39
+be Con Aurora's Cleaning Lead
+
+50:42
+Capture. Gonna save that.
+
+50:44
+It's gonna create this webhook here.
+
+50:47
+I'm gonna copy this address to clipboard.
+
+50:50
+We're gonna come back to our build and and then
+
+50:52
+we're going to go to the
+
+50:55
+API step. So what this is doing, if you're a
+
+50:57
+bit new to to webhooks and and API calls and
+
+50:59
+stuff, what we can do here on Make is set
+
+51:02
+this up to basically listen. It's a URL. You know
+
+51:04
+how we had the endpoint? The endpoint, this thing here
+
+51:07
+that it's given us,
+
+51:08
+I've just copied to our clipboard,
+
+51:10
+that's like the address. Remember? So if you put it
+
+51:12
+right on the on the letter, that's where it's gonna
+
+51:14
+go. This allows us to basically send data,
+
+51:17
+via API call,
+
+51:19
+from Voiceflow
+
+51:20
+to Make, and it's gonna catch it here. And this
+
+51:22
+little lightning bolt means that anything we build after is
+
+51:25
+gonna be triggered whenever it receives 1 of those, whenever
+
+51:28
+a new bit of mail arrives, it's going to then
+
+51:30
+trigger this multi step process. So we're gonna put this
+
+51:33
+into Voiceflow. We're gonna trigger it and make sure it
+
+51:36
+it knows what data to expect, and then we're gonna
+
+51:38
+be able to use that data and put it into
+
+51:40
+Google Sheets. So stick with me here. But this is
+
+51:42
+another very, very essential skill in AI automation is how
+
+51:45
+to set up a webhook,
+
+51:46
+and use it within different apps. So we have our
+
+51:48
+webhook here.
+
+51:51
+We've copied the address to clipboard. We're going back,
+
+51:53
+setting up a get request here. So it's not a
+
+51:56
+post request this time. We're just, getting.
+
+51:58
+And we're technically not getting data. A get request is
+
+52:01
+a much more kinda quick and dirty request.
+
+52:03
+And as you'll see, we kinda just tack on a
+
+52:05
+bunch of information after this. We can do it through
+
+52:08
+what's called parameters here. We want to be sending a
+
+52:10
+property,
+
+52:13
+oh, let's just say property
+
+52:15
+type.
+
+52:18
+Actually, let's do this properly. Let's go time,
+
+52:23
+time stamp.
+
+52:25
+So in this Google Sheet, you're gonna wanna know when
+
+52:27
+the different leads came in. So we can go, time
+
+52:30
+stamp and get the time stamp from Voiceflow. That's a
+
+52:32
+default variable that they are automatically filling out for you.
+
+52:36
+So 1 of the things, 1 of the rows and
+
+52:37
+the spreadsheet is gonna be the timestamp.
+
+52:40
+We're gonna add another.
+
+52:42
+We're going to go,
+
+52:43
+name.
+
+52:45
+We're gonna put in the name here. So now all
+
+52:47
+the cogs in your head should start turning as we
+
+52:50
+put this together.
+
+52:51
+And we're gonna go
+
+52:52
+phone
+
+52:53
+number.
+
+52:55
+And we go
+
+52:56
+bracket
+
+52:57
+phone
+
+52:58
+number.
+
+53:01
+And if we add another we can go property
+
+53:06
+type. Let me go property
+
+53:09
+type.
+
+53:12
+And go property
+
+53:14
+size.
+
+53:19
+And
+
+53:19
+go property
+
+53:22
+size. We can add another 1 and we can go
+
+53:24
+quoted
+
+53:26
+prices
+
+53:27
+so that the sales team knows what we actually told
+
+53:29
+them in case you're playing with the pricing.
+
+53:32
+Raw quote data.
+
+53:34
+And I'll probably throw in 1 more here, which is
+
+53:37
+their first question.
+
+53:39
+First question.
+
+53:44
+Use a first reply. So that might give context to
+
+53:46
+the sales team was like, what did they actually contact
+
+53:48
+us for in the first place? Maybe helpful, maybe not,
+
+53:50
+but we can just send this all over to the
+
+53:51
+Google Sheet.
+
+53:57
+And so now we can see this is,
+
+53:59
+as this thing's spinning around, it's basically waiting for us
+
+54:02
+to send some data to it. It's basically sitting there
+
+54:04
+at the mailbox, like,
+
+54:06
+waiting for it to come through.
+
+54:08
+And we can go send here. And I'm gonna put
+
+54:10
+in, gosh.
+
+54:12
+That was a hole here. Let's go.
+
+54:16
+Name, Liam.
+
+54:18
+We'll type house, we'll size,
+
+54:22
+lots of money.
+
+54:24
+How much for cleaning y'all? Cleaning y'all.
+
+54:27
+Sent.
+
+54:27
+And if we go back, back, bam. Successfully determined. And
+
+54:30
+what we've done and determined means is that make has
+
+54:33
+received the the the request that we sent. And it
+
+54:36
+now knows that we're gonna be sending it a time
+
+54:38
+stamp and a property type and this this this.
+
+54:41
+Really really key skill to understand. Because now when I
+
+54:43
+go
+
+54:45
+save.
+
+54:45
+Now when I go to here and I go Google
+
+54:48
+Sheets
+
+54:49
+and I go add a row,
+
+54:52
+you will need to set up your
+
+54:54
+Google Sheets connection here so you just sign in with
+
+54:56
+Google, add your connection in.
+
+55:00
+I am going to have to create
+
+55:03
+a new spreadsheet for this quickly.
+
+55:09
+And go timestamp.
+
+55:12
+So I'll zoom this up, but timestamp,
+
+55:15
+name,
+
+55:16
+phone,
+
+55:18
+property
+
+55:20
+to type
+
+55:21
+property
+
+55:22
+size.
+
+55:28
+1, 2, 3, 4, 5, 6, 7. Yep. We've got
+
+55:32
+them all. Right. So then I can go
+
+55:36
+So I call this my Connor
+
+55:39
+cleaning support
+
+55:40
+agent
+
+55:41
+leads.
+
+55:43
+So now I want to go back to make
+
+55:45
+and I want
+
+55:47
+to click here to
+
+55:51
+Connor.
+
+55:52
+There we go. Connor's cloning. Why do I keep spelling
+
+55:54
+cleaning?
+
+55:56
+Cleaning.
+
+56:01
+Now we have the spreadsheet set up. The sheet name
+
+56:03
+is just gonna be sheet 1.
+
+56:06
+Does the table contain headers? Yes, it does. And
+
+56:09
+now we get to put in all of our values.
+
+56:11
+So bam, timestamp,
+
+56:13
+pop that in there. Name, pop that in there. Phone,
+
+56:17
+pop that in there. Property type.
+
+56:19
+So you see
+
+56:20
+Why?
+
+56:21
+Such a key skill that, I really, really want you
+
+56:24
+guys to learn,
+
+56:25
+because this is a lot of like, if you just
+
+56:27
+have a couple of these key things using these APIs
+
+56:29
+and say, Voiceflow or in ADN, building tools and relevance
+
+56:32
+and then using them via API.
+
+56:34
+Knowing how to set up webhooks and then send data
+
+56:36
+in between them and to set this data structure. You
+
+56:39
+send that first initial batch over to make in a
+
+56:41
+test test request. It's gonna go, okay. This is what
+
+56:44
+they're gonna send me in future. And that's locked in
+
+56:46
+and you can send thousands and thousands of requests through
+
+56:48
+it, and it will operate as you expect.
+
+56:50
+And first question.
+
+56:52
+So, it's got all those other rows we don't need
+
+56:54
+to worry about.
+
+56:55
+Save. Alright. So that should be working. We can switch
+
+56:58
+this to immediately. Oh, I need to save
+
+57:01
+it. Save.
+
+57:03
+I'm gonna
+
+57:05
+Immediately as data arrives, this is gonna be waiting all
+
+57:08
+the damn time. Actually, I've got a whole bunch of
+
+57:10
+other stuff running in mate for my my various businesses.
+
+57:12
+So I'm just gonna have this set up. If you
+
+57:14
+wanted this to run around the clock, you'd turn that
+
+57:16
+on. I'm just gonna turn it on to run once,
+
+57:17
+and this is just gonna be sitting there waiting for
+
+57:19
+data. So what we can do is just finish this
+
+57:21
+off quickly. So
+
+57:23
+I'll just
+
+57:24
+paste this in.
+
+57:27
+Got this all done. Thank you. That's the end of
+
+57:30
+it.
+
+57:31
+And what we want to do is have a failure
+
+57:33
+path. So in case this fails, we just pop that
+
+57:35
+down there and say.
+
+57:41
+Darn it something
+
+57:42
+went wrong
+
+57:45
+I'm gonna put that as a red.
+
+57:50
+And then this 1 is like that righty so if
+
+57:53
+we look at make still expecting us to send some
+
+57:56
+data to it.
+
+57:57
+Let's hope that we've done all of this right, and
+
+57:59
+it's gonna work first time.
+
+58:01
+But you never really know, do you? So let's give
+
+58:04
+this a run, and we'll try to go through that
+
+58:05
+second path.
+
+58:07
+And we'll will try to get that stuff added into
+
+58:09
+the spreadsheet.
+
+58:14
+I
+
+58:15
+need weekend cleaning,
+
+58:17
+please.
+
+58:24
+So asking a question that's going straight to price.
+
+58:26
+You're looking for weekend cleaning services and want to know
+
+58:28
+the pricing. Is that correct? Yes. So our router is
+
+58:31
+gonna pick that up and say he's looking for pricing.
+
+58:32
+Let's send him to the quote tool. Okay. Sure. To
+
+58:34
+give you an instant quote, I just need the property
+
+58:36
+type and size and square feet. It's a property. Let's
+
+58:38
+go apartment.
+
+58:41
+Let's take that correctly. And how many square feet? It's
+
+58:44
+500.
+
+58:48
+Typical apartment
+
+58:49
+size
+
+58:52
+and
+
+58:54
+square
+
+58:55
+feet.
+
+58:58
+Okay. So 500 isn't actually
+
+59:00
+ridiculous. Great. And then we get our answer based on
+
+59:02
+your 500 square foot apartment. Bam, bam, bam. There's all
+
+59:05
+the prices. Please provide your name and phone number, and
+
+59:06
+I'll get 1 of the team to call you at
+
+59:08
+the time that works. Let's,
+
+59:10
+give this a test, see if it's actually picking up
+
+59:12
+on the failed. Sure.
+
+59:14
+My name is
+
+59:17
+and phone
+
+59:19
+is
+
+59:25
+Boom. Sorry, I didn't quite get that. So it detected
+
+59:28
+that wasn't right. So we got the retry output. We
+
+59:30
+got the retry output from this, which is what we
+
+59:33
+wanted. Sorry. I didn't quite get that. Can you give
+
+59:34
+me that again?
+
+59:36
+Liam
+
+59:37
+Otley.
+
+59:40
+Number
+
+59:41
+is
+
+59:44
+o
+
+59:45
+21.
+
+59:48
+That's what numbers look like here in New Zealand.
+
+59:51
+Okay, just to confirm quickly, your name is Liam Motley
+
+59:53
+and your phone number is right. Is that correct? Yes,
+
+59:56
+sir.
+
+59:57
+Name and phone number.
+
+01:00:01
+Oh, what is it done there?
+
+01:00:04
+Oh, name.
+
+01:00:06
+I don't know why it's
+
+01:00:08
+I just want the phone number. So we have a
+
+01:00:10
+little bit of an error there. I just go back
+
+01:00:11
+and tweak the prompt to make sure it's like only
+
+01:00:13
+get the phone number. We don't want anything apart from
+
+01:00:15
+numbers here. Great. Let me get that added to the
+
+01:00:17
+system. And then if we go back to make, we
+
+01:00:19
+see these are all green now and we see these
+
+01:00:21
+dots. So this is the information that came through, namely
+
+01:00:23
+a motley phone number. And so here's a little mistake
+
+01:00:25
+where we had a new line. Apartment, bam bam bam.
+
+01:00:28
+All that information
+
+01:00:30
+and then it's added it into Google Sheets. Here we
+
+01:00:32
+see updates,
+
+01:00:34
+updated number of rows, all the values that it's updated.
+
+01:00:36
+And we can go to
+
+01:00:42
+okay.
+
+01:00:43
+Oh, Molly. Right. We're ready to put this thing on
+
+01:00:45
+our website and to also put on a phone number.
+
+01:00:48
+So let's just finish the job. Guys, I'm,
+
+01:00:51
+getting real hungry,
+
+01:00:52
+but we can, we can push through. So I will
+
+01:00:55
+just turn this on, actually, so that if we are
+
+01:00:57
+testing it on the web and over the phone, it's
+
+01:00:59
+ready to receive.
+
+01:01:01
+If we do wanna be pedantic,
+
+01:01:04
+I would go back and I would
+
+01:01:06
+change. I have to do it. It's gonna piss me
+
+01:01:08
+off.
+
+01:01:10
+I'll put their name. Oh, that's why. I'll put their
+
+01:01:13
+phone number only.
+
+01:01:15
+My bad.
+
+01:01:16
+I'll put their phone number only.
+
+01:01:25
+And we do have these fail points here.
+
+01:01:28
+I'm not gonna bother filling them out. I think you
+
+01:01:29
+guys can figure out,
+
+01:01:31
+based off how I've handled this, how you can handle
+
+01:01:34
+these as well. So what you'll find is when you're
+
+01:01:35
+building these, these kinda fail, like, error handling,
+
+01:01:38
+is kind of an endless thread that you keep pulling.
+
+01:01:41
+It's like, oh, now I've gotta handle this and this
+
+01:01:42
+and this and this and this. So, I'm not gonna
+
+01:01:45
+this is a prototype. I'm not gonna be doing all
+
+01:01:47
+of the the error handling for you here. In the
+
+01:01:49
+template, there is actually a little bit more of it.
+
+01:01:51
+Some better examples. So maybe if you import that, you
+
+01:01:53
+can just steal the work that I've I've done there.
+
+01:01:55
+But what we need to do now is we can
+
+01:01:58
+publish this thing. We'll call it a v1.
+
+01:02:02
+First drop.
+
+01:02:14
+Alright. So now it's published. We can add the agent
+
+01:02:16
+to a website. Let's click on that. And that takes
+
+01:02:18
+us to this integrations tab.
+
+01:02:22
+Let's put this down, I don't need to see that.
+
+01:02:25
+They've got a new version of it, that's good to
+
+01:02:27
+know. And so installation is pretty straightforward, so we can
+
+01:02:29
+just click copy here. And then I'm going to open
+
+01:02:36
+up Brackets here just to give you a demo of
+
+01:02:38
+a website. I use this in all my tutorials, it's
+
+01:02:40
+fairly easy to spin up. I will leave a link
+
+01:02:42
+to this template if you want it, and also some
+
+01:02:44
+instructions on how you can open up a website. I
+
+01:02:47
+know this looks like code and it's all scary, but,
+
+01:02:49
+this is just allow me to spin up a website
+
+01:02:51
+very quickly. So I'll leave the template file. All you
+
+01:02:54
+need to do is once you've downloaded the template file,
+
+01:02:57
+you can need to download Brackets which is the software.
+
+01:02:59
+You can go file and then open folder.
+
+01:03:02
+And then you want to click on the folder when
+
+01:03:04
+you've unzipped it and it's gonna open up the whole
+
+01:03:06
+folder and then you'll get all of this, opened up
+
+01:03:09
+like this and you see all of these files.
+
+01:03:11
+All you need to do is click on the index
+
+01:03:13
+dot HTML
+
+01:03:14
+and then you'll see something similar to this. Well, I'm
+
+01:03:17
+gonna scroll down to the bottom of the index dot
+
+01:03:18
+HTML. I'm going to delete this old voice mail agent
+
+01:03:21
+I was testing on here. Drop this in here. Paste
+
+01:03:24
+that. And then save it. Command s. Click this little
+
+01:03:27
+button up here. And it will show us
+
+01:03:31
+a local version of the website running on our computer
+
+01:03:33
+here through brackets. So here's my man with a magnificent
+
+01:03:36
+beard,
+
+01:03:38
+and
+
+01:03:40
+we have
+
+01:03:41
+the tester agent bubble down here.
+
+01:03:44
+And there
+
+01:03:45
+we
+
+01:03:47
+go.
+
+01:03:48
+I
+
+01:03:49
+want to know where you live,
+
+01:03:53
+my guy.
+
+01:03:58
+Yep.
+
+01:04:04
+Okay. I didn't even program that in there. Maybe just
+
+01:04:06
+thought it was inappropriate.
+
+01:04:09
+But we've got it working on a website now. If
+
+01:04:11
+we pop back over to,
+
+01:04:14
+Voiceflow here and you go to the integrations, the widget,
+
+01:04:17
+you see we've got this test your agent thing.
+
+01:04:19
+So down here, we can play around with the look
+
+01:04:21
+and feel of it. I'm not really gonna get into
+
+01:04:22
+this here. There's quite a lot to play around with.
+
+01:04:24
+Basically,
+
+01:04:25
+all of what you see on here can be changed
+
+01:04:28
+around different logos, different text here, different icon, etcetera,
+
+01:04:32
+different colors. And you can just make it look and
+
+01:04:34
+feel however you want it to. So I'm sure you
+
+01:04:36
+guys are big enough and ugly enough to figure that
+
+01:04:38
+out yourself. We'd probably wanna switch over to,
+
+01:04:41
+this here. 1 thing you will wanna do is turn
+
+01:04:43
+off powered by Voiceflow so it's not,
+
+01:04:45
+sending traffic to them when it's on your own website.
+
+01:04:47
+And that's about it. For the sake of time, I'm
+
+01:04:49
+not going to go through the entire flow again here.
+
+01:04:52
+Just the functionality that we built that I just showed
+
+01:04:54
+you in the builder is going to work because we
+
+01:04:56
+just deployed it. Like, this is exactly what we're interacting
+
+01:04:58
+with. So it's all working here. The only step to
+
+01:05:00
+do now is to put it on this phone number
+
+01:05:02
+so we can have a chat to go over the
+
+01:05:04
+phone which we're gonna do now. To do that, we
+
+01:05:06
+need to go to the telephony, but here, it isn't
+
+01:05:08
+beta right now but for most of you watching, it
+
+01:05:09
+is not going to be by the time you you
+
+01:05:11
+are watching this. So we need to set up a
+
+01:05:13
+phone number from Twilio, import it, and then connect our
+
+01:05:16
+agent and its functionality to that. So we can go
+
+01:05:18
+import number.
+
+01:05:19
+You'll see that we have this information here. So we
+
+01:05:21
+can use Twilio or Vonage. Twilio is usually the go
+
+01:05:24
+to here. So if we click on learn more, then
+
+01:05:26
+they're gonna help us. Basically, the best way to make
+
+01:05:28
+sure you're getting the most up to date information is
+
+01:05:30
+go to the docs of the platform. Finding and reading
+
+01:05:32
+and extracting information from documentation on these kinds of platforms
+
+01:05:35
+is another key skill that you need to pick up
+
+01:05:37
+to succeed in the space. So if we go to
+
+01:05:39
+the
+
+01:05:40
+docs here, we go to
+
+01:05:42
+voice phone number,
+
+01:05:44
+setting up Twilio integration,
+
+01:05:47
+and they have a video here, adding a phone number
+
+01:05:49
+to your agent. So if you ever get stuck, you've
+
+01:05:51
+got documentation here and for all the other platforms. But
+
+01:05:54
+they'll keep updating these videos if things change, which they
+
+01:05:56
+likely will as this voice AI space really takes off.
+
+01:05:58
+So if we go to Twilio,
+
+01:06:01
+you will need to sign up and create an account
+
+01:06:03
+on Twilio.
+
+01:06:18
+Alright. So we are logged into Twilio. You need to
+
+01:06:20
+create an account for most of you. But Twilio is
+
+01:06:22
+a,
+
+01:06:23
+phone number provider that you can connect to and interact
+
+01:06:25
+with over the Internet. Super helpful when you can buy
+
+01:06:27
+lots of numbers from different locations and stuff. When it
+
+01:06:30
+comes to phone numbers, it can there's a lot of
+
+01:06:32
+rules and regulations around different like, it varies a lot
+
+01:06:34
+from country to country. So So depending, like, if you're
+
+01:06:36
+in Germany, I believe in order to get a German
+
+01:06:38
+phone number, you need to have a company
+
+01:06:40
+registered and get that number through your company registration and
+
+01:06:43
+provide those details. So it can be difficult. I'm just
+
+01:06:46
+gonna show you how to use a, a US based
+
+01:06:48
+number here. So we can go over to the phone
+
+01:06:50
+number on the left here. There may be some setup
+
+01:06:52
+that Twilio walk you through. It can be kind of
+
+01:06:54
+annoying sometimes. They say you need to do all of
+
+01:06:56
+these
+
+01:06:57
+declarations and forms and stuff. But for the most part,
+
+01:06:59
+it should be fairly straightforward if you follow this setup
+
+01:07:01
+instructions when you create your account to then come over
+
+01:07:04
+and go to your phone numbers and manage and go
+
+01:07:06
+to buy a number.
+
+01:07:09
+And now unless you have other purposes you wanna use
+
+01:07:11
+this for, you can just snag any random 1 if
+
+01:07:13
+you're following this tutorial. If you're obviously doing this for
+
+01:07:15
+a client, you could get 1 that's matched to their
+
+01:07:17
+location or their their state or even their city. And
+
+01:07:20
+when you click buy, you can see there's all these
+
+01:07:22
+kinda registrations and r r r r you need to
+
+01:07:24
+do, but thankfully,
+
+01:07:25
+voice is, is ones that don't need all of that,
+
+01:07:28
+and you've got global routing, etcetera. So you can come
+
+01:07:30
+down here and buy this. It's gonna be a dollar
+
+01:07:31
+a month. I know cost of starting up a business
+
+01:07:34
+is ridiculous these
+
+01:07:35
+days.
+
+01:07:36
+How dare they? But just to walk things through and
+
+01:07:38
+do it with you, I'm gonna buy this number even
+
+01:07:40
+though I really don't need it.
+
+01:07:43
+There we go. I've got my number. I'm just gonna
+
+01:07:47
+copy this so I don't forget
+
+01:07:49
+it. 5 1 7. And then I go to active
+
+01:07:51
+numbers.
+
+01:07:53
+I got my guy. Where is he? 5 1 7
+
+01:07:55
+down here.
+
+01:07:58
+Copy this bad boy. Go back to Twilio. Put our
+
+01:08:00
+number in here.
+
+01:08:02
+Our Twilio account SID.
+
+01:08:03
+You need to pop back to Twilio. You go to
+
+01:08:05
+your account dashboard.
+
+01:08:07
+This was a bit confusing when I first did it.
+
+01:08:09
+So I'm glad I'm glad I can help you guys
+
+01:08:12
+through it because it was a bit of a pain
+
+01:08:13
+in the bum for me. You think all this information
+
+01:08:15
+is gonna be like, tucked away in the side panels,
+
+01:08:17
+but no. It's just on the dashboard. Who the hell
+
+01:08:19
+puts your
+
+01:08:20
+auth tokens and stuff on a dashboard? I mean, it's
+
+01:08:22
+when you know it's there, it's helpful, but it was
+
+01:08:24
+a bit confusing at the time for me.
+
+01:08:27
+I'm gonna paste this in here.
+
+01:08:32
+We're going to
+
+01:08:34
+copy this auth token and paste this in here. And
+
+01:08:36
+we're gonna say this is my YouTube
+
+01:08:40
+tutorial.
+
+01:08:42
+And I'm gonna import that bad boy.
+
+01:08:44
+Select environment. I'm just gonna put it on development for
+
+01:08:47
+now. We can assign that.
+
+01:08:50
+And with that, you can see if I click unassign
+
+01:08:51
+here, that means I'm gonna take it off. So it's
+
+01:08:53
+assigned, and it should be ready to have a chat
+
+01:08:56
+with. So if I click to copy this number here,
+
+01:08:58
+I go back to my little
+
+01:09:02
+website code here. If I go find,
+
+01:09:04
+plus 1 plus 1.
+
+01:09:06
+Alright. There we go. So we have the call.
+
+01:09:08
+This is in the header.
+
+01:09:11
+This is just me wanting to put it on the
+
+01:09:12
+site for you guys. So you guys don't necessarily need
+
+01:09:14
+to copy this. I'm gonna save that. If I go
+
+01:09:17
+back to my website here, now I have the actual
+
+01:09:19
+phone number. And if
+
+01:09:21
+I pull up Skype on my phone,
+
+01:09:23
+you guys, if you're in the US, can just or
+
+01:09:25
+wherever your number is based, you can just call it.
+
+01:09:27
+State plus 1.
+
+01:09:31
+Alright.
+
+01:09:31
+Let's give our mate a ring.
+
+01:09:36
+Welcome to Connor's Cleaning. How can I help?
+
+01:09:39
+Hey. I was just wondering, where you guys are located.
+
+01:09:48
+It sounds like you wanna know the
+
+01:09:51
+Business. Is that correct?
+
+01:09:53
+Yeah. That's correct.
+
+01:10:02
+We're located at 2 47 Beacon Street in Boston, Massachusetts
+
+01:10:05
+Massachusetts 0 2 1 6. We serve the greater Boston
+
+01:10:08
+area, including neighborhoods like downtown Boston, Cambridge, Summerville, Brookline, and
+
+01:10:13
+several others. Is there anything else I can help you
+
+01:10:16
+with today?
+
+01:10:17
+Sweet. Okay. So that's done the,
+
+01:10:21
+knowledge the knowledge base route. Now let's give it another
+
+01:10:24
+spin.
+
+01:10:24
+Call them again.
+
+01:10:28
+Hey. Welcome to Connor's Cleaning. How can I help? Hi
+
+01:10:31
+there. I'm just getting interested in getting, some cleaning for
+
+01:10:35
+my place on the weekends.
+
+01:10:41
+It sounds like you're interested in booking a cleaning service
+
+01:10:44
+for a licensed weekend. Is that correct?
+
+01:10:47
+Yep.
+
+01:10:54
+Okay. Sure to give you an instant quote. I just
+
+01:10:56
+need the property type and size in square feet. Is
+
+01:10:59
+the property a house or an apartment? It's a house.
+
+01:11:09
+Sorry. I didn't get that. Is it a house or
+
+01:11:11
+an apartment? It is a house. A home.
+
+01:11:18
+And how many square feet is it? It's about a
+
+01:11:22
+thousand.
+
+01:11:28
+1 sec while I generate your quote.
+
+01:11:31
+Based on your requirements, we can offer 4 different packages,
+
+01:11:33
+different
+
+01:11:35
+packages. Regular maintenance cleaning at 90 dollars, which covers standard
+
+01:11:38
+weekly or biweekly cleaning, deep cleaning at a hundred
+
+01:11:41
+and 50 dollars for a more thorough top to bottom
+
+01:11:44
+refresh, move in, move out,
+
+01:11:47
+cleaning at a 170
+
+01:11:48
+dollars for preparing or cleaning after a home transition,
+
+01:11:51
+and post renovation cleaning at 200 dollars for handling construction
+
+01:11:55
+dust and debris. Please provide your name and phone number,
+
+01:11:58
+and I'll get 1 of the team to call you
+
+01:12:00
+to find a time that works.
+
+01:12:02
+Sure. My name is Liam Otzley, and my phone number
+
+01:12:05
+is 0 2 1,
+
+01:12:07
+1 1 1
+
+01:12:09
+9 7 9 2.
+
+01:12:15
+Okay. Just to quickly confirm, your name is Liam Oxley,
+
+01:12:19
+and your phone number is 0 2 1 1 1
+
+01:12:21
+9 7 9 2. Is that correct? Yep. That's spot
+
+01:12:24
+on.
+
+01:12:31
+Great. Let me get that added into our system. All
+
+01:12:34
+done. Thank you.
+
+01:12:37
+Boom.
+
+01:12:38
+Alrighty.
+
+01:12:41
+That is done. That is done, Zos. Alright. So you
+
+01:12:44
+guys learned a lot in that 1. Voice integration, website
+
+01:12:47
+integration,
+
+01:12:49
+connecting webhooks to make, setting up make automations,
+
+01:12:52
+sending data over, connecting relevance AI tools into
+
+01:12:56
+into voice flow,
+
+01:12:58
+basic integration with a CRM. In this case, it's a
+
+01:13:00
+sheet, but there's so much in there, guys. I hope
+
+01:13:02
+you really, really, learned a lot from that. This has
+
+01:13:04
+been a big 1, and we've still got, 1 more
+
+01:13:07
+to go, so I hope you're sticking with us. But
+
+01:13:10
+going back to our Figma here,
+
+01:13:13
+we have ticked off all of this. So we have
+
+01:13:14
+it as a web chat widget and we have it
+
+01:13:16
+as a, a phone number. Now as far as I
+
+01:13:18
+know, you can have both options for the same agent
+
+01:13:20
+on voice mail. You can have it on the website
+
+01:13:21
+and over voice. You don't need to duplicate it and
+
+01:13:24
+sort of define what modality it's gonna be. So we've
+
+01:13:27
+ticked off all the boxes for this. All of the
+
+01:13:29
+resources will be in here, all of the prompts, a
+
+01:13:30
+template for that whole final build as well if you
+
+01:13:32
+just wanna snag all my hard work and consult someone.
+
+01:13:34
+Again, I don't I don't really don't care. That's what
+
+01:13:37
+these videos are for. And we're getting into agent build
+
+01:13:40
+number 4 now.

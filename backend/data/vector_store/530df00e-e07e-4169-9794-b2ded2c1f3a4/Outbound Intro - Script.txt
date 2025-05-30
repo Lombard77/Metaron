@@ -1,0 +1,2003 @@
+Transcript
+Search
+
+00:00
+Hello, everyone. Nico here, and welcome to the introduction video.
+
+00:04
+In this video, we're going to be covering Outreach 1
+
+00:07
+0 1, which is essentially the purpose and goals behind
+
+00:10
+Outreach,
+
+00:11
+the Outreach equation, which is a bit of cold email
+
+00:14
+math,
+
+00:15
+warm versus cold audiences, and what is the difference between
+
+00:18
+the 2,
+
+00:19
+how outreach plays into your overall acquisition strategy,
+
+00:24
+and last but not least, different types of outreach strategies
+
+00:28
+that you can implement after you've watched through this module.
+
+00:32
+Welcome to the outreach foundations module.
+
+00:35
+This module is designed to equip you with everything you
+
+00:38
+need to know about effective outreach for your AI automation
+
+00:42
+agency.
+
+00:43
+As far as skills for AAA owners go, mastering outreach
+
+00:47
+is about as critical as they come. Effective outreach is
+
+00:51
+essential
+
+00:52
+for connecting with potential clients and growing your business.
+
+00:56
+In order to succeed as a AAA owner, you must
+
+00:59
+see outreach for what it truly is and understand its
+
+01:03
+intricacies.
+
+01:04
+To develop this correct paradigm,
+
+01:07
+you can either brute force your way through and learn
+
+01:10
+by rapid and consistent failure, or you can leverage this
+
+01:14
+program to bring you up to speed as quickly as
+
+01:17
+possible.
+
+01:18
+Therefore, I've distilled
+
+01:20
+key outreach strategies
+
+01:22
+and the collective insights from thousands of triple a owners
+
+01:25
+in our community
+
+01:27
+into this module.
+
+01:29
+This will help you master the art of outreach and
+
+01:32
+set your agency on a path to connect with more
+
+01:35
+potential clients. This module is designed with a couple of
+
+01:37
+key goals in mind to help you learn the skills
+
+01:40
+needed to build and maintain a successful outreach strategy
+
+01:44
+that works for you. Number 1 of these goals is
+
+01:47
+understanding the outreach equation.
+
+01:49
+You'll learn quickly how to break down outreach metrics and
+
+01:52
+calculate potential return on investment,
+
+01:55
+giving you a clear picture of outreach potential impact on
+
+01:59
+your AAA.
+
+02:00
+Number 2 is mastering outreach platforms.
+
+02:03
+We'll explore various channels, helping you understand which platform
+
+02:07
+is best suited for reaching your target audience
+
+02:11
+within the AI automation space.
+
+02:13
+Number 3 is different audience types.
+
+02:16
+You'll learn the crucial difference between warm and cold outreach,
+
+02:21
+understanding
+
+02:22
+when and how to use each approach effectively
+
+02:25
+for your triple a.
+
+02:27
+Number 4 is integrate outreach in your strategy.
+
+02:31
+We'll show you how Outreach fits into your overall acquisition
+
+02:35
+strategy,
+
+02:36
+both for testing new offers and scaling proven campaigns. Number
+
+02:40
+5 and last 1 is analyzing strengths and weaknesses.
+
+02:45
+You'll gain a balanced understanding of Outreach
+
+02:48
+pros
+
+02:49
+and cons like with anything,
+
+02:52
+allowing you to leverage its strengths
+
+02:54
+while mitigating its weaknesses in your AAA operation.
+
+02:58
+Here's a bit of a module overview and here's what
+
+03:01
+we're going to cover in each video of this AAA
+
+03:04
+foundations module.
+
+03:05
+Introduction, which is this video, will lay the groundwork for
+
+03:09
+effective outreach,
+
+03:11
+introducing key concepts,
+
+03:12
+and setting a stage for your deep dive into mastering
+
+03:16
+outreach for your AAA.
+
+03:18
+Video number 2 is going to be about outreach theory.
+
+03:21
+We'll explore the fundamental principles
+
+03:24
+of successful outreach,
+
+03:26
+breaking down research methods, messaging strategies, and frameworks
+
+03:30
+for crafting compelling campaigns.
+
+03:33
+Video number 3 is going to be about outreach mindsets.
+
+03:36
+We'll examine the psychology
+
+03:38
+behind successful outreach, guiding you through key mindset shifts and
+
+03:43
+mental frameworks
+
+03:45
+that are essential for overcoming obstacles
+
+03:47
+and achieving your outreach goals. Video number 4 is about
+
+03:51
+platforms.
+
+03:53
+We'll do a deep dive into the various platforms and
+
+03:56
+tools available
+
+03:57
+covering email, LinkedIn, Instagram,
+
+04:00
+and lead generation tools to equip you with the right
+
+04:03
+resources
+
+04:04
+for every situation. Video number 5 is going to be
+
+04:07
+about cold email setup. We'll cover the essentials
+
+04:10
+of setting up effective cold email campaigns,
+
+04:12
+including domain selection,
+
+04:14
+email authentication,
+
+04:16
+and the crucial warm up process to maximize deliverability
+
+04:20
+to get responses.
+
+04:21
+Because the truth here is if you're in the spam
+
+04:24
+box, no one's ever gonna reply to you. So this
+
+04:26
+is a very, very important video.
+
+04:28
+Lastly, we've got Calendly setup.
+
+04:31
+We'll guide you through how to configure Calendly for optimal
+
+04:35
+performance,
+
+04:36
+covering event types, workflows, lead qualification,
+
+04:40
+and creating effective confirmation pages to boost your show up
+
+04:44
+rates.
+
+04:45
+It doesn't matter how many beat meetings you book, if
+
+04:47
+no 1 shows up for the meetings, you're at the
+
+04:49
+same stage as you were before you started. Now let's
+
+04:52
+get into outreach. Outreach 1 0 1. The primary purpose
+
+04:56
+of outreach is to interrupt your target audience's
+
+05:00
+regular pattern and capture their attention.
+
+05:04
+By providing value at addressing their specific needs or pain
+
+05:07
+points, you can spark interest, build relationships,
+
+05:10
+and ultimately
+
+05:12
+drive them to take the action
+
+05:14
+you want them to take. Outreach is the proactive process
+
+05:17
+of initiating contact with a potential customer
+
+05:21
+or partner
+
+05:22
+to achieve a specific business goal, such as booking a
+
+05:26
+meeting, making a sale, or establishing a partnership.
+
+05:30
+Your outreach arsenal is just as an entrepreneur
+
+05:33
+must choose the right vehicle for their business,
+
+05:36
+a AAA owner must select the most effective outreach channels
+
+05:40
+to interrupt
+
+05:42
+and capture their audience attention.
+
+05:44
+Here are the main platforms with various examples of audiences
+
+05:48
+that are a fit for the different platforms.
+
+05:51
+Emails is a great channel for prospects who primarily communicate
+
+05:55
+through emails
+
+05:56
+already for their business.
+
+05:58
+LinkedIn is a great channel for b to b prospects
+
+06:02
+and b to b businesses
+
+06:04
+who spend time on LinkedIn
+
+06:06
+for networking.
+
+06:08
+Cold calling is also another great channel,
+
+06:11
+very effective for industries that frequently handle
+
+06:14
+appointments
+
+06:15
+and calls.
+
+06:17
+Social media is a great channel if it's used in
+
+06:20
+the correct way for industries with a strong social presence
+
+06:25
+or the industry generally has content based acquisition.
+
+06:29
+Direct mail is another channel that will make you stand
+
+06:32
+out in a crowded market with a unique approach. This
+
+06:35
+is not something a lot of people take the time
+
+06:37
+to do to send people actual direct mail to their
+
+06:41
+office or to their mailbox.
+
+06:43
+This is something that's really gonna make you stand out
+
+06:45
+and is particularly helpful for industries that are crowded, where
+
+06:49
+there might be a lot of LinkedIn DMs going around,
+
+06:50
+a lot of emails, whatever your poison is when it
+
+06:53
+comes to the channel. This is a great way to
+
+06:55
+supplement that. Bit of an insight on this 1 is
+
+06:58
+that it's very well leveraged
+
+07:01
+if you do this when you have gathered the initial
+
+07:04
+interest from before.
+
+07:06
+Meaning, they might have positively replied to some outreach, maybe
+
+07:08
+you're in the exploration phase, maybe you're in the contract
+
+07:11
+stage, whatever that might be, sending them something in the
+
+07:15
+mail will really make you stand out. Now we're gonna
+
+07:17
+talk a lot more about this later, but just to
+
+07:19
+give a bit of an insight. Lastly, we've got event
+
+07:22
+based, which is industries who have frequent conferences
+
+07:26
+and or networking events. This is a great way to
+
+07:29
+get your hands on people that you don't know from
+
+07:31
+before.
+
+07:31
+To truly appreciate the potential impact of Outreach on your
+
+07:35
+AAA,
+
+07:36
+let's break down some quick napkin math together. This exercise
+
+07:40
+is built to help you understand the power of consistent
+
+07:43
+outreach and its potential of driving revenue.
+
+07:47
+Let's do some cold email math together. Let's break down
+
+07:49
+a hypothetical scenario
+
+07:51
+based on very conservative
+
+07:53
+estimates.
+
+07:54
+Let's pretend we send a thousand emails a day. Out
+
+07:57
+of those 1000 emails,
+
+07:58
+50 percent of them gets opened. That means 500 people
+
+08:01
+open our email. Out of those 500 email, let's pretend
+
+08:05
+we have a 2 and a half percent reply rate.
+
+08:08
+That means we have 12 and a half people reply
+
+08:11
+for every 1000 emails we send them.
+
+08:14
+Out of those 12 replies, some are gonna be negative,
+
+08:16
+some are gonna be no, I don't want it. So
+
+08:18
+let's pretend that 15 percent
+
+08:21
+of these overall replies are positive.
+
+08:24
+This is extremely conservative. We're gonna be talking a lot
+
+08:27
+more about this as we go deeper into the theory
+
+08:29
+modules and that kind of stuff with metrics, but just
+
+08:31
+know that 15 percent positive replies is really conservative.
+
+08:35
+Out of those, we will get 2 booked meetings.
+
+08:38
+If we calculate that we have about a 75 percent
+
+08:41
+show up rate to these actual meetings, we're gonna have
+
+08:44
+1 and a half live demos every single day.
+
+08:47
+Now out of those live demos, not everyone is gonna
+
+08:49
+close. That's the nature. So let's pretend that we have
+
+08:52
+a 20 percent close rate,
+
+08:54
+meaning 1000 emails a day with these metrics,
+
+08:58
+which again are conservative,
+
+08:59
+will lead to 0.3
+
+09:01
+closes
+
+09:02
+a day.
+
+09:04
+You do the math on that. You start sending 10000
+
+09:06
+emails. You're gonna start closing 3 deals a day. There's
+
+09:09
+a lot of work associated with this. We're gonna be
+
+09:12
+covering everything you need to know, but I need you
+
+09:13
+to understand the potential impact that this can have on
+
+09:16
+your triple a. This is a quick little graphic explaining
+
+09:19
+the difference between
+
+09:21
+outreach and video content.
+
+09:23
+Outreach is something you can control. You can choose how
+
+09:26
+many people you email a day. You can choose how
+
+09:27
+many DMs you send a day. This is something you
+
+09:30
+pick and you control.
+
+09:31
+While with content on the other side, it's
+
+09:35
+a lot of the things that happen is not necessarily
+
+09:37
+in your hands. The algorithm might change. Maybe
+
+09:40
+this video doesn't perform as good, which now you suddenly
+
+09:42
+don't have leads. And this is to show you that
+
+09:45
+even if you do have content and other means of
+
+09:49
+acquisition, cold and outreach is a great way of setting
+
+09:52
+up something consistent that you can actually control.
+
+09:55
+Now when we come to the investment versus return, this
+
+09:58
+is playing into the math that we just did and
+
+10:00
+the equation.
+
+10:01
+Assuming there's 20 business days per month, here's what the
+
+10:04
+numbers would look like using the equation above here. We're
+
+10:08
+gonna send 20000 emails a month if we send 1000
+
+10:11
+a day. Right? Which is gonna lead to 6 deals
+
+10:14
+closed
+
+10:15
+every single month,
+
+10:16
+which could be a revenue of 12000 dollars a month.
+
+10:20
+This is calculated at 2000 dollars per deal, so you
+
+10:23
+can replace this with whatever and you do the math.
+
+10:26
+The cost, like anything, there's obviously costs associated with this.
+
+10:31
+Whether that is your time or whether that is money.
+
+10:32
+In this case, it's both. The way this is set
+
+10:34
+up to give you a bit of context is when
+
+10:37
+you're setting up emails, which is this specific example, you're
+
+10:39
+gonna have to pay for your domain 1 year upfront.
+
+10:43
+Meaning the first month is gonna be more expensive than
+
+10:46
+the following 11 months, which is why I'm saying here
+
+10:49
+first month tech cost and then ongoing monthly tech costs.
+
+10:52
+And this is a very rough ballpark just to keep
+
+10:54
+you in the loop. Again, if this doesn't make too
+
+10:56
+much sense now, don't stress about this. This is kinda
+
+10:59
+just to bring you in the loop and then we're
+
+11:00
+gonna go through everything a lot more in detail later.
+
+11:04
+When it comes to the return, when we're looking at
+
+11:06
+these numbers, this is what we're looking at. The first
+
+11:08
+month, we're gonna gain a revenue of 12000
+
+11:11
+dollars minus the money we had to spend, which was
+
+11:14
+260,
+
+11:15
+and we're gonna be left with 11740
+
+11:19
+dollars in profits.
+
+11:20
+There's obviously things we gotta consider here like margins and
+
+11:23
+all that kind of other stuff. But once we're looking
+
+11:25
+at it from an outreach perspective, this is what it
+
+11:27
+could generate me. And for the following 11 months, like
+
+11:30
+we talked about,
+
+11:31
+it would be 11880
+
+11:35
+dollars.
+
+11:36
+And this is considering that every single deal is a
+
+11:39
+1 deal and stop. This is not calculating
+
+11:42
+reoccurring revenue as a deal. Right? This is they pay
+
+11:45
+you 2000 dollars and they don't see you again. So
+
+11:48
+if you start calculating in the reoccurring
+
+11:50
+revenue part of this, this number definitely goes a lot.
+
+11:53
+Right? The lifetime value of a customer.
+
+11:55
+Now a bit of a real check with this is
+
+11:59
+these results
+
+12:00
+represent a well optimized outreach systems and not typical initial
+
+12:05
+outcomes.
+
+12:06
+Much like mastering the triple a model, achieving this level
+
+12:09
+of success
+
+12:10
+requires time,
+
+12:11
+experience,
+
+12:12
+and continuous refinement.
+
+12:14
+Not to mention that you're also gonna have to go
+
+12:16
+through a bit of failure to get to this part.
+
+12:19
+I've been doing this for over 3 years now and
+
+12:21
+I can guarantee you that I've been making a lot
+
+12:24
+of mistakes to actually get to the stage now where
+
+12:27
+I can make it work. Right? I've been making it
+
+12:29
+work for a while but it took me years to
+
+12:31
+actually get there, make the mistakes, and understand everything going
+
+12:34
+on. Since you guys have access to this program, that's
+
+12:37
+gonna massively shortcut
+
+12:39
+how much
+
+12:40
+time you need to actually get to this stage, which
+
+12:42
+is a whole goal of this module and the following
+
+12:44
+modules around Outreach. Right? So pay attention. Make sure you
+
+12:48
+actually learn what we're talking about, not just listen. The
+
+12:51
+next section we're gonna be talking about is warm versus
+
+12:55
+cold audiences.
+
+12:56
+Just as there are multiple channels to choose from,
+
+13:00
+there are also different types of audiences to choose from.
+
+13:04
+Understanding the distinction between warm
+
+13:07
+and cold outreach
+
+13:08
+is crucial for developing effective strategies. Right?
+
+13:12
+In the world of outreach, understanding your audience is crucial
+
+13:15
+and there's 2 main types of outreach. Warm warm outreach
+
+13:19
+is contacting potential clients or customers with whom there is
+
+13:23
+already some form of prior connection.
+
+13:27
+For AAA owners, warm outreach can be particularly powerful in
+
+13:30
+the early stages of your business.
+
+13:32
+It allows you to leverage your existing network,
+
+13:35
+often leading to quicker wins and valuable feedback to refine
+
+13:39
+your offerings
+
+13:40
+that you can then bring to the call audiences.
+
+13:43
+Examples of warm outreach strategies
+
+13:46
+can include
+
+13:47
+previous coworkers,
+
+13:48
+friends, family, or acquaintances,
+
+13:51
+past customers,
+
+13:52
+clients, or referrals,
+
+13:55
+individuals who have engaged with your content or your brand
+
+13:59
+online,
+
+14:00
+or extended network like friends of friends,
+
+14:03
+friends of family, and things like that.
+
+14:06
+When it comes to cold outreach,
+
+14:08
+cold outreach is the process of contacting potential clients
+
+14:12
+or customers with whom you have no prior relationship with.
+
+14:16
+For triple a owners, mastering
+
+14:18
+cold outreach can open doors to significant growth opportunities.
+
+14:23
+It enables you to connect with decision makers
+
+14:26
+who might not be in your existing network but could
+
+14:29
+greatly benefit from your AI solutions.
+
+14:32
+There's always more people out there needing your solution.
+
+14:35
+The truth is you're never gonna know them all. Right?
+
+14:38
+Examples of cold outreach strategies include prospects from a purchased
+
+14:43
+lead list,
+
+14:44
+decision makers at companies in your target market,
+
+14:47
+individuals who fit your ICP ideal customer profile, but haven't
+
+14:52
+interacted with your brand. When it comes to making the
+
+14:54
+decision on this, the outreach decision. Right? Do we pick
+
+14:58
+warm or do we pick cold? Warm outreach typically yields
+
+15:02
+higher responses
+
+15:03
+and conversion rates due to the pre established level of
+
+15:07
+familiarity
+
+15:08
+and trust, which is 2 very important factors when it
+
+15:12
+comes to sales. Right?
+
+15:13
+These connections
+
+15:14
+often lead to more manageable and long term relationship.
+
+15:18
+For those just starting their triple a journey, leveraging warm
+
+15:21
+outreach will provide significant advantages.
+
+15:24
+It's very advisable to begin with warm connections when possible,
+
+15:29
+capitalizing
+
+15:29
+on existing relationships to build momentum as clearly shown in
+
+15:33
+the triple a road map. If you haven't already seen
+
+15:36
+this road map, go back and make sure you watch
+
+15:38
+the video on success formula
+
+15:40
+where Liam explains and talks through the roadmap.
+
+15:44
+Remember, the choice between warm and cold isn't always binary.
+
+15:49
+As you grow your triple a, you likely employ a
+
+15:51
+mix of both strategies,
+
+15:53
+adapting your approach based on your audience
+
+15:57
+and business goals.
+
+15:59
+Outreach in your acquisition strategy.
+
+16:01
+Outreach is a key component
+
+16:03
+of comprehensive acquisition for any AAA.
+
+16:07
+Acquisition is the act of getting a new customer for
+
+16:10
+your business, while acquisition strategy
+
+16:13
+is the plan for consistently
+
+16:16
+attracting and converting new customers to grow your business. When
+
+16:19
+visualizing your overall approach to building your AAA, Outreach fits
+
+16:23
+alongside
+
+16:23
+other elements like content creation, paid advertising, and networking.
+
+16:28
+If you haven't already, be sure to review the AAA
+
+16:30
+roadmap, which provides a visual representation
+
+16:33
+of this concept.
+
+16:34
+Here is what it looks like. Again, if you haven't
+
+16:37
+already watched
+
+16:38
+the success formula video from Liam where he thoroughly goes
+
+16:42
+through this document,
+
+16:44
+make sure to watch that. Well, here you can see
+
+16:46
+Outreach starts over here while simultaneously
+
+16:50
+starting to make the content to generate inbound leads.
+
+16:53
+That's all I'm gonna show, so make sure to go
+
+16:56
+watch that video if you haven't already.
+
+16:58
+In the world of triple a, outreach serves 2 primary
+
+17:02
+functions, testing
+
+17:04
+and scaling.
+
+17:05
+Understanding how to leverage these aspects can significantly impact your
+
+17:08
+business growth. Testing. Before investing heavily into a new offer,
+
+17:13
+niche, or channel,
+
+17:14
+Outreach allows you to validate your educated
+
+17:17
+assumptions
+
+17:19
+and gather real world feedback.
+
+17:22
+By conducting targeted outreach campaigns, you can test your messaging,
+
+17:26
+pricing, and positioning.
+
+17:29
+This process enables you to refine your approach based on
+
+17:32
+actual responses from your target audience.
+
+17:35
+Testing is the process of validating your business assumptions,
+
+17:39
+offers, and messaging through targeted outreach campaigns before
+
+17:43
+committing significant resources to it. For AAA owners, this testing
+
+17:48
+phase is invaluable.
+
+17:50
+It allows you to fine tune your AI solutions and
+
+17:53
+ensure they truly resonate with your potential clients before committing
+
+17:57
+significant resources to a particular
+
+18:00
+direction.
+
+18:01
+This is a very important step
+
+18:03
+that a lot of people overlook.
+
+18:05
+So we've been talking a lot about niches. We've been
+
+18:07
+talking a lot about offering. And the name of the
+
+18:09
+game when it comes to this is that it's all
+
+18:11
+about testing.
+
+18:12
+You don't have to brand your whole brand and image
+
+18:15
+and company into 1 industry, 1 offer, 1 service. The
+
+18:19
+idea of this is that we get to test different
+
+18:21
+things to see what sticks,
+
+18:24
+and then we can draw conclusions and brand ourselves or
+
+18:27
+commit ourselves accordingly. Right?
+
+18:29
+When it comes to scaling,
+
+18:31
+once you have validated your approach and found a winning
+
+18:34
+formula or strategy,
+
+18:36
+Outreach becomes a
+
+18:38
+very powerful tool for scaling your business because you can
+
+18:42
+reliably increase your results
+
+18:44
+by expanding your outreach efforts, giving you a level of
+
+18:47
+control that these other channels might not offer.
+
+18:51
+With other channels, I'm referring to things like content creation.
+
+18:54
+Right?
+
+18:55
+And scaling is the strategic
+
+18:58
+expansion of successful outreach efforts
+
+19:00
+to reliably increase results
+
+19:03
+and grow your AAA business. Unlike platforms where your account
+
+19:06
+can be suspended
+
+19:08
+or algorithms could change, like social media or advertising platforms,
+
+19:12
+your ability to conduct outreach is a skill that cannot
+
+19:16
+be taken away from you. This is a very important
+
+19:20
+thing.
+
+19:20
+Outreach and the skills you learn around it can never
+
+19:23
+be taken away from you. It's a extremely valuable skill.
+
+19:26
+We're gonna talk a lot more about this later once
+
+19:28
+we get into the theory module, but just know that.
+
+19:32
+This makes it a particularly valuable asset for triple a
+
+19:35
+owners looking to build a stable long term growth strategy.
+
+19:40
+Strengths and weaknesses
+
+19:42
+of outreach.
+
+19:43
+Just like any business strategy, outreach has its own set
+
+19:47
+of strategies
+
+19:48
+and weaknesses.
+
+19:50
+Understanding these can help you leverage outreach effectively
+
+19:53
+in your AAA journey.
+
+19:55
+When it comes to strengths,
+
+19:57
+outreach has something very particular like scalability.
+
+20:01
+It's very easy to expand
+
+20:03
+by adding more accounts
+
+20:05
+or implementing automations.
+
+20:07
+It's very cost effective once you get it to work,
+
+20:11
+lower expenses compared to traditional
+
+20:13
+advertising,
+
+20:15
+time efficient,
+
+20:16
+reach a lot of prospects
+
+20:19
+quickly with templated approaches and softwares that help you do
+
+20:22
+things.
+
+20:23
+Trackable,
+
+20:24
+you get very clear metrics for measuring and improving your
+
+20:28
+campaign's performance.
+
+20:30
+Systematized,
+
+20:31
+it scales well with automations and as you go on
+
+20:34
+and refine the processes.
+
+20:36
+Targeted
+
+20:37
+allows for highly personalized communication and you can target whoever
+
+20:41
+you want. You can tell YouTube to show your video
+
+20:44
+to a specific person,
+
+20:46
+but if you outreach to them, you can send them
+
+20:49
+a message, meaning they're gonna be the 1 seeing it.
+
+20:52
+Relationship building enables trust development with potential goods customers.
+
+20:57
+Insightful.
+
+20:58
+It provides feedback
+
+21:00
+to refine our offer and positioning in every other part
+
+21:03
+of our business. As I said, like with everything, there's
+
+21:06
+gonna be weaknesses here too. Regulated, it's subject to legal
+
+21:10
+restrictions and compliance issues depending on location.
+
+21:13
+Delayed feedback, results may take time to materialize.
+
+21:18
+Data dependence
+
+21:20
+relies on quality
+
+21:21
+and accuracy of lead information.
+
+21:24
+Meaning, if you mess up the lead gathering,
+
+21:27
+you might think your offer didn't work, but because your
+
+21:30
+leads were bad, that's why no 1 answered your email.
+
+21:32
+This is something we're gonna dive a lot deeper into
+
+21:35
+when it comes to troubleshooting, how to fix, what to
+
+21:37
+fix, looking at metrics, all that good stuff. But I
+
+21:40
+just want you to know that this is 1 of
+
+21:41
+the weaknesses.
+
+21:43
+Potentially intrusive
+
+21:45
+can be seen as unwelcome
+
+21:47
+by some recipients.
+
+21:48
+Variable response rates
+
+21:51
+may have lower engagement
+
+21:53
+than the other channels like inbound YouTube, LinkedIn, that kind
+
+21:56
+of stuff.
+
+21:57
+Time intensity.
+
+21:59
+It requires effort
+
+22:00
+for research and personalization and not to mention getting started
+
+22:04
+and learning the skills for making this work.
+
+22:07
+Resistance risk may face negative reactions,
+
+22:11
+if not value focus, which is something we're gonna be
+
+22:14
+talking a whole lot about later.
+
+22:17
+Skill dependent, which is
+
+22:19
+effectiveness,
+
+22:21
+relies on outreach expertise and writing skills.
+
+22:24
+This is
+
+22:25
+a lot of the time not something you can just
+
+22:27
+put together and it works. You have to actually understand
+
+22:30
+everything to make it work, which is what this whole
+
+22:33
+module is about, helping you understand it so you can
+
+22:35
+make something good. Types of outreach strategies. Within the channels
+
+22:39
+we discussed earlier, there are various strategies you can employ
+
+22:43
+depending on your audience and goals.
+
+22:45
+Let's explore some effective approaches
+
+22:48
+for your triple a outreach.
+
+22:50
+Value first approach,
+
+22:52
+which is where you offer a small piece of actionable
+
+22:55
+advice or lead magnet
+
+22:58
+demonstrating your expertise
+
+23:00
+and the potential value of working with your company.
+
+23:04
+Number 2 is straight shooter.
+
+23:07
+Explain your service clearly and concisely,
+
+23:10
+then ask directly
+
+23:12
+for a meeting.
+
+23:13
+This no nonsense approach can be refreshing for busy decision
+
+23:17
+makers who appreciate getting to the point quickly,
+
+23:20
+which is particularly applicable for an industry that is very
+
+23:24
+competitive where they might get a lot of outreach messages.
+
+23:28
+Number 3 is personalized video content.
+
+23:31
+Use tools like Loom to create custom messages
+
+23:35
+or quick demos of potential AI solutions
+
+23:38
+tailored to specific prospects.
+
+23:40
+This personal touch can help you stand out and demonstrate
+
+23:44
+your understanding
+
+23:45
+of their unique needs.
+
+23:47
+It also shows that you've taken the time unlike everyone
+
+23:50
+else to actually look into them and see what they
+
+23:52
+would need, hence, you're coming up with this idea for
+
+23:55
+them.
+
+23:57
+Problem solution pitch which is number 4.
+
+24:00
+Identify a specific problem within the prospect's industry
+
+24:04
+or business and then briefly outline
+
+24:07
+how your AI can address the issue.
+
+24:10
+Remember, these strategies aren't mutually exclusive.
+
+24:13
+You can combine them for maximum impact. There is no
+
+24:17
+limits here. The key to stand out is consider what
+
+24:20
+would resonate most with your specific audience.
+
+24:25
+This is something we're gonna talk a lot more about
+
+24:27
+where audience
+
+24:28
+and market research is the fundamental
+
+24:31
+or it's the fundament of building everything in terms of
+
+24:34
+your acquisition strategy and terms of your outreach strategy.
+
+24:37
+And something I've seen work really well over the last
+
+24:39
+couple of years that always tends to work well is
+
+24:42
+pairing 3 of these together.
+
+24:44
+It is value first approach, personalized video content, and problem
+
+24:48
+solution pitch.
+
+24:50
+1 of the things you can do is if you
+
+24:52
+find out a company is using a specific platform,
+
+24:55
+that might expose them to a specific problem that you
+
+24:58
+can fix.
+
+24:59
+The approach here is that you're giving them value or
+
+25:03
+a lead magnet that could fix the problem you've identified
+
+25:06
+within this company,
+
+25:07
+and you give it to them in a personalized video.
+
+25:10
+So you kinda marry 3 of these together, which is
+
+25:13
+always something that's worked well. The problem with this is
+
+25:15
+it takes a lot of manual effort. You have to
+
+25:17
+research them, find the problems,
+
+25:19
+make the lead magnet if you don't already have it,
+
+25:21
+and then record the video.
+
+25:23
+And in betweener when it comes to this that a
+
+25:25
+lot of people are using nowadays to be able to
+
+25:27
+scale their outreach and do automatically
+
+25:29
+without putting all this manual effort while still being able
+
+25:32
+to have some sort of personal
+
+25:34
+relevant
+
+25:35
+element is we'll reach out to people and we'll say,
+
+25:39
+because you were using HubSpot, I see you have this
+
+25:41
+specific problem.
+
+25:42
+I recorded you a video on how I can fix
+
+25:45
+the problem, which is the value first approach. Right? We're
+
+25:47
+saying that I see you have this problem. I'd love
+
+25:49
+to fix it for you. I recorded you a video
+
+25:51
+on how you can fix it.
+
+25:53
+And we're saying we recorded you the video. Would you
+
+25:56
+want me to send it? And we don't actually prerecord
+
+25:58
+anything, but when they reply yes, we will sit down
+
+26:01
+and record the video. That way we don't waste any
+
+26:03
+time recording any videos for people who wouldn't see the
+
+26:06
+message or be interested. Right?
+
+26:08
+This is something we're gonna talk a lot more about.
+
+26:10
+Just wanted to kinda put that in here because it
+
+26:11
+suits with the outreach strategies and how they marry together.
+
+26:15
+Now looking ahead, before we move on to the next
+
+26:18
+video, let's recap the key concepts we've covered in this
+
+26:21
+introduction
+
+26:22
+to outreach
+
+26:24
+and outline what's coming up next in your journey to
+
+26:27
+master outreach for your triple a. The key takeaways are
+
+26:31
+outreach is a critical skill for triple a owners, enabling
+
+26:34
+you to connect with potential clients and grow your business.
+
+26:39
+The outreach equation demonstrates the potential impact of ROI and
+
+26:43
+consistent outreach efforts and shows that we would end up
+
+26:46
+with 11880
+
+26:48
+dollars if we do it right for 11 months straight.
+
+26:51
+Without any reoccurring revenue or anything, you can go back
+
+26:54
+out. You can change out the numbers to make sense
+
+26:56
+for you later and you can do the math yourself.
+
+26:59
+Understanding the difference between warm and cold outreach helps you
+
+27:03
+tailor your approach to different audience types, and
+
+27:06
+number 4 is outreach serves dual functions in your outreach
+
+27:10
+strategy. It's for testing new offers
+
+27:13
+and
+
+27:14
+scaling what works.
+
+27:17
+Last key takeaway here is effective outreach strategies have a
+
+27:20
+balance between various factors including personalization,
+
+27:24
+value first approaches, and clear communication.
+
+27:27
+This is something we're gonna be talking massively more about
+
+27:30
+but it's good to have the foundational understanding of this.
+
+27:33
+In the next video, we'll deep dive into outreach theory,
+
+27:36
+exploring the fundamental principles that underpin
+
+27:40
+successful outreach campaigns.
+
+27:42
+We'll cover research methods,
+
+27:44
+which is how you gather crucial information about your audience
+
+27:48
+and industry,
+
+27:49
+which as I said earlier, this is gonna build the
+
+27:52
+whole foundation
+
+27:53
+to your outreach strategy.
+
+27:55
+It is like pouring the concrete is doing the outreach.
+
+27:58
+It is very very important.
+
+28:00
+Secondly, we're gonna dive into messaging strategies.
+
+28:03
+Techniques for crafting compelling messages that resonate with your prospects,
+
+28:08
+different outreach
+
+28:10
+frameworks, which is proven structures for building effective outreach campaigns,
+
+28:15
+personalization
+
+28:16
+techniques
+
+28:17
+which is methods to tailor your outreach for potential impact.
+
+28:21
+This is 1 of the I wanna say 1 of
+
+28:24
+the more overlooked things in 20 24.
+
+28:26
+Because AI is getting so fresh, there's a lot of
+
+28:28
+tools and techniques out there that you can use to
+
+28:31
+not really spend a lot of time and do automatically.
+
+28:34
+Therefore,
+
+28:34
+if you don't personalize,
+
+28:36
+you have no chance of standing out. Nowadays, personalization
+
+28:40
+is a absolute must in our reach. It plays into
+
+28:43
+everything we do. With emails, it plays into deliverability and
+
+28:47
+making sure our emails are unique and not landing in
+
+28:49
+spam.
+
+28:50
+It also plays into how many replies we're getting, positive
+
+28:53
+replies. It also plays into if people put us in
+
+28:56
+spam or not. It plays into if people close over
+
+28:58
+time because if people just are interested in our firm
+
+29:01
+but so we did no personalization, they're gonna be less
+
+29:03
+willing to close over time. They might be more warm
+
+29:05
+if we took the time to research them or at
+
+29:07
+least it seems that way. So personalization techniques is very
+
+29:10
+very important and we're gonna cover a lot on that
+
+29:13
+too.
+
+29:13
+Metrics and analysis.
+
+29:15
+The last part we're gonna cover in the next video
+
+29:17
+here is how to measure and optimize your outreach performance.
+
+29:22
+This deep dive into outreach theory will provide you with
+
+29:25
+the knowledge
+
+29:26
+and tools
+
+29:27
+to create outreach campaigns that capture attention,
+
+29:30
+provide value, and actually drive results for your triple a.
+
+29:35
+Now let's get ready to take your outreach skills to
+
+29:37
+the next level.

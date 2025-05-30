@@ -1,13 +1,9 @@
 import os
 import re
-import fitz  # PyMuPDF
 import pytesseract
 from PIL import Image
 import tempfile
-import cv2
-import numpy as np
-from PyPDF2 import PdfReader
-from pdfminer.high_level import extract_text as pdfminer_extract
+
 
 def clean_text(text):
     """
@@ -31,6 +27,12 @@ def extract_text_from_files(uploaded_files):
     - Full concatenated cleaned text
     - List of filenames (used for logging)
     """
+    import cv2
+    import numpy as np
+    import fitz
+    from PyPDF2 import PdfReader
+    from pdfminer.high_level import extract_text as pdfminer_extract
+
     full_text = ""
     filenames = []
     ocr_config = '--psm 3 --oem 3'
@@ -127,3 +129,8 @@ def extract_text_from_files(uploaded_files):
                 full_text += f"[ERROR reading image {uploaded_file.name}: {e}]\n"
 
     return full_text.strip(), filenames
+
+def process_file(file):
+    """Wrapper to support single-file usage via existing bulk extractor."""
+    text, _ = extract_text_from_files([file])
+    return text, file.name

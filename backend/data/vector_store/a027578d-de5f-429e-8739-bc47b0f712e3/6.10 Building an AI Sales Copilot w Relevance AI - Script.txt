@@ -1,0 +1,2630 @@
+Transcript
+Search
+
+00:01
+And so what I've done is put together a big
+
+00:03
+Figma board here, which is gonna be breaking out all
+
+00:04
+these different builds. So under here, there's some goodies. You
+
+00:06
+see, oh, 0, there's some goodies under each of these
+
+00:09
+that I've put together, and we're gonna go through them
+
+00:11
+1 by 1, starting off with agent 1 over here.
+
+00:13
+I mean, there's a lot of stuff here, that you
+
+00:15
+guys are gonna get. So you'll get the whole Figma,
+
+00:17
+and it includes all of the templates. So if you
+
+00:19
+do wanna just kinda watch through this, pick it up,
+
+00:21
+you can either do it and follow it step by
+
+00:22
+step with me and see how I build and really
+
+00:24
+build those flexible skills that you're gonna need to succeed
+
+00:27
+in this space. Or you can just watch it and
+
+00:29
+be like, okay. I kinda get what he's doing and
+
+00:31
+then take all the templates from me at the end.
+
+00:33
+That's, I mean, completely up to you. Depends if you
+
+00:35
+wanna be a really, really nerdy builder about it and
+
+00:37
+get into the weeds like like I like to do,
+
+00:39
+or you just wanna be like, hey. I wanna do
+
+00:41
+this in my business. I wanna roughly understand how these
+
+00:43
+things work and what platform.
+
+00:45
+So use this resource as you will, but we're gonna
+
+00:46
+jump into agent build number 1 here, which is our
+
+00:49
+sales copilot built with relevance AI. So running through this
+
+00:53
+quickly, we have the purpose of this. This is basically
+
+00:55
+gonna look a bit like this. It's gonna be a
+
+00:57
+Copilot and Copilot's work and that you have a,
+
+01:00
+it's basically a specific
+
+01:02
+AI agent that you build for a specific staff or
+
+01:04
+staffing role. So say, in this case, it's gonna be
+
+01:06
+a sales Copilot.
+
+01:08
+It'd be the thing that the sales rep uses to,
+
+01:11
+in their day to day as they're working on their
+
+01:13
+jobs. So you can add tools. Like, in this case,
+
+01:15
+you see we're going to have 3 different tools here
+
+01:17
+for our agent. One's gonna be a company researcher tool.
+
+01:19
+So this is when the sales rep would be like,
+
+01:21
+hey. Oh, I have a call coming up soon. Let's
+
+01:23
+put on this I need to research this company because
+
+01:25
+this is who I'm gonna be on a call with.
+
+01:27
+So they'll put in the company URL. This tool that
+
+01:29
+we're gonna create is gonna go and research that company.
+
+01:31
+It's gonna bring back and give a summary. And then
+
+01:33
+it's like, okay. Well, this is the LinkedIn URL of
+
+01:34
+the person that we're going to be I got on
+
+01:36
+a call shortly. It's gonna pass in the LinkedIn URL.
+
+01:39
+It was going to take that URL. It's gonna pull
+
+01:41
+all the information and write a summary about the person.
+
+01:42
+So now we have the company summary and we have
+
+01:44
+the person summary. And the final step here is gonna
+
+01:47
+be what I'm calling a pre call reports generator, and
+
+01:49
+that's gonna take both that company and prospect research that
+
+01:52
+we've done. It's gonna combine them together and be for
+
+01:55
+the specific company as you're going to see that this
+
+01:57
+hypothetical company we're building the sales copilot for.
+
+02:01
+It's gonna generate a basically, a pre call report or
+
+02:03
+a strategy,
+
+02:04
+a strategy prep for the sales rep so that they
+
+02:06
+go into those calls much more prepared and also
+
+02:09
+sort of a personalized guide on how to try to
+
+02:11
+close this person. So,
+
+02:13
+all of these templates are gonna be here. Each of
+
+02:15
+these are templates for the tools, and this is for
+
+02:17
+the agent as well.
+
+02:19
+But here's some more information. You guys can pick through
+
+02:21
+this as you wish, but, this is the kinda end
+
+02:23
+result, and we're gonna be able to chat to it.
+
+02:24
+And this would be something you could build for a
+
+02:26
+client. You could build it for your own business, or
+
+02:28
+you could just tinker around. You could build Copilot like
+
+02:30
+this on relevance for yourself. So that's why I wanted
+
+02:32
+to start with relevance because it also is a platform
+
+02:34
+that we can build these tools on. So it's a
+
+02:36
+really, really good 1 to start with, and let's get
+
+02:38
+into it. So the first step, of course, is to
+
+02:40
+go to Relevance AI. So I'll put a little link
+
+02:41
+up here. You guys be able to get this Figma.
+
+02:43
+It'll be on the school. All of the information and
+
+02:45
+all the resources for this are gonna be like, this
+
+02:47
+Figma is gonna be linked to the school, my free
+
+02:49
+school community, if you haven't already joined. Joined. Biggest AI
+
+02:51
+community on school. Biggest AI business
+
+02:54
+community probably in the whole world.
+
+02:56
+So we can jump across that first thing in the
+
+02:58
+description. You'll be able to find this in the YouTube
+
+02:59
+resources section.
+
+03:01
+Pretty straightforward. Of course, when you click on this, it's
+
+03:03
+gonna ask you to log in to Relevance. So if
+
+03:05
+you haven't already, you can make an account.
+
+03:07
+It's fairly low cost. They have a a free plan
+
+03:09
+and then a Teams plan, I believe. So it's not
+
+03:11
+too much. But then there's a really, really valuable tool
+
+03:13
+as you're gonna see. So you can assign in here.
+
+03:16
+I'm gonna jump in with my
+
+03:18
+Google account. Account. There may be a bit of setup
+
+03:20
+for your account, but I'm sure you guys are smart
+
+03:21
+enough to figure out how to set up an account.
+
+03:23
+I'm sure Relevance also makes it easy enough. So then
+
+03:25
+we get taken to this dashboard, but we see on
+
+03:27
+this left hand side, we have tools. So these are
+
+03:29
+the tools that I've talked about, where it's some kind
+
+03:31
+of functionality that we can create, and we can build
+
+03:33
+it all on relevance. No code, and there's even sort
+
+03:36
+of extensibility, or you can add more functionality
+
+03:39
+into relevance by adding some low code components or even
+
+03:41
+custom code. So relevance is a really great base for
+
+03:43
+building not only tools, but but then the agents that
+
+03:46
+you can connect that into. And we're gonna use the
+
+03:47
+same relevance tools that we make now in multiple of
+
+03:50
+the different agents that I'm gonna make for the rest
+
+03:51
+of this video. So first things first, if we go
+
+03:53
+back to the Figma here, we see we need to
+
+03:54
+make 3 different tools. So tool 1 is company researcher.
+
+03:57
+It's gonna take in a company URL. It's gonna search
+
+03:59
+the web, and it's gonna return a summary. So that's
+
+04:02
+the functionality we need. Let's go and create a new
+
+04:05
+tool. Gonna call this, research company. We can give it
+
+04:08
+a cool little I'm gonna zoom this up for you
+
+04:11
+guys. Hopefully, Hopefully, that's the right
+
+04:14
+size.
+
+04:15
+Search.
+
+04:17
+Have fun with this stuff, guys. I can if it's
+
+04:19
+putting stupid emojis on things to to enjoy it, then
+
+04:21
+then that's what you need to do. Like,
+
+04:24
+if you make it a chore, it's gonna feel like
+
+04:25
+a chore. Right? Now we get to descriptions. This is
+
+04:28
+something we're gonna see recurring. But basically, as as you
+
+04:30
+know, as we learned in the concept section, we need
+
+04:33
+to have natural language descriptions of our tools and of
+
+04:36
+our APIs so that the agent's gonna read those descriptions
+
+04:39
+and understand,
+
+04:40
+what the agent or what the tool does and what
+
+04:42
+those different parts does. So you'll see this recurring throughout
+
+04:44
+this. But first things first, what does this research
+
+04:47
+company tool do?
+
+04:49
+Takes in oh, my caps lock on.
+
+04:52
+Takes,
+
+04:53
+and there's also some tutorials here if you wanna go
+
+04:56
+deeper. Relevance has some great documentation as well.
+
+04:58
+But takes in
+
+05:01
+a company
+
+05:03
+Penny.
+
+05:06
+URL and
+
+05:08
+scrapes
+
+05:09
+their
+
+05:10
+website,
+
+05:11
+then
+
+05:12
+returns a summary,
+
+05:15
+an AI generated
+
+05:17
+summary. So then to build a tool, we need to
+
+05:19
+have some kind of input. You don't always need an
+
+05:21
+input. It can just be triggering. But generally, you're gonna
+
+05:23
+have some kind of input that the agent needs to
+
+05:24
+pass into the tool. In this case, to research company,
+
+05:27
+it's going to need to take in some text, which
+
+05:29
+is gonna be a URL.
+
+05:31
+We're gonna say,
+
+05:32
+com
+
+05:33
+company URL.
+
+05:36
+And then again, here we have another description. You see?
+
+05:38
+Describe how to fill this input. This is again going
+
+05:40
+to help our agent within Relevance AI and elsewhere as
+
+05:44
+you'll see in tutorial number 4, why this is so
+
+05:46
+important to add in the descriptions right. So this is
+
+05:50
+a u,
+
+05:52
+URL for a company
+
+05:54
+to be researched
+
+05:57
+must be in the format
+
+06:00
+h t t p s colon slash slash dot
+
+06:06
+dot dot dot. So we need to have the h
+
+06:08
+t t p s for this to work. So that's
+
+06:10
+gonna be our input. Now if this seems a bit
+
+06:12
+confusing, just stick with me. It will make sense in
+
+06:13
+a second. This stuff if there's anything that I've learned
+
+06:16
+from picking up so many different tools, like when I
+
+06:18
+first got into Facebook ads, when I've got into building
+
+06:20
+these kinds of agents, and so you feel completely overwhelmed,
+
+06:22
+but that's all just part of the process. And what
+
+06:24
+feels difficult now is not gonna feel difficult forever, so
+
+06:27
+just please stick with me. And it's a really, really
+
+06:29
+great feeling once you go and be like, this was
+
+06:31
+hard a few weeks ago, and now it's really easy.
+
+06:33
+So we've got our first input. That's what the research
+
+06:36
+company tool is gonna do, and then we need to
+
+06:38
+define our steps. So the next step, we can go
+
+06:40
+add I'm gonna hide this so we get a bit
+
+06:42
+more space. Add step. Now the cool thing about relevance
+
+06:44
+is that it comes with a lot of great functionality
+
+06:47
+out of the box. Here's 1, extract website content. We
+
+06:50
+have LLMs. We have Google searching. We have all sorts
+
+06:53
+of AI generations, replicate
+
+06:56
+knowledge bases as well. There's so much cool stuff on
+
+06:58
+here, and this is why I really rate Relevance as
+
+07:00
+1 of the best platforms. If you were to go
+
+07:02
+all in and want to upskill, you can build so
+
+07:04
+much on this. So I'm a big fan, and I
+
+07:07
+love the the Relevance team and
+
+07:08
+what they're doing. So the initial plan for this build,
+
+07:10
+I was going to use the extract website content, which
+
+07:13
+is fully straightforward. We can say oh, 1 other thing.
+
+07:16
+The company URL, we are going to be using this
+
+07:18
+company URL throughout our tool here. So we can change
+
+07:21
+this text to say something more descriptive. So company,
+
+07:25
+underscore u u
+
+07:27
+URL. You guys are gonna gonna think like think and
+
+07:29
+write like code is now because you need to, use
+
+07:31
+some kind of syntax and use some kind of variable
+
+07:33
+naming convention. This is a a standard 1. Or you
+
+07:36
+can do things like company
+
+07:38
+URL camel case, but I prefer this format as a
+
+07:41
+I'm I'm mainly a Python kind of guy myself. Now
+
+07:43
+that we have that named, we can use it in
+
+07:44
+these kinds of, fields. So here you can see it
+
+07:46
+pops up user inputs. So, basically, when this tool is
+
+07:49
+run, it's gonna take the inputs or the information we
+
+07:51
+put in the inputs, and it's gonna pass it to
+
+07:53
+different steps and use them as we describe within the
+
+07:56
+within the builder here. So let's run this quickly. Let's
+
+07:58
+put in, my company, h t t p
+
+08:01
+s slash slash more
+
+08:03
+mornings dot a I,
+
+08:07
+and then we can click,
+
+08:09
+run
+
+08:10
+here. So that's gonna go to my website and scrape
+
+08:13
+the information off of it.
+
+08:15
+There we go. So it's got all of this,
+
+08:18
+but you see it's just pulling back the first page.
+
+08:21
+And this is why I actually I shuffled this around,
+
+08:23
+and I wanna show you guys how to do something
+
+08:25
+a bit more advanced. I know this is supposed to
+
+08:26
+be a beginner tutorial, but this is not really that
+
+08:29
+useful. And I it's a very easy thing for me
+
+08:31
+to just bump this up to a little bit more
+
+08:33
+valuable. While relevance tool here is great, we can do
+
+08:35
+better. So we're actually gonna delete this.
+
+08:39
+You can use that step for all sorts of other
+
+08:40
+things, but I really like what's called
+
+08:44
+Firecrawl.
+
+08:45
+Firecrawl
+
+08:46
+Firecrawl web scraper.
+
+08:48
+This is a cool app,
+
+08:50
+Firecrawl
+
+08:51
+dot dev. Shout out to the guys at Firecrawl. Basically,
+
+08:53
+if we then go h c d oh, let's just
+
+08:55
+see if they can do it. Morning side
+
+08:58
+dot hi.
+
+09:00
+And they'll do a free scrape for us here.
+
+09:03
+So this is just going to do the single URL
+
+09:05
+just like we got in relevance. But the difference here
+
+09:08
+is if we could then go
+
+09:09
+to crawl,
+
+09:11
+if you hover over this, it's gonna crawl a URL
+
+09:13
+and all of its accessible sub pages outputting the content
+
+09:16
+from each page. So instead of just taking that front
+
+09:18
+page, it's actually gonna crawl through multiple things. So this
+
+09:20
+is really
+
+09:21
+the first cool thing or or first skill that I
+
+09:23
+wanna put in your tool belt is that you have
+
+09:25
+things like Firecore that you can use to relevance. They
+
+09:27
+have things like map, which is just gonna output all
+
+09:29
+the URLs that it finds. And there's other things here
+
+09:31
+where you can use AI to extract data. I'm not
+
+09:33
+gonna go into that. But what we want is this
+
+09:35
+crawling functionality
+
+09:36
+from FireCrawl. So I'll put a link in on the
+
+09:38
+school post that comes with this video. It'll again, first
+
+09:40
+link in description to go to the school. And if
+
+09:42
+you go to the YouTube resources section,
+
+09:44
+there will be a, a whole post on this and
+
+09:47
+all the resources will be in there. It'll also be
+
+09:49
+in my free course on school as well. So you
+
+09:51
+can find it in the classroom section.
+
+09:53
+So you wanna sign up to Firepool so you can
+
+09:55
+get API key. It's very easy. We can just go
+
+09:57
+through with Google. Again, this is not sponsored. There's
+
+10:00
+0 sponsoring going on through any of these tools. I
+
+10:02
+guess I'm kind of sponsoring my own tool because I'm
+
+10:04
+putting it at the end, but I'm not getting paid
+
+10:05
+a dime for this. I'm really just trying to put
+
+10:07
+you guys on what I like to use, what's made
+
+10:09
+me money, what's made me a more valuable
+
+10:11
+AI automation,
+
+10:13
+expert or developer, for my companies and for the companies
+
+10:15
+you work with.
+
+10:17
+Continue, and then you get to the dashboard here. Here.
+
+10:19
+Might look a bit scary, but what you can do
+
+10:20
+is go to the API keys. So you can click
+
+10:22
+on create an API key here.
+
+10:24
+YouTube.
+
+10:26
+I'm having issues with mine. It should be fine for
+
+10:28
+you. I've already got an API key. But once you
+
+10:29
+get the API key, what you can do is take
+
+10:31
+it and come back here to relevance,
+
+10:34
+And you can go into the side panel here. Where
+
+10:36
+is it? Settings.
+
+10:38
+And then we have our API key. So we're gonna
+
+10:40
+need to add more into this later, so keep an
+
+10:41
+eye on this. This is something you need to be
+
+10:43
+familiar with.
+
+10:44
+And you can scroll down to fire FireCrawl and you
+
+10:46
+just pop it into this FireCrawl API key section here
+
+10:49
+and you're good to go. And you can come back.
+
+10:51
+Oh, no, we don't wanna duplicate that.
+
+10:55
+Now we've got our FireCrawl set up. We need to
+
+10:57
+make a couple of things. We need to do a
+
+10:59
+couple of tweaks here. We have, of course, the if
+
+11:02
+you want to get those variables up, we can go
+
+11:04
+bracket bracket,
+
+11:05
+or or curly bracket curly bracket, which is shift, to
+
+11:08
+get those. I don't know why it's not popping up.
+
+11:11
+There we go, company URL. And if we hover over
+
+11:13
+this, we can see it says scrape the provided URL
+
+11:15
+only. Uncheck if we want to crawl instead. So if
+
+11:17
+we want to get that crawl functionality that we just
+
+11:19
+saw, that we think we want, to get all the
+
+11:21
+data, we can, uncheck it.
+
+11:25
+And then we want to extract the main content. So
+
+11:28
+you might have to just trust me on that 1
+
+11:29
+that we don't wanna have all of the other rubbish.
+
+11:31
+We just want the body of the website.
+
+11:33
+A number of pages, we don't want this to take
+
+11:34
+too long. You can expand this much more, but I'm
+
+11:37
+just gonna go for, say 5 for now just to
+
+11:39
+keep it quick.
+
+11:43
+And then now what we can do is run this
+
+11:45
+again. We've still got my URL up here. We can
+
+11:47
+go run step.
+
+11:50
+Give it a second. You will at some point have
+
+11:52
+to pay FireCrawl. Of course, it's not a free service,
+
+11:54
+but they do have a free plan, so you should
+
+11:55
+have no issues with getting that. So here you can
+
+11:57
+see we're getting a lot more data back from this
+
+11:58
+web scrape than we were with just the relevance version,
+
+12:01
+which is great. So the next step is we have
+
+12:03
+this data. We want to generate some kind of research
+
+12:05
+summary,
+
+12:06
+so that we can send that to our sales rep
+
+12:08
+once they have, requested it. So now it gets into
+
+12:10
+the fun part of writing LLM prompts. For this 1,
+
+12:14
+sometimes you need to really go and and make a
+
+12:16
+big effort, which we are going to do later as
+
+12:18
+you'll see. But in this case, we just want a
+
+12:20
+quick summary. I'm gonna throw 1 in here that I
+
+12:21
+made earlier. All of this will be available on the
+
+12:23
+Figma or it'll be given somewhere in the resources. Alright?
+
+12:25
+But, we just need something quick and dirty here. It's
+
+12:28
+not really a massive part of the project, so it's
+
+12:30
+okay to just whack 1 in there. So, bang, I've
+
+12:31
+got it in there. Can you please take this website
+
+12:33
+content and summarize it into a 300 word natural language
+
+12:36
+summary, which clearly outlines
+
+12:37
+where they're based, their values, etcetera. Anything that will be
+
+12:40
+helpful to know for a sales rep, we'll soon be
+
+12:41
+on a call with them. Break into key areas like
+
+12:44
+overview, products and services team, etcetera. And I've got a
+
+12:46
+couple of things here to make sure that it doesn't,
+
+12:48
+mess up, which I I was doing for me a
+
+12:49
+bit in testing. So, we do want to put in
+
+12:52
+if we go curly bracket curly bracket, we want to
+
+12:54
+put in the file called data here, which is gonna
+
+12:56
+be, all the website data that came back from our
+
+12:59
+scrape. We want to then insert it into this prompt
+
+13:01
+here. So I hope you're starting to the things in
+
+13:02
+your e cogs and your brain are starting to click
+
+13:04
+into gear here, and then we get to select the
+
+13:06
+model. For this, it's pretty basic task, so I want
+
+13:08
+something quick and cheap.
+
+13:10
+For many of you, it's gonna be easiest to work
+
+13:11
+with the OpenAI APIs because you probably already played around
+
+13:14
+with your API key before, which I'll show you how
+
+13:16
+to do in a second. But let's go with GPT
+
+13:18
+4 0 Mini, but Relevance, of course, does have support
+
+13:20
+for all of,
+
+13:22
+the other models. But my tendency for most tasks now
+
+13:24
+is to actually go for some of the Google models
+
+13:26
+that have come out. Again, you guys might be watching
+
+13:28
+this in a year or whatever. It might be quite
+
+13:29
+different. But at the moment, Google is really leading the
+
+13:32
+way with making the cheapest models possible, and they're actually
+
+13:35
+really good as well. The the price decrease on using
+
+13:37
+things like, Google Gemini Flashlight and Google Gemini Flash 2
+
+13:41
+and stuff like that, it's ridiculously cheap, and it's also
+
+13:43
+a really good model. So it's a bit more difficult
+
+13:45
+to get APIs on the Google side. I'm just gonna
+
+13:47
+stick with OpenAI for this tutorial. So let's go g
+
+13:49
+p t 4 0 many, and then we need to,
+
+13:51
+of course, set up our API key. If you scroll
+
+13:53
+down, where is the OpenAI?
+
+13:55
+So to get your OpenAI API key, you need to
+
+13:58
+go platform dot open a I dot com dot playground
+
+14:01
+slash slash playground. Sorry. This will again be linked in
+
+14:03
+the resources or you can just type up platform dot
+
+14:05
+open a I dot com. I'm sure you'll find it.
+
+14:07
+If you haven't already created an account,
+
+14:09
+and sign in, and then you need to go to
+
+14:11
+your dashboard here. You go on the left side, you
+
+14:13
+go to API keys and you click create a new
+
+14:14
+secret key. And then you're gonna be able to copy
+
+14:14
+that key and bring it back into,
+
+14:16
+secret key, and then you're gonna be able to copy
+
+14:18
+that key and bring it back into,
+
+14:20
+relevance, paste it in here, and then you're good to
+
+14:22
+go and start using the OpenAI suite of models. It's
+
+14:24
+pretty easy, right? So now we have our information back
+
+14:27
+from the scrape. We have our prompt in here,
+
+14:30
+and then we can go run step and see what
+
+14:33
+this company research tool is gonna output for us. Boom.
+
+14:35
+MorningSight AI is a leading artificial intelligence development company dedicated
+
+14:38
+to empowering businesses.
+
+14:40
+Autonomous AI agent development, enterprise consulting, chatbot development team.
+
+14:44
+They got
+
+14:46
+keep me out of my own team page down, but,
+
+14:49
+yeah. So there you go. That's the that's the company
+
+14:50
+research tool. That's step 1. I hope you guys can
+
+14:53
+kinda see how that works now. A cool thing about
+
+14:55
+relevance is Eris' build section, section, which we've just gone
+
+14:57
+through, but you can also go to use. And this
+
+14:59
+can be really helpful when sharing these kinds of tools.
+
+15:01
+So not this is not really only just an AI
+
+15:02
+agent tutorial. I'm also teaching how to build tools because
+
+15:05
+you can build very valuable tools in something like relevance.
+
+15:07
+And then you can go share.
+
+15:09
+You can go publicly available.
+
+15:13
+Oh, and I can click this, and then I can
+
+15:15
+give to my employees. I can give to the companies
+
+15:18
+that I'm working with, the the clients that I've I've
+
+15:20
+solved these kind of services on, and then they get
+
+15:21
+a nice and handy tool like this. I mean, I
+
+15:23
+use these throughout my organization for, like, description generation, a
+
+15:26
+lot of content repurposing.
+
+15:27
+There's tons and tons of different use cases for building
+
+15:29
+these kinds of tools, and then you can take this
+
+15:31
+URL and you can share it around to whoever you
+
+15:32
+want. So this is a, a great way to use
+
+15:35
+relevance. Let's go back to our tool here. But for
+
+15:37
+now, we need to keep moving along so we can
+
+15:39
+get this this first agent done. So that's the first
+
+15:41
+tool. I'm gonna run through it a bit quicker now
+
+15:42
+that we know how these kind of tool buildings work.
+
+15:45
+I'm going to create a new tool here. I'm going
+
+15:47
+to call it this time if we go back to
+
+15:48
+our Figma. And I recommend when you guys are building
+
+15:51
+your agents, you're building systems and planning them out, this
+
+15:53
+kind of laying out in a Figma. If you're not
+
+15:55
+familiar, this is Figma. It's like a design software, but
+
+15:57
+you can also use it for kind of whiteboarding. It's
+
+15:59
+called a FigJam board. It's 1 of the types of,
+
+16:01
+boards that you can do. And I use this all
+
+16:03
+the time with my team as well. It's like, if
+
+16:05
+you can't take what what I'm telling you, lay it
+
+16:08
+out on a board so that I can review it
+
+16:10
+and give you notes, and and then we all agree
+
+16:12
+this is the build. There's often a lot of, communication
+
+16:15
+issues with explaining functionality. So this AI agent layout, it's
+
+16:17
+really helpful. You can if it's maybe a workflow automation,
+
+16:20
+you can do box box, arrow, arrow, arrow, all of
+
+16:22
+this, laying out how it's gonna be built. Here, I've
+
+16:24
+done it for you in a very basic format. So
+
+16:26
+we've done this first 1. Maybe I can just make
+
+16:28
+this green.
+
+16:29
+Second 1 is gonna be prospect researchers. So this takes
+
+16:31
+in a LinkedIn URL,
+
+16:33
+searches the web, and returns a summary. And you're gonna
+
+16:35
+see how I tie this all into an agent, shortly.
+
+16:39
+So we're gonna go research prospect.
+
+16:41
+So
+
+16:42
+takes in a LinkedIn URL, right, scrapes the profile, and
+
+16:46
+then generates
+
+16:47
+an AI summary of the prospect.
+
+16:49
+Input, we're gonna need a linked in URL,
+
+16:53
+the link linked in URL of the prospect.
+
+16:57
+Let me rename this.
+
+17:04
+Now we're gonna add a step and relevance has got
+
+17:06
+us here linked.
+
+17:09
+Get a LinkedIn profile or company post.
+
+17:13
+So this is cool because then we can pop in
+
+17:16
+our LinkedIn URL here.
+
+17:18
+Oh, we don't need to.
+
+17:24
+So we're gonna get the user profile here. Then if
+
+17:27
+I put in mine,
+
+17:31
+my LinkedIn profile, if you guys wanna connect with me
+
+17:33
+on LinkedIn, more than welcome to do so. I'll put
+
+17:35
+in the description below.
+
+17:38
+We can can do a little run step here. So
+
+17:40
+if we go back over to data here, so that
+
+17:44
+that's great. We've got my about section. So this goes
+
+17:46
+a very long way across because it's in, it's in
+
+17:48
+Chase on here.
+
+17:50
+It's got my company. It's got
+
+17:52
+my company domain, where I'm from,
+
+17:55
+year's company founded, tons and tons of great information that
+
+17:57
+you guys can use and we are gonna use shortly.
+
+17:59
+So this is really cool. I would probably add 1
+
+18:02
+more step to this if I was taking this this,
+
+18:04
+and building it for for my own team. I would
+
+18:06
+add in another LinkedIn scrape here, where we just do
+
+18:09
+the same thing, but it will also get the posts
+
+18:11
+because posts can give you a bit more up to
+
+18:12
+date, information on what they've been doing recently. But, you
+
+18:15
+can guys can add that and you just go add
+
+18:17
+a step LinkedIn, and you do the same thing as
+
+18:20
+we've done here. But you change this to, LinkedIn
+
+18:23
+post get user posts. So that might be a cool
+
+18:25
+thing for you guys to add the, functionality on at
+
+18:27
+the end as a bit of a challenge. You can
+
+18:28
+pause this video and do that. And then we need
+
+18:30
+a LLM step to take this. Again, I'm gonna grab
+
+18:33
+a pre written prompt that I did just to save
+
+18:35
+some time. Gonna drop this in here. Says fairly similar
+
+18:38
+stuff.
+
+18:40
+LinkedIn
+
+18:41
+data.
+
+18:42
+I'm just gonna put all the data
+
+18:44
+in there.
+
+18:46
+And then we're gonna use a GPT 4 and mini
+
+18:48
+again,
+
+18:49
+and we can give that a run because we've already
+
+18:51
+got this data queued up here. And then we go,
+
+18:53
+we've got a nice summary.
+
+18:56
+If I change this to a nice and formatted, there's
+
+18:59
+a little button down there within raw or formatted, and
+
+19:01
+you can copy the stuff out of here, of course.
+
+19:03
+Slay Motley, my followers, and I got a lot more
+
+19:05
+than I thought. So we have the summary, my name,
+
+19:07
+where I'm based,
+
+19:08
+information,
+
+19:09
+my career experience, super handy stuff, and this is gonna
+
+19:12
+be super helpful in the next step when we generate
+
+19:14
+that pre call report. So very quickly, we've created 1
+
+19:17
+more tool. I'm gonna save this. So now we've got
+
+19:20
+if we go back to our Figma, we have 2
+
+19:22
+of these done. Now the final 1 is gonna take
+
+19:25
+in the company and prospect research and generate a pre
+
+19:27
+call report. So this one's gonna be a little bit
+
+19:29
+different.
+
+19:30
+If I go create a new tool,
+
+19:34
+pre call report.
+
+19:39
+So this is a quick pre call takes in company
+
+19:42
+and prospect summary and generates a free call report for
+
+19:45
+sales to ratiachize.
+
+19:47
+Now for the inputs for this, we need long text,
+
+19:49
+much as normal text because we're gonna be taking in
+
+19:51
+that big company and, and prospect research. Research. So we
+
+19:55
+go prospect
+
+19:56
+summary,
+
+19:57
+summary of the prospect based on length and
+
+20:00
+profile. Yep.
+
+20:04
+And a prospect in this case is someone who's a
+
+20:06
+potential customer. Just to clarify that if you're new to
+
+20:09
+business note when you get these terms. Company summary.
+
+20:13
+Summary.
+
+20:19
+Right there, we have our prospect summary and company summary,
+
+20:22
+and now I hope you're following along. Next step is
+
+20:24
+just an LLM step, and we want to combine these
+
+20:26
+2 together. Again, I've got a little handy prompt for
+
+20:28
+this to save us time. Now in this case, you
+
+20:29
+will see that the prompt is a bit bigger. Right?
+
+20:32
+So this is, for more important parts when you are
+
+20:34
+creating tools, whether it's it's for agents or just generally
+
+20:37
+when you're using prompt engineering and LLMs to create value.
+
+20:40
+In this case, we are creating value because in this
+
+20:41
+case, we're taking in this prospect summary and this company
+
+20:44
+summary. And we're also giving the the context of this
+
+20:47
+fantasy or or hypothetical business that we are selling this
+
+20:50
+agent to as, like, a a copilot system. We've got
+
+20:53
+Big Boy Recruit, which is Dallas based recruitment firm specializing
+
+20:56
+in software industry talent acquisition for SMBs. You're gonna see
+
+20:59
+this kinda recur across the different projects we do. But,
+
+21:01
+basically, we're helping these Big Boy recruits to automate their
+
+21:04
+business with AI. So this takes in some context on
+
+21:07
+that business, and it is going to generate a a
+
+21:09
+report that's gonna help the sales rep say, okay. This
+
+21:11
+is the company. This is what we sell. This is
+
+21:13
+what we specialize in. This is the company that we're
+
+21:15
+trying to sell to. This is who we're gonna be
+
+21:16
+talking to. What's some how can I personalize this call
+
+21:19
+or what's the strategy I can go into this with?
+
+21:21
+What are some angles that I can attack this call
+
+21:23
+from? And so to do this, I have a prompt
+
+21:25
+writing tool that I use quite regularly, and my team
+
+21:28
+uses it as well.
+
+21:30
+Perfect
+
+21:31
+prompt.
+
+21:32
+So this tool does a lot of leg work for
+
+21:34
+myself and my team all the time. I'm gonna give
+
+21:36
+it to you guys to use for free. You'll be
+
+21:37
+able to clone it into your Relevance account. Basically, what
+
+21:40
+I'll usually do is I'll put on, the dictation thing.
+
+21:42
+You've got it on 1 of these keyboards. You've got
+
+21:45
+this little
+
+21:46
+thing. Basically, whatever on your computer allows you to speak
+
+21:48
+into the computer, and it, takes in your voice
+
+21:51
+and transcribes it into into text on the screen. I'll
+
+21:54
+press that, and then I'll explain, as you can see
+
+21:56
+here, what is this prompt doing and why. And I'll
+
+21:57
+go, this prompt needs to do this. This is this
+
+21:59
+is gonna take in this information. It's gonna do this.
+
+22:01
+The reason we're doing this is this, this, this. And
+
+22:03
+I'll do, like, a big, big body of text in
+
+22:05
+there. And then the next 1, if I have them,
+
+22:07
+I'll give some good examples of input and output pairs
+
+22:09
+of how I want it to take in data and
+
+22:11
+how I want it to spit it out. If you
+
+22:13
+give it both of these and you hit run, it's
+
+22:14
+gonna print you out using the research backed prompting techniques
+
+22:17
+that we use at Morningside. It's all crammed in here.
+
+22:19
+There's a video that I recommend all of you watch.
+
+22:21
+It's gonna be in the free course anyway on school.
+
+22:23
+So when you get in there and watch my prompt
+
+22:25
+engineering guide, this is basically the entire information of that
+
+22:27
+prompt engineering guide smashed into this LLM step here. So
+
+22:31
+when you pass this information in, it applies all of
+
+22:33
+that and it gives you out a prompt that is
+
+22:34
+fully researched back and performs very, very well right out
+
+22:37
+of the box. So that's a little bit of extra
+
+22:38
+value I want to throw in there for you guys.
+
+22:40
+This is gonna be available on the school,
+
+22:42
+with the rest of the resources as well. So basically,
+
+22:44
+I put in the information here about what this particular,
+
+22:47
+task was. I said it's gonna take in the prospect
+
+22:49
+information. It's gonna take in the prospect summary and the
+
+22:51
+company information, and it spat out this basically first go,
+
+22:54
+and I just had to insert these variables. So this
+
+22:56
+prompt and everything else will be on the on the
+
+22:58
+score resources as well. So in this case, because we
+
+23:00
+are doing a bit of strategy and sort of high
+
+23:01
+level thinking rather than just summarizing, and we may wanna
+
+23:04
+change the model here to something a bit smarter, we
+
+23:06
+could go to o 3 minutei, which is 1 of
+
+23:08
+the later ones.
+
+23:09
+Again, when you're watching this, it might be 0 0
+
+23:11
+6 or o 10 or whatever the hell they come
+
+23:12
+up with next. But there's probably gonna be some much
+
+23:15
+better models, so just use a smart 1 because it's
+
+23:17
+really, strategizing on how big boy recruits can position themselves
+
+23:20
+for this call. So enough of me yapping about that.
+
+23:23
+Let me grab some inputs for this and we can
+
+23:25
+test it. Yep.
+
+23:29
+Should I enter your muscle? Alright. So I've got this
+
+23:31
+information here about myself, my LinkedIn profile, and my company.
+
+23:34
+And so again, remember that this is for Big Boy
+
+23:36
+Recruit, a Dallas recruitment firm specialized
+
+23:38
+in software industry talent. So it's gonna look at my
+
+23:41
+company, Morningside AI. It's gonna look at me and my
+
+23:43
+background and my profile on LinkedIn. Then it's going to
+
+23:45
+spin as we see here,
+
+23:47
+review this, analyze this, map big boys unique value proposition,
+
+23:51
+and it's going to try and
+
+23:53
+create a report that's gonna allow the sales rep to
+
+23:55
+sell me or close me better on there or find
+
+23:57
+some angles to sell through at least. So I'll have
+
+23:59
+to go run tool. And now you see that I'm
+
+24:00
+using a lot of just basic web scraping and LLM
+
+24:03
+steps. I just wanna show you guys the basics. The
+
+24:04
+thing is tools can get very, very advanced when you
+
+24:06
+have, like, CRMs you wanna integrate into, but Relevance allows
+
+24:09
+you to do all of that. It's just within the
+
+24:11
+scope of tutorial, it can be pretty difficult to be
+
+24:13
+pulling information from all over the here because I have
+
+24:15
+to set up a database, show you guys how to
+
+24:17
+do it too. So this this keeps it quite confined,
+
+24:19
+but it still gives you a good taste of it.
+
+24:20
+So
+
+24:21
+if we look at this view, key business challenges and
+
+24:24
+opportunity, Morningside AI, this, Liam's profile, gives me a bit
+
+24:27
+of a rundown of this, mapping BigBoy recruit's unique value
+
+24:30
+proposition. Maybe it's gonna be better if I change this
+
+24:32
+to
+
+24:34
+the format.
+
+24:35
+There we go. Talks about mapping Big Boy's recruits, strategic
+
+24:38
+talking points. I've been following your journey of digital marketing
+
+24:40
+AI, rah rah rah rah.
+
+24:42
+Dive into opportunity. I work at Big Boy's Dis Assist,
+
+24:44
+and it's even gone and done a section on anticipated
+
+24:47
+objections.
+
+24:48
+So the idea is that the sales rep is gonna
+
+24:49
+have a skim of this before the call, which ties
+
+24:52
+into the value that I've listed here, which I'm gonna
+
+24:54
+do for all of these builds, by the way, which
+
+24:55
+comes down to ultimately a better prepared sales rep should
+
+24:58
+close more deals. Right? If they know more about the
+
+25:00
+prospect and the company and you have an angle to
+
+25:02
+try sell through and with suggestions at least, it should
+
+25:04
+increase the conversion rate of the sales team. So we've
+
+25:06
+built this tool. We can change this to green now.
+
+25:09
+And the final step is going to be heading over
+
+25:11
+to our agent builder within relevance. I'm gonna save this.
+
+25:14
+And if you pop over in the left panel here,
+
+25:16
+you can go into our agents.
+
+25:18
+And what we wanna do is create a new agent.
+
+25:22
+I'm gonna call it
+
+25:24
+out sales
+
+25:25
+co pilot,
+
+25:28
+big boy,
+
+25:31
+big boy sales co pilot. Sorry, I got, like I
+
+25:33
+said, I gotta have fun with the stuff where I
+
+25:35
+go kinda insane.
+
+25:37
+This
+
+25:38
+this agent
+
+25:39
+is
+
+25:41
+our sales
+
+25:42
+co pilot that helps
+
+25:45
+reps to
+
+25:46
+be better prepared
+
+25:49
+for sales calls.
+
+25:53
+Triggers, we don't need to do any of that. We
+
+25:54
+go to core instructions.
+
+25:56
+I'm gonna again paste in some of the stuff that
+
+25:57
+I prepped earlier. So if I paste this in here,
+
+25:59
+you'll see that it's structured fairly similarly to the prompt
+
+26:02
+that we just did before for the pre call report
+
+26:04
+generator. And this is again using another tool that I've
+
+26:07
+created,
+
+26:08
+for AI agent prompting. So it's fairly similar stuff that
+
+26:11
+I I include in that other prompting tool, but the
+
+26:13
+agents is slightly different,
+
+26:15
+to just regular LLM steps within different tools and workflow
+
+26:18
+automations. So I will include this as well. It's my
+
+26:21
+AI agent perfect prompt generator, and it's fairly straightforward to
+
+26:24
+use. I'll include that in there as well. Basically, you
+
+26:26
+put in all the information about what the agent is,
+
+26:28
+why it's doing it, different tools that you're connecting to
+
+26:30
+it, and then it prints out this for you. So
+
+26:32
+I'll just run through it. We've got a role here
+
+26:33
+telling it who it is, and kinda hyping it up
+
+26:35
+and saying how good it is. Explains the task,
+
+26:38
+talking about how it's helping to conduct detailed research on
+
+26:40
+companies and prospects,
+
+26:42
+some specifics.
+
+26:43
+Specifics. Don't need to worry about those too much, just
+
+26:45
+reiterating the task. And now here, we can enter in
+
+26:47
+the references to tools. So if you go slash tool
+
+26:50
+and see in order to get the agent to function
+
+26:52
+as well as possible, we need to tell it what
+
+26:54
+tools it has available. This is really key across all
+
+26:57
+the agents you build, especially if they're more conversational. We
+
+26:59
+need to explain to them what tools they have and
+
+27:02
+how and when they should use them. So if I
+
+27:04
+go, you have 3 powerful tools, research company.
+
+27:09
+Yep. That's right. Purpose. Input company URL, use when needing
+
+27:12
+to gather company information. This 1 of course is the,
+
+27:15
+prospect.
+
+27:19
+And then this last 1 is our pre
+
+27:25
+There we go. So that's all whacked in there. Don't
+
+27:27
+need to worry about that too much. But again, this
+
+27:29
+will be included, this prompt and everything, if you wanna
+
+27:31
+follow along and also if you just wanna clone the
+
+27:33
+whole agent, and use it in your own business or
+
+27:35
+sell it or whatever you wanna do. We also get
+
+27:36
+to select the model here. I'm just gonna keep it
+
+27:39
+as GPT 4 0 Mini. I like some pretty fast
+
+27:41
+responses here because agents, as someone's using it, it can
+
+27:44
+feel really irritating if it's not responding quickly. So we've
+
+27:47
+got all that built out. That's the core instructions and
+
+27:49
+the prompt of the agent.
+
+27:51
+We can go down to the tools section.
+
+27:55
+It's got all the tools connected in here because we
+
+27:56
+mentioned them in the prompt. And we can just go
+
+27:58
+through and do some quick settings on here. I don't
+
+28:00
+wanna have to do an approval for it. Some tools
+
+28:03
+you can say, look, they've gotta give it a thumbs
+
+28:05
+up before it can actually trigger it. Prompt fail to
+
+28:08
+use, just some quick descriptions we can pop in here.
+
+28:10
+I'm not sure why relevance doesn't carry that over from
+
+28:12
+the tool. I guess they're asking us to do it
+
+28:13
+again for some reason. When you need to research a
+
+28:17
+prospect
+
+28:19
+linked
+
+28:20
+in URL,
+
+28:21
+we're gonna say this is auto run as well,
+
+28:25
+and then pre call,
+
+28:26
+changes to auto run as well.
+
+28:29
+Use this when you need to
+
+28:31
+generate
+
+28:32
+a pre
+
+28:33
+call report
+
+28:35
+from
+
+28:36
+the company
+
+28:37
+and prospect
+
+28:38
+research.
+
+28:41
+Alrighty.
+
+28:42
+And there's all sorts of other cool stuff. Relevance as
+
+28:44
+you can see is like abilities, sub agents, metadata, extra
+
+28:47
+stuff that you can put onto, but I just wanna
+
+28:50
+get you guys started with the core of this. Alright,
+
+28:52
+so we can confirm that.
+
+28:56
+And boom, we have our agent here ready to go.
+
+28:58
+So this is where you can test your agents and
+
+29:00
+use them if you want to. But in this case,
+
+29:02
+I'm just gonna give it a quick rundown and say,
+
+29:04
+see if the functionality is working as we as we
+
+29:07
+planned.
+
+29:08
+Hi. I am getting on a call with Liam Otley
+
+29:13
+from
+
+29:14
+Morningside
+
+29:18
+Site AI. Here,
+
+29:19
+has
+
+29:20
+details.
+
+29:22
+Oh, we can just go LinkedIn.
+
+29:37
+Get me every call. Report, please. To print forward call.
+
+29:42
+Sending your task to big boy sales copilot,
+
+29:45
+And then we get to see all the debug and
+
+29:47
+how it's actually walking through these different steps.
+
+29:50
+Oh, let's see what he does.
+
+29:55
+Yep. Okay. That's great. It's using the research company as
+
+29:58
+we wanted it to.
+
+30:01
+Should add in 1 more step there to research the
+
+30:03
+prospect as well.
+
+30:06
+There we go. Using the second tool, it has pretty
+
+30:08
+satisfying when this stuff works. And this is just a
+
+30:10
+really basic 1. Guys, I don't want you to think
+
+30:12
+this is like, oh, well, that's pretty underwhelming, Liam. I'm
+
+30:14
+trying to teach you the basics so that you can
+
+30:16
+actually build on top of this. So if you get
+
+30:18
+the bug, if you get the
+
+30:20
+like, you get a travel bug, if you get the
+
+30:22
+agent bug and you see the stuff and you're really
+
+30:24
+interested, oh, look. There it is. Now it's filling out
+
+30:26
+the prospect summary as the
+
+30:27
+input. Surely we don't have to watch it
+
+30:29
+do do that. It's gonna take a while.
+
+30:35
+And is it really good? Write that out word for
+
+30:37
+word like that. But when you start to see this
+
+30:39
+magic and you add in other cool tools and functionality,
+
+30:41
+you test it on yourself, you can build like things
+
+30:43
+for it. Maybe you wanna do content, you make yourself
+
+30:45
+a little content copilot, etcetera.
+
+30:49
+Then we go to use all the tools and it
+
+30:50
+should be spitting back and bam, there we go. So
+
+30:52
+I hope that was worth the wait. Let's go through
+
+30:54
+it now. Here's is your comprehensive pre call report for
+
+30:57
+your upcoming conversation with Liam Motley from Morningside AI. Pre
+
+30:59
+call report,
+
+31:00
+talent acquisition under pressure. Morningside AI operates in a highly
+
+31:03
+competitive AI and tech market. As I scale, finding specialized
+
+31:06
+talent engineers, data scientists, AI. With a proven record can
+
+31:09
+be challenging.
+
+31:10
+That's scarily accurate because that is literally 1 of the
+
+31:13
+biggest constraints that we have had to scaling Morningside long
+
+31:16
+term as it which is really, really hard. Even with
+
+31:18
+my channel, it's so hard to find the right people
+
+31:20
+and get them to commit as as developers as well.
+
+31:22
+So if you wanna build a very big general AI
+
+31:25
+development firm and AI automation agency, you need the best
+
+31:27
+talent and you need to get a lot of it
+
+31:29
+in, so that you can scale up. So that's bloody
+
+31:31
+spot on. Obviously, this thing knows, that's a good angle
+
+31:34
+to sell through.
+
+31:35
+But, yeah, prospect analysis, Liam's a dynamic entrepreneur and thought
+
+31:36
+leader. But, yeah, prospect analysis analysis leans a dynamic entrepreneur
+
+31:38
+and thought leader.
+
+31:40
+With a robust background in ecommerce, digital marketing, and AI,
+
+31:43
+his journey reflects passion for innovation and commitment to continuous
+
+31:46
+learning. Again, that's pretty bloody spot on.
+
+31:49
+Hands on experience.
+
+31:51
+So there you go. That is the big boy sales
+
+31:53
+copilot for big boy recruits. The cool thing you can
+
+31:55
+do now once you have built this,
+
+31:57
+is you can go share.
+
+32:00
+There's a chat UI, which I'm gonna turn on now.
+
+32:02
+There are chat widgets, so you can put them on
+
+32:04
+websites and stuff like that. What I wanna do is
+
+32:06
+just pull this up because this is what you'd be
+
+32:07
+giving to your client likely or if you guys are
+
+32:10
+gonna start selling these businesses, which, again, we're touching on
+
+32:12
+selling in the last section of this video. So how
+
+32:15
+do you turn these into into a business and start
+
+32:17
+making money from selling these as a as a service
+
+32:19
+and building these businesses, which is really where the money's
+
+32:21
+money's made. So there you go. This URL, you can
+
+32:23
+obviously send to your client. If you're building it for
+
+32:25
+your own team, you can send this to your team
+
+32:26
+and say, hey. Pin this because you're gonna be able
+
+32:28
+to use it. Add more functionality into it, etcetera.
+
+32:31
+That is how you build a Copilot on Relevance AI.

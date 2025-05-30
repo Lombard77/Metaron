@@ -1,0 +1,7884 @@
+Outbound Systems
+Lesson 3 of 12
+1.1 Outreach Theory 🧬
+Play
+00:00
+1:51:23
+Mute
+Hello, everyone. My name is Nico, and welcome to the
+Show transcript
+Resources 📓 
+1.1 Outreach Theory 🧬.pdf
+
+
+00:00
+Hello, everyone. My name is Nico, and welcome to the
+
+00:02
+second video in this module, which is outreach theory.
+
+00:06
+In this video, we're going to be covering the foundation
+
+00:09
+of outreach, which is research.
+
+00:12
+We're gonna cover how you build your contact lists, the
+
+00:15
+outreach metrics and KPIs, what are they, how do you
+
+00:19
+troubleshoot,
+
+00:20
+how do you look for them, how do you track
+
+00:21
+them, all the good stuff that goes under that, as
+
+00:24
+well as
+
+00:30
+copywriting, personalization,
+
+00:32
+all the juice. And lastly, we're gonna be having a
+
+00:34
+look at your digital footprints,
+
+00:37
+meaning
+
+00:37
+where are you on social media? How can people find
+
+00:39
+you? Because when you do outreach,
+
+00:41
+believe it or not, people actually look you up.
+
+00:44
+Let's hop into it. So here is the outreach theory
+
+00:47
+document.
+
+00:49
+As a bit of an introduction, in the world of
+
+00:51
+business, particularly
+
+00:52
+in the AI space, your ability to connect with potential
+
+00:56
+clients
+
+00:57
+can make or break your business. Outreach is the bridge
+
+01:00
+between your skills and the market that needs them. Mastering
+
+01:04
+this art isn't just about sending emails or making calls,
+
+01:08
+it's about strategically
+
+01:10
+positioning yourself to capture opportunities
+
+01:12
+in a rapidly evolving landscape.
+
+01:15
+In this video, we'll dive deep into the fundamental concepts
+
+01:19
+and strategies
+
+01:21
+that underpin successful outreach campaigns.
+
+01:24
+Understanding these principles is essential for crafting effective outreach,
+
+01:28
+especially in the AI automation agency model. By the end
+
+01:31
+of this video, you'll have a comprehensive
+
+01:34
+understanding
+
+01:35
+of how to effectively reach out to potential clients,
+
+01:38
+build relationships,
+
+01:40
+and ultimately
+
+01:41
+grow your triple a.
+
+01:43
+In this video, we're going to explore the importance of
+
+01:46
+research, understanding
+
+01:48
+your prospect deeply,
+
+01:50
+where to go for research, where to look, what you
+
+01:53
+need to know.
+
+01:54
+Then we're gonna go through crafting compelling messages,
+
+01:57
+creating outreach that actually gets responses.
+
+02:01
+We're gonna walk through and talk about personalization
+
+02:03
+at scale,
+
+02:05
+making each prospect feel valued and that message is only
+
+02:09
+written for them.
+
+02:10
+The outreach funnel as a whole from first contact to
+
+02:13
+close deal. We're gonna go through metrics and optimization
+
+02:17
+using KPIs to improve our actual outreach.
+
+02:20
+And then lastly, we're gonna go through some tools and
+
+02:23
+automations.
+
+02:25
+Leveraging tech
+
+02:27
+without losing the human touch.
+
+02:30
+The foundation of outreach is research.
+
+02:32
+And when it comes to outreach,
+
+02:34
+knowledge
+
+02:35
+is power.
+
+02:37
+Conducting
+
+02:37
+in-depth research
+
+02:39
+is crucial for understanding your audience
+
+02:42
+and tailoring your approach accordingly.
+
+02:44
+In this section, we'll explore the importance
+
+02:47
+of research in outreach and provide frameworks for gathering the
+
+02:52
+insights
+
+02:53
+you need to succeed.
+
+02:55
+Target audience research. To create effective campaigns,
+
+02:58
+you need you absolutely need, there's no way around it,
+
+03:01
+a deep understanding
+
+03:03
+of the businesses
+
+03:04
+you're targeting.
+
+03:06
+Developing this understanding requires thorough research into various aspects of
+
+03:11
+their operations
+
+03:12
+and their markets.
+
+03:14
+Here's a couple of questions you can ask yourself.
+
+03:17
+How do they prospect for new clients?
+
+03:20
+What are their typical profit margins?
+
+03:22
+How do they market their services?
+
+03:25
+What is their service delivery process? What are the key
+
+03:28
+benefits of their service?
+
+03:30
+Who are their main competitors?
+
+03:31
+What is the current state of their markets?
+
+03:34
+How do their competitors differentiate themselves from the company you
+
+03:37
+were looking to reach out to? Right? This is just
+
+03:40
+to get a full understanding of the market.
+
+03:42
+A good rule of thumb is to conduct research until
+
+03:45
+you feel confident enough to start a business
+
+03:49
+in that niche yourself.
+
+03:52
+This level of understanding
+
+03:54
+allows you to identify areas for improvement and position your
+
+03:58
+AI services as a valuable solution.
+
+04:01
+Now it's important that we don't get caught up in
+
+04:03
+this. We don't want to research the business model, the
+
+04:06
+niche for 5 years because we wanna be in a
+
+04:09
+way different place in 5 years than what we are
+
+04:11
+now. Right? And there's a fine line between doing the
+
+04:14
+research and actually reaching out. But what I'm seeing through
+
+04:17
+having hundreds, if not even thousands of coaching calls,
+
+04:20
+is that people tend to skip this step because it's
+
+04:23
+boring.
+
+04:24
+If you skip this step, you should sign a waiver
+
+04:27
+that says, I know I'm not gonna get results as
+
+04:29
+quick as the people would do. Because the truth about
+
+04:32
+this is if you misunderstand
+
+04:34
+something about the niche and you give them an offer
+
+04:36
+they won't resonate with, that's gonna keep you back for
+
+04:39
+weeks until you realize it. There's a hundred different aspects
+
+04:42
+that are playing in here, which essentially if you understand
+
+04:45
+all of the different aspects with it, you're gonna be
+
+04:47
+able to steer clear and avoid these pitfalls
+
+04:50
+that a lot of people fall into.
+
+04:53
+So if I were to start everything all over again,
+
+04:55
+the absolute first place I would start is I would
+
+04:57
+do the research on the audience I'm looking to target.
+
+05:00
+Ideal customer profiles, your ICP.
+
+05:03
+Once you've gained a deep understanding of your target market,
+
+05:05
+the next step is to define the specific
+
+05:08
+type of businesses
+
+05:10
+that's ideal
+
+05:11
+for your triple a services.
+
+05:14
+This is where your ideal customer profile or ICP
+
+05:19
+comes into play. Your ICP
+
+05:21
+will help you ensure your outreach efforts are targeting the
+
+05:25
+right businesses,
+
+05:26
+maximizing your efficiency and effectiveness
+
+05:29
+of your campaigns.
+
+05:31
+Customer is a person or a business that pay
+
+05:34
+for your product or your service.
+
+05:37
+An ICP, an ideal customer profile, is the ideal business
+
+05:41
+that gets given maximum value from your offering. It's the
+
+05:45
+optimal clients, the perfect client, if you will.
+
+05:50
+There's a couple of ICP attributes.
+
+05:53
+Creating an accurate ICP requires thorough research and should not
+
+05:58
+be based on guesswork. Inaccuracies in your ICP can lead
+
+06:01
+to ineffective outreach and wasted resources.
+
+06:05
+Considering the following factors when defining your ICP,
+
+06:09
+what kind of business type is this? Is this a
+
+06:11
+b to b company, meaning do they sell to other
+
+06:13
+businesses? Or is it a b to b to c
+
+06:15
+company that sells to consumers and non businesses?
+
+06:18
+What specific industry or industries
+
+06:21
+does your ideal customer operates in? For example, health care,
+
+06:25
+finance, retail, manufacturing, you get the point. When it comes
+
+06:29
+to company size,
+
+06:30
+this should be measured by how many employees
+
+06:34
+or
+
+06:34
+annual revenue.
+
+06:35
+A small business might have 1 to 50 employees, while
+
+06:39
+an enterprise could have 1000
+
+06:41
+employees plus.
+
+06:44
+Revenue. What's the typical annual revenue of your ideal customer?
+
+06:48
+This helps ensure you're targeting
+
+06:50
+businesses that can actually afford your solution.
+
+06:54
+Location.
+
+06:56
+Where are your ideal customers located? This could be geographic
+
+07:00
+regions,
+
+07:01
+countries,
+
+07:02
+or even as specific as cities.
+
+07:05
+Technology stack. What technologies or softwares does your ideal customer
+
+07:09
+currently use?
+
+07:11
+This is particularly important for tech companies to ensure
+
+07:15
+compatibility
+
+07:16
+or identify opportunities
+
+07:18
+for integration.
+
+07:19
+Bit of a side note on this, but this is
+
+07:21
+actually a very underused strategy.
+
+07:23
+But if you look into different platforms
+
+07:25
+that your audience generally uses,
+
+07:28
+you can figure out and pick out specific pinpoints they
+
+07:31
+would have from using the software that you can reach
+
+07:34
+out to them and you can say, hey, I see
+
+07:36
+you're using this software. I'd love to fix this problem
+
+07:38
+you have, which is a very good strategy for reaching
+
+07:41
+out to people and segmentation, which is something we're gonna
+
+07:43
+talk a lot more about later. But just keep that
+
+07:46
+in the back of mind that this is actually quite
+
+07:48
+underused.
+
+07:49
+Really think about when it comes to ICP and defining
+
+07:51
+them, really think about what tech do they actually use
+
+07:54
+within their company at this moment.
+
+07:57
+Decision makers.
+
+07:59
+Who would be the key decision makers
+
+08:01
+for the purchase?
+
+08:04
+This could be roles like CEO, CTO, head of operation.
+
+08:08
+It could even be manager if you're contacting a bigger
+
+08:11
+size company.
+
+08:12
+And lastly, it is pain points. What specific problems or
+
+08:16
+challenges does your ideal customer
+
+08:19
+face
+
+08:19
+that your product or service can solve? In a nutshell,
+
+08:22
+this is really what we're doing when we're building a
+
+08:24
+company, isn't it? We're reaching out to people with a
+
+08:26
+problem and we're saying we can fix it.
+
+08:29
+When it comes to to figuring out all of this
+
+08:31
+information that we've just now talked about,
+
+08:34
+we've got ICP research data sources.
+
+08:37
+To gather the information needed to create and refine your
+
+08:41
+ICP, it's crucial to leverage a variety
+
+08:45
+of data sources. As discussed earlier,
+
+08:47
+deep research
+
+08:49
+and understanding
+
+08:51
+are absolute
+
+08:52
+key and cannot be skipped.
+
+08:55
+So here are several data sources
+
+08:57
+that you can use to gain that understanding.
+
+09:00
+Sales data, analyze your existing customer base if you already
+
+09:04
+have 1 or look back at the sales calls you've
+
+09:07
+had if you have had any to identify
+
+09:09
+patterns and characteristics.
+
+09:11
+Look for factors like the industry that we're in, the
+
+09:14
+company size that you were talking to, and the lifetime
+
+09:17
+value of a customer for them,
+
+09:20
+as well as objections. This is often very overlooked, but
+
+09:23
+you're getting a good understanding of their objections. And what
+
+09:25
+people typically bring up will actually give you a very
+
+09:28
+good indication of how to combat and solve this in
+
+09:31
+outreach. Because 1 of the things about outreach, which is
+
+09:33
+obviously the topic of this video,
+
+09:36
+is when we're reaching out to people,
+
+09:39
+instead of saying no or giving an objection, they will
+
+09:42
+actually just not reply.
+
+09:44
+So
+
+09:45
+fighting or combating objections
+
+09:47
+as we're sending out our message
+
+09:50
+or disarming them of the objection they have when they
+
+09:53
+read our message is something that will help us get
+
+09:55
+more replies. So keeping a very close eye on objections
+
+09:58
+is is a bit of a thing you can put
+
+09:59
+in your back pocket.
+
+10:01
+Customer support feedback.
+
+10:03
+Monitor
+
+10:04
+all their companies support forums for pain points, feature requests,
+
+10:08
+and use cases.
+
+10:10
+That can reveal
+
+10:11
+what your ideal customer value most. This is a very
+
+10:14
+good 1. So if you know that your audience uses
+
+10:17
+a specific platform or they spend time in a specific
+
+10:20
+place,
+
+10:20
+go to that platform, go to that place
+
+10:23
+and look at what do these guys complain about, what
+
+10:26
+do they value, what would they be willing to pay
+
+10:29
+for, What is going on? This is gonna help you
+
+10:31
+get a great understanding of what actual problems are coming
+
+10:35
+as we talked about earlier, not just from the platforms
+
+10:37
+they use, but overall things they value and care about.
+
+10:41
+Surveys. This is another 1 that might be a bit
+
+10:42
+out of reach, for some people, but it's a really,
+
+10:45
+really great way of getting ahead of information. So conduct
+
+10:48
+service with either existing customers
+
+10:51
+or warm leads that you know that you can contact
+
+10:54
+to gather direct insights about their needs, challenges, and preferences.
+
+10:59
+This is something extremely actionable that you can implement right
+
+11:02
+away when people tell you. So if you've got anyone
+
+11:04
+you can reach out to, anyone you know, that's very
+
+11:06
+highly suggested. Competitor analysis.
+
+11:09
+Study your competitors'
+
+11:10
+customer base and marketing strategies.
+
+11:13
+This can help you identify
+
+11:15
+underserved segments
+
+11:17
+or differentiation
+
+11:18
+opportunities.
+
+11:19
+1 of the main things about starting your company is
+
+11:21
+you wanna put yourself you wanna set yourself apart from
+
+11:23
+your competitors. And if you have competitors that have already
+
+11:26
+made things work, look at what they are going what
+
+11:29
+they are doing to analyze and understand it.
+
+11:32
+Customer review websites, platforms like g 2, Capterra, or industry
+
+11:36
+specific review platforms
+
+11:38
+can provide
+
+11:39
+very valuable insights into what customers value in solutions
+
+11:43
+similar to yours. Market research platforms utilize platforms
+
+11:48
+like Statista
+
+11:49
+or IBIS World for industry trends,
+
+11:53
+market sizes, or demographic data relative to your ICP.
+
+11:57
+Then lastly but not least, we've got forums and social
+
+12:00
+media groups. This is probably 1 of the, like, most
+
+12:04
+hidden gems you can find all these
+
+12:06
+very valuable insights people are talking about that people don't
+
+12:10
+really leverage. So monitor relevant online communities to understand your
+
+12:13
+target audiences, discussions, challenges, and interests. Creating your ICP. Now
+
+12:17
+that you understand the attributes and the data sources for
+
+12:20
+your ICP, let's walk through a brief process on how
+
+12:23
+we create 1.
+
+12:25
+Remember, you should already have decided on a niche
+
+12:29
+earlier in the course.
+
+12:31
+This process will help you further refine your target within
+
+12:35
+that niche.
+
+12:37
+First thing is we're gonna define our company characteristics. We're
+
+12:40
+gonna outline ideal company size, revenue, and technology readiness, if
+
+12:44
+that is relevant.
+
+12:46
+Consider factors like location and current tech stack. What I
+
+12:49
+mean by tech stack is what platforms do they use.
+
+12:51
+We've talked about this a couple of times already, but
+
+12:53
+it's what platforms do they use within the company. And
+
+12:55
+then we've got identify decision makers. Develop profiles of potential
+
+12:59
+decision makers,
+
+13:01
+I e
+
+13:02
+CTO, operation managers, owners, founders, cofounders,
+
+13:06
+whatever floats your boat, relevant to your industry and the
+
+13:10
+research you have done.
+
+13:12
+Consider the job responsibilities
+
+13:14
+and likely concern
+
+13:16
+about AI adoption. This is something that's gonna come in
+
+13:19
+quite handy the further we go down the outreach route
+
+13:22
+because when we get down to the copywriting,
+
+13:24
+1 of the things we're gonna be considering and thinking
+
+13:26
+about is is AI a good or a bad buzzword
+
+13:29
+in this industry,
+
+13:30
+Which is why I already wanna start introducing the concepts,
+
+13:32
+making sure that you kinda have this in the back
+
+13:34
+of your mind.
+
+13:35
+Then we've got listing the key pain points. So sit
+
+13:38
+down and think about
+
+13:40
+what problems
+
+13:42
+does this type of company face
+
+13:44
+that AI or our AI rather could solve.
+
+13:48
+Focus on issues like data processing, customer service, or inventory
+
+13:51
+management.
+
+13:52
+Most important of all,
+
+13:55
+replace this with what is important to your industry. These
+
+13:57
+are only examples to help your brain get going on
+
+14:00
+what I'm talking about. For your industries, it might be
+
+14:03
+something completely different.
+
+14:05
+Maybe it is logistics,
+
+14:07
+but that won't apply to everyone. So think about your
+
+14:10
+industry's pain points is the important thing here.
+
+14:13
+And then we've got analyze the buying process. Understand typical
+
+14:17
+purchasing journey
+
+14:19
+for AI solutions in your target industries.
+
+14:22
+The reason this is in here and the reason for
+
+14:24
+you to understand this is once you pick different type
+
+14:26
+of companies, they're gonna have different buying cycles.
+
+14:30
+And the longer the cycle is, the longer it takes
+
+14:32
+for you to close a deal.
+
+14:34
+And the more hoops you have to jump through, the
+
+14:36
+more people you have to talk to. So you writing
+
+14:38
+this down on a piece of paper to make sure
+
+14:40
+you get this mapped out helps you ensure that what
+
+14:43
+you're actually targeting is within and aligned with what you
+
+14:46
+want to achieve in the time you want to achieve
+
+14:48
+it. Because if you write down here that the purchasing
+
+14:52
+process for a company I want to work with happens
+
+14:54
+to be 2 years,
+
+14:56
+well, you should probably rethink your ICP. Right?
+
+14:59
+So identify potential objections or roadblocks in the buying process
+
+15:03
+as well as people
+
+15:05
+and groups you might have to jump through to be
+
+15:07
+allowed to implement the process.
+
+15:09
+In health care, this might be that you need to
+
+15:12
+talk to a legal department,
+
+15:14
+etcetera.
+
+15:15
+Again, implement the research about your industry, and then synthesize
+
+15:18
+your ICP. Combine all the information together into a concise
+
+15:22
+description,
+
+15:23
+including the company characteristics,
+
+15:25
+the decision maker profile,
+
+15:27
+key pinpoints,
+
+15:28
+and the buying process insights you've gathered.
+
+15:31
+Be prepared to refine this
+
+15:34
+as you gain real world experience.
+
+15:37
+Very rarely in my life have I seen someone come
+
+15:40
+up with an ICP and stick to it for more
+
+15:42
+than a year. Very often, they're gonna make decisions based
+
+15:45
+on the data they get coming in. Right? They're gonna
+
+15:47
+make tweaks. They're gonna make changes. So this is not
+
+15:50
+something you're married to. It's not set in stone. It's
+
+15:53
+1 of those things that are gonna change as you
+
+15:55
+evolve.
+
+15:56
+And here's an example of a completed ICP worksheet.
+
+16:00
+In the later modules of this outbound systems course,
+
+16:03
+you will need to be doing deep ICP research yourself.
+
+16:07
+Here's an example of what a finished ICP worksheet should
+
+16:11
+look like.
+
+16:12
+As you can see, we've gone through and we've highlighted
+
+16:14
+this 1, which is b to b instead of b
+
+16:16
+to c. So we wanna work with b to b
+
+16:17
+companies, then we've listed the industries that we can work
+
+16:20
+with, and we've listed out the company size we want
+
+16:24
+to work with, which is 50 to 250
+
+16:26
+in this case. Then we list out the revenue for
+
+16:28
+our ideal customer,
+
+16:30
+and then we do location,
+
+16:32
+which is main regions, the US and Canada,
+
+16:35
+and more specific,
+
+16:37
+our absolute ideal customer will be based in tech hubs.
+
+16:41
+Then we're looking at the technology stack, and since we're
+
+16:44
+in ecom, some of the platforms we're looking at is
+
+16:46
+Shopify or WooCommerce, which is big in ecom,
+
+16:50
+Salesforce or HubSpot for CRMs, and Google Analytics and Google
+
+16:54
+Ads, because in this case, we're looking at people that
+
+16:56
+are running ads for RCP. Right?
+
+16:59
+The decision maker. Who are the decision makers?
+
+17:02
+Since these are companies ranging from 50 to 250
+
+17:05
+employees,
+
+17:06
+our decision makers
+
+17:07
+are chief technology
+
+17:09
+officer,
+
+17:10
+chief marketing officer, or
+
+17:12
+operation manager.
+
+17:16
+And then we've got the pain points that we're listing
+
+17:18
+out. They do time consuming manual data entry and analysis.
+
+17:22
+Pain point number 2 is inconsistent customer service quality and
+
+17:25
+response time. And pain 0.3
+
+17:28
+is inefficient inventory management leading to stock out
+
+17:32
+or overstock,
+
+17:34
+which is a logistics problem. Right?
+
+17:37
+And then we've got data sources
+
+17:39
+we've gone through and we've used. Right? So we've gone
+
+17:41
+through and we've used all of these to gather the
+
+17:43
+information and as we've gone through and used them, we've
+
+17:45
+checked them off.
+
+17:47
+Now we combined all of the information we've written down
+
+17:50
+and mapped out here above into a brief section that
+
+17:54
+we can frame and put in our room.
+
+17:57
+This is industry,
+
+17:59
+company size, location, decision maker, and pain points. This is
+
+18:02
+what is the most crucial part of your ICP.
+
+18:06
+And then the action plan of putting your ICP into
+
+18:08
+action.
+
+18:09
+This is something we're gonna be diving way more into
+
+18:12
+later, so don't worry too much about this now, but
+
+18:14
+it's gonna help activate your brain for where do you
+
+18:16
+actually need to look for ICP, where do you need
+
+18:18
+to go to scrape them, all that kind of stuff
+
+18:20
+once you have all the information. So first consume this
+
+18:23
+information and then you can go do this.
+
+18:26
+And then we've got putting your ICP into action.
+
+18:28
+Once you've defined your ICP,
+
+18:31
+we can use it to focus your outreach efforts on
+
+18:33
+prospects who closely match the profile. The closer, the better.
+
+18:37
+By targeting the right people, you'll significantly increase your chances
+
+18:41
+of success by avoiding wasting time on less than ideal
+
+18:46
+leads.
+
+18:47
+Right? This is a very real problem.
+
+18:49
+And here's how.
+
+18:51
+So we're gonna do targeted prospecting. Focusing your outreach efforts
+
+18:54
+on prospects who closely match your ICP.
+
+18:56
+This targeted approach significantly increases your chances of success
+
+19:00
+and helps avoid wasting the time. Right? And then we've
+
+19:03
+got tailored messaging, which is craft your outreach messages and
+
+19:06
+content
+
+19:07
+to address their specific pain points, to address their goals,
+
+19:11
+and the characteristics of your ICP.
+
+19:13
+This personalization
+
+19:15
+can dramatically
+
+19:16
+and will dramatically improve your response rates. This is something
+
+19:19
+we're gonna be talking a lot more more about later.
+
+19:22
+Tailored messaging is
+
+19:24
+probably
+
+19:25
+1 of arguably 1 of the most important things about
+
+19:27
+sending a message. We're gonna talk a lot more about
+
+19:29
+tailored messaging messaging later. So this is just, again, how
+
+19:33
+to apply this to your ICP.
+
+19:34
+Prioritize leads. So use your ICP to score and prioritize
+
+19:39
+leads. Prospects who closely match your ICP should receive more
+
+19:42
+attention,
+
+19:43
+resources, and priority
+
+19:45
+than the ones that don't match your ICP.
+
+19:47
+This is for you to maximize where your time is
+
+19:49
+spent and how much you get back from it. Then
+
+19:52
+we've got refine your search. Utilizing your ICP to fine
+
+19:55
+tune your search criteria on platforms like LinkedIn or industry
+
+19:58
+databases when looking for new prospects
+
+20:00
+is absolutely crucial. If we don't know what kind of
+
+20:03
+prospects we're looking for and we're looking to gather a
+
+20:05
+list of them, what are we even gonna put into
+
+20:07
+the search filters?
+
+20:08
+Now don't worry about the technical terms like search filters
+
+20:11
+and stuff like that. We're gonna be talking all about
+
+20:13
+it. But just know if you don't have an ICP,
+
+20:16
+how are you gonna curate a list of people to
+
+20:18
+reach out to? It is simply impossible.
+
+20:21
+And then measure and adjust. So regularly analyze the performance
+
+20:24
+of your outreach campaigns against your ICP.
+
+20:28
+Use these insights to refine your profile and strategies over
+
+20:32
+time.
+
+20:33
+What I mean by this is as you're kinda reaching
+
+20:35
+out to people,
+
+20:36
+it's all about testing. Right? Everything comes down to testing.
+
+20:39
+So you could test out different segments or different ICP
+
+20:43
+components.
+
+20:44
+So maybe you test out a different technology base. Maybe
+
+20:48
+you realize the best client is in another industry
+
+20:50
+that still needs your solution. So you always want to
+
+20:53
+test out, measure, and adjust to improve your ICP over
+
+20:57
+time. So a bit of a quick summary
+
+20:59
+on this is thorough research and a well defined
+
+21:03
+ICP
+
+21:04
+is absolutely crucial for outreach campaigns
+
+21:07
+and cannot,
+
+21:08
+I repeat, cannot be skipped.
+
+21:10
+This foundational works enables you to craft targeted messages that
+
+21:14
+resonate with your prospects, developer assistable offers,
+
+21:17
+identify effective outreach channels and timing,
+
+21:21
+build credibility
+
+21:22
+by speaking your industry's language.
+
+21:27
+Again, this is something we're gonna be talking a lot
+
+21:29
+about in just a couple of minutes.
+
+21:31
+And then remember, precision
+
+21:33
+beats casting a wide net every single day of the
+
+21:35
+week.
+
+21:36
+Upfront research leads to higher response rates and more close
+
+21:40
+deals. And this is my way of saying, like,
+
+21:43
+please
+
+21:45
+do the upfront research.
+
+21:47
+If you don't, you're throwing yourself into a hole you
+
+21:49
+don't have to be in.
+
+21:51
+And then lastly, we've got continually refine your ICP to
+
+21:54
+gain insights. This is something you can put on a
+
+21:57
+post it notes and put it on your desk or
+
+21:59
+put it on your wall or somewhere where you can
+
+22:00
+see it frequently because these are things that are over
+
+22:03
+time, not just a 1 time thing.
+
+22:05
+With a solid research foundation,
+
+22:07
+you'll craft compelling messages
+
+22:09
+that drive
+
+22:11
+real results for your triple a business. Now let your
+
+22:15
+research guide your outreach strategy
+
+22:17
+and watch the leads roll in.
+
+22:20
+Contacts. Building your contact list.
+
+22:23
+When you're just starting with outreach,
+
+22:25
+1 of the first things you'll need is a list
+
+22:27
+of people to reach out to. This is what we
+
+22:30
+call a contact list. Let's break down what this means
+
+22:32
+and how to get started. A contact is a person
+
+22:35
+or entity
+
+22:37
+with potential business relevance.
+
+22:39
+Contact list is a database of individuals or organization
+
+22:42
+that you can contact through outreach.
+
+22:45
+Sourcing contacts. Now that you know what contact lists are,
+
+22:49
+let's talk about how you get 1. There are several
+
+22:52
+ways to source contacts.
+
+22:54
+1 is buying lists.
+
+22:56
+You can purchase pre made realists,
+
+22:58
+and it's quick, but it might be expensive and at
+
+23:02
+least cost some sort of money.
+
+23:04
+Then you've got scraping,
+
+23:05
+which is you can use software relatively
+
+23:08
+cheap compared to buying lists. Then we've got online generation,
+
+23:10
+which is build a
+
+23:11
+list,
+
+23:20
+Then we've got online generation,
+
+23:22
+which is build
+
+23:23
+a list through your online presence, meaning a newsletter sign
+
+23:26
+up, a lead magnet, social media, etcetera.
+
+23:30
+These are high intent engaged contacts, which are gonna be
+
+23:33
+used for warm outreach,
+
+23:35
+but they take a lot of time to build.
+
+23:38
+Then we've got networking,
+
+23:41
+collecting
+
+23:42
+through
+
+23:43
+personal interactions.
+
+23:46
+This is 1 of those things that are very high
+
+23:48
+quality and is very well used in a warm outreach
+
+23:51
+scenario,
+
+23:52
+but is very time consuming.
+
+23:54
+So if you need speed, buy and list. If you
+
+23:56
+want a tech approach that doesn't cost as much money,
+
+24:00
+scrape.
+
+24:01
+If you need something budget friendly
+
+24:03
+and don't wanna learn how to use the tech, do
+
+24:05
+online generation.
+
+24:07
+And lastly, if you want really, really superior high quality
+
+24:11
+contacts,
+
+24:12
+go networking.
+
+24:13
+Meet people, shake their hand, make friends.
+
+24:17
+Segmenting.
+
+24:18
+Segmenting your list is key to making your outreach more
+
+24:22
+relevant
+
+24:23
+and personalized.
+
+24:24
+By dividing your list into smaller,
+
+24:27
+more targeted segments,
+
+24:29
+you can tailor your messaging to resonate with each group's
+
+24:33
+specific needs,
+
+24:34
+interests, or characteristics.
+
+24:38
+A segment is a subset
+
+24:40
+of your audience with shared
+
+24:43
+traits.
+
+24:46
+And here's a real world example of what segmentation
+
+24:49
+looks like to explain what it is and how to
+
+24:52
+use it.
+
+24:53
+Instead of having 1 large list for, let's say, real
+
+24:56
+estate agents in the US,
+
+24:58
+you could create
+
+24:59
+separate segments based on company size, location, or specialization.
+
+25:05
+This is what
+
+25:07
+segmenting is and what you can do it with or
+
+25:10
+what you can use
+
+25:12
+to have segmented lists.
+
+25:14
+These data points. Right?
+
+25:16
+This allows you to create
+
+25:18
+emails or outreach
+
+25:20
+messages that speak directly to the unique challenges
+
+25:24
+and opportunities in each segment,
+
+25:27
+increasing the likelihood of engagement
+
+25:29
+and conversion.
+
+25:31
+And I'll give you guys a bit of a real
+
+25:32
+world example on this
+
+25:34
+other than just showing you what data points to use,
+
+25:37
+And that is a company with 1 employee
+
+25:40
+will never have the same problem as a company with
+
+25:43
+a thousand employees. Well, maybe they will, but the likelihood
+
+25:45
+is low. Right? A company with a thousand employees, they're
+
+25:48
+gonna have a different decision maker to contact. They're gonna
+
+25:51
+have a different pain point they resonate with. They're gonna
+
+25:54
+have a different buying process.
+
+25:56
+Everything will be very different depending on the industry itself,
+
+25:59
+which is again why it's so fundamental and so important
+
+26:01
+to do that ground laying research of the industry to
+
+26:04
+understand everything about it. 1 of the things you really
+
+26:06
+want to consider here is what solution you will provide
+
+26:09
+based on these factors.
+
+26:10
+So what will make a difference in what you say
+
+26:13
+and what you provide depending on your industry?
+
+26:16
+In the case of a real estate agent,
+
+26:19
+the location
+
+26:21
+might be a factor. Let's pretend that 1 market is
+
+26:24
+in the high season and a lower another market is
+
+26:27
+in the low season. Let's pretend for this case, just
+
+26:29
+for demo purposes, that New York currently has a very
+
+26:33
+high season where everyone's selling, everyone's buying. It's great in
+
+26:36
+the real estate space. While Los Angeles is on a
+
+26:38
+downturn,
+
+26:39
+meaning there's very little activity in the market. When you're
+
+26:43
+contacting real estate agents, your value proposition has to be
+
+26:45
+different for these kind of people. Because the people in
+
+26:48
+New York,
+
+26:49
+because it's such a active market, they might, generally speaking,
+
+26:52
+have too many leads to handle, meaning that's a pain
+
+26:54
+point. While in Los Angeles, they don't have enough leads.
+
+26:58
+So if you reach out to real estate agents in
+
+27:00
+Los Angeles saying, I know you have too many leads
+
+27:02
+to manage. I'd love to help you out. They're gonna
+
+27:04
+say, what do you mean? I don't have any leads.
+
+27:06
+The market's dead,
+
+27:08
+which is obviously a problem. Right? So you want to
+
+27:10
+consider your industry and think about what would cause me
+
+27:13
+to bring up or talk about something different
+
+27:16
+depending on my industry,
+
+27:18
+which is typically speaking, 1 of these things are usually
+
+27:20
+something you would have to segment by.
+
+27:23
+Another thing to consider is things like decision makers. We're
+
+27:26
+gonna talk a lot more about this. I just wanna
+
+27:27
+give you some context to what we're actually talking about
+
+27:30
+and bringing in the loop here. Another 1 is company
+
+27:32
+size. Because when you're reaching out to people, you have
+
+27:33
+to reach out to a person, which is something we're
+
+27:35
+gonna be talking more about, that decision maker. Right? And
+
+27:38
+the decision maker of Facebook
+
+27:40
+is not Mark Zuckerberg.
+
+27:42
+It's not the owner. If you wanna have Facebook coming
+
+27:45
+as a client and you're selling AI,
+
+27:48
+Mark Zuckerberg is not gonna make that decision. Someone lower
+
+27:51
+down the supply chain will make it. So in the
+
+27:54
+case we have a company as massive as Facebook,
+
+27:56
+the decision maker might even be like a manager.
+
+27:59
+While if you're reaching out to an a company with
+
+28:01
+10 employees,
+
+28:03
+well,
+
+28:04
+the decision maker probably won't be the manager, it will
+
+28:06
+probably be the owner. Right? So you want to consider
+
+28:08
+your industry and do a bit of research on it
+
+28:09
+to figure out considering this segment of market or the
+
+28:12
+segment of leads that I have, who would be the
+
+28:15
+decision maker and what value proposition and offers do I
+
+28:17
+have to give them? Value propositions offers is something we're
+
+28:20
+gonna talk a lot more about in a second here.
+
+28:23
+Other examples of segmentations
+
+28:25
+can include industry, job title or seniority level, pain points
+
+28:29
+and challenges, technology use or engagement level. So to sum
+
+28:33
+this section up, segmenting your lead list is determining
+
+28:37
+what will make a difference in your audience when you
+
+28:40
+reach out to them, who you reach out to, and
+
+28:43
+build a list
+
+28:45
+around that segment of people.
+
+28:48
+This specifically
+
+28:49
+list building is something we're gonna be talking more about.
+
+28:54
+Then we've got outreach metrics
+
+28:57
+and KPIs,
+
+28:58
+which is a very, very important aspect to outreach. As
+
+29:01
+entrepreneurs
+
+29:02
+looking to utilize outreach in our acquisition strategy, we're always,
+
+29:06
+always looking for ways to measure our success and improve
+
+29:10
+the strategies.
+
+29:11
+Once you've started your outreach campaigns, you'll want to know
+
+29:14
+how well they're working.
+
+29:17
+That's where outreach metrics
+
+29:19
+and KPIs come in handy.
+
+29:21
+Metrics first.
+
+29:23
+Understanding metrics is crucial for your outreach campaigns. They provide
+
+29:27
+you raw data that helps you gauge the effectiveness
+
+29:30
+of your outreach and identify areas of improvements.
+
+29:34
+Metrics is a number
+
+29:36
+that tells you how your outreach is performing. They're simply
+
+29:39
+put like vital signs of your outreach campaign. Here's a
+
+29:42
+couple of example of outreach metrics. Open rates, 60 percent,
+
+29:45
+reply rates, 4 percent, and sent 200 emails.
+
+29:51
+These
+
+29:52
+are metrics.
+
+29:54
+Now we're gonna talk about the KPIs,
+
+29:56
+key performance indicators.
+
+29:58
+While metrics give you a broad view of your outreach's
+
+30:02
+performance,
+
+30:03
+KPIs
+
+30:04
+is the metrics
+
+30:06
+that truly matter.
+
+30:07
+They are the North Star of your outreach efforts directly
+
+30:11
+measuring
+
+30:12
+what you're ultimately trying to achieve.
+
+30:15
+Key performance indicators or KPIs
+
+30:17
+are critical measurements that reflect the goal achievements.
+
+30:22
+It could be total replies,
+
+30:24
+e. G. 7 percent. It could be positive replies, e.
+
+30:28
+G. 60 percent, or it could even be deals closed,
+
+30:31
+e. G. 3, depending on where you want to take
+
+30:34
+your company and where your goals are.
+
+30:37
+Generally speaking, positive replies in an outreach campaign is the
+
+30:41
+KPI that we're looking for that we can track and
+
+30:43
+actually improve. Positive replies is the most used KPI when
+
+30:47
+it comes to outreach campaigns because it's very trackable, measurable,
+
+30:50
+and it's something really
+
+30:52
+it's at the end of the outreach cycle. Right? Once
+
+30:55
+you get a positive reply, then they convert into the
+
+30:57
+sales cycle, which has a different KPI and is a
+
+31:00
+whole different chapter by itself.
+
+31:02
+So when we're starting off, 90 percent of the time,
+
+31:04
+99 percent of the time, we're gonna be using positive
+
+31:07
+replies as our KPI. We're gonna be talking more about
+
+31:09
+this and troubleshooting later.
+
+31:12
+And then we've got platform specific metrics. Different outreach platforms
+
+31:16
+over unique metrics
+
+31:17
+that provide valuable insights into your campaign performance.
+
+31:20
+Here are a couple of the key metrics
+
+31:23
+to track LinkedIn,
+
+31:24
+emails, and Instagram.
+
+31:27
+This is again metrics. So it means all the numbers
+
+31:29
+that compile your campaign and give you insights on what's
+
+31:32
+going on, not your KPI, not your ultimate goal.
+
+31:36
+Metrics are all the numbers within your campaign, and this
+
+31:40
+is what we're gonna use to troubleshoot and improve our
+
+31:42
+campaigns so it's important we understand and get this right.
+
+31:45
+On LinkedIn,
+
+31:46
+we've got accept rate, which is the percentage of connection
+
+31:50
+request that are accepted by recipients.
+
+31:53
+This gauges your audience
+
+31:55
+initial willingness to engage with you on LinkedIn and also
+
+31:58
+their activity, which is something we're gonna talk more about.
+
+32:01
+And then we've got response rates is a metric we'll
+
+32:03
+get on LinkedIn, which is the percentage of people who
+
+32:06
+reply to your message regardless of the nature of the
+
+32:08
+response, meaning positive, negative, whatever they are reply.
+
+32:11
+Then we've got positive reply rates, which is the percentage
+
+32:13
+of people who respond positively to your outreach, and this
+
+32:17
+on LinkedIn is your KPI,
+
+32:19
+again, depending on your goals. If your goal is to
+
+32:22
+make a sale,
+
+32:23
+your goal is to get a positive
+
+32:25
+reply
+
+32:27
+as a KPI.
+
+32:28
+Then what about emails?
+
+32:29
+Reply rates is the percentage of recipients
+
+32:32
+who respond to your email regardless of the nature of
+
+32:35
+the response. This helps you gauge your industry's overall activity
+
+32:38
+on emails
+
+32:39
+and message quality.
+
+32:42
+Then we've got positive reply rates, which is the percentage
+
+32:45
+of people who positively respond to your outreach. This again
+
+32:49
+for emails, if your goal is to close deals and
+
+32:52
+get clients, is going to act as your KPI for
+
+32:55
+an email outreach campaign.
+
+32:57
+And then we've got something unique, which is not necessarily
+
+32:59
+a part of LinkedIn or is part of Instagram. We've
+
+33:01
+got something called bounce rates. We're gonna be talking a
+
+33:04
+lot more about this in the cold email
+
+33:07
+module and the further we go, but I wanna introduce
+
+33:09
+the concept to you now because it is a metric
+
+33:11
+we need to track that will determine campaign success and
+
+33:14
+help us troubleshoot.
+
+33:15
+It is the percentage of emails
+
+33:17
+that could not be delivered
+
+33:19
+to the recipient.
+
+33:21
+This helps you identify issues with deliverability,
+
+33:24
+and your email list quality
+
+33:27
+will be covered a lot more in detail in the
+
+33:30
+call email module.
+
+33:32
+Then we've got Instagram
+
+33:33
+read rates, which is something that we haven't mentioned in
+
+33:36
+the other ones.
+
+33:39
+It's the percentage of recipients
+
+33:41
+who open and read your message.
+
+33:44
+This reveals whether your initial outreach captures attention and compels
+
+33:48
+further engagement or not. Meaning, if they reply, it did.
+
+33:52
+If they didn't reply, but they read the message, it
+
+33:54
+means there's a problem in the message. We're gonna do
+
+33:56
+a lot more troubleshooting in the second year. And then
+
+33:58
+we've got response rates, which is the same as the
+
+34:00
+other platforms that we've talked about, just how many people
+
+34:03
+reply regardless of the response. And then we've got, again,
+
+34:06
+positive reply rates, which is the same exact thing as
+
+34:08
+the other 2 platforms. This is your KPI if, again,
+
+34:11
+your business goals is to close clients.
+
+34:14
+And then the question becomes, when do we track these
+
+34:17
+metrics? How do we look at the KPIs?
+
+34:19
+When when do we even do this? Right?
+
+34:22
+And when it comes to outreach,
+
+34:23
+timing isn't just about when you send the messages. Timing
+
+34:26
+is also crucial
+
+34:28
+when you track your metrics, believe it or not. To
+
+34:30
+create effective outreach campaigns, you need a deep understanding
+
+34:34
+of how your efforts are performing
+
+34:37
+at different stages.
+
+34:39
+Developing this understanding
+
+34:40
+requires
+
+34:41
+consistent,
+
+34:43
+very important word, consistent
+
+34:45
+and timely tracking of your metrics.
+
+34:48
+As we talked about in the previous sections, metrics is
+
+34:51
+what we need to decode in order to understand how
+
+34:54
+our campaigns are doing.
+
+34:55
+And this
+
+34:57
+is the section where we talk about how timing is
+
+35:00
+important.
+
+35:01
+Because if we track
+
+35:02
+2 campaigns against each other and we draw conclusions from
+
+35:06
+1 metric or 1 campaign
+
+35:08
+in the first day, and the reason we're even talking
+
+35:11
+about this in the first place is because we need
+
+35:12
+to establish a consistent
+
+35:15
+behavior of tracking our campaigns
+
+35:18
+at the same time intervals.
+
+35:19
+Because if we track 1 campaign after it finishes
+
+35:23
+and 1 campaign
+
+35:24
+only if it's halfway through,
+
+35:26
+then we're obviously gonna get very different results and we're
+
+35:28
+gonna skew our problems. We're gonna come up with the
+
+35:31
+wrong conclusions based on those metrics.
+
+35:34
+Key tracking intervals is daily monitoring.
+
+35:37
+You wanna track the key metrics
+
+35:39
+and look for immediate issues.
+
+35:42
+On email, an example of this would be bounce rates.
+
+35:44
+If you get high bounce rates, that's an an immediate
+
+35:46
+issue. Again, we're gonna talk a lot more about that.
+
+35:50
+And then we've got weekly reviews, which is when you
+
+35:52
+should sit down and analyze trends and make a mid
+
+35:55
+campaign adjustment. So if there's anything you see that could
+
+35:59
+have been done better,
+
+36:00
+that should have been fixed, now is when to do
+
+36:02
+it once a week.
+
+36:04
+And then we've got what we call for the conclusion
+
+36:07
+window, which is 1 of the most important parts because
+
+36:10
+you're gonna build a database
+
+36:12
+of all your campaigns to understand what's working, what's not
+
+36:15
+working, what offers are good, what personalization
+
+36:17
+is working, all this kind of stuff.
+
+36:19
+And if you track 1 campaign the day after it
+
+36:21
+finishes and you track another campaign 4 months after it
+
+36:25
+finishes,
+
+36:25
+that campaign you waited 4 months to track might have
+
+36:29
+curated a lot of new replies that you didn't track
+
+36:31
+on the other campaign. So now the outreach metrics are
+
+36:34
+unfair. And if you start drawing conclusions
+
+36:37
+of different unfair metrics, you're gonna be all over the
+
+36:41
+place trying to make decisions
+
+36:42
+on skewed metrics, which is essentially never gonna help you.
+
+36:46
+So the conclusion window
+
+36:47
+is when you evaluate the overall campaign performance.
+
+36:51
+Now we're gonna run through all of these ones and
+
+36:53
+what you're tracking and the purpose for doing it. On
+
+36:56
+daily monitoring, we're gonna track deliverability,
+
+36:58
+open rates, bounce rates, and spam complaints.
+
+37:02
+This is across every platform,
+
+37:03
+and the purpose is to catch any media issues.
+
+37:06
+Weekly reviews, we're gonna look at reply rates, engagement trends,
+
+37:10
+and message effectiveness,
+
+37:11
+and the purpose is to identify patterns
+
+37:14
+and or make mid campaigns adjustment for the campaign to
+
+37:17
+perform better. And And then we've got the conclusion window.
+
+37:20
+The metrics we're gonna track is overall reply rates, conversion
+
+37:23
+rates,
+
+37:24
+and return on investment.
+
+37:26
+And the purpose of this is to evaluate the campaign
+
+37:29
+success
+
+37:30
+and inform future strategies. As I said, we want to
+
+37:33
+build up a database of campaigns we can look back
+
+37:36
+on, and we can say this offer did great against
+
+37:38
+this audience, and this other personalization did great against this
+
+37:42
+audience, meaning we should pair them together and make a
+
+37:44
+new campaign that's gonna perform really well. Right? This is
+
+37:47
+what we're gonna use to draw conclusions. This is a
+
+37:49
+very important thing. The sooner you start building it, the
+
+37:51
+better it is. A good rule of thumb is to
+
+37:54
+establish a consistent tracking schedule for your conclusion window, very
+
+37:58
+important,
+
+37:59
+and stick to it for all your campaigns.
+
+38:02
+We typically do 2 to 3 days after a campaign
+
+38:05
+finishes.
+
+38:06
+We will then always look at the campaign
+
+38:08
+2 days or 3 days after, and then we will
+
+38:11
+draw that metrics into a database that we can essentially
+
+38:14
+look back on and build out.
+
+38:16
+Understanding metrics. In the world of outreach, metrics
+
+38:20
+are your compass.
+
+38:22
+They guide your decision making,
+
+38:24
+highlighting areas for improvements.
+
+38:26
+It's very important
+
+38:28
+to understand what the different metrics are responsible
+
+38:31
+for.
+
+38:32
+Now we're gonna do a bit of a deep dive
+
+38:33
+into the different metrics, what they mean, and a glimpse
+
+38:36
+into what you can use them for.
+
+38:38
+Positive reply rates. First, a reply is any response received
+
+38:42
+from a recipient
+
+38:44
+regardless
+
+38:45
+of the intent.
+
+38:46
+A positive reply is a response indicating
+
+38:49
+interest or willingness to engage further.
+
+38:52
+This is the most important metric to focus on as
+
+38:55
+it directly correlates with the success of your outreach
+
+38:59
+in generating leads and opportunities
+
+39:01
+for your AAA business.
+
+39:03
+A low positive reply rate suggests that while your outreach
+
+39:06
+may be getting responses,
+
+39:08
+the content or offer
+
+39:10
+may need improvements.
+
+39:12
+Open rates. So first, a open is a recipient opening
+
+39:16
+what you sent them. And then an open rate is
+
+39:18
+the percentage of recipients
+
+39:20
+who view
+
+39:21
+the content
+
+39:22
+of a sent email or a sent message.
+
+39:25
+Alternate rates provides a bit of a glimpse into effectiveness
+
+39:28
+of your subject line, preview text, and deliverability.
+
+39:32
+We're gonna talk a lot more about this for email
+
+39:35
+specifically,
+
+39:36
+but nowadays in 20 24, open rates is not something
+
+39:39
+we're tracking for emails. This is gonna come in the
+
+39:41
+later modules where we're diving into emails and talking about
+
+39:43
+that a lot more. This is more bird's eye view
+
+39:45
+and broad on outreach in general.
+
+39:48
+And then we've got reply rates. Reply rates is the
+
+39:52
+percentage
+
+39:53
+of recipients
+
+39:54
+who respond to your email including all types of replies,
+
+39:57
+positive, negative, and automated.
+
+39:59
+This is also something we need to track. Right? And
+
+40:01
+the reply rates indicates an overall effectiveness
+
+40:05
+of your offer, call to action, and email content
+
+40:08
+or content of message rather
+
+40:10
+in prompting a response
+
+40:12
+from the recipients.
+
+40:14
+This is what it looks like when we're pulling all
+
+40:15
+of the metrics into a bit of an image and
+
+40:17
+we're talking about it. We've got a hundred people and
+
+40:19
+then we're getting 60 percent open it, 6 percent replied,
+
+40:22
+4 percent positive early replied, and 1 percent of them
+
+40:25
+has a book meeting.
+
+40:28
+Then lastly, we've got bounce rates, which is only particular
+
+40:32
+to email. This is not the case for LinkedIn. It's
+
+40:34
+not gonna be the case for Instagram or any other
+
+40:35
+platform, but I wanna introduce you to the concept because
+
+40:38
+it is a part of the metrics tracking.
+
+40:40
+Again, it's something we're gonna talk a lot more about
+
+40:42
+as we go into this specific module on email.
+
+40:45
+Bounce
+
+40:46
+is an email that failed to reach its intended recipient,
+
+40:50
+and a bounce rate is the percentage of emails
+
+40:52
+failing to reach the intended recipients.
+
+40:55
+Now this is very important.
+
+40:57
+High bounce rates are a massive, massive red flag in
+
+41:01
+email outreach.
+
+41:02
+They indicate you're sending to invalid slash non existent email
+
+41:06
+addresses
+
+41:07
+or have serious deliverability
+
+41:10
+issues.
+
+41:11
+We're going to dive a lot deeper into this in
+
+41:12
+the call email module, but I just want you to
+
+41:14
+understand what they're responsible for now. And the impact of
+
+41:17
+having high bounce rates is that will harm your email
+
+41:20
+reputation.
+
+41:21
+Email providers like Google and Outlook will view you as
+
+41:24
+a potential spammer if you have a lot of bounces.
+
+41:27
+They're gonna think, why is this person emailing so many
+
+41:30
+people that don't exist? And that's obviously suspicious.
+
+41:33
+And then it's gonna increase your spam folder placement because
+
+41:37
+of that. So future emails, even if you fix the
+
+41:40
+problem of bounces,
+
+41:42
+is going to land in spam.
+
+41:44
+We're gonna aim to maintain a bounce rate between 1
+
+41:47
+and 4 percent
+
+41:49
+to ensure optimal deliverability
+
+41:51
+and protect your sender reputation, which is what we call
+
+41:54
+it.
+
+41:55
+So make sure you're below 4 percent bounce rates in
+
+41:58
+any email campaigns.
+
+42:00
+Now we've got troubleshooting
+
+42:02
+based on all the metrics we've been talking about. So
+
+42:05
+this is how to apply the metrics we've been talking
+
+42:07
+about and learning about into troubleshooting and understanding what's going
+
+42:10
+wrong in your campaign.
+
+42:12
+When analyzing your outreach metrics, it's crucial to look at
+
+42:15
+the big picture to identify
+
+42:17
+which metrics
+
+42:18
+is actually the issue. By understanding
+
+42:21
+how different outreach metrics relate to each other,
+
+42:25
+you can pinpoint areas of improvement and prioritize
+
+42:28
+the optimization efforts.
+
+42:31
+Let's start off with low open rates. So if you've
+
+42:34
+got low open rates, you're gonna look into optimizing your
+
+42:37
+subject line,
+
+42:38
+improving your personalization
+
+42:40
+or preview text,
+
+42:41
+or addressing deliverability
+
+42:43
+issues. Secondly, we've got low reply rates. Before
+
+42:47
+tackling low reply rates,
+
+42:49
+we need to make sure that our open rates are
+
+42:52
+healthy.
+
+42:53
+Because if we think we have low reply rates,
+
+42:56
+but in reality, no 1 is opening our emails, we
+
+42:59
+think that we have low reply rates, meaning that's what
+
+43:02
+we try to fix. But in reality, we might have
+
+43:04
+a deliverability issue because no one's opened our email. So
+
+43:07
+these are putting the correct hierarchy. The first thing we
+
+43:10
+look for is the open rates, and then we unlock
+
+43:12
+to be able to look for low reply rates.
+
+43:16
+If you have low reply rates but you have a
+
+43:18
+high open rate or 60 percent plus open rate, then
+
+43:20
+you want to look at increasing overall relevance of your
+
+43:24
+message,
+
+43:24
+enhancing your personalization,
+
+43:26
+and refining your offer or clarifying
+
+43:29
+your call to action, your CTA.
+
+43:31
+You want to make it easy for people to reply.
+
+43:34
+If both of these are healthy,
+
+43:36
+meaning you got above 60 percent open rates and you've
+
+43:39
+got above
+
+43:40
+3 percent reply rates, then we're gonna go down and
+
+43:42
+we're gonna look at low positive reply rates. These 2
+
+43:46
+play together.
+
+43:48
+If you're getting replies but you're not getting enough positive
+
+43:52
+replies,
+
+43:52
+then we're gonna have to evaluate
+
+43:55
+the offer.
+
+43:56
+We're gonna have have to evaluate the tone and the
+
+43:58
+approach that we're taking in the message and the quality
+
+44:01
+of our lead list.
+
+44:03
+Even if people are not replying, does that mean that
+
+44:05
+they're not a fit? Did they slip through the crack
+
+44:08
+and they're essentially a bigger company, a smaller company, and
+
+44:11
+not a fit for our ACP? Or what's going on
+
+44:12
+with our lead list? So if you're low, positive reply
+
+44:15
+rates, consider these. Lastly, we've got high bounce rates. High
+
+44:19
+bounce rates, as we've talked about, can harm your email
+
+44:22
+reputation.
+
+44:23
+And to reduce them, we need to consider verifying
+
+44:25
+the quality of our email list
+
+44:28
+and addressing technical issues like spam filters, sending server problems,
+
+44:32
+etcetera.
+
+44:33
+This is all we're gonna talk about on this 1.
+
+44:35
+Just know that you need to troubleshoot
+
+44:38
+the high bounce rates by verifying emails and checking into
+
+44:41
+your setup.
+
+44:42
+This is something we're gonna cover so much more about
+
+44:44
+because it's so massively important for emails, so this is
+
+44:47
+all we're gonna keep it out on this section.
+
+44:50
+A bit of an example scenario to summarize and point
+
+44:53
+to action everything we've talked about today
+
+44:55
+is let's pretend you have a 1 percent reply rate
+
+44:59
+and a 5 percent open rate. At first glance, when
+
+45:01
+you're looking at this, you might think that the reply
+
+45:05
+rate seems like the main problem. However,
+
+45:07
+with such low open rate, it's likely that your emails
+
+45:10
+are actually landing in the spam folder.
+
+45:13
+In this case, focusing on improving your reply rates won't
+
+45:16
+actually make any difference at all until you fix the
+
+45:20
+deliverability
+
+45:20
+issue,
+
+45:21
+which is why it's so important
+
+45:23
+to use the framework
+
+45:25
+and this the hierarchy that we mapped out here to
+
+45:28
+make sure when you go through and troubleshoot
+
+45:30
+your campaigns.
+
+45:32
+In each of the outreach modules, you'll be given step
+
+45:34
+by step guides to analyze and optimize according to the
+
+45:36
+different platforms.
+
+45:38
+Optimization
+
+45:39
+and split testing is the next section.
+
+45:41
+AB testing,
+
+45:43
+also known as split testing, is a powerful method for
+
+45:47
+optimizing your outreach efforts.
+
+45:49
+By comparing
+
+45:50
+2 versions
+
+45:51
+of a variable or a outreach campaign, you can determine
+
+45:55
+which 1 performs better and iterates accordingly.
+
+45:59
+Optimization is a process of improving efficiency or effectiveness.
+
+46:03
+Iteration
+
+46:04
+is repeated cycles
+
+46:06
+of improvement or refinements,
+
+46:08
+and split testing is comparing 2 variants
+
+46:11
+to determine which 1 is better.
+
+46:13
+Now let's go into the key components that go into
+
+46:15
+the split testing. To create effective split test, you'll need
+
+46:18
+to understand the fundamental
+
+46:20
+elements involved.
+
+46:22
+So we've got a, which is what we call for
+
+46:25
+a control,
+
+46:26
+which is the original version that say serves as a
+
+46:30
+baseline for comparison.
+
+46:32
+And then we've got b that we call for a
+
+46:35
+variant,
+
+46:36
+which is the altered version of a
+
+46:40
+that it's being tested
+
+46:41
+against
+
+46:42
+the control.
+
+46:44
+So this means if you have an offer
+
+46:47
+that you know works because you've had good responses on
+
+46:50
+outreach before,
+
+46:52
+that would be a.
+
+46:54
+And then b
+
+46:56
+would be an offer that you think will perform better
+
+46:59
+than a. And the reason you put them into 1
+
+47:01
+campaign is so you can see the difference against the
+
+47:04
+control. Right? We make sure that the metrics are are
+
+47:07
+similar to what we expected on this. That means we
+
+47:09
+can draw conclusions that the variant was either better or
+
+47:12
+worse.
+
+47:16
+Here's how split testing works.
+
+47:18
+Split testing involves creating 2 versions of a specific element
+
+47:23
+in your outreach campaign, such as the subject line, an
+
+47:26
+offer, or a call to action. The original version serves
+
+47:29
+as the control,
+
+47:31
+while the modified version is the variant.
+
+47:34
+By sending each version to a portion of your target
+
+47:38
+audience
+
+47:38
+and measuring the results,
+
+47:40
+you can determine
+
+47:42
+which version performs better
+
+47:44
+based on your KPI,
+
+47:47
+which as again, just to repeat that in most cases,
+
+47:49
+it's going to be positive reply rates. Right? Here's a
+
+47:51
+bit of an example of us sending
+
+47:53
+an email campaign, in this case,
+
+47:56
+to 1000 people in total. We can see here variant
+
+47:59
+1 has 500 emails, and variant 2 has 500 emails.
+
+48:03
+It's very important that we send send the same amount
+
+48:06
+of emails so we can draw accurate conclusions on it.
+
+48:09
+As we can see variant 2 got more positive replies
+
+48:12
+than variant 1, which means variant 2 is a better
+
+48:15
+version.
+
+48:17
+So this could be an offer test where offer 1,
+
+48:20
+offer 2, and the new offer would come up with,
+
+48:22
+which is 2, is now better, and that's the 1
+
+48:25
+we want to go ahead and proceed with.
+
+48:30
+When it comes to what do we actually test and
+
+48:32
+what do we wanna focus on, do we test subject
+
+48:34
+lines? Do we test offers? What do we do? Here
+
+48:37
+it is. When it comes to optimizing our reach, there
+
+48:39
+are several key elements that you can split test. We've
+
+48:42
+got offer, which is essentially a compare offers to identify
+
+48:46
+which resonates
+
+48:47
+best with your audience.
+
+48:48
+For example,
+
+48:50
+different offer types
+
+48:52
+like consultation videos
+
+48:54
+against a free chatbot implementation.
+
+48:57
+And then we've got another component we could test which
+
+48:59
+is value proposition.
+
+49:00
+Experiment with different ways of articulating
+
+49:03
+your product or service's value.
+
+49:06
+Try highlighting unique features,
+
+49:09
+emphasizing specific benefits,
+
+49:11
+or focusing on different pin points your offer is addressing.
+
+49:15
+Just so I've said this I know this might be
+
+49:17
+a bit confusing, the offer versus a value proposition. This
+
+49:20
+is something we're gonna talk about very, very soon. It
+
+49:22
+comes in the next section. So if you struggle with
+
+49:24
+differentiating an offer and a value proposition,
+
+49:27
+hold on and bear with me for another 2 minutes.
+
+49:32
+Then we've got structure, content slash angle. These kind of
+
+49:35
+marry together because it's what we put under messaging.
+
+49:38
+It's test different approaches to structuring your message,
+
+49:41
+experiment with different content lengths,
+
+49:43
+storytelling techniques,
+
+49:45
+or framing strategies
+
+49:46
+that determine
+
+49:48
+what engages your audience most effectively.
+
+49:51
+This could mean make a campaign that's really, really short,
+
+49:53
+make 1 that's a bit longer with a lot more
+
+49:55
+information, see which 1 does better. Make 1 that's funny,
+
+49:58
+make 1 that's serious, see which 1 does better. Right?
+
+50:01
+And then we've got another component we can test, which
+
+50:03
+is call to action CTAs. Right? Split testing different CTAs
+
+50:07
+to identify
+
+50:09
+which drives the most action.
+
+50:13
+Compare the effectiveness
+
+50:14
+of a direct hard call to action
+
+50:17
+against the more subtle soft approaches,
+
+50:20
+which is something we're just about to jump into too.
+
+50:22
+So if hard versus cold is a bit confusing, that's
+
+50:25
+something we're gonna talk a lot about. But call to
+
+50:27
+action is another component.
+
+50:28
+And the last component
+
+50:30
+that's worth it looking into testing and iterating on is
+
+50:33
+personalization elements.
+
+50:34
+Experiment with various levels of types of personalization,
+
+50:38
+test different segmentation strategies,
+
+50:40
+dynamic content insertion techniques, and tailored recommendations
+
+50:44
+to enhance the relevant and engagement.
+
+50:46
+If these don't make sense to you just yet, segmentation
+
+50:49
+strategies and dynamic variables,
+
+50:51
+this is something we're gonna talk about in just a
+
+50:53
+second.
+
+50:54
+And then here's your priority list for what to test
+
+50:56
+first and a framework.
+
+50:59
+When deciding what to test first, considering the following priority
+
+51:02
+list. First, your offer, then your value proposition,
+
+51:05
+then your structure content slash angle, then your call to
+
+51:08
+action, and then personalization elements.
+
+51:10
+This is ranked
+
+51:12
+according to what will have the biggest impact on your
+
+51:14
+results first.
+
+51:16
+Start with testing the elements that are likely to have
+
+51:18
+the most significant impact on your outreach performance such as
+
+51:21
+the offer and value proposition.
+
+51:23
+Once you've optimized
+
+51:24
+and made these actual work, then you can move on
+
+51:27
+to testing more granular elements
+
+51:29
+like call to action,
+
+51:31
+personalization,
+
+51:32
+and things like subject lines.
+
+51:34
+Get more help when testing. Later in this module, you'll
+
+51:37
+be taken through
+
+51:39
+setting up your own outreach systems.
+
+51:41
+If you're struggling with knowing what to split test, book
+
+51:45
+in a call with an outreach coach. We are here
+
+51:48
+to help. This whole topic is something that can get
+
+51:52
+very confusing
+
+51:53
+and it's it's something a lot of elements have to
+
+51:56
+play into.
+
+51:57
+Like your audience, your segment,
+
+51:59
+what to test, when to test, why to test.
+
+52:02
+Test this against a different segment than the previous 1.
+
+52:05
+I know this can get confusing.
+
+52:07
+And if it gets confusing or if you need help
+
+52:09
+with this, us outreach cultures, we're here to help and
+
+52:13
+understand help you understand the context.
+
+52:15
+So bring your specific situation
+
+52:17
+to us on a call, and we'll help you not
+
+52:20
+only on what to do, but also how to look
+
+52:22
+at it and understanding it.
+
+52:26
+And then we've got, as I promised, offer versus value
+
+52:29
+proposition.
+
+52:30
+Understanding the difference between an offer and a value proposition
+
+52:34
+is crucial when split testing your outreach campaigns.
+
+52:37
+These 2 elements
+
+52:39
+form the foundation
+
+52:40
+of your message and can significantly
+
+52:43
+impact the results.
+
+52:44
+These alone are the 2 biggest result driving factors when
+
+52:48
+it comes to the components of a cold email.
+
+52:51
+Everything tying together, like, overall is probably the most important,
+
+52:54
+but as components individually speaking, these are 2 most important
+
+52:59
+things.
+
+52:59
+Offer is the immediate
+
+53:01
+opportunity
+
+53:02
+presented to a prospect,
+
+53:04
+I. E. Here is a cookie. Take it.
+
+53:07
+Value proposition
+
+53:08
+is the long term benefits or solutions
+
+53:11
+your product slash service provides.
+
+53:15
+Meaning, if this is here is a cookie, take it.
+
+53:18
+The value proposition of the cookie could be this cookie
+
+53:21
+will make you stronger.
+
+53:23
+Right? And we're gonna go through some example now in
+
+53:25
+a second.
+
+53:26
+Here's a couple of real world examples to put this
+
+53:28
+into perspective. Here's an example for an AI automation agency.
+
+53:33
+The offer is
+
+53:34
+free 30 minute consultation,
+
+53:36
+which is what we give them, what we offer them.
+
+53:38
+Right? And the value proposition
+
+53:40
+is
+
+53:41
+we help businesses not fall behind by explaining how AI
+
+53:45
+can help.
+
+53:47
+So the value proposition with them taking you up on
+
+53:49
+a 30 minute consultation
+
+53:51
+is that it will help the business understand how to
+
+53:53
+not fall behind by explaining how AI can help them.
+
+53:58
+And then we've got a plumber, where the offer is
+
+54:01
+a free plumbing inspection.
+
+54:03
+The value proposition I correlated with this offer is we
+
+54:07
+help homeowners
+
+54:09
+prevent costly water damage before they happen.
+
+54:12
+So the reason a homeowner or someone should take them
+
+54:15
+up on the free plumbing inspection
+
+54:17
+is to avoid having costly water damage by not knowing
+
+54:21
+what's going on. So they help prevent it. Right? That's
+
+54:24
+why they should take them up on the offer.
+
+54:26
+And then we've got a fitness coach where the offer
+
+54:29
+is a complimentary
+
+54:30
+4 to 5 minute personal training session.
+
+54:33
+The value prop, again, are correlated to this offer
+
+54:37
+is we'll show you the exact exercises
+
+54:40
+our clients have used to lose 20 kilograms
+
+54:43
+in 3 months depending on your situation.
+
+54:46
+I'm I'm sorry for all the, all the US people
+
+54:49
+out there that are talking in LBS.
+
+54:51
+I don't know. I'm European. Okay? I'm from Norway.
+
+54:55
+Anyways, you get the point. You still understand the point
+
+54:57
+of this. The reason they should take them up on
+
+55:00
+a complimentary
+
+55:00
+personal training session
+
+55:02
+is they will show you the exercises
+
+55:05
+other people have used to lose 20 kilograms in 3
+
+55:07
+months. Now we're getting into an exciting section, which is
+
+55:10
+effective messaging.
+
+55:12
+Crafting effective messaging is a critical
+
+55:15
+very critical component of successful outreach.
+
+55:18
+Your message
+
+55:20
+should be tailored to your target audience,
+
+55:22
+clearly communicating
+
+55:24
+your offer and value proposition,
+
+55:26
+as well as compelling them to take the desired
+
+55:30
+action.
+
+55:32
+This is a very, very important section.
+
+55:34
+In this section, we'll explore and go through offer, how
+
+55:38
+to craft compelling offers, value proposition,
+
+55:41
+communicating your unique benefits,
+
+55:43
+personalization,
+
+55:45
+tailor your message to each prospect
+
+55:47
+as well as on scale,
+
+55:49
+and call to actions, guiding prospects to the next step.
+
+55:52
+These are the 4 most important components to understand when
+
+55:56
+it comes to creating your message. If you get these
+
+55:58
+4 right, you can get a lot of other stuff
+
+56:00
+wrong.
+
+56:02
+Each of these elements are absolutely essential and work together
+
+56:06
+to craft an effective messaging.
+
+56:08
+It's important to carefully pay attention
+
+56:11
+to how they interact
+
+56:12
+as we move forward and go through this section.
+
+56:16
+We've already kind of explored how value proposition is a
+
+56:19
+byproduct of an offer,
+
+56:20
+the same way that personalization should tie into the offering
+
+56:23
+and the call to action needs to be relevant to
+
+56:25
+all those 3, which is why it's so important to
+
+56:27
+pay attention to this section. Because if your message is
+
+56:30
+not cohesive,
+
+56:31
+it's gonna have an impact on how many positive replies
+
+56:33
+you get.
+
+56:35
+The first thing I wanna talk about here is personalization.
+
+56:38
+Personalization
+
+56:39
+is tailoring your message to match each person's
+
+56:42
+unique interests and needs.
+
+56:45
+Personalization is the practice of tailoring your message to their
+
+56:48
+specific characteristics,
+
+56:50
+needs, or interests
+
+56:52
+of an individual
+
+56:53
+prospect.
+
+56:54
+It helps your message stand out and shows the recipient
+
+56:58
+that you've taken the time to understand their unique situation.
+
+57:03
+When it comes to presentation, I like to split this
+
+57:06
+up to 4 different buckets,
+
+57:08
+4 different levels. The first thing we have is basic
+
+57:11
+personalization,
+
+57:12
+which are things like using the prospect's name or very
+
+57:15
+basic information. An example of this is hi first name.
+
+57:18
+Notice you work at company name in industry.
+
+57:21
+All these variables displayed here, like first name, company name,
+
+57:24
+and industry are very basic variables.
+
+57:27
+And then we've got what I refer to as fake
+
+57:30
+personalization.
+
+57:32
+And this is using generic information that appears to be
+
+57:35
+personalized.
+
+57:37
+Most of the platforms that you're gonna be using to
+
+57:39
+send your outreach messages
+
+57:41
+are gonna have built in variables that you can actually
+
+57:44
+leverage to give a fake sense of personalization.
+
+57:47
+This is sometimes it's referred to as dynamic variables,
+
+57:50
+or the time is referred to as liquid spin tax.
+
+57:53
+There's a lot of different variations,
+
+57:55
+but what you need to understand is that they will
+
+57:58
+change
+
+57:59
+depending on things like leads time zone and current date
+
+58:02
+and time. And the cool things you can do with
+
+58:04
+fake personalization
+
+58:06
+are things like good morning,
+
+58:09
+hope you're having a good start to the week.
+
+58:12
+And the idea with this is that these would automatically
+
+58:15
+change
+
+58:17
+depending on the current time
+
+58:19
+for the lead in this case and the current day
+
+58:21
+of the week for the lead.
+
+58:23
+This specific variable, just to give you guys a little
+
+58:26
+tiny bit of context,
+
+58:27
+is this variable
+
+58:29
+when it's Monday
+
+58:30
+through Wednesday, it will say hope you're having a good
+
+58:33
+start to the week. And Wednesday through Friday, it will
+
+58:36
+say hope your week has been good.
+
+58:39
+Right? And the idea of this is to create just
+
+58:41
+a little sense
+
+58:43
+of personalization that is not personal to them but it
+
+58:45
+makes it seem like the the message was only written
+
+58:48
+for them because things like time is a factor here.
+
+58:52
+And then we've got segmented personalization
+
+58:54
+which is tailoring your message based on specific segments.
+
+58:58
+So an example of this is saw your company truck
+
+59:02
+drive by downtown earlier this week.
+
+59:05
+If you're
+
+59:06
+segmenting
+
+59:08
+by location, let's say a specific city, and you live
+
+59:11
+in that city and the industry is an industry that
+
+59:14
+have company marked trucks,
+
+59:16
+you can do a a personalization that says, saw your
+
+59:19
+truck die drive by downtime earlier last week,
+
+59:22
+earlier this week. And that gives a sense of segmented
+
+59:26
+personalization. Segmented personalization is something you can apply that would
+
+59:29
+be relevant for every single person in that list. So
+
+59:32
+it's not necessarily personal to the 1 person, but it's
+
+59:35
+personalization because you could only say it to the segment
+
+59:38
+of the list that you have.
+
+59:40
+And then we've got the most exciting things for all
+
+59:43
+of us in the AI space, which is obviously
+
+59:45
+hyper personalization with AI,
+
+59:47
+which is leveraging AI for highly personalized messages.
+
+59:51
+An example
+
+59:52
+of this could be loved your recent post
+
+59:56
+on marketing.
+
+59:57
+Loved your recent post on call email deliverability.
+
+01:00:00
+Loved your recent post on
+
+01:00:02
+getting a 6 pack quick. Right? And the idea with
+
+01:00:05
+this is that you would get your hands on the
+
+01:00:06
+post and you would essentially
+
+01:00:09
+have AI draw a conclusion from the post that you
+
+01:00:12
+could refer to and you can automatically do this for
+
+01:00:15
+10 to tens of thousands of leads. And we're gonna
+
+01:00:18
+be talking a lot more about this in the later
+
+01:00:19
+modules, but I just need you to have an understanding
+
+01:00:22
+of what the different ones are and how they kinda
+
+01:00:24
+work together.
+
+01:00:25
+Because this is, again, the section on message
+
+01:00:28
+cohesiveness.
+
+01:00:30
+The next section we're gonna be talking about is number
+
+01:00:33
+2, the offer.
+
+01:00:35
+A desired offer is absolutely crucial component
+
+01:00:39
+of your outreach message.
+
+01:00:41
+It should be compelling,
+
+01:00:44
+relevant,
+
+01:00:45
+and not to mention easy to understand,
+
+01:00:48
+enticing the prospects to take the next step in engaging
+
+01:00:52
+with your agency. There's a couple of key aspects
+
+01:00:55
+to creating an effective offer.
+
+01:00:57
+This is what you need to consider.
+
+01:00:59
+Clarity,
+
+01:01:00
+make it easy to understand what they're actually getting
+
+01:01:05
+immediate value. Provide something that they can get the value
+
+01:01:08
+from right away.
+
+01:01:10
+Low commitment,
+
+01:01:12
+make it easy for the prospects to say yes.
+
+01:01:16
+And relevance,
+
+01:01:17
+tailor it to prospects
+
+01:01:19
+likely needs or interests.
+
+01:01:24
+If you reach out to someone
+
+01:01:26
+with something they don't need
+
+01:01:28
+or don't have an interest in,
+
+01:01:30
+people are simply not going to reply to you.
+
+01:01:34
+Here's a couple of examples when it comes to offers
+
+01:01:36
+for your outage. It could be a free consultation,
+
+01:01:40
+which you offer expert advice on their specific situation. It
+
+01:01:44
+could be a demo or a trial,
+
+01:01:46
+offers a hands on experience with your product or your
+
+01:01:49
+service.
+
+01:01:50
+It could be solution ideation,
+
+01:01:53
+which presents a tailored solution concept
+
+01:01:56
+for their business.
+
+01:01:58
+It could be a personalized
+
+01:02:00
+analysis,
+
+01:02:01
+which is providing
+
+01:02:03
+a custom report or audit
+
+01:02:05
+at their current state,
+
+01:02:07
+or it could be something like exclusive content,
+
+01:02:10
+like industry insights or research not available publicly that you
+
+01:02:14
+could share with them relevant to your end offering. What
+
+01:02:17
+we're talking about here is our offer does not have
+
+01:02:20
+to be our service offering. This is a very common
+
+01:02:23
+misconception,
+
+01:02:24
+in the AI industry and pretty much every industry
+
+01:02:27
+is people think they need to offer their services in
+
+01:02:30
+an outreach message, which
+
+01:02:31
+is very wrong. You just need to offer people something
+
+01:02:34
+that is relative to your services like we've talked about
+
+01:02:37
+here. Right? Free consultation, demo trial, not your actual service.
+
+01:02:41
+Services don't sell over outreach
+
+01:02:44
+simply.
+
+01:02:45
+The closest you will get to it is selling the
+
+01:02:47
+meeting, not the service. So if you do not want
+
+01:02:50
+to take the approach of giving free value, which I
+
+01:02:53
+absolutely advise that everyone should be doing,
+
+01:02:57
+then the closest thing you will get is selling the
+
+01:03:00
+meeting and not the service.
+
+01:03:02
+Meaning, in outreach, your goal is to get a meeting,
+
+01:03:06
+not a sale.
+
+01:03:09
+Think of it as the first step in a much
+
+01:03:11
+longer journey.
+
+01:03:13
+Here's why it works: it's a lot lower pressure meaning
+
+01:03:17
+prospects are likely to say yes to chat rather than
+
+01:03:20
+to purchase.
+
+01:03:21
+If you force someone to make a buying decision
+
+01:03:24
+of the very little information you can give in an
+
+01:03:26
+outreach message, I can guarantee you that they're not gonna
+
+01:03:29
+have enough intel or information
+
+01:03:31
+to actually pay for your services.
+
+01:03:34
+It builds trust. So meetings let you connect and understand
+
+01:03:38
+their needs better
+
+01:03:40
+as well as you can tailor your pitch. So learn
+
+01:03:42
+about their specific challenges before actually proposing their solutions. Learn
+
+01:03:46
+about the problems, learn about what they're facing, and then
+
+01:03:48
+you can give them a solution that is actually relevant
+
+01:03:51
+and valuable to them. Let me ask you, which 1
+
+01:03:54
+of these 2 sound better?
+
+01:03:56
+I'll set up an AI system for your business,
+
+01:03:59
+or
+
+01:03:59
+let's have a 15 minute chat to explore how AI
+
+01:04:03
+could help your business.
+
+01:04:05
+Which 1 do you think
+
+01:04:06
+sounds better?
+
+01:04:08
+Definitely
+
+01:04:09
+number 2. Right? Because here you're asking for them to
+
+01:04:12
+essentially
+
+01:04:13
+what what are you even asking for? There's not enough
+
+01:04:15
+context. You're not giving the prospect enough context on like,
+
+01:04:17
+what am I saying yes to? What am I saying
+
+01:04:19
+no to? Am I paying for some like, what's even
+
+01:04:21
+going on? While in this 1, you're saying let's have
+
+01:04:24
+a 15 minute
+
+01:04:25
+call just to explore if AI could even help you
+
+01:04:28
+in the first place. It's a very more
+
+01:04:30
+open approach which a lot more prospects will say yes
+
+01:04:34
+to.
+
+01:04:34
+So option number 2 is definitely superior,
+
+01:04:37
+in this case.
+
+01:04:39
+And then number 3 is a value proposition.
+
+01:04:42
+We've already talked about what a value proposition is.
+
+01:04:46
+Now let's dive into how to make a good 1.
+
+01:04:48
+The key elements of a strong value proposition
+
+01:04:52
+is specificity
+
+01:04:54
+clearly state what unique value you provide that is relative
+
+01:04:58
+to the audience or the specific segment that you're actually
+
+01:05:01
+reaching out to. The more specific you are, the better
+
+01:05:03
+it will perform.
+
+01:05:06
+Number 2 is problem solving. It has to address a
+
+01:05:09
+specific pain point or challenge.
+
+01:05:12
+If you have a value proposition that helps with something
+
+01:05:14
+people don't care about, well, there's no value. Right? It's
+
+01:05:18
+just a proposition at that point. Right?
+
+01:05:20
+And then we've got quantification.
+
+01:05:23
+Where possible,
+
+01:05:24
+include measurable benefits.
+
+01:05:26
+When you're reaching out to someone,
+
+01:05:29
+you need to help their brain put into perspective how
+
+01:05:32
+much you can benefit them. And you're saying, oh, I
+
+01:05:34
+can save time.
+
+01:05:36
+Isn't as impactful as saying,
+
+01:05:38
+we save 20 hours a week on average. Do you
+
+01:05:41
+wanna see if we can do the same for you?
+
+01:05:44
+We help companies in the in the trucking industry save
+
+01:05:46
+30 hours a week by automating their backlog
+
+01:05:50
+of inventory.
+
+01:05:52
+Would you wanna see if we can do the same
+
+01:05:53
+for you? That's specific and it's a problem they have.
+
+01:05:56
+Right?
+
+01:05:57
+If we remove those 2 components, then our value proposition
+
+01:06:00
+is no longer valuable.
+
+01:06:02
+It is useless.
+
+01:06:03
+So this is very important.
+
+01:06:06
+And then
+
+01:06:07
+as I said on this part,
+
+01:06:10
+if you can do it, if you don't have any
+
+01:06:12
+metrics you can draw for any previous clients you can
+
+01:06:14
+draw off or any conclusions or
+
+01:06:16
+or research papers you can look into, that's fine. I'll
+
+01:06:19
+give you guys a bit of a hack on this
+
+01:06:21
+1, and it is you don't need to refer to
+
+01:06:23
+your own services when you're reaching out to people.
+
+01:06:26
+Let's pretend you're reaching out in real estate because that's
+
+01:06:28
+a couple of the previous example we've done is in
+
+01:06:30
+real estate. And I wanna tell you guys that when
+
+01:06:32
+I first started my AI company and I was reaching
+
+01:06:34
+out to real estate, I didn't have metrics or measurable
+
+01:06:37
+benefits of my services. But what I did is because
+
+01:06:40
+real estate is such a public industry, I went online
+
+01:06:42
+and I googled
+
+01:06:43
+real estate agents who use AI, and I used their
+
+01:06:46
+case study to my advantage.
+
+01:06:48
+So I would reach out to people and I say,
+
+01:06:50
+did you see how John
+
+01:06:52
+luxury real estate agent in their city to make it
+
+01:06:54
+relevant. Right? So did you see how essentially your competitor
+
+01:06:58
+was able to double the clients they took on by
+
+01:07:00
+implementing AI to take care of the paperwork?
+
+01:07:03
+I never said I did it because I didn't provide
+
+01:07:05
+the service. I just said he used AI to do
+
+01:07:08
+it and I can explain how. And then the value
+
+01:07:10
+proposition would be that I'll explain to you
+
+01:07:13
+how John did it
+
+01:07:15
+if you want.
+
+01:07:17
+And that's the value proposition. And now you're including measurable
+
+01:07:20
+quantifiable results that they can draw conclusions on. They're like,
+
+01:07:23
+what? Bob took on another 50 clients? I wanna do
+
+01:07:26
+that. I didn't know that was possible.
+
+01:07:28
+It's very different from just saying I can help you
+
+01:07:30
+take on more clients because then they make up their
+
+01:07:33
+own numbers, which is never good.
+
+01:07:36
+Right? And then differentiation.
+
+01:07:39
+Highlight what sets you apart from your competitors.
+
+01:07:42
+AI isn't necessarily a thing that is super competitive at
+
+01:07:45
+the moment.
+
+01:07:46
+Everyone has people reaching out to them about different services,
+
+01:07:48
+different things. So highlight what sets you apart. What's your
+
+01:07:51
+unique selling point? That's something you definitely want to include
+
+01:07:54
+in the value proposition if you can.
+
+01:07:57
+And then crafting your value proposition for Outreach,
+
+01:08:00
+you need to focus on the outcomes,
+
+01:08:02
+emphasize the end results, not the features,
+
+01:08:05
+align with your prospect needs, so tailor it to what
+
+01:08:08
+you know about their challenges,
+
+01:08:10
+keep it concise, communicate the value quickly and clearly,
+
+01:08:15
+and make it believable.
+
+01:08:16
+So avoid exaggeration
+
+01:08:18
+and be prepared to back up your claims. If you
+
+01:08:20
+say you can save 50 hours a week,
+
+01:08:23
+you definitely wanna be able to save some hours at
+
+01:08:25
+least.
+
+01:08:26
+And here again, let's do another 1 of these example.
+
+01:08:28
+Which sounds better?
+
+01:08:30
+Our AI platform uses cutting edge technology to automate processes
+
+01:08:34
+and improve efficiency.
+
+01:08:37
+Or option 2, which is in just 30 days, our
+
+01:08:41
+AI platform can reduce your operational cost by 20 percent
+
+01:08:44
+by automating the repetitive tasks.
+
+01:08:47
+Option 2 definitely sounds a lot better in my books.
+
+01:08:50
+That's what I kinda wanna get across here to you
+
+01:08:52
+guys is that this 1 is unspecific and just a
+
+01:08:54
+vague value proposition, while this 1 is specific referring to
+
+01:08:58
+in 30 days, our platform usually reduces operation cost by
+
+01:09:01
+20 percent
+
+01:09:03
+by automating x, y, and z or by doing x,
+
+01:09:05
+y, and z. Now we're so specific that we're getting
+
+01:09:08
+believable and it makes sense. It's logic. Right? And they
+
+01:09:11
+actually understand what we're trying to get across.
+
+01:09:15
+And then we've got call to actions, which is number
+
+01:09:18
+4. Call to action is a clear and specific instruction
+
+01:09:21
+that guides the recipient on what action to take such
+
+01:09:25
+as scheduling a call or requesting more information.
+
+01:09:28
+Your CTA is responsible for the prospect
+
+01:09:31
+taking the appropriate action
+
+01:09:34
+after reading and being interested in what you sent them.
+
+01:09:38
+There's a couple of key elements to an effective call
+
+01:09:40
+to action.
+
+01:09:42
+It is clear and specific.
+
+01:09:44
+It is low commitment.
+
+01:09:47
+It is relevant to the overall message, and it is
+
+01:09:50
+actionable and easy to follow.
+
+01:09:52
+If you tell them,
+
+01:09:54
+to get my offer, you need to walk from Sweden
+
+01:09:56
+to Norway. No one's gonna take you up on our
+
+01:09:59
+offer. However, if you just say to take me off
+
+01:10:01
+on our open my offer,
+
+01:10:03
+let me know, reply to my email.
+
+01:10:05
+That's, like, easy. Y e s enter. Done. Right? Easy.
+
+01:10:10
+So if you follow all 4 of these, you're definitely
+
+01:10:12
+gonna be on the right path to have a very
+
+01:10:14
+effective and clear call to action.
+
+01:10:17
+Now there is a couple of different types of call
+
+01:10:19
+to actions, believe it or not. There are 2 main
+
+01:10:22
+types of call to actions you can use in our
+
+01:10:23
+outreach message, soft and hard call to actions.
+
+01:10:26
+It's crucial to understand the difference
+
+01:10:29
+so you know what you have to choose from.
+
+01:10:32
+Soft's call to action is a low pressure ask that
+
+01:10:36
+requires very little effort from the prospect side. Example is,
+
+01:10:40
+mind if I send more information? Can I send a
+
+01:10:42
+quick video explaining how we help similar company?
+
+01:10:45
+Would you be open to hearing more about our solution?
+
+01:10:48
+Like, can I send you more information? Right?
+
+01:10:50
+And then a hard call to action or opposite side
+
+01:10:53
+is a high pressure ask that requires much more effort
+
+01:10:56
+from the prospect side. Example of this is, are you
+
+01:10:59
+free for a quick call this week to discuss this
+
+01:11:02
+further? I'd love to walk you through the solution in
+
+01:11:04
+more detail. What's a good time to connect?
+
+01:11:07
+If you're interested, let's schedule a call to explore how
+
+01:11:09
+this can help you. These are all call to actions
+
+01:11:12
+that require a lot of effort from the prospect, not
+
+01:11:15
+because they have to reply, but because they have to
+
+01:11:17
+show up to a meeting for them to get the
+
+01:11:19
+value. Right?
+
+01:11:21
+When you're starting out, if you're
+
+01:11:23
+unsure about which 1 to pick, simply stick with a
+
+01:11:26
+soft call to action. And if you get too many
+
+01:11:28
+replies to handle, you simply change it to a hard
+
+01:11:31
+call to action. If you have the time on your
+
+01:11:33
+hands, I will definitely advise to start with a soft
+
+01:11:35
+call to action.
+
+01:11:37
+When it comes to choosing the right 1, other than
+
+01:11:39
+what I just said,
+
+01:11:41
+it is very important to consider the following factors.
+
+01:11:44
+Relationship.
+
+01:11:46
+If you've already established a relationship with a prospect, a
+
+01:11:49
+hard call to action may be appropriate.
+
+01:11:51
+If you're reaching out to a cold lead
+
+01:11:54
+or prospect, a soft call to action is usually the
+
+01:11:57
+better choice.
+
+01:11:58
+The next 1 is interest level. If the prospect has
+
+01:12:01
+shown strong interest in your offering,
+
+01:12:03
+a hard call to action can help move the conversation
+
+01:12:06
+forward.
+
+01:12:07
+If you're unsure about their interest, again, a soft call
+
+01:12:10
+to action can help gauge their receptiveness.
+
+01:12:14
+Last 1 here is offer.
+
+01:12:16
+If your offer is complex and required a more detailed
+
+01:12:20
+explanation,
+
+01:12:21
+a harder call to action for a meeting
+
+01:12:23
+may be necessary.
+
+01:12:25
+If your offer is straightforward
+
+01:12:27
+and simple to understand,
+
+01:12:29
+a call to action
+
+01:12:31
+to send more information can suffice.
+
+01:12:34
+Remember,
+
+01:12:35
+the goal with the call to action is make it
+
+01:12:37
+easy for the prospect to take the next step in
+
+01:12:39
+engaging with your agency.
+
+01:12:41
+By choosing the right call to action for each situation,
+
+01:12:45
+you'll increase the likelihood of getting a positive response and
+
+01:12:48
+moving the relationship forward.
+
+01:12:50
+Also, when you get a positive response,
+
+01:12:52
+that is not a hard ask, you're gonna get a
+
+01:12:55
+lot more, which helps you essentially filter out the people
+
+01:12:58
+that might be semi interested so so you can follow-up
+
+01:13:00
+with them on the other channels and nurture them into
+
+01:13:03
+the sale. Now we've gone down to the copywriting section.
+
+01:13:06
+Effective copywriting is essential for crafting compelling outreach messages that
+
+01:13:10
+grab your prospects' attention
+
+01:13:12
+and persuade them to take action.
+
+01:13:16
+While strategies may vary depending on the audience, platform, and
+
+01:13:19
+industry, there are still some main foundational principle
+
+01:13:23
+that apply across the board.
+
+01:13:26
+So what really is copywriting?
+
+01:13:29
+At its core, copywriting is words that sell.
+
+01:13:33
+It's a strategic use of language
+
+01:13:36
+to promote ideas, products, or services
+
+01:13:39
+that drive audience engagement. Right?
+
+01:13:42
+Objectives when it comes to copywriting
+
+01:13:45
+could be attract attention, generate interest, create desire, or prompt
+
+01:13:49
+action.
+
+01:13:50
+The value of copywriting goes far beyond just sending a
+
+01:13:53
+message.
+
+01:13:54
+Copywriting is a highly valuable skill in the digital age.
+
+01:13:58
+It's the foundation
+
+01:14:00
+of effective marketing
+
+01:14:02
+from crafting compelling emails to writing persuasive landing pages. As
+
+01:14:07
+you delve deeper, you'll discover it's like an iceberg.
+
+01:14:10
+There's
+
+01:14:11
+always more to learn beneath the surface.
+
+01:14:14
+Mastering copywriting is a lifelong journey, but even the basic
+
+01:14:18
+skills can significantly impact your business success
+
+01:14:22
+overall
+
+01:14:23
+not just in terms of outreach.
+
+01:14:26
+There's a couple of key principles that play into copywriting.
+
+01:14:31
+It's personalization,
+
+01:14:32
+making the message feel like it's written for an individual
+
+01:14:34
+and not mass audience by using their names, mention specific
+
+01:14:37
+details like we've talked about previously.
+
+01:14:39
+Then there is simplicity.
+
+01:14:41
+Using fifth grader reading level
+
+01:14:44
+to ensure clarity and accessibility,
+
+01:14:47
+which essentially just means avoid complex jargon
+
+01:14:50
+or convoluted sentences
+
+01:14:52
+that may confuse or overwhelm the reader.
+
+01:14:56
+Industry specific language is another important part of a copywriting,
+
+01:14:59
+incorporating relevant terminology and concepts that demonstrates your credibility and
+
+01:15:04
+understanding of the prospect's industry.
+
+01:15:07
+However, be cautious to not overuse
+
+01:15:10
+sales specific buzzwords
+
+01:15:12
+that may come across
+
+01:15:14
+as inauthentic
+
+01:15:15
+or pushy.
+
+01:15:17
+Next point is brevity.
+
+01:15:19
+Keep your message concise and to the point. Respect your
+
+01:15:23
+prospects time by focusing on the most important information
+
+01:15:26
+and avoid any unnecessary fluff or tangents.
+
+01:15:31
+Next point is relevance.
+
+01:15:33
+Ensure that the content of your message is pertinent to
+
+01:15:36
+the recipients
+
+01:15:37
+and their specific
+
+01:15:38
+situation or needs. Highlight how your offering can solve their
+
+01:15:42
+challenges or help achieve their goals.
+
+01:15:44
+If your message is not relevant to the prospect, no
+
+01:15:47
+1 will ever reply. This does not apply to just
+
+01:15:50
+offer. This does not apply to just personalization.
+
+01:15:52
+Cohesively, the whole message needs to be relevant.
+
+01:15:56
+Specificity.
+
+01:15:57
+Use concrete details, examples, or data points to support your
+
+01:16:01
+claims and make your message more compelling.
+
+01:16:04
+Vague generalities
+
+01:16:06
+are less likely to resonate with your prospects or inspire
+
+01:16:09
+them to take the action you want them to take.
+
+01:16:12
+Next point and key principle
+
+01:16:14
+is authenticity.
+
+01:16:16
+Write in a conversational
+
+01:16:19
+human
+
+01:16:20
+tone.
+
+01:16:21
+I will repeat this, right in a conversational
+
+01:16:26
+human
+
+01:16:27
+tone.
+
+01:16:28
+This should be tattooed on everyone's forehead when they're writing
+
+01:16:31
+emails or writing outreach messages.
+
+01:16:33
+This is over 1000 coaching calls. If I were to
+
+01:16:37
+put 1 thing that everyone misses out on in the
+
+01:16:40
+start of creating their outreach
+
+01:16:43
+is they don't write in a conversational human tone. It's
+
+01:16:46
+like they're writing a marketing message.
+
+01:16:49
+And what I always say around this is that if
+
+01:16:52
+you read through your outreach message
+
+01:16:54
+and you think you could put it on a Facebook
+
+01:16:56
+ad or a Google ad or a YouTube ad and
+
+01:16:58
+it would perform well,
+
+01:17:00
+then it's a bad outreach message.
+
+01:17:03
+Outreach message, it's not mass marketing. Outreach message is not
+
+01:17:07
+mass, it's a 1 on 1 communication channel. Right?
+
+01:17:10
+So you need to write in a way where you're
+
+01:17:12
+writing it almost to a friend or 1 person.
+
+01:17:15
+A trick for getting,
+
+01:17:17
+authenticity into your message is write a message
+
+01:17:21
+for your best friend or a family member
+
+01:17:24
+about the value proposition and the offer you want to
+
+01:17:26
+bring to these businesses.
+
+01:17:28
+And then you look at the document and you figure
+
+01:17:31
+out how can I change this to apply to the
+
+01:17:33
+business instead of my best friend or my family member?
+
+01:17:36
+You really wanna avoid any overly formal or robotic language
+
+01:17:40
+that may come as cross as insincere or generic.
+
+01:17:45
+Very, very important.
+
+01:17:48
+Lastly, we've got readability.
+
+01:17:50
+Structure your message for maximum impact and easy scanning.
+
+01:17:54
+Use short sentences that flow naturally into each other.
+
+01:17:59
+Break up text into small digestible paragraphs,
+
+01:18:02
+often just 1 or 2 sentences each.
+
+01:18:05
+Avoid any large blocks of text that can overwhelm
+
+01:18:09
+the readers.
+
+01:18:11
+Incorporate white space to strategically
+
+01:18:14
+guide the eye and make your
+
+01:18:16
+message inviting to read
+
+01:18:19
+even on mobile devices.
+
+01:18:21
+This is another 1 of those things that over a
+
+01:18:23
+thousand coaching calls I've seen happen a lot of the
+
+01:18:26
+time is people write their outreach message on a computer
+
+01:18:29
+and don't consider where their prospects are actually gonna read
+
+01:18:32
+the message.
+
+01:18:33
+If you always
+
+01:18:35
+write a message that works on a phone, it will
+
+01:18:37
+also work on a laptop. If you write on a
+
+01:18:40
+laptop, it's not gonna work on a phone. So need
+
+01:18:42
+to make sure that it's
+
+01:18:44
+easy to read on a mobile device.
+
+01:18:48
+Now we've gotten down to the golden question.
+
+01:18:52
+As you craft your copy,
+
+01:18:54
+consistently
+
+01:18:55
+ask yourself
+
+01:18:56
+what's in it for them?
+
+01:18:59
+This
+
+01:19:00
+should be put on a post it note
+
+01:19:02
+on your monitor.
+
+01:19:04
+Every sentence should provide value,
+
+01:19:07
+address a need, or highlight a benefit for the prospect.
+
+01:19:12
+Keep their perspective
+
+01:19:13
+and interests at the forefront.
+
+01:19:16
+I'm gonna give you guys a bit of reality check,
+
+01:19:18
+and it is that prospects simply
+
+01:19:21
+don't care about you.
+
+01:19:23
+You are reaching out to them. You are putting yourself
+
+01:19:25
+in their inbox,
+
+01:19:27
+and prospects
+
+01:19:28
+could not care less
+
+01:19:30
+about who you are, where you're from unless it's relevant
+
+01:19:33
+to them. So everything you're writing about a message, you
+
+01:19:37
+need to ask yourself the golden question,
+
+01:19:39
+what's in it for them?
+
+01:19:42
+My company name is at my company, we do there's
+
+01:19:46
+nothing in them for them to have that sentence in
+
+01:19:48
+there. That's an example I see very frequent on coaching
+
+01:19:51
+calls. Is this sentence that says,
+
+01:19:54
+at my company
+
+01:19:55
+or at x y z a I, we do.
+
+01:19:58
+There is no value in it for them
+
+01:20:01
+to know that company name unless you're world renowned. Take
+
+01:20:03
+away the company name and focus on what actually matters
+
+01:20:06
+to the prospects, what is in it for them. Very,
+
+01:20:09
+very important.
+
+01:20:10
+And then here's a couple of recommended books because as
+
+01:20:13
+we've talked about, copywriting is like an iceberg. It's a
+
+01:20:15
+lifelong learning curve.
+
+01:20:18
+And copywriting, like anything else, improves with practice and iteration.
+
+01:20:22
+The more you write, refine, and test your outreach messages,
+
+01:20:26
+the better you'll become at crafting effective compelling copy.
+
+01:20:30
+To further advance your copywriting skills, consider some of these
+
+01:20:33
+books.
+
+01:20:34
+Here I've got a couple of books listed. You guys
+
+01:20:36
+can Google them, look them up. The awesome authors are
+
+01:20:39
+here.
+
+01:20:39
+See if there's anything you find interest in. This, as
+
+01:20:42
+we've talked about, is 1 of those skills that you'll
+
+01:20:45
+always have a need for regardless of if you're doing
+
+01:20:47
+outreach or not.
+
+01:20:49
+Now we're getting into the more exciting part because now
+
+01:20:51
+we talked about the theory about outreach, copywriting, all that
+
+01:20:53
+kind of stuff. So now let's try putting it a
+
+01:20:55
+bit into use.
+
+01:20:58
+This is a copywriting example
+
+01:21:00
+and a framework that can be tweaked according to the
+
+01:21:03
+industry
+
+01:21:05
+and used to achieve good results
+
+01:21:07
+across industries.
+
+01:21:09
+How well it performs is limited to how you change
+
+01:21:13
+it.
+
+01:21:15
+If you try copy pasting it, you will fail
+
+01:21:18
+miserably.
+
+01:21:21
+That is a show that you're not willing to put
+
+01:21:24
+in the work of understanding
+
+01:21:26
+and putting these things into action. If you just copy
+
+01:21:26
+paste this, nothing's gonna work. Nothing you copy paste from
+
+01:21:28
+online is going to work the way you want it
+
+01:21:30
+to.
+
+01:21:31
+So you need to understand the framework I'm about to
+
+01:21:33
+explain and apply your own strategies to it
+
+01:21:40
+depending on the foundation we've talked about earlier which is
+
+01:21:43
+the research. Right?
+
+01:21:45
+This is called the 4 t's framework and it's from
+
+01:21:48
+Josh Brown.
+
+01:21:51
+Developed by Salesforce for Josh Brown, the 4 t framework
+
+01:21:54
+is a powerful approach to crafting effective outreach messages.
+
+01:21:59
+This framework consists of 4 key components
+
+01:22:02
+that work together
+
+01:22:04
+to capture the prospect's attention,
+
+01:22:06
+create interest, and encourage a response.
+
+01:22:10
+Capturing the prospect's attention, creating interest, and encouraging a response
+
+01:22:14
+are words and concepts you should be familiar with now
+
+01:22:16
+as you've listened and taken notes throughout this module.
+
+01:22:19
+And this is what the framework does. The ingredients of
+
+01:22:22
+this framework is a trigger,
+
+01:22:25
+which is an observation that relates to a potential problem,
+
+01:22:29
+what we call for think, which is a question that
+
+01:22:32
+makes people think differently about their current solution,
+
+01:22:35
+third party credibility,
+
+01:22:37
+what similar people are doing to reduce the risk,
+
+01:22:40
+And lastly, we've got talk, which is gauging interest. It's
+
+01:22:44
+more like
+
+01:22:45
+a either way
+
+01:22:46
+subconsciously
+
+01:22:47
+says
+
+01:22:48
+there's no pressure here, which as you can see, either
+
+01:22:50
+way rock that run is what we use. I'm gonna
+
+01:22:52
+go through and I'm gonna explain it. They're color coded
+
+01:22:54
+as well to help you understand what is the trigger,
+
+01:22:55
+what is the think, what is third party credibility, and
+
+01:22:58
+what is the talk.
+
+01:22:59
+Josh,
+
+01:23:00
+looks like you're training for your first marathon in Miami.
+
+01:23:03
+This is personalization, what we talked about earlier. Right? AI
+
+01:23:06
+personalization.
+
+01:23:08
+How are you reducing the risk of plantar fasciitis
+
+01:23:12
+and hammer toe caused by narrow toe box?
+
+01:23:15
+Cramped shoes hinder the natural movement of your toes.
+
+01:23:20
+Over 2000 runners use our wide toe box shoe, which
+
+01:23:23
+allows toes to splay naturally
+
+01:23:26
+preventing injury.
+
+01:23:28
+Worth a look?
+
+01:23:29
+Either way, rock that run, James.
+
+01:23:32
+As you can see, this is a great example that
+
+01:23:35
+displays
+
+01:23:36
+a lot of the things we've been talking about
+
+01:23:38
+throughout the module.
+
+01:23:41
+This is a framework that you can take and apply
+
+01:23:45
+to your specific scenario
+
+01:23:47
+using the 4 different ingredients here by changing it to
+
+01:23:50
+what is relevant for your industry. If you're struggling on
+
+01:23:53
+where to get started and what frameworks to use because
+
+01:23:55
+there's a lot out there, I would highly suggest starting
+
+01:23:58
+off with this framework as it gives you a very
+
+01:24:00
+solid foundation.
+
+01:24:01
+That being said,
+
+01:24:03
+frameworks is as well something like everything else in outreach
+
+01:24:06
+that we need to experiment and test. Depending on our
+
+01:24:09
+industry, they might resonate with something else. But this is
+
+01:24:12
+a great way to kinda get your foot in the
+
+01:24:13
+door and start testing the word with outreach, and then
+
+01:24:15
+you can start exploring your own frameworks or other online
+
+01:24:18
+frameworks as you go.
+
+01:24:20
+Now we've gone down to the follow-up section.
+
+01:24:24
+When performing outreach to our prospects,
+
+01:24:26
+we don't just give up at the first try.
+
+01:24:30
+Just because they didn't respond immediately
+
+01:24:33
+doesn't mean they are not interested.
+
+01:24:36
+Often, they are busy entrepreneurs
+
+01:24:38
+and mean to reply to you, but you haven't called
+
+01:24:41
+them at the right time.
+
+01:24:43
+Follow-up
+
+01:24:44
+is a subsequent
+
+01:24:46
+message
+
+01:24:47
+sent after your initial outreach to reengage the prospect. A
+
+01:24:51
+follow-up sequence is a series of planned strategic follow-up messages.
+
+01:24:57
+And TAM is something we're gonna be referring to here
+
+01:25:00
+is total addressable market, which basically means the total market
+
+01:25:04
+demand for your product or service. Meaning, how many people
+
+01:25:07
+could you essentially sell your product to? Why follow ups
+
+01:25:10
+are a absolute nonnegotiable?
+
+01:25:13
+In outreach, persistence isn't just a virtue. It's an absolute
+
+01:25:17
+necessity, and here's why. Number 1 is busy prospects.
+
+01:25:21
+Your contacts are often swamped entrepreneurs
+
+01:25:25
+who intend to reply but haven't find the right moment.
+
+01:25:30
+Number 2 is multiple touch points. Research shows that it
+
+01:25:33
+takes an average of 8 touch points to get a
+
+01:25:35
+meeting with a new prospect.
+
+01:25:38
+Number 3 is timing is everything. Your first message might
+
+01:25:42
+not catch them at the right time, but your third
+
+01:25:44
+or seventh
+
+01:25:46
+might.
+
+01:25:47
+Now there's a couple of guidelines that we absolutely need
+
+01:25:49
+to take into consideration and follow here. Right?
+
+01:25:52
+And the amount and the frequency of your follow ups
+
+01:25:55
+is very often something people ask about, and it should
+
+01:25:58
+always be dependent
+
+01:26:00
+on your research
+
+01:26:01
+on the audience.
+
+01:26:03
+So how often they check their emails will be responsible
+
+01:26:07
+for the frequency between follow ups and how big your
+
+01:26:11
+TAM, as we talked about total addressable market,
+
+01:26:14
+how your how big your TAM is will determine how
+
+01:26:17
+many follow ups you need to send in order to
+
+01:26:20
+not run out of prospects
+
+01:26:22
+in 6 months.
+
+01:26:24
+Even if you wouldn't run out of your total addressable
+
+01:26:27
+market, if you were to send 1 message,
+
+01:26:29
+general guidelines should be at least sending 2 to 3.
+
+01:26:33
+To shine a bit more clarity on when we're talking
+
+01:26:35
+about total addressable market and the frequency and how many
+
+01:26:38
+follow ups and stuff like that is
+
+01:26:39
+how many follow ups you send should always be mainly
+
+01:26:42
+dependent on your industry. Right? So how busy are they?
+
+01:26:44
+How many does the average
+
+01:26:47
+business have to send to contact this industry? And when
+
+01:26:49
+do they actually reply? I'll give you some general guidelines
+
+01:26:52
+on what you can do in cold and warm afterwards,
+
+01:26:54
+but I wanna help you understand that in our reach,
+
+01:26:57
+1 of the things we're actually looking for is that
+
+01:27:00
+after 6 months of initially reaching out to prospects, we
+
+01:27:03
+can follow back up with the prospects because so much
+
+01:27:06
+things in business change in a 6 months time frame.
+
+01:27:09
+Meaning, if your total addressable market is 200 people,
+
+01:27:13
+you can reach out to every single 1 of them,
+
+01:27:15
+and in 6 months from now, you can reach back
+
+01:27:18
+out to them again.
+
+01:27:20
+So when we're talking about how many follow ups you
+
+01:27:22
+should send,
+
+01:27:23
+you need to consider how large your total addressable market
+
+01:27:26
+is. Because if you decide to send 1 follow-up,
+
+01:27:29
+that might mean that you've run out of your total
+
+01:27:32
+adjustable markets
+
+01:27:34
+before that 6 month times period time span is up,
+
+01:27:37
+which is a problem because now you got no 1
+
+01:27:39
+to reach out to. And you have your hands behind
+
+01:27:41
+your back and you don't know what to do, your
+
+01:27:43
+hands in your pockets, just doesn't work.
+
+01:27:45
+So make sure that if you decide to follow-up 2
+
+01:27:48
+times with prospects or 3 times with prospects,
+
+01:27:51
+make sure that if you do that with a volume
+
+01:27:54
+you're planning on sending, will you run out or will
+
+01:27:57
+you not run out in 6 months?
+
+01:27:59
+And what I'm explaining that even if you have a
+
+01:28:01
+large enough time to send 1 message
+
+01:28:04
+and you still would never run out of prospects,
+
+01:28:07
+you still shouldn't only send 1. You should always follow-up
+
+01:28:09
+at least 1 or 2 times, meaning 2 or 3
+
+01:28:12
+messages in total. So even if your total adjustable market
+
+01:28:15
+is the whole world,
+
+01:28:17
+you sell money. You give away money, meaning your total
+
+01:28:20
+adjustable market is literally the whole world. Right?
+
+01:28:23
+In theory, you can send 1 message per person,
+
+01:28:26
+which is okay.
+
+01:28:27
+But when we're calculating in the cost of leads, the
+
+01:28:29
+cost of acquiring, personalization, all that kind of stuff, it
+
+01:28:32
+doesn't make sense to give up after 1, which is
+
+01:28:34
+why we should always send 2 to 3 per person
+
+01:28:37
+in total.
+
+01:28:38
+And here's a couple of guidelines
+
+01:28:41
+and the general industry standards when it comes to call
+
+01:28:44
+email follow ups. Amount is usually 2 to 3 follow
+
+01:28:47
+ups. Spacing
+
+01:28:49
+is 2 to 5 days apart depending on how frequent
+
+01:28:52
+the industry checks their emails. And the goal is not
+
+01:28:55
+to exhaust your time too quickly,
+
+01:28:58
+meaning 6 months. Right?
+
+01:29:00
+And then with warm follow ups, this is after someone
+
+01:29:03
+shows interest, after you've connected with someone, after you've engaged
+
+01:29:07
+or talked with someone or someone you know from before,
+
+01:29:09
+then this switches. Because these guys are a lot more
+
+01:29:12
+valuable than just a random cold lead that might not
+
+01:29:14
+even have access to their emails if that's where you're
+
+01:29:17
+contacting them. Right?
+
+01:29:18
+The amount of emails you should attend with a warm
+
+01:29:21
+prospect
+
+01:29:22
+is unlimited.
+
+01:29:25
+You should continue
+
+01:29:26
+until you get a definite
+
+01:29:29
+response.
+
+01:29:31
+And in the start, you wanna be more frequent
+
+01:29:34
+than you are with the cold follow ups. You wanna
+
+01:29:36
+do something along the lines of 2 to 3 days
+
+01:29:39
+is definitely acceptable.
+
+01:29:41
+However, the longer you go without a reply,
+
+01:29:44
+the longer you want to have as a time frame
+
+01:29:46
+between your emails. So this might look like you send
+
+01:29:50
+1 message and then they don't reply 2 days after
+
+01:29:53
+you send another 1, 2 days after you send another
+
+01:29:55
+1, 3 days after you send another 1. Then you
+
+01:29:58
+start waiting 1 week, then you start waiting 2 weeks,
+
+01:30:01
+then you start waiting 1 month, then you send 1
+
+01:30:04
+message every month. Right? Because you don't wanna
+
+01:30:07
+send 1 message every 2 days for a year. That
+
+01:30:10
+would exhaust your volume. It would exhaust you. You would
+
+01:30:12
+definitely make your prospects angry. So you wanna space it
+
+01:30:15
+out the further down the line you go of them
+
+01:30:17
+not replying, but you'd never want to stop with it.
+
+01:30:20
+And the goal is nurture a relationship
+
+01:30:23
+and close the deal.
+
+01:30:25
+When crafting your follow-up approach, remember this absolute key principle.
+
+01:30:29
+And as the prospects
+
+01:30:31
+likely saw and read your previous message,
+
+01:30:35
+but there's a reason they didn't reply.
+
+01:30:39
+Your job is to overcome that reason by providing additional
+
+01:30:42
+value. And what I'm referring to here is the specific
+
+01:30:45
+copywriting of your message.
+
+01:30:47
+Something I see way too much of the time,
+
+01:30:50
+after having hundreds of coaching calls is that people
+
+01:30:54
+don't provide any additional value in the follow ups. They
+
+01:30:56
+think follow ups is a ticket to get out of
+
+01:30:59
+the situation easily. They think they can send a message
+
+01:31:02
+that says, hey. Did you say my last email?
+
+01:31:05
+Hey. Did you have a chance to respond? Hey. Did
+
+01:31:07
+you have a chance to look at my offer? Hey.
+
+01:31:08
+Did you think it was interesting? Hey. Just bubbling this
+
+01:31:10
+up. It does not work.
+
+01:31:13
+That is
+
+01:31:14
+putting in the minimal effort and expecting the maximal outcome.
+
+01:31:18
+It just doesn't work. That's not how the world works,
+
+01:31:22
+and it's not how outreach works either.
+
+01:31:24
+So the way you want to think about it when
+
+01:31:26
+you're writing your follow ups
+
+01:31:28
+is that every single prospect
+
+01:31:30
+read your first email, but they didn't reply. And there's
+
+01:31:33
+a reason they didn't reply. Okay? Maybe they didn't like
+
+01:31:36
+the offer. Maybe the call to action was too hard.
+
+01:31:38
+Maybe it was unclear what you do. Maybe you need
+
+01:31:40
+to include more case studies in the next message. Maybe
+
+01:31:42
+you need to provide more context. Maybe you need to
+
+01:31:44
+provide more proof. Maybe you need to add more additional
+
+01:31:47
+information to that initial offering.
+
+01:31:49
+And the reason I say this is what you always
+
+01:31:52
+need to do
+
+01:31:53
+is the 2 different scenarios here like we talked about
+
+01:31:56
+is you sending a message that's like, hey, just bubbling
+
+01:31:59
+this up. And the other option is you're providing additional
+
+01:32:02
+value.
+
+01:32:03
+Now you're sending an email where you're just saying, just
+
+01:32:05
+bubbling this up.
+
+01:32:07
+It has the potential of destroying it if they did
+
+01:32:10
+read the full previous email but they didn't reply. You
+
+01:32:13
+sending a valuable second email will never destroy the email
+
+01:32:17
+if it so happens that they didn't see the first
+
+01:32:19
+1. It's a simple equation of either you have a
+
+01:32:23
+50 50 percent chance of destroying it by saying, hey,
+
+01:32:27
+just bubbling this up and wasting it or you have
+
+01:32:29
+a hundred percent chance of bubbling it up by sending
+
+01:32:33
+value. So it just doesn't make sense to write a
+
+01:32:35
+simple no effort email. You need to put effort into
+
+01:32:38
+these emails and provide a value, provide additional context. Right?
+
+01:32:41
+That's what I'm talking about here. So value is the
+
+01:32:44
+absolute cornerstone of effective follow ups.
+
+01:32:47
+But
+
+01:32:48
+exactly what is value in this context? It's not just
+
+01:32:51
+about offering free services or discounts.
+
+01:32:54
+True value
+
+01:32:56
+in follow ups is about providing insights,
+
+01:32:59
+information,
+
+01:33:00
+or solutions
+
+01:33:01
+that can genuinely
+
+01:33:03
+be useful to your prospects.
+
+01:33:05
+And this is what I'm talking about when I'm saying
+
+01:33:07
+provide additional value context. Right? Is additional information, additional case
+
+01:33:11
+studies, maybe their competitors doing something, someone else in the
+
+01:33:14
+industry, anything that will help driving towards making a decision.
+
+01:33:19
+And making every follow-up counts, whether it's cold or warm,
+
+01:33:24
+every follow-up should add value. I cannot stress this enough.
+
+01:33:27
+I could probably
+
+01:33:28
+say this for 10 hours and people would still not
+
+01:33:31
+do it. It's so so important.
+
+01:33:34
+And here's a couple of examples of what you can
+
+01:33:36
+simply do. You can drop an industry insight. You can
+
+01:33:38
+share a success story. You can offer a quick tip.
+
+01:33:41
+You can hit them with data or you can analyze
+
+01:33:43
+a trend
+
+01:33:45
+in their market and send it to them.
+
+01:33:47
+And again,
+
+01:33:49
+how to approach the follow ups
+
+01:33:52
+is
+
+01:33:53
+expecting that they read your previous message, but they didn't
+
+01:33:56
+reply for a reason. You wanna guess what the reason
+
+01:33:57
+is and you wanna provide additional value to what you
+
+01:33:59
+think will fix it.
+
+01:34:02
+Now we're gonna get into the section where we're talking
+
+01:34:04
+about digital footprints.
+
+01:34:05
+And you might think this is outreach. Right? It's not
+
+01:34:08
+social media module. It's not course on that.
+
+01:34:11
+Very right. You might be surprised, but
+
+01:34:15
+in today's digital age, your online presence actually plays a
+
+01:34:19
+significant role in the success of your outreach
+
+01:34:23
+efforts.
+
+01:34:24
+When you reach out to a prospect,
+
+01:34:26
+they'll likely
+
+01:34:28
+research your agency
+
+01:34:29
+to learn more about you and determine if you're a
+
+01:34:32
+credible or trustworthy partner.
+
+01:34:35
+Here's what prospects actually go looking for. When prospects investigate
+
+01:34:38
+your digital footprints, they're typically looking for 4 things. It's
+
+01:34:42
+legitimacy,
+
+01:34:43
+confirming that you're a real, established
+
+01:34:46
+AI automation business,
+
+01:34:48
+credibility,
+
+01:34:49
+evidence of your AI expertise,
+
+01:34:51
+experience,
+
+01:34:52
+and industry knowledge,
+
+01:34:53
+consistency,
+
+01:34:54
+meaning alignment between your outreach message and your online presence.
+
+01:34:58
+If you're reaching out to someone saying I'm an AI
+
+01:35:00
+expert, we help businesses save 2000000 dollars a year and
+
+01:35:04
+then they go onto your LinkedIn and you sell hot
+
+01:35:05
+dogs,
+
+01:35:06
+they're not gonna reply. Let's be real. Okay?
+
+01:35:09
+And the last 1 is social proof. Testimonials and case
+
+01:35:12
+studies from satisfied clients
+
+01:35:15
+that validates your AI implementation successes. They want to make
+
+01:35:18
+sure that they're not gonna waste their time, waste their
+
+01:35:20
+money, or going to a rabbit hole here by talking
+
+01:35:23
+to you. So these are the first things I look
+
+01:35:25
+for. So how do we optimize our digital footprints?
+
+01:35:28
+To create a strong digital footprint
+
+01:35:31
+that supports our outreach efforts, we need to focus on
+
+01:35:34
+3 things. Your website.
+
+01:35:36
+Ensure that your website is professional, user friendly, and clearly
+
+01:35:40
+communicates your value proposition and services.
+
+01:35:43
+Include case studies, testimonials
+
+01:35:46
+with a clear call to action. When starting out, a
+
+01:35:50
+clean and tidy personal brand site can do the job
+
+01:35:53
+for the first few months. There's plenty of templates out
+
+01:35:57
+there
+
+01:35:58
+or Fiverr slash Upwork freelancers
+
+01:36:00
+who will do this for cheap.
+
+01:36:02
+Now you might be sitting here
+
+01:36:04
+freaking out now because I just told you, you need
+
+01:36:07
+to have this and this and this on your website
+
+01:36:08
+and you don't even have a website.
+
+01:36:11
+It's okay.
+
+01:36:12
+As I said, there is plenty of templates and you've
+
+01:36:15
+got freelancers and stuff on Fiverr or Upwork that can
+
+01:36:17
+do it for cheap. The whole thing here is that
+
+01:36:20
+you need just need to have something to show for.
+
+01:36:22
+Because if you're gonna go and buy a car at
+
+01:36:24
+a car dealership
+
+01:36:26
+and you Google the car dealership and they don't exist,
+
+01:36:29
+they sound like they can sell you this car for
+
+01:36:31
+cheap and do this miracle work of getting you a
+
+01:36:34
+Tesla in 1 week when it's let's pretend it's a
+
+01:36:37
+6 month wait time. You Google the website and they
+
+01:36:40
+don't exist.
+
+01:36:41
+That would be very fishy and would provide a massive
+
+01:36:44
+barrier to entry to you actually buying the car from
+
+01:36:46
+them. That will create a suspicious
+
+01:36:49
+intent for you that will carry along your whole relationship.
+
+01:36:53
+So something as simple as spinning up a quick simple
+
+01:36:56
+personal brand website is gonna do you wonders.
+
+01:37:00
+It should not take a lot of time and it
+
+01:37:01
+should not take a lot of money. This is something
+
+01:37:04
+very simple that can be done within the span of
+
+01:37:06
+a few hours.
+
+01:37:08
+The second thing is social media. Maintaining
+
+01:37:10
+active engaging profiles
+
+01:37:12
+on relevant social media platforms,
+
+01:37:14
+sharing valuable content and interacting with your audience.
+
+01:37:18
+Showcase your expertise
+
+01:37:20
+and build a relationship with potential clients. Right?
+
+01:37:23
+So when they Google you, people are gonna Google you
+
+01:37:26
+on the platform they are the most comfortable with. For
+
+01:37:28
+some prospects, that might be LinkedIn. For other prospects, that
+
+01:37:30
+might be Facebook.
+
+01:37:31
+And if you have
+
+01:37:34
+a super old
+
+01:37:36
+profile on 1 of these platforms, they are likely to
+
+01:37:38
+Google you on where you're half naked,
+
+01:37:42
+partying around, drinking beer, and that's their impression of you,
+
+01:37:45
+that is probably not a great first impression for a
+
+01:37:48
+business partner that they're gonna be paying a lot of
+
+01:37:50
+money that is gonna be responsible for a lot of
+
+01:37:52
+their operations and saving their business with AI. Simply just
+
+01:37:56
+not a good look. So make sure you're presentable.
+
+01:37:59
+And then lastly, we've got online reviews.
+
+01:38:02
+Encourage satisfied clients
+
+01:38:04
+to leave reviews on platforms like Google, Facebook, or industry
+
+01:38:08
+specific directories.
+
+01:38:10
+Respond to all of the reviews, both positive and negative,
+
+01:38:14
+to show that you've valued feedback and are committed to
+
+01:38:17
+client satisfaction.
+
+01:38:20
+On this,
+
+01:38:21
+you don't necessarily only have to ask for feedback and
+
+01:38:24
+reviews from clients that you had a full on massive
+
+01:38:27
+project with. If you've had a successful discovery call with
+
+01:38:30
+someone where you think they walk away with a feeling
+
+01:38:33
+of, wow, I really learned something. This solution and you
+
+01:38:37
+might be charging too much for us to become your
+
+01:38:39
+clients, but I really value what you taught me today.
+
+01:38:43
+And if that's what the clients are walking away with,
+
+01:38:45
+you need to stop John right there and ask him
+
+01:38:48
+if he can leave you a review because that will
+
+01:38:51
+really impact your business.
+
+01:38:53
+Anything
+
+01:38:53
+we have a positive interaction where people are getting any
+
+01:38:56
+value from you, you should be asking for a review
+
+01:38:59
+to build your review.
+
+01:39:01
+By proactively managing and optimizing your digital footprint, you'll create
+
+01:39:05
+a strong foundation for your outreach efforts and make it
+
+01:39:08
+easier for prospect to trust and engage with your agency.
+
+01:39:11
+Right?
+
+01:39:13
+I recently read a study that person to person trust
+
+01:39:15
+is the lowest it's been in the last 50 years.
+
+01:39:18
+So anything and any advantage we can get to building
+
+01:39:21
+this trust
+
+01:39:22
+instead of taking away trust is something we should jump
+
+01:39:25
+on, which is this.
+
+01:39:26
+And then a bit of a reality checker again, congruency.
+
+01:39:30
+Make sure that all your personal and business branding
+
+01:39:33
+is congruent across all platform.
+
+01:39:37
+E g, if your LinkedIn says you're a voice agent
+
+01:39:40
+specialist,
+
+01:39:41
+make sure that your website also features that somewhere on
+
+01:39:45
+it.
+
+01:39:46
+And if you have a public Instagram,
+
+01:39:48
+have something about voice AI in your bio.
+
+01:39:52
+If you don't want to use a certain platform, e
+
+01:39:54
+g
+
+01:39:55
+your Instagram is personal only, then make sure it's private
+
+01:40:00
+and what is visible isn't going to put off
+
+01:40:03
+any potential clients,
+
+01:40:05
+e g, you and your mates pulling the finger in
+
+01:40:08
+the profile picture.
+
+01:40:10
+Same thing we talked about earlier with the you're just
+
+01:40:12
+out drinking and that's your first impression. Not a great
+
+01:40:15
+look.
+
+01:40:18
+Nurturing,
+
+01:40:19
+the secret
+
+01:40:20
+sauce.
+
+01:40:22
+So nurturing is a crucial aspect of outreach that often
+
+01:40:26
+gets overlooked.
+
+01:40:28
+It can make all the difference in converting your prospects
+
+01:40:31
+into long term
+
+01:40:32
+triple a clients. In today's competitive landscape, it's rare for
+
+01:40:36
+a prospect to convert into clients immediately
+
+01:40:39
+after the first interaction.
+
+01:40:41
+Nurturing plays a vital role in keeping your agency
+
+01:40:45
+top of mind and building trust with potential clients over
+
+01:40:49
+time so you can nurture them in to becoming a
+
+01:40:51
+client.
+
+01:40:52
+Nurturing
+
+01:40:53
+is consistently providing value to prospects, guiding them towards a
+
+01:40:57
+purchasing decision.
+
+01:40:59
+There's a couple of key benefits from nurturing and reasons
+
+01:41:02
+we need to do it. Right? Number 1 is stay
+
+01:41:04
+relevant. It keeps you top of mind for your prospects.
+
+01:41:08
+It builds trust
+
+01:41:10
+by establishing
+
+01:41:11
+credibility
+
+01:41:12
+and reliability
+
+01:41:13
+over time.
+
+01:41:15
+And last but not least, you stand out. It differentiates
+
+01:41:18
+your agency
+
+01:41:20
+and strengthens your connection.
+
+01:41:23
+There's 3 goals when it comes to nurturing. Right? The
+
+01:41:26
+goal with nurturing
+
+01:41:27
+is an important aspect to understand.
+
+01:41:29
+It is providing credibility,
+
+01:41:32
+leave prospects with the impression of you being an expert,
+
+01:41:35
+make them an offer.
+
+01:41:37
+Offer them the next step in your sales process, I
+
+01:41:40
+e a consultation.
+
+01:41:42
+Top of mind, remind them of what you do and
+
+01:41:45
+make sure that you are top of mind. When you're
+
+01:41:48
+writing your nurturing messages and when you're nurturing your prospects,
+
+01:41:50
+this is what you need to keep in mind. Right?
+
+01:41:52
+And there's like anything, there's a couple of key aspects
+
+01:41:55
+that I need you to keep in mind to create
+
+01:41:57
+a successful nurturing strategy.
+
+01:41:59
+A nice timely follow-up.
+
+01:42:01
+Follow-up with prospects at regular intervals to keep the conversation
+
+01:42:05
+going and show that you value the relationship.
+
+01:42:08
+If you leave someone alone for 2 months, you're trying
+
+01:42:10
+to follow-up with them like you're still best friends is
+
+01:42:12
+a very hard thing.
+
+01:42:14
+Set reminders to ensure that you stay on track and
+
+01:42:17
+don't let opportunity slip under the crack.
+
+01:42:20
+Number 2 is valuable content. Right? Share valuable,
+
+01:42:23
+informative content that addresses the prospect's needs and challenges,
+
+01:42:28
+such as a blog post, case studies, or industry reports.
+
+01:42:32
+Aim to educate
+
+01:42:33
+and provide value
+
+01:42:35
+rather than just promoting your services.
+
+01:42:38
+Number 3 is personalized touchpoints.
+
+01:42:40
+Tailor your nurturing efforts to each prospect's unique situations,
+
+01:42:44
+interests, and preferences.
+
+01:42:47
+Use the information you gather through the research and previous
+
+01:42:51
+interactions
+
+01:42:52
+to create personalized
+
+01:42:53
+messages that resonate with your prospect. This is something that's
+
+01:42:56
+very important in the start. As you only have 5
+
+01:42:59
+prospects to nurture that didn't go through or that didn't
+
+01:43:01
+wanna close or that didn't go through the discovery phase,
+
+01:43:04
+whatever that might look like, If you only have 5
+
+01:43:06
+prospects that are in the stage of nurturing,
+
+01:43:08
+then you definitely want to do all of them manually.
+
+01:43:11
+As you start building up a bit of a database
+
+01:43:13
+and more prospects that needs following up with, this is
+
+01:43:16
+simply not tangible. You can't
+
+01:43:18
+personally follow-up and write personal messages for hundreds of people.
+
+01:43:22
+So then you can start putting them into buckets of,
+
+01:43:25
+say, industry or pain points or platforms they use that
+
+01:43:29
+you find relevant to specifically tell your message to that
+
+01:43:32
+group of audience and send them all a similar ish
+
+01:43:34
+message.
+
+01:43:35
+But in the start, as I said, I would start
+
+01:43:37
+out doing this manually until you get at least 10,
+
+01:43:40
+15 people that you're actively nurturing.
+
+01:43:43
+And then last but not least is multichannel approach.
+
+01:43:46
+Engage with your prospects across multiple channels such as email,
+
+01:43:50
+phone, social media, and SMS to build a stronger connection.
+
+01:43:55
+Different prospects may prefer different channels, so adapt your approach
+
+01:43:59
+accordingly.
+
+01:44:00
+If your industry
+
+01:44:02
+never ever checks their emails, there's no point of including
+
+01:44:05
+emails in this nurturing sequence. Right? Then you simply stick
+
+01:44:08
+to phone, email, and SMS. So tailor this to your
+
+01:44:11
+industry like everything else we've talked about. Now we're getting
+
+01:44:13
+into nurturing in action. Right?
+
+01:44:16
+Nurturing is an ongoing process that evolves as your relationship
+
+01:44:21
+with the prospects develops.
+
+01:44:23
+Here's the main steps of the nurturing process that you
+
+01:44:26
+need to be aware of. Before meeting,
+
+01:44:29
+keep the prospect engaged
+
+01:44:31
+with relevant content and insights related to their needs and
+
+01:44:35
+reason for them replying to your outreach initially. So if
+
+01:44:37
+you reached out to them offering to reduce their workload,
+
+01:44:40
+provide them with additional context, additional information,
+
+01:44:44
+insights, and studies on how other companies are reducing the
+
+01:44:46
+workload with AI before they actually show up for that
+
+01:44:49
+initial meeting with you. That will make you have a
+
+01:44:52
+higher show up rate.
+
+01:44:54
+And then we've got after the meeting. Send a summary
+
+01:44:57
+of the meeting
+
+01:44:58
+and stay in touch with updates
+
+01:45:00
+positioning yourself
+
+01:45:01
+for future opportunities
+
+01:45:03
+regardless of the outcome of the call.
+
+01:45:06
+Tailor this to how you felt the call went
+
+01:45:09
+and what their focuses are. If they told you over
+
+01:45:12
+the discovery call that they're really focusing on scaling their
+
+01:45:15
+company,
+
+01:45:16
+focus on that as you're nurturing them in to the
+
+01:45:19
+next stage of your sales process. So after the meeting,
+
+01:45:22
+send them a summary and then stay in touch with
+
+01:45:24
+them about what you feel was important to them.
+
+01:45:27
+Until you get on to the next stage, which is
+
+01:45:30
+the consideration stage.
+
+01:45:32
+Continue providing value while they are evaluating your proposal and
+
+01:45:37
+give industry insights from competitors
+
+01:45:39
+is a great example on how to do this consistently
+
+01:45:42
+for pretty much every single industry. So this stage is
+
+01:45:44
+after you've given them the proposal and you've given them
+
+01:45:46
+something to look at. Now you want to give a
+
+01:45:48
+bit of urgency on how other competitors
+
+01:45:51
+are already doing this and how they need to get
+
+01:45:53
+ahead of it.
+
+01:45:55
+And if you don't have any competitors,
+
+01:45:57
+share case studies, testimonials,
+
+01:45:59
+or studies that you find online
+
+01:46:01
+about a similar thing to what you're trying to provide
+
+01:46:04
+to them. And then again, last but not least, we've
+
+01:46:06
+got after the contract is signed.
+
+01:46:09
+Nurturing does not stop when the contract is signed, believe
+
+01:46:11
+it or not. You should frequently follow-up
+
+01:46:14
+with clients to provide them with insights on the market
+
+01:46:17
+and stay on top of it. This will help you
+
+01:46:19
+reduce the churn. The more you stay in contact and
+
+01:46:22
+the more you build your relationship,
+
+01:46:24
+the better relationship you will have and the less likely
+
+01:46:27
+there will be of churning. An example of things to
+
+01:46:29
+do here as well is starting to build a bit
+
+01:46:30
+of a personal connection with them. If you're going to
+
+01:46:33
+an expo or if you're doing something relevant to the
+
+01:46:35
+what they're doing, share it with them.
+
+01:46:38
+Send them a picture.
+
+01:46:39
+Right? Stay in touch with them and create that personal
+
+01:46:42
+connection.
+
+01:46:44
+And then we've got the looking ahead section.
+
+01:46:47
+Before we move on to the next video, let's recap
+
+01:46:49
+some of the key concepts we've covered in outreach theory
+
+01:46:53
+and outline some actionable steps you can take to start
+
+01:46:56
+implementing effective strategies
+
+01:46:58
+for your triple a.
+
+01:46:59
+Some of the key takeaways are research is the foundation
+
+01:47:03
+of successful outreach, allowing you to create targeted and personalized
+
+01:47:06
+campaigns.
+
+01:47:07
+This is also everything your decisions are gonna be based
+
+01:47:10
+on. The channel you pick, the way you reach out,
+
+01:47:12
+the message you do, the offer you give, the value
+
+01:47:15
+statement, the value proposition you give is all going to
+
+01:47:17
+be based on the research. So it's a nonskippable step.
+
+01:47:21
+Secondly, we've got effective messaging,
+
+01:47:24
+combines personalization,
+
+01:47:25
+compelling offer, strong value proposition, and a clear call to
+
+01:47:29
+action. They're the 4 components.
+
+01:47:32
+Thirdly, we've got metrics and AB testing are absolutely crucial
+
+01:47:37
+to understand
+
+01:47:38
+to be able to optimize your outreach efforts and improve
+
+01:47:41
+results over time.
+
+01:47:44
+Fourth is follow ups and nurturing are essential for building
+
+01:47:48
+relationship and converting prospects
+
+01:47:50
+into long term clients.
+
+01:47:54
+Lastly, your digital footprint plays a significant role in establishing
+
+01:47:59
+credibility
+
+01:47:59
+and trust with potential clients, so please do spend 2,
+
+01:48:03
+3 hours setting up a website that can actually showcase
+
+01:48:06
+you are a real person and that you are credible.
+
+01:48:09
+Couple of actionable steps based on what we talked about
+
+01:48:11
+today.
+
+01:48:12
+I know there was a lot of theory in this
+
+01:48:14
+module, and that was the goal of this module to
+
+01:48:17
+cover the theory and lay the foundations to understand everything
+
+01:48:20
+we're gonna be talking about as we're moving forward. So
+
+01:48:23
+there's not gonna be too many actionable steps,
+
+01:48:25
+but a couple of them, 3 of them are develop
+
+01:48:28
+your ICP,
+
+01:48:29
+Create a
+
+01:48:31
+detailed ideal customer profile for your triple a considering the
+
+01:48:35
+factors we talked about earlier like industry, company size, and
+
+01:48:38
+pain points. Use the document
+
+01:48:40
+linked in here where you can outline your ICP by
+
+01:48:43
+filling it in.
+
+01:48:46
+Secondly, practice your message.
+
+01:48:48
+Practice writing an outreach message using the 4 t framework
+
+01:48:52
+focusing on personalization and value proposition. Right after watching this
+
+01:48:56
+video, I want you guys to go find a prospect
+
+01:48:59
+within the ICP you've just created and pretend you're gonna
+
+01:49:02
+send them an outreach message. There's still a lot you're
+
+01:49:05
+gonna have to learn, but the best way of remembering
+
+01:49:08
+the information you've learned throughout this module is putting it
+
+01:49:10
+into action and actually using it a little bit. So
+
+01:49:13
+you guys don't have to send the messages if you're
+
+01:49:15
+not comfortable with sending the messages yet, but I really
+
+01:49:18
+would love for you to write them out and pretend
+
+01:49:20
+you were to send them so you get some practice
+
+01:49:23
+applying all these components and strategies we've talked about, all
+
+01:49:26
+the knowledge
+
+01:49:28
+while it's still fresh in your brain. Go do that
+
+01:49:30
+right now. Lastly, is optimizing your digital presence. Review and
+
+01:49:34
+enhance your website and social media profiles to align with
+
+01:49:38
+your outreach messaging and showcase your expertise.
+
+01:49:41
+So go through your social media and make sure they're
+
+01:49:43
+private if you want them to be. Make sure you're
+
+01:49:45
+presentable on different social media, and make sure you have
+
+01:49:48
+a website that people can actually look up.
+
+01:49:52
+In the upcoming videos, we'll dive deeper into the practical
+
+01:49:55
+aspects of implementing
+
+01:49:57
+these outreach strategies. Right? The next video is going to
+
+01:50:00
+be outreach mindsets,
+
+01:50:02
+developing mental frameworks needed to succeed in outreach.
+
+01:50:06
+The video after that again is going to be platforms,
+
+01:50:09
+where we're gonna explore key outreach platforms that helps you
+
+01:50:11
+to automate things like email, LinkedIn, and Instagram,
+
+01:50:15
+and where you need to go to get leads for
+
+01:50:17
+the different platforms, for the different industries, best practices, and
+
+01:50:20
+best platforms
+
+01:50:21
+that we know and we've used ourselves.
+
+01:50:24
+It's also gonna give you insights into where you can
+
+01:50:25
+go to hire people and a lot of extra tools,
+
+01:50:28
+and it's simply gonna equip you with every platform you
+
+01:50:30
+need to know in relevance to outreach.
+
+01:50:34
+The next video after that is going to be called
+
+01:50:36
+email setup. You're gonna learn all the technical essentials
+
+01:50:40
+for setting up your email, and we're actually gonna go
+
+01:50:42
+through the process together of setting up email accounts and
+
+01:50:45
+getting them ready to send out emails.
+
+01:50:48
+And the last video in this module is going to
+
+01:50:50
+be Calendly setup. We're gonna optimize your Calendly and configure
+
+01:50:54
+it for maximum efficiency
+
+01:50:56
+to increase your show up rates on meetings and create
+
+01:50:59
+automated workflows to follow-up and nurture your prospects.
+
+01:51:04
+By mastering these outreach techniques, you'll be equipped
+
+01:51:07
+to connect with potential clients,
+
+01:51:10
+showcase the value of your triple a services,
+
+01:51:13
+and grow your business in the competitive
+
+01:51:16
+AI automation
+
+01:51:17
+landscape.
+
+01:51:19
+Go take action on this, and I'm really looking forward
+
+01:51:21
+to seeing you in the next video.

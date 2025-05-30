@@ -1,0 +1,2558 @@
+Transcript
+Search
+
+00:01
+Alrighty. So last but not least is an agent built
+
+00:04
+on my own software. So I didn't want to make
+
+00:07
+this. It's not about me selling you or getting to
+
+00:08
+use my software. So I thought I'd put it at
+
+00:10
+the end just so you know that I wasn't really.
+
+00:11
+This is about you guys learning, and my software happens
+
+00:14
+to help you put an agent onto what's at very,
+
+00:16
+very easily. So that's why it's included in here. But
+
+00:18
+again, this is non sponsored, non promoted, none whatever. I'm
+
+00:21
+just really trying to share with you what I think
+
+00:23
+is a really valuable skill set to have. Alright. Now
+
+00:25
+getting into AI agent build number 4, this is going
+
+00:28
+to be
+
+00:30
+ta da, a WhatsApp based AI customer support and lead
+
+00:33
+generation agent built on AgenTiv,
+
+00:35
+my software. So this is a no code, AI agent
+
+00:38
+builder that is built on top of OpenAI's assistance API.
+
+00:41
+So you're technically using your OpenAI account, getting very, very
+
+00:44
+cheaper rates on the, token usage that you're running through
+
+00:47
+this agent. But Agenntiv just allows you to build on
+
+00:49
+top of it very easily, but more importantly to deploy
+
+00:52
+these agents, not just onto web chat widgets like we've
+
+00:54
+done with Voiceflow, but easily onto things like WhatsApp and
+
+00:57
+Instagram, etcetera. That's really the key thing that Agento focuses
+
+01:00
+on doing right now is making it easy for you
+
+01:02
+to get your agents onto these platforms. So as you
+
+01:04
+can see, it's a fairly similar build to what we
+
+01:06
+just did on Voiceflow in terms of functionality.
+
+01:08
+We're going to be having a,
+
+01:10
+a knowledge base that we can ask questions over. It's
+
+01:12
+going to be able to generate another instant quote. So
+
+01:14
+we'll just quickly connect that same relevance tool here. And
+
+01:17
+finally, we're gonna do a lead capture, but this time
+
+01:19
+it's gonna be done through Airtable. So I wanna mix
+
+01:21
+it up and show you how you can connect your
+
+01:23
+agents to Airtable, which is a very, very common integration
+
+01:25
+that you're gonna need to know. And the difference between
+
+01:27
+this agent, you're gonna see that it's much, much faster
+
+01:29
+to build. This is not meant to be a side
+
+01:32
+by side comparison of what's better, how much faster. It's
+
+01:34
+just that when you build on a more conversational based,
+
+01:38
+AI agent platform like Adjentive, which is built on top
+
+01:40
+of the assistance API,
+
+01:42
+it's a very different way of building agents because it's
+
+01:43
+all just based on a prompt and providing the right
+
+01:45
+tools and all the magic kinda happens itself through the
+
+01:48
+prompt, whereas VoiceFlow gives you a lot more control. So
+
+01:50
+it's really difference between structured AI agent building versus, more
+
+01:54
+conversational and open ended chats through, more chat GPT like
+
+01:58
+experience that can just go on and on and on,
+
+02:00
+which is what these agents can do. So the purpose
+
+02:02
+is, of course, fairly similar, but the value of this
+
+02:04
+is slightly different in that we are using WhatsApp. So,
+
+02:07
+many people browsing for services online are hesitant to use
+
+02:10
+website contact forms or other or chatbots that they think
+
+02:12
+are not gonna give them access to a real human
+
+02:14
+due to the potential delays that come from it. Right?
+
+02:16
+You land in a website and you're you're shopping around
+
+02:19
+for a different service or product, and then there's this
+
+02:21
+this contact form or there's a a web chat widget
+
+02:23
+and you're gonna go, oh, well, I don't really think
+
+02:25
+I'm gonna get the help that I really need here
+
+02:26
+at the at the speed that I want. So you
+
+02:28
+might look for a WhatsApp widget. And you know that
+
+02:30
+if you click that WhatsApp widget, you're gonna get to
+
+02:32
+speak directly to someone. And this is kinda playing on
+
+02:34
+that fact that if you have the WhatsApp option on
+
+02:36
+your, website, people are much more likely to just click
+
+02:39
+that and go through and try to have a conversation
+
+02:41
+directly to get what they want. So by having a
+
+02:43
+WhatsApp option on a website or other triggers, e. G.
+
+02:45
+You can have a QR code that you could stick
+
+02:47
+on, say, a real estate sign, and you build an
+
+02:49
+agent connected to it or WhatsApp number like we're gonna
+
+02:51
+do here. And then you create a QR code that
+
+02:53
+people can scan and immediately open WhatsApp and start chatting
+
+02:56
+with it. There's lots of different ways that you can
+
+02:58
+have an access point into a WhatsApp agent like this.
+
+03:01
+But it basically opens up more conversations through a more
+
+03:04
+smartphone native platform so they can hop on their phone
+
+03:06
+and sort of have a chat away to it rather
+
+03:07
+than being on a website on the computer or a
+
+03:09
+little tiny website chatbot on their phone.
+
+03:12
+In order to essentially engage more prospects or more people
+
+03:15
+interested in the business in conversation,
+
+03:18
+quickly provide value through either the knowledge base and these
+
+03:21
+tools here and real time quotes. And ultimately, because you're
+
+03:23
+providing that instant value and instant feedback from them, collect
+
+03:26
+their lead information, or better yet, even set appointments through
+
+03:29
+WhatsApp, which you can build on a Gentive. But that
+
+03:31
+use case a little bit more advanced and not something
+
+03:33
+I can show within this video. But it definitely is
+
+03:35
+possible. But it's really only a few steps away from
+
+03:37
+the skills that you've learned in this video so fast.
+
+03:39
+So keep an eye on that appointment setting use case
+
+03:41
+because if you can do that with AI agents, it's
+
+03:43
+a very, very valuable 1. And I've done other videos
+
+03:45
+on the channel here showing you how to do
+
+03:48
+that. So the usage of this is that they're gonna
+
+03:49
+find the, company's WhatsApp number on their website or elsewhere,
+
+03:53
+maybe QR code like I said, and they're gonna start
+
+03:55
+a conversation on WhatsApp. And then the agent is immediately
+
+03:57
+gonna jump in and start responding and be able to
+
+03:59
+ask for the knowledge base, generate quotes, and then capture
+
+04:02
+the lead lead information. So without further ado, let's jump
+
+04:04
+into building this agent. So we can click up here
+
+04:06
+to go to my website, Adjentive. You can click on
+
+04:09
+register now. You can just register with your Google account.
+
+04:11
+I'm gonna log in with mine.
+
+04:16
+It is free to make an account and we have
+
+04:18
+a free plan so you can just experiment around as
+
+04:19
+much as you need. And then you're only gonna be
+
+04:21
+charged based on the amount of usage you use. So
+
+04:23
+it's very very cheap and affordable. And I wanted to
+
+04:25
+make this platform for you guys to all get on
+
+04:27
+and experiment with building AI agents without coding. That was
+
+04:29
+really the the core of why we started this whole
+
+04:31
+thing. So we've got the dashboard here, which will load
+
+04:34
+in my data in a second.
+
+04:36
+So you can see here what the dashboard will look
+
+04:38
+like when you've got your own agents running. We are
+
+04:40
+running the Agenntiv customer support chatbot through this,
+
+04:43
+through this account that I'm I'm using right now. So
+
+04:45
+you can see usage cost is very cheap sessions, etcetera.
+
+04:48
+So it's really cool when you go into analytics and
+
+04:50
+you can use Adjentive to see how people are using
+
+04:52
+your agents, but that's obviously something for a little bit
+
+04:54
+later once you put these into production.
+
+04:56
+Now what we're gonna do is, of course, we can
+
+04:58
+go to agents or we can just create an agent
+
+04:59
+from here.
+
+05:00
+And I call this,
+
+05:02
+Connor's cleaning
+
+05:04
+WhatsApp
+
+05:05
+agent.
+
+05:06
+Let me go on the screen as well. Answers questions
+
+05:09
+from KB provides real time.
+
+05:17
+So answers questions from the knowledge base, provides real time
+
+05:20
+cleaning quotes, and can capture leads to Airtable. So you're
+
+05:23
+gonna see the setup is a lot faster than some
+
+05:25
+of these other platforms. You know, I'm not I'm not
+
+05:27
+trying to gas myself up here. It's just a different
+
+05:29
+way of approaching, building agents. So it's a lot more
+
+05:32
+fast and and rapid prototyping and easy to get things
+
+05:34
+up and running. Of course, if you need much more
+
+05:36
+advanced functionality, you do need to go the extra mile
+
+05:38
+and go on to platforms like Voiceflow. But in this
+
+05:40
+case, we have a prompt. Very easy. We have a
+
+05:42
+knowledge and we have tools. So remember when we went
+
+05:44
+back to being
+
+05:46
+a a chef and the 3 ingredients concept? These are
+
+05:48
+your 3 ingredients. Right? The prompt that you get to
+
+05:50
+provide as the instructions, the knowledge that you provide as
+
+05:53
+the external knowledge base, and the tools that we can
+
+05:55
+connect to it as well, and we can select the
+
+05:57
+model here. So I think I want a nice and
+
+05:59
+snappy response time because this is gonna be on WhatsApp
+
+06:02
+and customer facing. So I'll go to GPT 4 0
+
+06:05
+Mini. So it's nice and quick. Now we can just
+
+06:07
+put a test test in there. What you are a
+
+06:09
+help.
+
+06:13
+Just put that in there for now as the prompt.
+
+06:15
+The knowledge base, we can turn this on. We can
+
+06:17
+create a new knowledge base. Call this Conors.
+
+06:24
+We're gonna click here, and we're going to upload that
+
+06:26
+same file that we used on Voiceflow, the same document
+
+06:28
+that will be available in the resources for this, for
+
+06:31
+this particular guide. Give that a second to process. Once
+
+06:33
+this goes green, we're good to upload it, and you
+
+06:35
+can add multiple files in here. We allowed 5 files
+
+06:37
+at a time. You can add dozens and dozens of
+
+06:39
+files so you have a massive knowledge base to work
+
+06:41
+with.
+
+06:44
+And just like that, we have connected our knowledge base.
+
+06:47
+And the cool thing about Agentive is because we're built
+
+06:49
+on the assistance API. This is actually an independent knowledge
+
+06:51
+base. So you can create a knowledge base and connect
+
+06:53
+it to multiple different agents. The the knowledge is not
+
+06:56
+restricted to the agent that you built it within. So
+
+06:58
+I can go and create a new agent and connect
+
+06:59
+this exact same knowledge base, and I have all of
+
+07:01
+these other ones here. And then when we go into
+
+07:03
+the tool section, we are going to have 2 tools
+
+07:04
+with this. Well, the knowledge base, if you go back
+
+07:06
+to our Figma here, technically, the knowledge base is a
+
+07:09
+form of tool that the agent is using. But on,
+
+07:12
+platforms like the assistance API and and many platforms, you'll
+
+07:15
+see knowledge treated as its own thing. But essentially, it
+
+07:17
+is just another tool that the agent is using at
+
+07:19
+the right time when it needs to pull in knowledge
+
+07:22
+to answer questions. So OpenAI separates it out into its
+
+07:25
+own thing here and then so do we because we
+
+07:26
+build on top of it. So we do have 3
+
+07:28
+different tools, but knowledge is its own tool that gets
+
+07:31
+set up through this knowledge base, connection that we just
+
+07:34
+made before. Then we have the tools. And here we
+
+07:36
+have our instant quote from relevance, and we have our
+
+07:39
+capture lead information. So we know the process of going
+
+07:41
+on to relevance, so we can just go, create a
+
+07:43
+new tool here. And this is going to show you
+
+07:45
+a schema. Remember back to when we talked about schemas?
+
+07:48
+It explains to the agent how to use the tool.
+
+07:50
+So to add a tool to this agent, we need
+
+07:52
+to add a schema to it. And thankfully, our buddies
+
+07:55
+at Relevance
+
+07:56
+AI provide a very, very easy way to create schemas
+
+07:58
+to import into agents like Onigento. So here I can
+
+08:01
+grab that same cost estimate tool for the instant quotation
+
+08:03
+for cleaning services that we've used previously. Again, this will
+
+08:06
+be linked. You can just clone this if you haven't
+
+08:08
+got it already. I will provide a link for you
+
+08:10
+to clone this into your relevant account that will be
+
+08:12
+in the resources for this video. And it's just like
+
+08:14
+the previous tutorial that we did where it's got property
+
+08:16
+type, square footage, and then LLM step here to calculate
+
+08:19
+it. It's gonna spit that back and we're going to
+
+08:21
+turn that into a nice response,
+
+08:23
+with our agent on a agent. We can make sure
+
+08:25
+that we've saved this. So the cool thing here is
+
+08:27
+that in order to get this connected to Agentive and
+
+08:29
+our agent over there, we can just go to custom
+
+08:32
+actions here on the tools page.
+
+08:34
+As you can see here, it's mainly intended for use
+
+08:36
+with OpenAI's custom GPTs, which you can get access through
+
+08:39
+ChatGPT. And I highly recommend you do check out the
+
+08:41
+OpenAI GPTs because it's a super simple way to spin
+
+08:44
+up your own agents, on the ChatGPT site. And so
+
+08:46
+we can select our tool here and we can get
+
+08:48
+a schema for it. But what I've just realized is
+
+08:50
+that I actually do have an Airtable lead capture tool
+
+08:52
+here that I've already created on relevance. And it's actually
+
+08:54
+gonna be easier for us to set it up here
+
+08:56
+on relevance than to have to do it all separately.
+
+08:58
+So let's just quickly set that up now.
+
+09:00
+If we go Airtable,
+
+09:03
+just get a simple 1 that captures the name and
+
+09:05
+phone. I'll provide the template for this tool so you
+
+09:07
+can clone it in. But basically, it takes an input
+
+09:09
+of the name of the lead and the email address
+
+09:11
+of the lead and the phone as well. So it's
+
+09:13
+capturing all 3 of these as lead information, and then
+
+09:16
+it's sending it over to Airtable, which we're gonna set
+
+09:18
+up just now. And it's using a post request to
+
+09:21
+push that data that we collected here, and we will
+
+09:23
+collect through WhatsApp eventually, and it's pushing it into the
+
+09:26
+Airtable database. So let's get that set up quickly. If
+
+09:29
+you go to Airtable,
+
+09:34
+and I'm just going to use a dummy CRM that
+
+09:36
+I use for all of these tutorials and you guys
+
+09:37
+are gonna be able to clone this if you want.
+
+09:39
+And the resources for this video, there will be a
+
+09:41
+link like this. If I share this,
+
+09:43
+share publicly,
+
+09:47
+you guys will get something that looks a bit like
+
+09:49
+this.
+
+09:50
+And this button up here says copy base that will
+
+09:52
+copy it into your account. So what you need to
+
+09:54
+do to copy this Airtable base is to create an
+
+09:56
+Airtable account and then click on this copy base and
+
+09:58
+it'll copy it over. So you can get this with
+
+10:00
+the columns all pre set up. It is fairly easy
+
+10:02
+to set up these fields yourself, but I wanna make
+
+10:04
+it easier for you guys. So you can just copy
+
+10:05
+this. It'll be included in the resources. But here we
+
+10:07
+have the fields that we're looking for. So now all
+
+10:09
+we need to do to send data into this database
+
+10:12
+through our WhatsApp based agent. So when someone provides the
+
+10:15
+details that it gets shot into here is we need
+
+10:17
+to go and see our details for the Airtable web
+
+10:20
+API. So Airtable has their own API, which allows us
+
+10:23
+to interact with our databases like this programmatically. So all
+
+10:26
+we need to do is go up to the right
+
+10:27
+hand corner here, go to BuilderHub.
+
+10:29
+And if we go to the developer docs here
+
+10:31
+and scroll down to the web API,
+
+10:35
+This is a reference to the Airtable web API. So
+
+10:37
+this documentation is essentially gonna tell us how to interact
+
+10:39
+with our Airtable programmatically through our agents and through voice
+
+10:43
+flow and through relevance and and through, Agentive as well.
+
+10:45
+So any way you want to interact with it, you
+
+10:47
+can now take this knowledge that you've gained in this
+
+10:49
+video, look through this, and model what we're gonna do
+
+10:51
+here in relevance. You can take that same idea and
+
+10:53
+put it into, say, Voiceflow, and you can build an
+
+10:55
+Airtable integration within Voiceflow yourself where you can send and
+
+10:58
+pull data. So these skills all stack on top of
+
+11:00
+each other, and it really centers around understanding how APIs
+
+11:03
+work and that comes down to reading documentation as well.
+
+11:05
+So in this case, if you go back to our
+
+11:08
+relevance tool here, we need to get our URL, which
+
+11:11
+is our endpoint, which we've talked about before. This is
+
+11:13
+the address that we're sending the request to. And Adjentive,
+
+11:16
+where we're build an agent, is gonna be using relevance
+
+11:19
+to call Airtable. That's a bit of a a roundabout
+
+11:21
+way of doing things. But to get all of this
+
+11:23
+information, the easiest way is to go back to this
+
+11:25
+documentation.
+
+11:26
+And the easiest way for us to find the information
+
+11:28
+that allows us to interact with our own Airtable base
+
+11:31
+that we're setting up is to come down here and
+
+11:33
+find the base that you've just cloned into your account,
+
+11:35
+which will likely be Smith's Solar CRM. Don't worry about
+
+11:38
+the name. And Airtable does a really, really good job
+
+11:40
+of making this super easy. And then we can just
+
+11:42
+come here to the leads table. So if we go
+
+11:44
+back to,
+
+11:45
+Airtable here,
+
+11:47
+you see see we are on the leads table. We
+
+11:48
+have these different tabs. You can just ignore. These are
+
+11:50
+just different projects that I've done on YouTube. They're all
+
+11:53
+kinda there in case people are also cloning this into
+
+11:55
+their account. But we're looking at the leads tab here.
+
+11:57
+So we go to the leads here and we want
+
+11:59
+to create records. And then it gives us all of
+
+12:01
+the information we need here in order to create records.
+
+12:04
+So, you can see that it's a post request, and
+
+12:07
+it's got HTTPS
+
+12:10
+and all of this information. So this is the endpoint,
+
+12:12
+and we wanna copy all of this all the way
+
+12:14
+down to leads. Copy this.
+
+12:16
+Go back to, relevance
+
+12:19
+and paste this in.
+
+12:21
+Oh, maybe that was already there. And paste that in
+
+12:23
+there.
+
+12:24
+And then we need to add in 2 headers. So
+
+12:26
+we have authorization and content type. Now remembering what we
+
+12:28
+learned before, you can see we have h and this
+
+12:31
+h tag means that there's a header. And so the
+
+12:33
+header is authorization,
+
+12:35
+and then the value is gonna be bearer and then
+
+12:37
+our token. This is something that tripped me up when
+
+12:39
+I was first learning this, using APIs is that you
+
+12:43
+need to add this bearer word and then a space
+
+12:45
+and then your API key. It's a weird way of
+
+12:47
+doing things. I don't really know why,
+
+12:49
+why it's like that. But sometimes when you're doing these
+
+12:51
+authorizations, you need to add in bearer space and then
+
+12:54
+your API key. So it's it's there for a reason,
+
+12:57
+is what I'm saying. And And then we have the
+
+12:58
+content type being application JSON. So we're already familiar with
+
+13:02
+that. So going back to relevance, we have the header
+
+13:04
+of authorization
+
+13:05
+and content type here, application JSON. And now we need
+
+13:08
+to add in our Airtable API key so that we
+
+13:10
+are authenticated and we have permission to send an API
+
+13:13
+request. So they're not gonna let anyone use this details
+
+13:16
+and and start sending data to our our database. Right?
+
+13:18
+They need to be authenticated.
+
+13:19
+And that's what API keys do. So to get our
+
+13:22
+Airtable API key, of course, we go to Airtable. We
+
+13:25
+can come up to the top right here, go back
+
+13:26
+to our builder hub,
+
+13:29
+go to personal access tokens,
+
+13:32
+and we can create a new token. Call this YouTube.
+
+13:36
+We can go,
+
+13:38
+add the base. This will be,
+
+13:40
+Smith's
+
+13:41
+solar CRM. We can add a scope,
+
+13:45
+read,
+
+13:47
+write. And sometimes I find it handy to have the
+
+13:49
+schemas read in there as well. So basically what we're
+
+13:51
+doing here is saying that I give this API key
+
+13:53
+that we're creating permission to interact with this,
+
+13:56
+this Airtable, and I give it permissions to do these
+
+13:58
+things like read what's in the database, write to the
+
+14:01
+databases, and create new things, and also to see the
+
+14:03
+overall structure of the base and the field types. So
+
+14:06
+we can add that and create the token.
+
+14:08
+We get this token, head back to relevance. And again,
+
+14:11
+this template so that you can clone it into your
+
+14:13
+account is going to be on the, on the resources.
+
+14:15
+So if you're following along, you should just clone it
+
+14:17
+into your account and then come down here and make
+
+14:19
+the changes as I do them. So we can add
+
+14:20
+a make sure we have a space after bearer and
+
+14:22
+then paste our key. Because if we go back to
+
+14:24
+the web API docs, we can see we have authorization,
+
+14:27
+bearer space, uAPI key, content type, and then application slash
+
+14:31
+JSON. And then we have the data as the payload.
+
+14:33
+Remember, like, this is what's inside the envelope. Then we
+
+14:35
+have records, and we have the field, name, phone, and
+
+14:38
+status. And Then it's provided us an example of how
+
+14:40
+we would send data into that, which we don't need
+
+14:42
+to worry too much about because I've already got this
+
+14:44
+fitted in here. This can be quite fiddly. In fact,
+
+14:46
+for this, I'm actually going to add another field in
+
+14:49
+here.
+
+14:49
+This is 1 thing about relevance. I'm not a huge
+
+14:51
+fan of this. It can feel super fiddly sometimes.
+
+14:55
+So if we go email,
+
+14:59
+this will already be in the template that I give
+
+15:00
+you by the way. Email.
+
+15:03
+Why would that delete that?
+
+15:11
+Okay. So we have the URL has been updated. The
+
+15:13
+method is post. That's correct. We have the authentication. We
+
+15:16
+have the content type. We have the body all set
+
+15:19
+up. We've added in our fields of name, phone, and
+
+15:22
+email,
+
+15:24
+which we have name, email, and phone. So we can
+
+15:26
+give it a spin here. If we say Liam,
+
+15:30
+here we go.
+
+15:34
+And we give it a spin on the tool.
+
+15:38
+We'll see if it accepts us.
+
+15:47
+Yep. And there we go. If we go back to
+
+15:49
+Airtable,
+
+15:51
+if we open the base up,
+
+15:53
+there we have it. Liam phone email. So we can
+
+15:55
+take this tool and we can take the instant quote
+
+15:58
+generator. We can put those into,
+
+16:00
+agentive. And before you know it, we're gonna have our
+
+16:02
+agent ready to go. So let's head back to relevance
+
+16:05
+here. We'll save this tool.
+
+16:07
+And we'll change this to name, email,
+
+16:10
+and phone.
+
+16:11
+And just quickly before we do that integration, this is
+
+16:14
+when the description comes into play here. Remember those natural
+
+16:17
+language descriptions of what the tool does, what each of
+
+16:20
+the parameters and inputs are. It's really important to get
+
+16:22
+these right and relevance, and I see a lot of
+
+16:24
+people skipping over this step. But this is what's gonna
+
+16:26
+be put into that schema. Right? So when relevance generates
+
+16:29
+a schema for us, that 1 page manual on how
+
+16:31
+to use this tool and use the API in order
+
+16:33
+to interact with this functionality,
+
+16:36
+when we give it into Agenitive, it's gonna be reading
+
+16:38
+over everything in there, and it's gonna be those little
+
+16:40
+descriptions around what the tool does and what it's supposed
+
+16:43
+to take in. And and these parts here relevant is
+
+16:45
+where we get to set that up. A proper description
+
+16:47
+is needed before we do this integration. So this tool
+
+16:50
+captures lead information and stores on the Airtable CRM, requires
+
+16:53
+lead's name, phone and email, name, phone and email. The
+
+16:56
+name is the name of the lead. Yep. Email email
+
+16:58
+address of the lead, and phone is the phone number
+
+17:00
+of the lead. So that's all good there
+
+17:03
+and ready to integrate.
+
+17:06
+Might even do a quick check on the sparkly cost
+
+17:08
+estimate as well.
+
+17:12
+Yep.
+
+17:14
+Type of property, square footage of the property,
+
+17:16
+and we are ready to go. So now we can
+
+17:18
+click on the custom action step here. Scroll down and
+
+17:21
+click on both of these.
+
+17:23
+Bam. Bam.
+
+17:27
+Scroll down. We're gonna change this to custom auth.
+
+17:30
+We're going to generate an API key.
+
+17:34
+There we go. And we're going to generate our open
+
+17:36
+API, not open AI, open API.
+
+17:38
+It's essentially a type of API and a way of
+
+17:40
+describing how the API works. And it gives us all
+
+17:43
+of this information here. I will actually expand it out
+
+17:45
+so you guys can see at least some of it.
+
+17:47
+It's probably easier over on a agentive actually. And then
+
+17:50
+we head back to a agentive.
+
+17:53
+What we can do is paste in the schema.
+
+17:57
+And now if we scroll through this quickly, I just
+
+17:58
+want you to see what a schema looks like under
+
+18:00
+the hood because we have some important parts, that's gonna
+
+18:02
+really connect the dots for you after everything that we've
+
+18:04
+learned in this video. So I'll zoom in a bit
+
+18:06
+here.
+
+18:08
+We have the title of the tool. So we have
+
+18:09
+a few key things in here that we can break
+
+18:11
+down. Basically, the paths. We have 2 paths in here.
+
+18:14
+This is 1 of them.
+
+18:15
+And this is the other. These represent the 2 tools
+
+18:17
+that we are integrating. You can see 1 here is
+
+18:20
+the operation ID is basically the name of the tool,
+
+18:23
+and that is taken from relevance directly, the Airtable lead
+
+18:25
+capture. And and the summary here is the actual name
+
+18:27
+or the title of the tool that we had on
+
+18:29
+relevance. This is just a a version where they put
+
+18:31
+in,
+
+18:32
+underscores to connect the, the gaps. And the description here,
+
+18:35
+you can see is the same as a description
+
+18:37
+that we set up over I don't wanna go back
+
+18:39
+on there, but that was a description that we put
+
+18:41
+under the name to describe what the tool does. And
+
+18:43
+then as for the inputs, relevance has made it a
+
+18:45
+little bit more complicated by putting a schema in here.
+
+18:47
+So we'll cover that in a second. But basically, here's
+
+18:49
+the second tool, sparkly cost estimate. This tool does this
+
+18:53
+about estimating the cost of an apartment.
+
+18:55
+Then down here, we have the schemas for the inputs.
+
+18:58
+So we have, things like the name, this is for
+
+19:00
+the lead capture tool. The name,
+
+19:02
+which is 1 of the fields, it's gonna be in
+
+19:04
+type string and it's required.
+
+19:06
+We have the email which is type string which is
+
+19:08
+required and we have the email which is a description
+
+19:10
+here.
+
+19:12
+And of course, you can see all the descriptions that
+
+19:13
+we put in on relevance showing up here. Then phone
+
+19:16
+number, the lead, the email, the lead, etcetera. And here
+
+19:18
+it's specifying specifying
+
+19:20
+how the AI agent should be sending inputs into that.
+
+19:22
+So that's probably the most difficult technical part of this
+
+19:24
+whole video, but I did want to give you a
+
+19:26
+bit of context on how that kind of fits together.
+
+19:28
+This is quite a complex schema. Relevance puts it together
+
+19:30
+in a little bit more complex way, by using these,
+
+19:33
+these schemas for the inputs down here. But long story
+
+19:36
+short, if we then go to the add auth button,
+
+19:39
+we need to set up our authentication,
+
+19:41
+which we can do by coming back to relevance and
+
+19:43
+copying this.
+
+19:44
+We go back to here, paste this in, we go
+
+19:47
+custom auth, and we go authorize
+
+19:52
+authorization
+
+19:53
+with a zed.
+
+19:56
+Oh, I need to create the tool. Sorry.
+
+19:58
+So we're going to click create tool.
+
+20:01
+So the tool has been created successfully.
+
+20:03
+And there we go. We have both of the tools
+
+20:05
+added in because we did them both in 1 bundle
+
+20:07
+on relevance.
+
+20:08
+And then if we go edit off, we can then
+
+20:11
+put in the API keys for both of these so
+
+20:13
+that we have permission to use them.
+
+20:23
+And we can do the same for this 1.
+
+20:32
+And there we go. Now we have our knowledge set
+
+20:34
+up, our 2 tools set up and you can see
+
+20:36
+that we're pretty darn close to completing this build. We
+
+20:39
+have all of these 3 done.
+
+20:41
+Might as well make them green for the sake of
+
+20:42
+it. And now the only thing left to do is
+
+20:45
+to write a prompt that connects us all together and
+
+20:47
+that's really the glue that holds it together. My go
+
+20:49
+to method of rapidly creating prompts for AI agents is
+
+20:52
+using a relevance tool,
+
+20:54
+perfect,
+
+20:57
+that I've created. And I I said I'd give this
+
+20:59
+to you guys for free as well. That's gonna be
+
+21:00
+included in the resources. But if I go to use
+
+21:02
+here,
+
+21:04
+it's a prompt writer that includes all of the information
+
+21:07
+from how we do prompting at Morningside, which is based
+
+21:09
+on research and includes all the key things like role,
+
+21:11
+task specifics, context,
+
+21:13
+explaining how to use the tools that has been provided
+
+21:15
+as well. So I'm just gonna fill this out quickly
+
+21:17
+here and then get a prompt and you guys can
+
+21:19
+steal my prompt from the resources or you can use
+
+21:21
+this as well to create your own. But it's a
+
+21:23
+pretty good exercise because you can see here we have
+
+21:25
+the agent name being.
+
+21:32
+And what I like to do here is so this
+
+21:34
+is just a quick rundown of what the agent does,
+
+21:36
+where it is being deployed, and why.
+
+21:47
+So you can pause the video and look at that
+
+21:48
+there, but just a bit of context on what the
+
+21:50
+agent does, where it is being deployed, and why
+
+21:52
+conversions context we can say.
+
+22:04
+Knowledge context, we can say.
+
+22:12
+Then we get to the tools available section, and we
+
+22:14
+can say
+
+22:25
+And then we have the other tool, which is
+
+22:35
+and then for the ideal input and output examples, I'm
+
+22:38
+just gonna say none to provide.
+
+22:42
+Frankly, frankly helpful.
+
+22:47
+And so just like that, in maybe a few minutes,
+
+22:49
+I've typed in all of this information about the agent
+
+22:51
+and what it does. And now I can just click
+
+22:53
+run tool here,
+
+22:55
+and it's going to take all of this information, run
+
+22:56
+it through the prompt that I've written that,
+
+22:58
+bakes in the best prompting practices for AI agents from
+
+23:01
+my experience and from the projects that we do at
+
+23:03
+Morningside AI. And also all the research that we've used
+
+23:06
+to make those prompting practices. And it's gonna spit us
+
+23:08
+out an AI agent prompt that we can throw straight
+
+23:10
+into Adjentive, and it'll just glue everything that we've done
+
+23:13
+together. Tell it who it is and what it's trying
+
+23:14
+to do, tell it how it's supposed to use the
+
+23:16
+knowledge base, and tell it how and when it's supposed
+
+23:18
+to use those tools in order to reach its objective
+
+23:20
+of capturing those leads for us via WhatsApp.
+
+23:23
+And there we go. If we scroll down, we can
+
+23:25
+see it spit out this entire prompt. I'm gonna change
+
+23:27
+it to the raw text. We get all this markdown
+
+23:29
+formatting
+
+23:30
+included.
+
+23:31
+We can view all here.
+
+23:33
+I'm gonna copy it all and we're going to take
+
+23:36
+it over to,
+
+23:37
+Magento here and paste this in. And there we go.
+
+23:40
+Act as Connor cleaning, WhatsApp support, and lead generation agent.
+
+23:43
+Engage with potential customers on WhatsApp to provide provide potential
+
+23:45
+information about our cleaning services. Answer FAQs.
+
+23:49
+Answer off instant quotes.
+
+23:52
+When pricing inquiries arise, use the instant quote generated tool.
+
+23:55
+Tools, you have this tool and this tool.
+
+23:58
+Examples, I'm just gonna cut that out for now.
+
+24:01
+And then notes.
+
+24:02
+So that should be all good. We can start to
+
+24:04
+give this a spin here. I am gonna zoom out
+
+24:06
+a bit. Alright. So I'm just gonna publish this to
+
+24:08
+make sure that everything is baked in.
+
+24:10
+Give Give the second, and now we can chat to
+
+24:12
+it here. Hey. How's it going?
+
+24:15
+I can actually slide this across because I'm in place.
+
+24:19
+I want to know where you guys are located.
+
+24:23
+There you go. Conner's cleaning is located at x y
+
+24:26
+z. So it's obviously using the knowledge base correctly and
+
+24:28
+say what what services do you provide?
+
+24:32
+And we're not asking about pricing. So it shouldn't go
+
+24:34
+for the quote.
+
+24:38
+I might try to do it at the end. Yes.
+
+24:40
+I see it's asking. If you have any specific requirements,
+
+24:42
+need a quote, just let me know. Yeah. Sure. I'd
+
+24:44
+like like a quote.
+
+24:46
+Boom. I need the property type and square footage. It's
+
+24:48
+a house and it's 1000 square feet.
+
+24:52
+So Now the agent is trying to trigger that tool
+
+24:54
+by taking the house and taking the 1000 and then
+
+24:57
+putting them into the relevance tool based off what the
+
+24:59
+schemers told it how to use the API. It's gonna
+
+25:01
+go grab that from relevance, send it back to us,
+
+25:03
+and there we go.
+
+25:05
+Here are the quotes for you.
+
+25:06
+If you interested in any specific further service and need
+
+25:08
+assistance, just let me know. I can also help you
+
+25:10
+with booking. Now here, I would probably change the prompt
+
+25:13
+and make it a bit more forceful and say, send
+
+25:15
+me like like, let's go to the next step right
+
+25:17
+now. But for now, it's good enough. We can
+
+25:20
+say, sure I'd like to book a deep clean. And
+
+25:23
+that should ask me for my lead information.
+
+25:27
+K.
+
+25:28
+Huge Jacqueline.
+
+25:30
+This is the name.
+
+25:32
+This is the phone. And huge at jack jackman
+
+25:36
+is email.
+
+25:38
+We should be able to see if we go back
+
+25:40
+to our handy dandy air table here.
+
+25:43
+Huge popping up here.
+
+25:46
+Oh.
+
+25:55
+Bang. And huge jackman is in the
+
+25:58
+CRM here. It does say that it's booked. I would
+
+26:01
+play around the prompt a little bit more to be
+
+26:02
+like, hey. Look. This is just
+
+26:04
+setting up the next step for someone to call them
+
+26:06
+and book in the service. But you can also do
+
+26:08
+appointment setting through agenda as well. Again, like I said,
+
+26:10
+it's a little bit more advanced than what we want
+
+26:11
+to do here. But as you can see, this is
+
+26:14
+a a very different way of approaching building agents because
+
+26:17
+you tell it you basically provide all of the ingredients
+
+26:19
+and use that kind of chef's approach, the knowledge and
+
+26:21
+the tools, and you connect it all up. And you
+
+26:23
+make sure the tools have well described schemas so they
+
+26:25
+know how to use it and they know when to
+
+26:26
+trigger them. The knowledge base has been included in the
+
+26:29
+prompt, and also the tools as well have been included
+
+26:31
+in the prompt, telling it how and when to use
+
+26:33
+it. It's really a much faster way of building agents
+
+26:35
+from the high level prompting,
+
+26:37
+and then people are just asking and having sort of
+
+26:39
+a free flowing conversation with it. Okay. And just quickly
+
+26:41
+before we go to the step of putting it onto
+
+26:42
+WhatsApp, which won't take long at all, I do want
+
+26:44
+to show you how you can debug and when you're
+
+26:46
+working in a agentive.
+
+26:47
+It's helpful to know when tools are being triggered and
+
+26:49
+why. So for example, if we go into the transcripts
+
+26:52
+here and we look at this big transcript here with
+
+26:54
+14 messages that we just had. Hey, how's it going?
+
+26:57
+Rada Rada Rada. We can see here it's using the
+
+27:00
+tools and we can hover over it. We can see
+
+27:02
+it's calling the tool with the URL. It's a post
+
+27:04
+method and we can see the data here. I'll just
+
+27:07
+zoom in on that. The property type and the square
+
+27:09
+footage that was sent away to relevance are here. So
+
+27:12
+if you're having issues with your tools or it's giving
+
+27:14
+weird responses,
+
+27:15
+you can either come in here to the transcripts after
+
+27:17
+the fact. So say maybe this is on WhatsApp,
+
+27:20
+and something's going wrong or customers are getting upset. You
+
+27:23
+can come into the transcripts here and pick through and
+
+27:25
+see what's going wrong with the tools. And just like
+
+27:27
+down here as well, the lead capture, we can see
+
+27:29
+the name, email, and phone were all put into this
+
+27:31
+request and sent away to Relevance AI, and then onto
+
+27:34
+Airtable as a second step.
+
+27:35
+And you can also see the output as well. So
+
+27:38
+the output of the tool
+
+27:39
+is all in here. It's basically just giving us a
+
+27:41
+confirmation back from Airtable that, yep, everything went well. And
+
+27:44
+up here, you can see the output
+
+27:48
+as, the response with the deep cleaning estimates and stuff
+
+27:51
+like that. You can see it a lot more easily
+
+27:53
+if we say, hey. Can I get a quote?
+
+27:58
+K. And if you give this a second, once it's
+
+28:00
+finished generating, agenda will then pop up this show usage
+
+28:03
+and bang there. In the editor here, you can then
+
+28:05
+debug, okay, how many tokens are being used, How much
+
+28:07
+is this costing? What was the model?
+
+28:09
+Etcetera. And then you can see the tools input here,
+
+28:12
+apartment 500 square feet, etcetera, and the output as well.
+
+28:15
+So it's really easy to debug those tools while you're
+
+28:17
+in Agenntiv. Let's make sure that we've published this.
+
+28:20
+I'm gonna publish it again. In Agenntiv, we do have
+
+28:23
+version history. So if you do publish it and you
+
+28:24
+want to roll back or look at how you had
+
+28:26
+it set up previously, you can now see that I've
+
+28:28
+got 2 versions, v 1 here. And I just took
+
+28:30
+away this little full stop here. And you can see
+
+28:32
+that that's I've changed the prompts. You can update it
+
+28:34
+over time. You can make edits within a here. And
+
+28:37
+test, test, test. And then when you're ready to push
+
+28:39
+that to production and basically,
+
+28:41
+if we had this on a WhatsApp agent
+
+28:43
+and say I published this connected to WhatsApp and it
+
+28:45
+was working, and then I looked to the the transcripts
+
+28:47
+and something wasn't quite how I liked it. I could
+
+28:49
+come in here and make edits and then test, test,
+
+28:51
+test. And then when I was ready to publish it,
+
+28:53
+I'd click publish and then it's gonna push those live
+
+28:55
+to the agents. You're not gonna mess things up by
+
+28:57
+playing around with things on here. So the final step
+
+28:59
+is, of course, to deploy it to WhatsApp.
+
+29:04
+Go to the deploy tab here. You can then click
+
+29:06
+connect WhatsApp.
+
+29:10
+I'm gonna click continue.
+
+29:12
+Get started. You will of course need a Facebook business
+
+29:14
+manager to set up this integration fully. That's free with
+
+29:17
+every Facebook account. So if you haven't got 1 already,
+
+29:19
+I'll leave a link in the description so that you
+
+29:20
+can set it up, takes a few clicks. Then you
+
+29:22
+will see this page here and you can select the
+
+29:23
+business manager you've created. In this case, I'll be using
+
+29:26
+this testing 1. And then you'll be able to set
+
+29:27
+up a new WhatsApp business account
+
+29:29
+which I can click here. I'll go next. Set up
+
+29:31
+a business account name.
+
+29:34
+And then this is the display name
+
+29:36
+for the business.
+
+29:38
+And we're gonna call this a a retail business.
+
+29:41
+Now you need to provide the phone number that you
+
+29:43
+want to connect your agent to. Unfortunately, you can't have
+
+29:45
+your own personal WhatsApp number and also have a business
+
+29:48
+account running through it. So you could need to either
+
+29:50
+buy another SIM card or borrow a friend's number who
+
+29:52
+doesn't have WhatsApp, etcetera. In this case, I'll be using
+
+29:54
+a spare number that I have. Then they're going to
+
+29:56
+send you a verification code to your number, which you
+
+29:58
+have to enter in, and then you should see the
+
+30:00
+screen once you've successfully passed that verification.
+
+30:02
+So I'm gonna continue. It's verifying our information for a
+
+30:05
+second.
+
+30:07
+And now our agent is connected to that phone number
+
+30:08
+and we're ready to give it a test. So if
+
+30:10
+we go finish here,
+
+30:11
+there's 1 more thing that we need to do on
+
+30:13
+a Gentiff, which is to click this. Yours may say
+
+30:15
+not registered. Don't worry. You can just click this checkbox
+
+30:17
+here and click confirm.
+
+30:19
+Give it a second to connect.
+
+30:21
+Now Now we've successfully connected our agent to that WhatsApp
+
+30:23
+number. Now thing here is this interval. If you're not
+
+30:26
+sure what the interval is, you can read this tool
+
+30:28
+to appear. And if you're done with the deployment and
+
+30:29
+you wanna remove it from that number, you can always
+
+30:31
+come back and click deactivate deployment here. But all that's
+
+30:33
+left to do now is to test our functionality. Righto.
+
+30:35
+So I have it taken to my phone here, so
+
+30:37
+I'm just gonna show you a little bit of a
+
+30:39
+on screen here of me creating this contact and having
+
+30:41
+a message with it. So the number that I set
+
+30:43
+up, I can create a new contact, and then I
+
+30:45
+can send them a message. Hey.
+
+30:51
+And you can see on screen here, it says this
+
+30:52
+is the business using a secure service from Meta. So
+
+30:55
+this means this is the business account, as we've connected
+
+30:57
+it through our WhatsApp, business profile that we set up
+
+31:00
+before.
+
+31:02
+And there we go, we get a message back. Hello.
+
+31:03
+Thank you for sharing your information. How can I assist
+
+31:05
+you today?
+
+31:06
+If you have any questions about cleaning service or need
+
+31:08
+a quote, feel free to let me know, so I
+
+31:10
+can say,
+
+31:11
+yes, a quote. Let's ask a question to the knowledge
+
+31:14
+base. Where are you based?
+
+31:20
+There we go. We are based in the greater Boston
+
+31:22
+area, and it's giving me the,
+
+31:23
+the correct location there. So we can go for the
+
+31:25
+lead capture now. So if we say,
+
+31:28
+I'd like a quote.
+
+31:35
+So property type,
+
+31:37
+it's a house
+
+31:38
+that is about
+
+31:41
+800
+
+31:42
+square feet.
+
+31:47
+There we go. We're getting the, estimations and our quote
+
+31:50
+back. It's asking if we're interested in any of these
+
+31:52
+services. I'd say, yes. I'd like the
+
+31:55
+deep
+
+31:56
+cleaning please.
+
+32:00
+Now it should ask me for my contact information.
+
+32:04
+There we go, so Liam, Liam,
+
+32:06
+come
+
+32:07
+on.
+
+32:10
+Then we should see it appear over here on our
+
+32:13
+SmartSolar CRM.
+
+32:15
+And boom, there it is. So we've got everything done.
+
+32:17
+That is just 1 run through of using this WhatsApp
+
+32:20
+agent. But as you can see the the messages don't
+
+32:23
+come back instantly so it feels like it is like
+
+32:26
+it's actually could be a real human they're applying and
+
+32:28
+it's giving just clear information
+
+32:30
+right through WhatsApp. Imagine you are reaching out to maybe
+
+32:32
+book an accommodation or you're reaching out to a cleaning
+
+32:35
+service like this or you're reaching out to any kind
+
+32:37
+of business and you want some real information directly from
+
+32:39
+what feels like a person
+
+32:40
+and then you also have the function of getting a
+
+32:42
+real quote of I mean a great use case for
+
+32:45
+this kind of thing like barbers, like I say if
+
+32:46
+you you message a barber on Whatsapp, maybe you're
+
+32:49
+in Europe somewhere in South America or in Central America
+
+32:52
+or and and you want to go to a barber
+
+32:53
+and this is a common issue that I've run into
+
+32:56
+when I'm traveling. It's like I want to message this
+
+32:57
+barber but I might not speak the language that grow
+
+33:00
+up and then if you message them in English, it
+
+33:02
+will be able to handle that in in English as
+
+33:04
+well as in Spanish or in Portuguese or wherever you
+
+33:06
+are. So this kind of functionality built through WhatsApp is
+
+33:08
+a really really great use case for you guys to
+
+33:09
+pick up, which is why I wanted to teach you
+
+33:11
+guys it. And we can also go back to Agenntiv
+
+33:13
+here.
+
+33:14
+And if we go to our transcripts for this agent,
+
+33:17
+we can see the 1 for today is here. So
+
+33:19
+12 messages. You can go through the entire transcript, and
+
+33:21
+you can see it's calling the quote tool here. We
+
+33:23
+see all the information that went in and out of
+
+33:25
+it, and then we see the Airtable lead capture information
+
+33:27
+as well, input and output. So that is how you
+
+33:29
+use a Gentif, my software, for building these WhatsApp based
+
+33:32
+and also other deployments as well. So if we go
+
+33:34
+to studio, we go to deploy, we have Instagram as
+
+33:37
+well. So via our mini chat template, you can hook
+
+33:39
+into Instagram and do appointment searches and things on Instagram.
+
+33:41
+You can go through Messenger if you wanna run some
+
+33:43
+Facebook lead ads to Messenger, through voice flow as well,
+
+33:46
+Telegram, Discord, we have integrations with everything you need as
+
+33:48
+well.
+
+33:49
+So that's the end of this build. I hope you
+
+33:51
+enjoyed, and this is a super handy use case, and
+
+33:53
+and deployment really for your AI.

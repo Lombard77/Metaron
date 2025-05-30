@@ -1,0 +1,1716 @@
+
+
+Outbound Systems
+
+
+Lesson 9 of 12
+2.1 Scraping Warm Contacts 👤
+Resources 📓 
+Warm Outreach Tracker 👤 (template)
+
+Deal Pipeline Board 💰 (template)
+
+2.1 Scraping Warm Contacts 👤.pdf
+
+
+
+00:00
+Hello everyone. Nico here and welcome to scraping
+
+00:04
+warm contacts.
+
+00:05
+In this video, we're going to cover
+
+00:08
+warm outreach tracker which is essentially a resource we built
+
+00:11
+you guys so you guys can organize and maintain your
+
+00:14
+warm contacts and keep track of everything. We're gonna walk
+
+00:17
+through another resource we built for you guys, which is
+
+00:19
+a deal pipeline board. Then we're gonna walk through the
+
+00:22
+strategy
+
+00:23
+of
+
+00:23
+identifying
+
+00:24
+the warm contacts we do have. Then we're gonna scrape
+
+00:27
+the contacts we have identified,
+
+00:30
+and lastly we're gonna be prioritizing the contacts we've scraped
+
+00:34
+inside of our warm outreach tracker. Now that you understand
+
+00:38
+the power of warm outreach for your triple a, it's
+
+00:40
+time to build your arsenal of contacts.
+
+00:43
+Many AAA owners underestimate
+
+00:46
+the wealth of connections they already
+
+00:49
+have.
+
+00:50
+Your existing network is a goldmine of potential clients and
+
+00:55
+referrals,
+
+00:56
+but
+
+00:57
+manually sorting through various platforms can be a very time
+
+01:01
+consuming
+
+01:02
+nightmare.
+
+01:03
+So let's walk through how exactly to do this efficiently.
+
+01:07
+In this video, we'll explore 4 main things. The strategy
+
+01:11
+for identifying
+
+01:12
+warm contacts
+
+01:13
+and what really makes a warm contact for your triple
+
+01:17
+a, advanced contact scraping, which is uncovering
+
+01:20
+warm leads across various platforms automatically,
+
+01:25
+contact management mastery which is templated documents and resources that
+
+01:29
+you guys get to leverage for organizing and leveraging your
+
+01:32
+warm network efficiently and keeping track of who reaching out
+
+01:35
+to you, where there are in the stage, etcetera.
+
+01:38
+And lastly, we're gonna walk through the prioritizing these contacts
+
+01:41
+that we have, where the goal is to focus on
+
+01:44
+the most valuable connections
+
+01:46
+in our resource, which we're gonna go through in just
+
+01:49
+a second. Now the first thing is contact management mastery.
+
+01:52
+Effective contact management is the backbone of successful outreach.
+
+01:57
+Your warm outreach system
+
+01:59
+contains of 2 essential components
+
+02:02
+that work together
+
+02:03
+to help you manage leads effectively.
+
+02:06
+Number 1 is a warm outreach tracker, which is a
+
+02:09
+spreadsheet template we've made for you guys.
+
+02:12
+Number 2 is a deal pipeline board and it's a
+
+02:16
+Trello
+
+02:17
+template that we've also made for you guys.
+
+02:20
+First, let's explain what the warm outreach tracker is, how
+
+02:23
+to use it, and how you can get your hands
+
+02:25
+on it. This is a spreadsheet
+
+02:27
+that is your center database for managing all your warm
+
+02:31
+contacts.
+
+02:33
+And then setting up your warm outreach tracker, you're gonna
+
+02:36
+open the template which is attached below this video.
+
+02:40
+You're gonna click file in the top left corner, click
+
+02:44
+make a copy, give it a name, and now you
+
+02:46
+own a version that you can edit. This spreadsheet
+
+02:50
+will help you manage and track your warm contacts.
+
+02:53
+It will help you visualize
+
+02:55
+where your contacts are in the outreach process.
+
+02:58
+It will help you monitor
+
+03:00
+who is at what stage and it will give you
+
+03:02
+access to a dashboard with insights about number of leads
+
+03:06
+yet to contact, so what's your leisure room.
+
+03:10
+It'll give you insights on industry distribution in your network,
+
+03:13
+how many are in x y and z industry percentage
+
+03:15
+wise, same with titles, headlines, all that kind of stuff.
+
+03:18
+And then you get a ton of other key metrics.
+
+03:20
+I'm gonna go through and I'm gonna show you this.
+
+03:23
+So this is a look at what the warm outreach
+
+03:26
+tracker looks like. As you can see, it's all looking
+
+03:29
+good pretty and it's all labeled over here in the
+
+03:32
+columns. So you're gonna be leveraging this as well as
+
+03:34
+these sections over here. First thing I'm gonna do is
+
+03:37
+I'm gonna input my full name. I'm gonna skip the
+
+03:40
+priority level column because we're gonna do that in a
+
+03:42
+second. I'm gonna input the company name. I'm going to
+
+03:45
+contact this person on email. He is the CEO of
+
+03:49
+the company
+
+03:50
+and he is in marketing.
+
+03:52
+Then Then we're gonna put his email
+
+03:54
+over here, contact information.
+
+03:57
+And then we're gonna keep the stage columns at yet
+
+04:00
+to start and no reply yet because we obviously haven't
+
+04:02
+reached out to him yet. And then notes over here,
+
+04:05
+we could do runs a cold email company. So we
+
+04:08
+have some notes on them. And then over here, the
+
+04:11
+next thing we're gonna do is we're gonna do the
+
+04:12
+same row we've just inputted him in. Row number 10,
+
+04:15
+we're gonna go over to this section and input so
+
+04:18
+we get our priority level. Let's pretend that he's not
+
+04:20
+a great niche alignment for what we're looking to achieve
+
+04:22
+and the niche we want to work within. So it's
+
+04:24
+a 1. However, he is my best friend.
+
+04:27
+So connection strength is definitely 3. He has all the
+
+04:31
+decision maker power because he's the CEO, founder, owner, and
+
+04:34
+then network access. Let's pretend this is a 3. Now
+
+04:37
+when we assign all of these, we have a variable
+
+04:39
+over here that automatically populates the priority
+
+04:43
+based on what you've inputted over here.
+
+04:46
+It will also get color graded with the highest priority
+
+04:50
+in your list being the brightest. So if I were
+
+04:53
+to remove
+
+04:54
+10 here, 9 would be the brightest color. This is
+
+04:57
+just an easy way
+
+04:59
+to easily see and figure out who is the highest
+
+05:01
+priority level currently.
+
+05:03
+You can also filter by this if you want and
+
+05:05
+sort by clicking the column over here over here.
+
+05:09
+Then once we contact Nikolai, we're going to change this
+
+05:12
+column to contacted.
+
+05:13
+We're gonna be following up with Nikolai.
+
+05:15
+And then once he replies, we could do conversating
+
+05:19
+and he had a positive reply. He was really
+
+05:22
+interested in what I had to offer him essentially.
+
+05:24
+And then once we agree to a meeting, we're gonna
+
+05:26
+go over here. We're gonna set this to complete and
+
+05:28
+then we're gonna input him into the Trello board. Once
+
+05:31
+we've added into the Trello board, we're gonna go over
+
+05:33
+to this section. I'm going to leave this empty because
+
+05:36
+I want to show you something at the dashboard level.
+
+05:39
+So at the end of your document here, at the
+
+05:41
+bottom, you're gonna have 2 sheets. 1 is called prospects,
+
+05:45
+1 is called dashboard.
+
+05:46
+If you click the dashboard 1, you get brought to
+
+05:49
+this section over here. And in this section, we've got
+
+05:52
+tons of information about the people in our list. This
+
+05:54
+over here, all of these 3 rows, they automatically populate
+
+05:58
+once you put someone into the prospect sheet. So if
+
+06:01
+I put test into here, this will automatically populate down
+
+06:05
+in the same over here as you can see. So
+
+06:08
+the more people you input
+
+06:09
+in here, the more people you're gonna have in your
+
+06:11
+dashboard over here. And the idea with this is that
+
+06:14
+we use this to draw metrics and to be able
+
+06:16
+to see it.
+
+06:18
+So we've got a couple of different metrics here that
+
+06:20
+we can look at in terms of numbers first. First
+
+06:22
+couple of metrics we have are pretty self explanatory.
+
+06:24
+We've got total prospect, total contacted, total conversating, total complete,
+
+06:29
+and total ghosted.
+
+06:30
+These
+
+06:31
+are based on all of the metrics you put into
+
+06:33
+here which is another reason that it's super important to
+
+06:36
+actually update this as you kind of go through.
+
+06:39
+The second thing we've got here is overall replies, positive
+
+06:43
+replies, neutral replies, and negative replies. This is obviously based
+
+06:46
+on the column over here which is the reply sentiment
+
+06:49
+of them replying back to you. And then we've got
+
+06:51
+total added to CRM,
+
+06:53
+average priority level, average alignment with niche, average strength of
+
+06:57
+connection, average decision making power, and average access to network.
+
+07:01
+This will give you insights into your lead list which
+
+07:04
+we're also going to pull over in graphs over here
+
+07:06
+so we can actually visualize that a bit more. And
+
+07:08
+then we've got our response rate, positive reply rate, conversation
+
+07:11
+rate, and time to first contact.
+
+07:14
+These get filled out as you input your numbers into
+
+07:16
+the first sheet.
+
+07:18
+Down here, we've also got missing CRM entries.
+
+07:21
+So if you populate, as we looked over here, we've
+
+07:24
+completed Nikolai with a positive reply, meaning you should have
+
+07:27
+been added into the CRM.
+
+07:29
+However, we haven't checked the box, meaning we haven't added
+
+07:32
+him, which then is gonna tell us, oh, you've missed
+
+07:34
+someone because this is very very important. Once they reply,
+
+07:38
+we need them in the Trello board so we can
+
+07:40
+follow-up with them. So if you haven't added them but
+
+07:42
+they are at the stage where you should add them,
+
+07:44
+it's going to tell you here. You can go through,
+
+07:46
+find the person, you tick this off, and in this
+
+07:49
+case, this will go down to 2 automatically.
+
+07:52
+These are all dynamic and you won't have to touch
+
+07:54
+anything. You just have to understand what the different things
+
+07:57
+are.
+
+07:59
+And over here, as you can see, we've got a
+
+08:00
+couple of different graphs to visualize our progress, visualize what's
+
+08:03
+happening within our boards. So number 1 here is just
+
+08:07
+the total prospects we have in our lead list versus
+
+08:09
+the total prospects we've contacted.
+
+08:11
+In this 1, you've got the different stages of contacted.
+
+08:14
+In this case, you can see how many goals to
+
+08:17
+do, how many you're conversating with, and how many you
+
+08:19
+have completed.
+
+08:20
+As well as over here, it's a bit of a
+
+08:21
+graph combining everything together which is stage insights. So how
+
+08:25
+many prospects do you have? How many prospects have you
+
+08:27
+contacted? How many of your overall prospects are you conversating
+
+08:30
+with? How many have you completed? How many have ghosted
+
+08:32
+you? And then over here, we've got some reply sentiments.
+
+08:35
+How many positively reply? How many negatively reply? And how
+
+08:38
+many neutral replies do you get overall throughout all the
+
+08:40
+leads you filled out this far.
+
+08:43
+Here we've got the lead list quality insights which is
+
+08:46
+essentially your network and giving you a bit of an
+
+08:48
+insight to what the average list quality is like. Are
+
+08:52
+they high on the priority level? Are they low on
+
+08:54
+the priority level? Etcetera.
+
+08:56
+This is set to 10. So based on what you
+
+08:58
+fill in, you will see a scale from 1 to
+
+09:01
+10 on how good your lead list quality is depending
+
+09:04
+on the different columns down here. Which you can see,
+
+09:07
+the network in my list is not necessarily the greatest.
+
+09:10
+However,
+
+09:11
+overall the alignment with niche is quite good. So this
+
+09:15
+gives us insights into our lead list.
+
+09:18
+Last thing over here is another way of visualizing
+
+09:20
+our overall leads insights which gives us insights to average
+
+09:24
+access to network, average alignment with niche.
+
+09:28
+And then lastly, a couple of different insights we have
+
+09:30
+on the bottom here is we've got insights into what
+
+09:34
+platforms
+
+09:35
+dominate in our lead list, where do we have the
+
+09:37
+most
+
+09:38
+prospects to contact. In this case, mine is emails.
+
+09:42
+You get them divided here into percentages
+
+09:44
+and pieces of this pie. So you can visualize how
+
+09:48
+many is here on email, how many is on LinkedIn,
+
+09:50
+how many is on Instagram, how many is on Facebook,
+
+09:52
+etcetera.
+
+09:52
+And then we've got lead insights into the roles.
+
+09:56
+How many are founders? How many are directors? How many
+
+09:58
+are co founders? How many are CEOs etcetera?
+
+10:01
+As well as what kind of industry are people in.
+
+10:04
+Do you have a lot of SaaS industries in your
+
+10:06
+list? Do you have a lot of marketing industries in
+
+10:08
+your list etcetera?
+
+10:09
+And this is all aimed towards helping you understand
+
+10:13
+what you have in your lead list to work off
+
+10:15
+of as well as insights on how good you are
+
+10:17
+performing.
+
+10:18
+Now let's jump back into the document. Then we've got
+
+10:21
+the deal pipeline board.
+
+10:23
+This is a Trello board that is your visual system
+
+10:27
+for tracking interested leads through your sales process. So when
+
+10:31
+you're doing warm outreach, you're gonna get 2 types of
+
+10:34
+responses. You're gonna get people who aren't interested and and
+
+10:38
+you're gonna get people who show some type of interest.
+
+10:42
+These interested leads
+
+10:44
+are potential
+
+10:45
+clients,
+
+10:47
+but they need a different type of handling than regular
+
+10:49
+outreach.
+
+10:51
+You don't want to lose track of someone who might
+
+10:53
+become a client
+
+10:55
+just because they got mixed up with hundreds of other
+
+10:58
+contacts
+
+10:58
+in your spreadsheets,
+
+11:00
+meaning in your warm outreach tracker. So the idea with
+
+11:03
+having this Trello board, the deal pipeline board, is that
+
+11:07
+you get to take the people who reply as interested
+
+11:10
+and put them into their own isolated table where you
+
+11:14
+can visualize who is at what stage and keep them
+
+11:17
+really isolated so you can give them the time and
+
+11:19
+care that they need to actually be converted into a
+
+11:22
+client.
+
+11:23
+So we're taking them from the warm outreach tracking spreadsheet
+
+11:28
+into this Trello board so we isolate them and keep
+
+11:31
+track so we don't lose anyone through the cracks.
+
+11:34
+So how do we set up this? Right? Setting up
+
+11:36
+a Trello board is number 1, open the template,
+
+11:38
+attach below the video exactly as the warm outreach tracker,
+
+11:42
+click
+
+11:43
+use templates, and then you're gonna be prompted to create
+
+11:46
+or log in to a free Trello account, and then
+
+11:49
+you can customize the column names if needed. I'm gonna
+
+11:52
+explain what the columns are in just a second. First,
+
+11:56
+I wanna explain why it benefits you.
+
+11:59
+It gives you a clear visual overview of your sales
+
+12:02
+pipeline. It can track the interested leads separately from your
+
+12:05
+other contacts. You never lose track of potential clients and
+
+12:07
+you can monitor the progress of each leads through the
+
+12:10
+sales process.
+
+12:11
+In 1 word, it's isolation.
+
+12:14
+So how this works is that there's gonna be different
+
+12:16
+columns.
+
+12:17
+Each column
+
+12:18
+represents a stage in your pipeline. You're gonna see all
+
+12:22
+of this pop up as soon as you copy over
+
+12:23
+the templates.
+
+12:24
+You're gonna get people who are interested which is column
+
+12:27
+number 1, which means
+
+12:29
+these are the people that have positively
+
+12:32
+responded to your outreach.
+
+12:33
+Then there's a column called no reply and an apprentices
+
+12:36
+follow-up.
+
+12:38
+Those are the people that missed the meeting or stopped
+
+12:41
+responding to your messages
+
+12:43
+after that initial positive reply. And then there's a column
+
+12:46
+called meeting schedule, which is your first call with them
+
+12:49
+is booked.
+
+12:50
+And then there is a second column called follow-up meeting
+
+12:53
+scheduled, which is that the second call is booked.
+
+12:57
+And then there is a column called proposal delivered, which
+
+13:00
+is you've sent them your offer. And then there is
+
+13:03
+a 1 section for the people that have become clients.
+
+13:08
+And a bit of a pro tip on this is
+
+13:10
+that you should check your Trello board right after your
+
+13:13
+morning outreach to make sure you're on top of all
+
+13:17
+your active opportunities.
+
+13:18
+And if you're confused about what morning outreach is, we're
+
+13:22
+gonna get into that in the coming videos. Okay. Now
+
+13:24
+let's hop into the Trello board quickly and have a
+
+13:26
+look at what it actually looks like. Here's a look
+
+13:29
+into what the Trello board looks like and how you
+
+13:32
+use it. Obviously, we've got all of the different cards
+
+13:35
+over here which are labeled the correct thing already. Now
+
+13:39
+in the document, I'm about to explain that you can
+
+13:41
+go through and you can change the card titles according
+
+13:44
+to your sales process. So if your sales process is
+
+13:47
+different from what we've listed out here, you can go
+
+13:50
+through, you just double click and you change them. So
+
+13:53
+So let's pretend that you have a stage where you
+
+13:55
+have 3 meetings.
+
+13:56
+Instead of this, you could go through, add another card,
+
+13:59
+your meeting 3, you add list, and you just drag
+
+14:02
+it over here, and then you put it into here.
+
+14:06
+If you just want to change the name to suit
+
+14:08
+your sales process better,
+
+14:10
+you could do proposal meeting and that's it. Change these
+
+14:13
+according to what you're actually looking to achieve here unless
+
+14:16
+it's the same and this is the standard. As you
+
+14:19
+can see, there's interested which is where leads are gonna
+
+14:21
+end up
+
+14:22
+when you put them in here first. You're gonna put
+
+14:25
+their names. I'm gonna put the first name here,
+
+14:29
+to start off with.
+
+14:31
+I'm gonna open the card, and I'm gonna put the
+
+14:33
+information in about the prospect. I'm gonna put his
+
+14:38
+contact information in here where our contact determined initially. I'm
+
+14:41
+gonna put any additional information about this.
+
+14:43
+Interested in a demo
+
+14:46
+of our SaaS
+
+14:48
+platform.
+
+14:51
+And then I'm going to do
+
+14:54
+next step
+
+14:55
+meeting.
+
+14:56
+And then I have all this information in here. I'm
+
+14:58
+gonna reach out to Nikolai. I'm gonna make sure to
+
+15:00
+try to get him on a meeting. Once he agrees
+
+15:02
+to the meeting, I'm gonna do meeting booked. I'm gonna
+
+15:04
+have the conversation with Nikolai.
+
+15:05
+He's gonna be really happy and really excited
+
+15:08
+about what we've done. So I'm going to rename this
+
+15:11
+back to what it was initially called, which is follow-up
+
+15:14
+meeting
+
+15:15
+booked.
+
+15:16
+And then once we've had our first meeting, Nikolai agrees
+
+15:18
+to have a follow-up meeting where we can give him
+
+15:20
+some additional information and maybe have a look into the
+
+15:23
+platforms he's using to see if this is suitable for
+
+15:25
+him. So we've booked the follow-up meeting with Nikolai, which
+
+15:28
+means we're gonna put him in here. We have a
+
+15:30
+follow-up meeting on Tuesday.
+
+15:32
+And on Tuesday, Nikolai says this looks all great. Could
+
+15:36
+you please send me a proposal on this? I'm gonna
+
+15:38
+go I'm gonna cook up the proposal. I'm gonna put
+
+15:40
+everything together, send it to Nikolai. Then I'm gonna put
+
+15:43
+him in proposal delivered. Now when Nikolai responds back to
+
+15:47
+me, I'm gonna either put him in won or lost.
+
+15:49
+And if he does not reply, I'm gonna put him
+
+15:51
+in contact again until he replies and gives me an
+
+15:54
+answer. Once I figure out if he pays or if
+
+15:56
+he doesn't pay, I'm gonna put him into either lost
+
+15:59
+or won. And that's how you use the Trello board.
+
+16:02
+Let's jump back into the document.
+
+16:04
+Now that you know how to use and how the
+
+16:07
+warm outreach tracking system works and the Trello board, I
+
+16:10
+want to explain how these systems work together just as
+
+16:13
+a bit of a summary. So you're gonna use the
+
+16:15
+warm outreach tracker for managing
+
+16:18
+all initial contacts
+
+16:20
+and your outreach.
+
+16:22
+And then you're gonna move the interested leads to the
+
+16:26
+deal pipeline board and track them through the sales process.
+
+16:30
+So all of the people you scrape, which we're gonna
+
+16:32
+do in just a second in this video here, they're
+
+16:35
+gonna be put into the warm outreach tracker. Then you
+
+16:37
+reach out to them, you try to conversate with them,
+
+16:39
+you contact them, etcetera. And as soon as they positively
+
+16:41
+reply, you move a deal pipeline board.
+
+16:44
+This prevents potential clients from getting lost in your contact
+
+16:47
+database.
+
+16:48
+Together, these tools give you a complete view of your
+
+16:51
+outreach efforts. These are 2 tools I would highly recommend
+
+16:54
+to just bookmark because you're gonna be using them every
+
+16:57
+single day. Now strategy for identifying warm contacts. If you
+
+17:02
+don't already know why we scrape contacts
+
+17:05
+and focus on this, make sure to go back and
+
+17:08
+watch the outreach theory video. Let's go through each platform
+
+17:12
+and how to scrape warm contacts effectively
+
+17:15
+for each 1 of them. So first of all, where
+
+17:18
+to look? On emails, you wanna go to your sent
+
+17:21
+folder
+
+17:22
+and look for potential
+
+17:23
+warm leads. Meaning people you've had a conversation with before,
+
+17:26
+if you sent an email, it's gonna be a lot
+
+17:28
+less than received. So I'll go through the sent folder.
+
+17:30
+Phone contact, you're simply gonna go through your phone contacts.
+
+17:33
+Not rocket science on that 1. And then we've got
+
+17:36
+LinkedIn which is you're gonna scan your connection for potential
+
+17:39
+leads. Instagram is you're gonna review your followers
+
+17:42
+and the people you follow.
+
+17:44
+And then Facebook, you're gonna check your friend list and
+
+17:48
+relevant groups you might be in. So scraping your warm
+
+17:51
+contacts.
+
+17:53
+Contact scraping is the process of extracting
+
+17:56
+contact information
+
+17:57
+from various sources.
+
+17:59
+Let's go through each platform and how to scrape warm
+
+18:02
+contacts efficiently. To scrape email, we're gonna go to takeout
+
+18:07
+dot Google dot com, which is an official Google service
+
+18:11
+or you could just open this link.
+
+18:13
+You're gonna scroll down to the section that says manage
+
+18:15
+exports.
+
+18:17
+You're gonna click create new export.
+
+18:20
+You're gonna scroll down to the checkbox that says mail.
+
+18:23
+You're gonna click all mail data, and then you're gonna
+
+18:27
+click sent.
+
+18:28
+And then you're gonna click next, create export. Then you're
+
+18:31
+gonna go through the contacts and add them to your
+
+18:34
+warm outreach tracker. Now do keep in mind that this
+
+18:36
+is a 24 to 48 hour process depending on how
+
+18:40
+many emails you have until you actually get to download
+
+18:42
+this. So you can do all the other things in
+
+18:44
+the meantime if you have a lot. Otherwise, it's also
+
+18:47
+very simple to go through and read your sent folder
+
+18:50
+and the people you've been mailing before.
+
+18:52
+And then we've got phone contacts, which is manual
+
+18:55
+labor.
+
+18:57
+I hate to say it, but
+
+18:59
+you're gonna open your phone contacts app. You're You're gonna
+
+19:01
+go through the contacts and add the relevant contacts to
+
+19:04
+your warm outreach tracker. That's it. Not rocket science. Then
+
+19:07
+LinkedIn is also manual labor. And the reason for this
+
+19:11
+is that LinkedIn is really, really strict on a lot
+
+19:13
+of these automations tools, all these fancy things. If I
+
+19:17
+were to do this personally,
+
+19:18
+I would 100 percent scroll through my connections manually and
+
+19:21
+input all the relevant ones.
+
+19:24
+And because that's what I would do, I'm not gonna
+
+19:26
+suggest you guys use some tool that has the chance
+
+19:29
+of getting you guys banned
+
+19:31
+which is why it's manual labor in this case. If
+
+19:34
+you really want to, you could go online and see
+
+19:36
+if you can find some tools to do this. An
+
+19:38
+educated guess is that there probably will be tools that
+
+19:42
+do it, but be really, really careful because it's extremely
+
+19:45
+easy to get banned off LinkedIn.
+
+19:47
+What you're gonna do is you're gonna log in to
+
+19:49
+LinkedIn, you're gonna click your profile picture and go to
+
+19:51
+your profile, you're gonna click the blue connection button to
+
+19:55
+see all your contacts, and then you're gonna go through
+
+19:57
+them, find the relevant ones, and put them into your
+
+19:59
+warm outreach tracker. And for Instagram,
+
+20:02
+we get to use the tool again. So Phantom Busters
+
+20:05
+Instagram follower collector.
+
+20:08
+Phantom Buster is a platform that has a ton of
+
+20:11
+different features, 1 of them being an Instagram follower collector.
+
+20:15
+So you're gonna go create an account with phantom buster
+
+20:18
+dot com,
+
+20:19
+go to the section that says Instagram follower collector,
+
+20:23
+you're gonna click use this phantom,
+
+20:26
+you're gonna connect your Instagram account and enter your targeted
+
+20:29
+profile,
+
+20:30
+which is your profile,
+
+20:33
+and then you're going to launch the Phantom and download
+
+20:36
+the results.
+
+20:36
+You're going to review the file for all relevant contacts
+
+20:39
+and you're going to go through and add them to
+
+20:41
+your warm outreach tracker.
+
+20:44
+And lastly, we've got Facebook. So Facebook, there's a Chrome
+
+20:47
+extension called Facebook friend exporter. There's a link here. Once
+
+20:50
+you click this link, you're gonna be taken to a
+
+20:53
+section that has a video explaining how it works and
+
+20:55
+how to use it.
+
+20:57
+You're gonna watch that and you're gonna follow it. Then
+
+20:59
+you're gonna fill in the details they need. You're gonna
+
+21:02
+download your contacts and you're gonna go through them and
+
+21:04
+put them into your warm contacts document once again.
+
+21:08
+And this is how they look. Obviously, you've seen this
+
+21:11
+already. And then prioritizing
+
+21:12
+your contacts. Prioritization
+
+21:14
+is deciding
+
+21:15
+what's most important to do first.
+
+21:18
+Contact prioritization
+
+21:19
+is picking which people to reach out to first and
+
+21:22
+report
+
+21:23
+is how well you know someone. So 1 of the
+
+21:25
+most important aspects of effective warm outreach is knowing which
+
+21:29
+contacts to focus on. This helps you direct your outreach
+
+21:33
+efforts
+
+21:34
+towards the most promising leads, maximizing your efficiency and success
+
+21:38
+rate.
+
+21:39
+To make the most of your warm contacts, prioritize them
+
+21:42
+based on their potential value for your triple a business.
+
+21:46
+There is a prioritization
+
+21:48
+hierarchy that we want to follow.
+
+21:51
+Number 1 is niche alignment.
+
+21:54
+How well do they fit your target market if you
+
+21:57
+have 1? Number 2 is connection strength.
+
+22:00
+How well do you know the warm contact? Number 3
+
+22:03
+is decision making power. How much authority they have to
+
+22:07
+make buying decisions?
+
+22:09
+And last 1 is network access. How valuable is their
+
+22:12
+network referrals?
+
+22:14
+In the contact management spreadsheets, you've got a section that
+
+22:18
+we've talked about earlier.
+
+22:19
+These 4 questions are put into here. So all you
+
+22:22
+need to do is go through as we've already talked
+
+22:25
+about and select a number for each 1 of them.
+
+22:28
+So you don't need to worry too much about it
+
+22:30
+but I want you to understand why we're doing it
+
+22:32
+and what we're actually answering in each 1 of the
+
+22:34
+columns in the spreadsheet. Before we move on to the
+
+22:37
+next video, let's recap the key concepts we've covered and
+
+22:41
+outline some actionable steps you can take to start building
+
+22:44
+and leveraging your warm network. Number 1 is your network
+
+22:49
+is your net worth in the triple a business. Number
+
+22:51
+2
+
+22:52
+is warm contacts are people with whom you have pre
+
+22:55
+existing connections or shared context.
+
+22:58
+Multiple platform can be leveraged for identifying warm contacts like
+
+23:02
+email,
+
+23:03
+phone, LinkedIn,
+
+23:05
+Instagram, and Facebook.
+
+23:07
+These are just the most common ones that everyone needs
+
+23:10
+to use. Now you might have some niche specific or
+
+23:13
+industry specific or life specific platforms
+
+23:16
+that you've been using.
+
+23:17
+Maybe you're in a bunch of Slack communities
+
+23:19
+instead of Facebook groups. You want to look at your
+
+23:22
+position and think, is there anything else I could do
+
+23:24
+outside of these mandatory ones?
+
+23:26
+And then effective contact management is crucial
+
+23:29
+for nurturing relationships
+
+23:31
+and tracking progress.
+
+23:33
+And lastly, prioritizing contacts based on niche alignment,
+
+23:36
+connection strength, decision making authority,
+
+23:39
+and network influence
+
+23:41
+maximizes your outreach efficiency.
+
+23:43
+You can't do much more than this. If you take
+
+23:45
+your warm contacts and you prioritize them, you're on an
+
+23:49
+extremely good path to getting your first clients.
+
+23:52
+That is if you write the message right, which we're
+
+23:54
+gonna go through in the coming videos. Now there's 2
+
+23:56
+actionable steps I want you to take after watching this
+
+23:58
+video. Number 1 is access our templates.
+
+24:02
+To get started,
+
+24:03
+use the links below this video to get your own
+
+24:06
+copies of the warm outreach tracker
+
+24:08
+and the deal pipeline board. You want to make your
+
+24:11
+own and then you want to bookmark them in your
+
+24:13
+browser so you have easy access for them.
+
+24:17
+Number 2 is conduct your initial scrape. Set aside 3
+
+24:21
+to 5 hours right now to go through the process
+
+24:24
+above for scraping leads on all mentioned
+
+24:28
+platforms.
+
+24:28
+That means email, phone, LinkedIn, Instagram, and Facebook.
+
+24:33
+Go through, scrape the contacts, and add them to the
+
+24:36
+templates you've just created.
+
+24:38
+And then I'll see you in the next video.
